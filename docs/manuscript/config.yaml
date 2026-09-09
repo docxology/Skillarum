@@ -1,0 +1,59 @@
+paper:
+  title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
+  subtitle: "Provenance, fallback generation, integrity validation, and evidence-gated evaluation"
+  version: "0.2.0"
+  date: "2026-09-07"
+  cover:
+    image: "cover/skillarum_cover.png"
+
+authors:
+  - name: "Daniel Ari Friedman"
+    orcid: "0000-0001-6232-9096"
+    email: "daniel@activeinference.institute"
+    affiliation: "Active Inference Institute"
+    corresponding: true
+
+publication:
+  # Reserved version DOI on Zenodo draft 22663907; it registers on
+  # publication. version_doi/version_record stay blank until then.
+  doi: "10.5281/zenodo.22663907"
+  doi_status: "reserved"
+  doi_placeholder: "DOI reserved for this release (registers on Zenodo publication)"
+  version_doi: ""
+  version_record: ""
+  github_repository: "docxology/Skillarum"
+  repository_url: "https://github.com/docxology/Skillarum"
+  journal: ""
+  volume: ""
+  pages: ""
+  year: "2026"
+
+keywords:
+  - website extraction
+  - agent skills
+  - provenance
+  - reproducibility
+  - prompt injection
+  - static compilation
+
+metadata:
+  language: en
+  license: MIT
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false
+
+# Keep related argument and figures in continuous article flow.
+rendering:
+  section_breaks: false
+
+# Prose results and reporting parameters must be source-bound placeholders.
+# Structural strictness: every section file opens with a labeled H1.
+manuscript_bindings:
+  forbid_numeric_prose: true
+  require_sec_labels: true

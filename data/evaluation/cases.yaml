@@ -1,0 +1,44 @@
+schema_version: 1
+cases:
+  - id: math-three-minds
+    label: Three-Minds canonical page
+    profile_id: math4wisdom
+    target_id: three-minds
+    source: live
+    repetitions: 1
+  - id: math-three-minds-exposition
+    label: Three-Minds exposition context
+    profile_id: math4wisdom
+    target_id: three-minds-exposition
+    source: live
+    repetitions: 1
+  - id: math-minds-research
+    label: Related minds research bundle
+    profile_id: math4wisdom
+    target_id: minds-research
+    source: live
+    repetitions: 1
+  - id: aii-institute-overview
+    label: Institute overview canonical bundle
+    profile_id: active-inference-institute
+    target_id: institute-overview
+    source: live
+    repetitions: 1
+  - id: aii-foundations
+    label: Institute foundations and ecosystem
+    profile_id: active-inference-institute
+    target_id: institute-foundations
+    source: live
+    repetitions: 1
+  - id: aii-programs
+    label: Institute programs and participation
+    profile_id: active-inference-institute
+    target_id: institute-programs
+    source: live
+    repetitions: 1
+  - id: aii-projects
+    label: Institute research and learning projects
+    profile_id: active-inference-institute
+    target_id: institute-projects
+    source: live
+    repetitions: 1

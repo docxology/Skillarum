@@ -1,0 +1,72 @@
+claims:
+  - id: claim-static-source-compilation
+    text: "Skillarum compiles selected server-rendered pages into portable source-grounded SKILL.md packages through inspectable filesystem stages."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [README.md, docs/architecture.md, src/skillarum/pipeline.py]
+    notes: "Implementation claim verified by source inspection and package tests."
+  - id: claim-source-boundary
+    text: "Skillarum treats scraped HTML as untrusted reference data and does not execute source-page instructions or generated code."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/generators.py, src/skillarum/render.py, tests/test_generators_render.py]
+    notes: "Prompt-injection fixture coverage is required evidence."
+  - id: claim-skillweaver-distinction
+    text: "SkillWeaver studies web-agent exploration and synthesis of executable skill APIs, while Skillarum targets static source compilation into portable SKILL.md artifacts."
+    evidence_tier: source
+    status: supported
+    citation_ids: [skillweaver-repo, skillweaver-paper, agent-skills-docs]
+  - id: claim-provenance-chain
+    text: "The rendered package records page, corpus, generator, run, and artifact identities so downstream validation can detect stale or tampered state."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/pipeline.py, src/skillarum/render.py, tests/test_production_hardening.py]
+  - id: claim-live-case-studies
+    text: "Math 4 Wisdom and Active Inference Institute provide two configured source areas for declarative page selection and source-grounded skill generation; profile declarations do not establish live acquisition."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [math4wisdom-source, aii-source, aii-repository]
+    artifact_paths: [data/sources/math4wisdom.yaml, data/sources/active_inference_institute.yaml]
+  - id: claim-quality-effect
+    text: "Provider choice causes a measurable difference in semantic quality across the evaluation matrix."
+    evidence_tier: pending
+    status: pending
+    notes: "Do not publish until two-rater data and a sufficiently sized evaluation matrix exist."
+  - id: claim-codex-portability
+    text: "The canonical generated examples satisfy the Codex SKILL.md frontmatter contract while retaining human-facing area and target names in their paths and manifests."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/render.py, tests/test_generators_render.py, README.md]
+    notes: "The external Codex quick validator is run as an opt-in package check; deterministic package validation is covered in the default suite."
+  - id: claim-figure-auditability
+    text: "Every newly rendered research figure has a source-data hash, artifact hash, accessible alt text, explicit evidence origin, denominator/aggregation metadata, and an interpretation boundary in its caption."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/figures.py, tests/test_scholarship.py, docs/evaluation.md]
+    notes: "The figure registry validator rejects missing evidence origin, short alt text, absent sample-size notation, and absent boundary language for schema 4 outputs."
+  - id: claim-human-review-gate
+    text: "Human-review agreement and the human-review figure remain gated until two distinct rater IDs provide overlapping case rows; independence is a study-design requirement that IDs cannot verify."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/research.py, src/skillarum/figures.py, tests/test_scholarship.py]
+    notes: "The current examples contain no two-rater dataset, so agreement is pending rather than fabricated."
+  - id: claim-manuscript-bindings
+    text: "The research build derives manuscript variables and figure captions from current evidence and contracts, and checks hydrated text against an independent reconstruction."
+    evidence_tier: measured
+    status: supported
+    artifact_paths: [src/skillarum/manuscript.py, src/skillarum/publication.py, tests/test_manuscript_bindings.py, docs/manuscript-bindings.md]
+    notes: "Real-file negative controls reject changed text, rehashed binding substitutions, stale companion files, and malformed variable syntax; the prose guard is syntactic rather than semantic."
+  - id: claim-agent-surfaces
+    text: "Skillarum exposes local inspection through a filesystem-bounded MCP adapter and maintains an authored operator skill distinct from generated website packages."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [mcp-spec, agent-skills-docs]
+    artifact_paths: [src/skillarum/mcp_server.py, tests/test_mcp_server.py, skills/skillarum/SKILL.md, docs/mcp.md]
+    notes: "Index reconstruction is write-gated. Local protocol tests do not certify all MCP clients, versions, or optional capabilities."
+  - id: claim-adoption-attribution
+    text: "Cross-runtime frontmatter compilation, repository-as-source ingestion, and installation/drift plus policy-pack surfaces adopt documented open-source precedents credited in the source docstrings."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [skillforge-tripleyak, skillforge-xiaokillua, skillpress-attebury, skillpress-xiaokillua]
+    artifact_paths: [src/skillarum/runtimes.py, src/skillarum/repo_source.py, src/skillarum/install.py, src/skillarum/policies.py]
+    notes: "Attribution lineage only; no performance comparison against these tools is claimed."

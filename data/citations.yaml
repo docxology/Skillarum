@@ -1,0 +1,356 @@
+citations:
+  - id: skillweaver-repo
+    title: "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills"
+    authors: [OSU-NLP-Group]
+    year: null
+    kind: software
+    url: https://github.com/OSU-NLP-Group/SkillWeaver
+    accessed: 2026-07-14
+    notes: "Primary implementation repository."
+  - id: skillweaver-paper
+    title: "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills"
+    authors:
+      - Boyuan Zheng
+      - Michael Y. Fatemi
+      - Xiaolong Jin
+      - Zora Zhiruo Wang
+      - Apurva Gandhi
+      - Yueqi Song
+      - Yu Gu
+      - Jayanth Srinivasa
+      - Gaowen Liu
+      - Graham Neubig
+      - Yu Su
+    year: 2025
+    kind: research-paper
+    url: https://arxiv.org/abs/2504.07079
+    accessed: 2026-07-14
+    doi: 10.48550/arXiv.2504.07079
+    notes: "arXiv submission dated 2025-04-09; 11 named authors are recorded from the arXiv author list."
+  - id: agent-skills-docs
+    title: "Agent Skills specification"
+    authors: [Agent Skills]
+    year: null
+    kind: specification
+    url: https://agentskills.io/specification
+    accessed: 2026-09-07
+  - id: react
+    title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+    authors:
+      - Shunyu Yao
+      - Jeffrey Zhao
+      - Dian Yu
+      - Nan Du
+      - Izhak Shafran
+      - Karthik Narasimhan
+      - Yuan Cao
+    year: 2022
+    kind: research-paper
+    url: https://arxiv.org/abs/2210.03629
+    accessed: 2026-07-14
+    doi: 10.48550/arXiv.2210.03629
+    notes: "arXiv v1 submitted 2022-10-06; the arXiv record identifies the v3 revision as the ICLR camera-ready version."
+  - id: webarena
+    title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    authors:
+      - Shuyan Zhou
+      - Frank F. Xu
+      - Hao Zhu
+      - Xuhui Zhou
+      - Robert Lo
+      - Abishek Sridhar
+      - Xianyi Cheng
+      - Tianyue Ou
+      - Yonatan Bisk
+      - Daniel Fried
+      - Uri Alon
+      - Graham Neubig
+    year: 2023
+    kind: research-paper
+    url: https://arxiv.org/abs/2307.13854
+    accessed: 2026-07-14
+    doi: 10.48550/arXiv.2307.13854
+    notes: "arXiv submission dated 2023-07-25; 12 named authors are recorded from the arXiv author list."
+  - id: rag
+    title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    authors:
+      - Patrick Lewis
+      - Ethan Perez
+      - Aleksandra Piktus
+      - Fabio Petroni
+      - Vladimir Karpukhin
+      - Naman Goyal
+      - Heinrich Küttler
+      - Mike Lewis
+      - Wen-tau Yih
+      - Tim Rocktäschel
+      - Sebastian Riedel
+      - Douwe Kiela
+    year: 2020
+    kind: research-paper
+    url: https://arxiv.org/abs/2005.11401
+    accessed: 2026-07-14
+    doi: 10.48550/arXiv.2005.11401
+    notes: "arXiv submission dated 2020-05-22; the record notes acceptance at NeurIPS 2020."
+  - id: prov-overview
+    title: "PROV-Overview: An Overview of the PROV Family of Documents"
+    authors: [W3C]
+    year: 2013
+    kind: provenance-standard
+    url: https://www.w3.org/TR/prov-overview/
+    accessed: 2026-07-14
+  - id: fair-guiding-principles
+    title: "The FAIR Guiding Principles for scientific data management and stewardship"
+    authors:
+      - Wilkinson, Mark D.
+      - Dumontier, Michel
+      - Aalbersberg, IJsbrand Jan
+      - Appleton, Gabrielle
+      - Axton, Myles
+      - Baak, Arie
+      - Blomberg, Niklas
+      - Boiten, Jan-Willem
+      - da Silva Santos, Luiz Bonino
+      - Bourne, Philip E.
+      - Bouwman, Jildau
+      - Brookes, Anthony J.
+      - Clark, Tim
+      - Crosas, Mercè
+      - Dillo, Ingrid
+      - Dumon, Olivier
+      - Edmunds, Scott
+      - Evelo, Chris T.
+      - Finkers, Richard
+      - Gonzalez-Beltran, Alejandra
+      - Gray, Alasdair J. G.
+      - Groth, Paul
+      - Goble, Carole
+      - Grethe, Jeffrey S.
+      - Heringa, Jaap
+      - "'t Hoen, Peter A. C."
+      - Hooft, Rob
+      - Kuhn, Tobias
+      - Kok, Ruben
+      - Kok, Joost
+      - Lusher, Scott J.
+      - Martone, Maryann E.
+      - Mons, Albert
+      - Packer, Abel L.
+      - Persson, Bengt
+      - Rocca-Serra, Philippe
+      - Roos, Marco
+      - van Schaik, Rene
+      - Sansone, Susanna-Assunta
+      - Schultes, Erik
+      - Sengstag, Thierry
+      - Slater, Ted
+      - Strawn, George
+      - Swertz, Morris A.
+      - Thompson, Mark
+      - van der Lei, Johan
+      - van Mulligen, Erik
+      - Velterop, Jan
+      - Waagmeester, Andra
+      - Wittenburg, Peter
+      - Wolstencroft, Katherine
+      - Zhao, Jun
+      - Mons, Barend
+    year: 2016
+    kind: research-paper
+    url: https://doi.org/10.1038/sdata.2016.18
+    accessed: 2026-07-15
+    doi: 10.1038/sdata.2016.18
+    notes: "Scientific Data 3, 160018; used as a stewardship framework, not as evidence of formal FAIR compliance."
+  - id: sandve-reproducibility
+    title: "Ten Simple Rules for Reproducible Computational Research"
+    authors:
+      - Sandve, Geir Kjetil
+      - Nekrutenko, Anton
+      - Taylor, James
+      - Hovig, Einar
+    year: 2013
+    kind: research-paper
+    url: https://doi.org/10.1371/journal.pcbi.1003285
+    accessed: 2026-07-15
+    doi: 10.1371/journal.pcbi.1003285
+    notes: "PLOS Computational Biology 9(10), e1003285; supports explicit reproducibility and computational provenance practices."
+  - id: robots-rfc
+    title: "The Robots Exclusion Protocol"
+    authors: [Martijn Koster, Gary Illyés, Henner Zeller, Lizzi Sassman]
+    year: 2022
+    kind: web-standard
+    url: https://www.rfc-editor.org/rfc/rfc9309
+    accessed: 2026-07-14
+  - id: bender-friedman-data-statements
+    title: "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science"
+    authors: [Bender, Friedman]
+    year: 2018
+    kind: research-paper
+    url: https://aclanthology.org/Q18-1041/
+    accessed: 2026-07-15
+    doi: 10.1162/tacl_a_00041
+    notes: "TACL 6, pages 587–604; evidence-led documentation and limits on generalization claims."
+  - id: datasheets-for-datasets
+    title: "Datasheets for Datasets"
+    authors:
+      - Gebru, Timnit
+      - Morgenstern, Jamie
+      - Vecchione, Briana
+      - Vaughan, Jennifer Wortman
+      - Wallach, Hanna
+      - Daumé III, Hal
+      - Crawford, Kate
+    year: 2021
+    kind: research-paper
+    url: https://dl.acm.org/doi/10.1145/3458723
+    accessed: 2026-07-15
+    doi: 10.1145/3458723
+    notes: "Communications of the ACM 64(12), pages 86–92; used as precedent for structured artifact documentation, not as a claim that website bundles are datasets in the same sense."
+  - id: model-cards
+    title: "Model Cards for Model Reporting"
+    authors:
+      - Mitchell, Margaret
+      - Wu, Simone
+      - Zaldivar, Andrew
+      - Barnes, Parker
+      - Vasserman, Lucy
+      - Hutchinson, Ben
+      - Spitzer, Elena
+      - Raji, Inioluwa Deborah
+      - Gebru, Timnit
+    year: 2019
+    kind: research-paper
+    url: https://arxiv.org/abs/1810.03993
+    accessed: 2026-07-15
+    doi: 10.1145/3287560.3287596
+    notes: "FAT* 2019; used as precedent for reporting intended use, evaluation context, and limitations."
+  - id: bender-koller-form-meaning
+    title: "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
+    authors: [Bender, Koller]
+    year: 2020
+    kind: research-paper
+    url: https://aclanthology.org/2020.acl-main.463/
+    accessed: 2026-07-15
+    doi: 10.18653/v1/2020.acl-main.463
+    notes: "ACL 2020; distinguishes linguistic form from meaning and motivates bounded claims about generated text."
+  - id: shimorina-belz-human-datasheet
+    title: "The Human Evaluation Datasheet: A Template for Recording Details of Human Evaluation Experiments in NLP"
+    authors: [Shimorina, Belz]
+    year: 2022
+    kind: research-paper
+    url: https://aclanthology.org/2022.humeval-1.6/
+    accessed: 2026-07-15
+    doi: 10.18653/v1/2022.humeval-1.6
+    notes: "HumEval 2022, pages 54–75; structured reporting for reproducible human evaluation."
+  - id: nist-ai-rmf
+    title: "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"
+    authors: [Elham Tabassi]
+    year: 2023
+    kind: risk-framework
+    url: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+    accessed: 2026-07-15
+    doi: 10.6028/NIST.AI.100-1
+    notes: "NIST AI 100-1; cited for risk-management framing, not as certification or compliance evidence."
+  - id: mcp-spec
+    title: "Model Context Protocol Specification"
+    authors: [Model Context Protocol]
+    year: 2025
+    kind: specification
+    url: https://modelcontextprotocol.io/specification/2025-11-25
+    accessed: 2026-07-15
+    notes: "Official specification page for the 2025-11-25 version; cited to distinguish executable tools/resources/prompts from static skill documents."
+  - id: owasp-llm-top-10
+    title: "OWASP Top 10 for Large Language Model Applications"
+    authors: [OWASP Gen AI Security Project]
+    year: 2025
+    kind: security-guidance
+    url: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+    accessed: 2026-07-15
+    notes: "Official OWASP project page; cited for practitioner security taxonomy, especially prompt injection and insecure output handling."
+  - id: greshake-indirect-prompt-injection
+    title: "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+    authors: [Greshake, Abdelnabi, Mishra, Endres, Holz, Fritz]
+    year: 2023
+    kind: research-paper
+    url: https://doi.org/10.1145/3605764.3623985
+    doi: 10.1145/3605764.3623985
+    accessed: 2026-09-08
+    notes: "Peer-reviewed version in Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AiSec 2023); arXiv:2302.12173 is the preprint. Threat-model evidence for treating retrieved web text as untrusted data rather than an instruction channel."
+  - id: math4wisdom-source
+    title: "StoryOfThreeMinds"
+    authors: [Math 4 Wisdom]
+    year: null
+    kind: source-page
+    url: https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds
+    accessed: 2026-09-07
+  - id: aii-source
+    title: "Active Inference Institute"
+    authors: [Active Inference Institute]
+    year: null
+    kind: source-site
+    url: https://activeinference.institute/
+    accessed: 2026-09-07
+  - id: aii-repository
+    title: "Active Inference Institute website repository (ActiveInferenceInstitute/institute\_website)"
+    authors: [Active Inference Institute]
+    year: null
+    kind: software
+    url: https://github.com/ActiveInferenceInstitute/institute_website
+    accessed: 2026-07-14
+  - id: skillforge-tripleyak
+    title: "tripleyak/SkillForge"
+    authors: [tripleyak]
+    year: 2025
+    kind: software
+    url: https://github.com/tripleyak/SkillForge
+    accessed: 2026-08-30
+  - id: skillpress-xiaokillua
+    title: "xiaokillua/skillpress"
+    authors: [xiaokillua]
+    year: 2026
+    kind: software
+    url: https://github.com/xiaokillua/skillpress
+    accessed: 2026-08-30
+  - id: skillforge-xiaokillua
+    title: "SkillForge: compile GitHub repositories into audited, portable agent skills"
+    authors: [xiaokillua]
+    year: 2026
+    kind: software
+    url: https://github.com/xiaokillua/skillforge
+    accessed: 2026-09-08
+    notes: "Repository-as-source ingestion precedent adopted in src/skillarum/repo_source.py."
+  - id: skillpress-attebury
+    title: "SkillPress: package manager for Agent Skills across IDEs and agent surfaces"
+    authors: [John Attebury]
+    year: 2026
+    kind: software
+    url: https://github.com/attebury/skillpress
+    accessed: 2026-09-08
+    notes: "Install-with-drift and policy-pack precedents adopted in src/skillarum/install.py and src/skillarum/policies.py. Repository created 2026-07 per GitHub API metadata."
+  - id: clopper-pearson
+    title: "The use of confidence or fiducial limits illustrated in the case of the binomial"
+    authors: [C. J. Clopper, E. S. Pearson]
+    year: 1934
+    kind: research-paper
+    url: https://doi.org/10.1093/biomet/26.4.404
+    doi: 10.1093/biomet/26.4.404
+    accessed: 2026-09-07
+    notes: "Publisher issue and deposited DOI metadata checked; exact binomial intervals."
+  - id: efron-bootstrap
+    title: "Bootstrap Methods: Another Look at the Jackknife"
+    authors: [B. Efron]
+    year: 1979
+    kind: research-paper
+    url: https://doi.org/10.1214/aos/1176344552
+    doi: 10.1214/aos/1176344552
+    accessed: 2026-09-07
+    notes: "Publisher-deposited DOI metadata checked; nonparametric resampling foundation, not a justification for this study's independence assumptions."
+  - id: cohen-weighted-kappa
+    title: "Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit"
+    authors: [Jacob Cohen]
+    year: 1968
+    kind: research-paper
+    url: https://doi.org/10.1037/h0026256
+    doi: 10.1037/h0026256
+    accessed: 2026-09-07
+    notes: "Publisher-deposited DOI metadata checked; weighted agreement foundation."

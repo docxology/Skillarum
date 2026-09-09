@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skillarum"
+  short_description: "Compile skills and inspect source-bound research"
+  default_prompt: "Use $skillarum to inspect this project and rebuild its verified skills or manuscript."

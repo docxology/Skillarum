@@ -1,0 +1,55 @@
+id: math4wisdom
+name: Math 4 Wisdom
+base_url: https://www.math4wisdom.com/wiki/
+area: Math4Wisdom
+
+crawl:
+  respect_robots: true
+  same_origin_only: true
+  follow_links: false
+  max_pages: 10
+  max_requests: 30
+  max_depth: 0
+  request_timeout_seconds: 20
+  min_delay_seconds: 0.25
+  max_response_bytes: 2000000
+  retry:
+    max_attempts: 2
+    base_delay_seconds: 0.5
+    max_delay_seconds: 4
+
+generation:
+  backend: deterministic
+  model: gpt-4o-mini
+  ollama_model: llama3.2
+  ollama_timeout_seconds: 300
+  ollama_num_ctx: 8192
+  retry:
+    max_attempts: 2
+    base_delay_seconds: 0.5
+    max_delay_seconds: 4
+
+extraction:
+  main_selector: "#wikitext"
+  max_chars_per_page: 40000
+  remove_selectors: ["script", "style", "nav", "header", "footer", "aside", "form"]
+
+targets:
+  - id: three-minds
+    name: Three-Minds
+    urls:
+      - /wiki/Exposition/StoryOfThreeMinds
+  - id: three-minds-exposition
+    name: Three-Minds-Exposition
+    urls:
+      - /wiki/Exposition/StoryOfThreeMinds
+      - /wiki/Exposition/ThreeMinds
+      - /wiki/Exposition/Vocabulary
+      - /wiki/Exposition/Priorities
+  - id: minds-research
+    name: Minds-Research
+    urls:
+      - /wiki/Research/20170506PostTruth
+      - /wiki/Research/20170929TimeSpaceDecisionMaking
+      - /wiki/Research/20171011DisembodyingMind
+      - /wiki/Research/20171201WhatMindsRequireOfBrains

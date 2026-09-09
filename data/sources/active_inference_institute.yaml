@@ -1,0 +1,77 @@
+id: active-inference-institute
+name: Active Inference Institute
+base_url: https://activeinference.institute/
+area: Active-Inference-Institute
+
+crawl:
+  respect_robots: true
+  same_origin_only: true
+  follow_links: false
+  max_pages: 20
+  max_requests: 60
+  max_depth: 0
+  request_timeout_seconds: 20
+  min_delay_seconds: 0.25
+  max_response_bytes: 2000000
+  retry:
+    max_attempts: 2
+    base_delay_seconds: 0.5
+    max_delay_seconds: 4
+
+generation:
+  backend: deterministic
+  model: gpt-4o-mini
+  ollama_model: llama3.2
+  ollama_timeout_seconds: 300
+  ollama_num_ctx: 8192
+  retry:
+    max_attempts: 2
+    base_delay_seconds: 0.5
+    max_delay_seconds: 4
+
+extraction:
+  main_selector: "main"
+  max_chars_per_page: 40000
+  remove_selectors: ["script", "style", "nav", "header", "footer", "aside", "form"]
+
+targets:
+  - id: institute-overview
+    name: Institute-Overview
+    urls:
+      - /
+      - /about/
+      - /active-inference/
+      - /learning/
+      - /projects/
+      - /resources/
+      - /directory/
+      - /get-involved/
+  - id: institute-foundations
+    name: Institute-Foundations
+    urls:
+      - /
+      - /about/
+      - /active-inference/
+      - /ecosystem/
+      - /instituteos/
+      - /knowledge/
+  - id: institute-programs
+    name: Institute-Programs
+    urls:
+      - /learning/
+      - /programs/
+      - /get-involved/
+      - /activities/
+      - /projects/fundamentals-active-inference/
+      - /projects/seasonal-school/
+      - /projects/textbook-group/
+  - id: institute-projects
+    name: Institute-Projects
+    urls:
+      - /projects/
+      - /projects/active-inference-journal/
+      - /projects/active-inference-ontology/
+      - /projects/aeos/
+      - /projects/gnn/
+      - /projects/pymdp/
+      - /projects/rxinfer/

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use Skillarum, please cite this software and the associated manuscript."
+title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
+type: software
+version: 0.2.0
+date-released: 2026-09-08
+doi: 10.5281/zenodo.22663907
+repository-code: https://github.com/docxology/Skillarum
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+    affiliation: Active Inference Institute
+    orcid: https://orcid.org/0000-0001-6232-9096
+license: MIT
+keywords:
+  - website extraction
+  - agent skills
+  - provenance
+  - reproducibility
+  - prompt injection
+  - static compilation

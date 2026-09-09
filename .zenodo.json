@@ -1,0 +1,31 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "affiliation": "Active Inference Institute",
+      "name": "Friedman, Daniel Ari",
+      "orcid": "0000-0001-6232-9096"
+    }
+  ],
+  "description": "Source code for Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation. Skillarum turns selected public website pages into portable SKILL.md documents for agent harnesses such as Codex, Claude Code, and Hermes, in five inspectable stages (acquire, prepare, process, parse, render) with provenance manifests and an evidence-gated research package.",
+  "keywords": [
+    "website extraction",
+    "agent skills",
+    "provenance",
+    "reproducibility",
+    "prompt injection",
+    "static compilation"
+  ],
+  "license": "mit-license",
+  "publication_date": "2026-09-08",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/docxology/Skillarum",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ],
+  "title": "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation",
+  "upload_type": "software",
+  "version": "0.2.0"
+}

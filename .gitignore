@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+output/.cache/
+output/runs/
+output/pdf/_*
+output/pdf/references.bib
+output/web/_combined_manuscript.md
+*.egg-info/

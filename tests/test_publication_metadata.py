@@ -37,13 +37,17 @@ def test_author_doi_and_cover_metadata_are_complete() -> None:
     assert publication["doi"] in (PROJECT_ROOT / "README.md").read_text(
         encoding="utf-8"
     )
-    assert publication["doi_status"] == "reserved"
+    assert publication["doi_status"] in {"reserved", "published"}
     assert publication["doi_placeholder"] == (
         "DOI reserved for this release (registers on Zenodo publication)"
     )
-    # These refer to published records and stay blank for a draft.
-    assert publication["version_doi"] == ""
-    assert publication["version_record"] == ""
+    # These refer to published records: blank for a draft, filled after.
+    if publication["doi_status"] == "reserved":
+        assert publication["version_doi"] == ""
+        assert publication["version_record"] == ""
+    else:
+        assert publication["version_doi"] == publication["doi"]
+        assert publication["version_record"].startswith("https://zenodo.org/records/")
     assert publication["github_repository"] == "docxology/Skillarum"
     assert publication["repository_url"] == "https://github.com/docxology/Skillarum"
     assert config["paper"]["cover"]["image"] == "cover/skillarum_cover.png"

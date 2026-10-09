@@ -7,7 +7,7 @@ flow. It is metadata documentation, not an operational script.
 
 | Identifier | Value | Status |
 | --- | --- | --- |
-| Version DOI (0.3.0) | `10.5281/zenodo.23269108` | Reserved for release 0.3.0. Identifier origin: service-returned `metadata.prereserve_doi.doi` on production Zenodo deposit 23269108, created 2026-10-09 with `actions/newversion` from deposit 22663907. |
+| Version DOI (0.3.0) | `10.5281/zenodo.23269108` | Published 2026-10-09 as record 23269108 (new version of 22663907). Identifier origin: service-returned `metadata.prereserve_doi.doi`, confirmed by the publish response and the public record. |
 | Version DOI (0.2.0) | `10.5281/zenodo.22663907` | Published 2026-09-10 (record 22663907). |
 | Concept DOI | `10.5281/zenodo.22663906` | Read on 2026-10-09 from the published 0.2.0 record's `conceptdoi` field; resolves to the latest version. |
 | Release date | 2026-10-09 | `CITATION.cff` date-released and Zenodo `publication_date` for 0.3.0. |
@@ -28,9 +28,11 @@ post-publication metadata pass.
 
 Deposit 23269108 is the new-version draft of record 22663907. Its assets
 follow the 0.2.0 set: the rendered manuscript PDF, a source snapshot of the
-tagged commit, a research-artifacts archive (generated skill packages,
-reports, figures), and `CHECKSUMS.sha256`. The tag `v0.3.0` names the
-released commit.
+tagged commit, a research-artifacts archive (reports, evaluation, figures,
+data, hydrated manuscript, web and EPUB renders), and `CHECKSUMS.sha256`.
+The tag `v0.3.0` names the released commit `a8c55d9`. All four files were
+re-downloaded from the draft and matched `CHECKSUMS.sha256` before
+publication; the same four files are attached to the GitHub release.
 
 ## Zenodo deposit (0.2.0)
 

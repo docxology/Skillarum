@@ -887,6 +887,38 @@ def _area_rows(report: EvaluationReport) -> list[dict[str, Any]]:
     return rows
 
 
+PER_TARGET_FIGURE_LIMIT = 40
+
+
+def _per_target_observations(report: EvaluationReport) -> tuple[Any, int]:
+    """Observations for one-row-per-target figures, and how many were left out.
+
+    Up to ``PER_TARGET_FIGURE_LIMIT`` observations are all drawn. Beyond that a
+    per-target chart is unreadable, so only observations of declared evaluation
+    cases are drawn; the rest still count in every area-level figure. If no
+    observation is a declared case, all are drawn rather than none.
+    """
+    observations = tuple(report.observations)
+    if len(observations) <= PER_TARGET_FIGURE_LIMIT:
+        return observations, 0
+    declared = tuple(
+        item for item in observations if item.metadata.get("declared_case")
+    )
+    if not declared:
+        return observations, 0
+    return declared, len(observations) - len(declared)
+
+
+def _omission_note(omitted: int) -> str:
+    if not omitted:
+        return ""
+    return (
+        f" Only declared evaluation cases are drawn; {omitted} further completed "
+        "observations of undeclared (index-derived) targets are counted in the "
+        "area-level figures and the report."
+    )
+
+
 def _latency_series(report: EvaluationReport) -> tuple[list[str], list[float | None]]:
     """Per-observation latency labels and values, grouped by area then target.
 
@@ -894,9 +926,8 @@ def _latency_series(report: EvaluationReport) -> tuple[list[str], list[float | N
     same source area sit together. Sorting is deterministic and every value
     stays bound to its own observation label.
     """
-    ordered = sorted(
-        report.observations, key=lambda item: (_area_name(item), item.target_id)
-    )
+    selected, _ = _per_target_observations(report)
+    ordered = sorted(selected, key=lambda item: (_area_name(item), item.target_id))
     labels = [
         f"{_area_name(item)} / {item.target_id.replace('-', ' ').title()}"
         for item in ordered
@@ -1434,9 +1465,8 @@ def _overlap_rows(report: EvaluationReport) -> list[dict[str, Any]] | None:
     (N/A), never dropped. Returns None — the same gating pattern as the review
     rubric figure — when fewer than two observations carry a list at all.
     """
-    ordered = sorted(
-        report.observations, key=lambda item: (_area_name(item), item.target_id)
-    )
+    selected, _ = _per_target_observations(report)
+    ordered = sorted(selected, key=lambda item: (_area_name(item), item.target_id))
     rows: list[dict[str, Any]] = []
     for item in ordered:
         urls = item.metadata.get("source_urls")
@@ -1993,8 +2023,12 @@ def generate_figures(
     )
 
     latency_labels, latency_values = _latency_series(report)
+    per_target_note = _omission_note(_per_target_observations(report)[1])
     latency_title = "Generation latency by target observation"
-    latency_subtitle = f"{context}; persisted generation durations, including retries. Cached drafts, when present, retain original timings; N/A means unavailable. Zero can reflect sub-millisecond rounding."
+    latency_subtitle = (
+        f"{context}; persisted generation durations, including retries. Cached drafts, when present, retain original timings; N/A means unavailable. Zero can reflect sub-millisecond rounding."
+        + per_target_note
+    )
     latency_alt = "A bar chart of recorded generation duration in milliseconds for each area and target observation."
     path = root / "generation-latency.svg"
     write_text_atomic(
@@ -2017,7 +2051,8 @@ def generate_figures(
             report,
             "Generation latency. Each bar identifies one area/target observation and shows the sum of persisted provider-attempt durations, including retry attempts. The unit is milliseconds and the aggregation is a run-level sum over attempts; "
             + context
-            + ". Cached drafts, when present, retain original attempt timings; reported durations are not end-to-end pipeline wall time. N/A denotes absent telemetry. The report also retains the median, range, and missingness for this metric. This operational telemetry is not a model-quality measure, does not isolate network/provider/cache components, and should not be generalized beyond these runs.",
+            + ". Cached drafts, when present, retain original attempt timings; reported durations are not end-to-end pipeline wall time. N/A denotes absent telemetry. The report also retains the median, range, and missingness for this metric. This operational telemetry is not a model-quality measure, does not isolate network/provider/cache components, and should not be generalized beyond these runs."
+            + per_target_note,
             latency_alt,
             units="milliseconds",
             denominator=(
@@ -2425,7 +2460,7 @@ def generate_figures(
         overlap_subtitle = (
             f"{context}; each cell counts accepted-page URLs recorded by both "
             "targets; the diagonal is a target's own page count; N/A marks a "
-            "target without a recorded URL list."
+            "target without a recorded URL list." + per_target_note
         )
         overlap_alt = (
             "A square matrix with one row and column per target: each cell "
@@ -2442,7 +2477,7 @@ def generate_figures(
             "interval coverage in the proportion figure. It does not establish "
             "that shared URLs produced identical extracted content, that any "
             "website is completely covered, or anything about pages outside "
-            "these recorded lists."
+            "these recorded lists." + per_target_note
         )
         path = root / "source-overlap.svg"
         write_text_atomic(

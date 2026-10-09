@@ -805,3 +805,37 @@ def test_validator_rejects_lowercase_alt_fragment(tmp_path: Path) -> None:
     result = validate_figure_registry(registry_path)
     assert not result["ok"]
     assert any("begin a descriptive sentence" in error for error in result["errors"])
+
+
+def test_per_target_figures_keep_declared_cases_when_large() -> None:
+    from skillarum.figures import (
+        PER_TARGET_FIGURE_LIMIT,
+        _latency_series,
+        _omission_note,
+        _per_target_observations,
+    )
+
+    count = PER_TARGET_FIGURE_LIMIT + 10
+    observations = tuple(
+        _observation(
+            observation_id=f"obs-{i}",
+            case_id=f"case-{i}",
+            target_id=f"target-{i}",
+            run_id=f"run-{i}",
+            metadata={"declared_case": i < 3},
+        )
+        for i in range(count)
+    )
+    report = build_evaluation_report(observations)
+    selected, omitted = _per_target_observations(report)
+    assert len(selected) == 3 and omitted == count - 3
+    assert len(_latency_series(report)[0]) == 3
+    assert str(count - 3) in _omission_note(omitted)
+    assert _omission_note(0) == ""
+
+    small = build_evaluation_report(observations[:5])
+    assert _per_target_observations(small) == (tuple(small.observations), 0)
+    undeclared = build_evaluation_report(
+        tuple(replace(o, metadata={}) for o in observations)
+    )
+    assert _per_target_observations(undeclared)[1] == 0

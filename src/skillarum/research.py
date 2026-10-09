@@ -780,6 +780,9 @@ def observation_from_run(
         unsafe_source_preserved=unsafe_source_preserved
         or bool(metadata.get("untrusted_source")),
         metadata={
+            # True when the observation matches a case declared in
+            # data/evaluation/cases.yaml rather than an undeclared target.
+            "declared_case": case_id is not None,
             "missing_metrics": (
                 (
                     ["request_count"]

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "944c4daa137ec69bc58b073e3e5c4949ef0787610e12135dbd3cbdb21804fadf",
+    "references/sources.json": "0abbb4dbd4de21bf9925734472973aecebf33bc988741712ad376531b38a0d31"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d03f6ffe698b7fc22fafa0613a38206f79ca00f84063a77c7ff54d4251c90048",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b6912e71340b97330d1b4127016be50dc3c49f71ad894ddbde830e94fc115c8e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:56:35.602097+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-2017ErasmusTeachingVisitProposal.",
+    "page_count": 1,
+    "portable_skill_name": "research-2017erasmusteachingvisitproposal",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-2017ErasmusTeachingVisitProposal",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "583b8e23cf7984e5555bfa30a18f6aaa81052cdbcbc5116e31efce7ed452c954",
+      "fetched_at": "2026-10-09T19:49:52.948023+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/2017ErasmusTeachingVisitProposal",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/2017ErasmusTeachingVisitProposal",
+      "status_code": 200,
+      "text_sha256": "3fc7a9ff226fb2dbd283a726a7ece12247b47a465232c2a27b34c8992c9fc94d",
+      "title": "Research / 2017ErasmusTeachingVisitProposal",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/2017ErasmusTeachingVisitProposal",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-2017erasmusteachingvisitproposal",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16797,
+      "duration_ms": 314,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:52.538579+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/2017ErasmusTeachingVisitProposal"
+    }
+  ],
+  "requested_skill_name": "Research-2017ErasmusTeachingVisitProposal",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-2017erasmusteachingvisitproposal",
+  "skill_sha256": "944c4daa137ec69bc58b073e3e5c4949ef0787610e12135dbd3cbdb21804fadf",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/2017ErasmusTeachingVisitProposal"
+  ],
+  "target_id": "research-2017erasmusteachingvisitproposal",
+  "warnings": []
+}

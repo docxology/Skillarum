@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "d6d140ee1dae96728f5684ac6d1da346d2888e7b69cb36881d91102ce35e3664",
+    "references/sources.json": "fad287b1dd4dd9c11eb264b7e9ae99b56b108e776f1c078720ba32d68e8a20c8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c20d79f1f67bd464363b19483f4763aff80d9727682fca4ef2ba23a6d3865cfe",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "2d933bf9b5b66e30971d1392b79e04d1f467b6ca5f9354ac359f674e7f5598f3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:52.257419+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170706Abstract.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170706abstract",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170706Abstract",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3086f3d72cb85faefa6967b1eb88c76099f03f6683bdb78330baf45a6e8d83d2",
+      "fetched_at": "2026-10-09T19:48:21.981164+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract",
+      "status_code": 200,
+      "text_sha256": "897c3b522b9a4a1b9666ada49618f89746def628eaa3a2ab86208d0869c42310",
+      "title": "Research / 20170706Abstract",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170706abstract",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12101,
+      "duration_ms": 248,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:20.460286+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract"
+    }
+  ],
+  "requested_skill_name": "Research-20170706Abstract",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170706abstract",
+  "skill_sha256": "d6d140ee1dae96728f5684ac6d1da346d2888e7b69cb36881d91102ce35e3664",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170706Abstract"
+  ],
+  "target_id": "research-20170706abstract",
+  "warnings": []
+}

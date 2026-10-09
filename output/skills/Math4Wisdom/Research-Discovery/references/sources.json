@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cb1e0517271b3d1669656f39ea568af7ecdbb8f3d1a3f6270da27458709afd72",
+      "fetched_at": "2026-10-09T19:45:13.540765+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Discovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Discovery",
+      "status_code": 200,
+      "title": "Research / Discovery",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Discovery"
+    }
+  ],
+  "target_id": "research-discovery"
+}

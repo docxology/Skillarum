@@ -1,0 +1,308 @@
+{
+  "area": "Active-Inference-Institute",
+  "artifact_hashes": {
+    "SKILL.md": "4fb537f72b4c468b3a9fdb04ca1c2b5852e2b17c5dbf896596ca1c03174bf029",
+    "references/sources.json": "d7e63c9f15ff94eacb4775c9fdac2928e8af35563295eeb0e9933cba91084d98"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ab83e7d9dfbbfd2f0a3e75b141ec66073de4b469c5d65a103c3f7147027f2f9f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "67854d6b7ac5ad1ebf7ba4a11d3045e82348f8c27f79f1abc549c733559dbb83",
+    "request_count": 9,
+    "target_fingerprint": "b0a2635d2501ffc6183bf7a2afb0f314d82738232c6753ec337fe133703990ae"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-08T19:06:54.143264+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "page_count": 8,
+    "portable_skill_name": "institute-overview",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Institute-Overview",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "https://activeinference.institute/about/: text truncated to 40000 characters",
+      "https://activeinference.institute/resources/: text truncated to 40000 characters",
+      "https://activeinference.institute/directory/: text truncated to 40000 characters"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": "https://activeinference.institute/",
+      "content_sha256": "525da85169a4dbe3d68cd0b2f5aef2fc9ae5433dca85c4bdf144c2a8fc55d513",
+      "fetched_at": "2026-09-08T19:06:51.109539+00:00",
+      "final_url": "https://activeinference.institute/",
+      "requested_url": "https://activeinference.institute/",
+      "status_code": 200,
+      "text_sha256": "ab2c31191f5e8cd8f475dc7cd268e0e17d59f7612485b9a22dd37c043b3000c7",
+      "title": "Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/about/",
+      "content_sha256": "81ab5e6d0be69a2cdf25b51696a4c61b23ae6394aa33ae5f8d8d789dd1ca05ac",
+      "fetched_at": "2026-09-08T19:06:51.406265+00:00",
+      "final_url": "https://activeinference.institute/about/",
+      "requested_url": "https://activeinference.institute/about/",
+      "status_code": 200,
+      "text_sha256": "d26604c5c5fdbeb8f6ef08981ba07e2d1c821391308f86dfb7f8a77a99a93bfe",
+      "title": "About the Institute | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/about/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/active-inference/",
+      "content_sha256": "c0e69637212ce359ce82e8c76f4fa1bea3c9503625412a2d584ed4b9f04b67db",
+      "fetched_at": "2026-09-08T19:06:51.717790+00:00",
+      "final_url": "https://activeinference.institute/active-inference/",
+      "requested_url": "https://activeinference.institute/active-inference/",
+      "status_code": 200,
+      "text_sha256": "57c15b51a267ff4009bf10ed9d2a658a3991ffb789359c57ed2a8eac2f566b9e",
+      "title": "Active Inference | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/active-inference/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/learning/",
+      "content_sha256": "2e1cc418c96dead1e8dc5d205bd3e6aa81cd4fe1f1da996466024a78e73578d3",
+      "fetched_at": "2026-09-08T19:06:51.958244+00:00",
+      "final_url": "https://activeinference.institute/learning/",
+      "requested_url": "https://activeinference.institute/learning/",
+      "status_code": 200,
+      "text_sha256": "af127ab4e7f3d5d1d34554de4ebe9ebc5892e94bad33b75119c7e3288c641c9e",
+      "title": "Learning and Research | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/learning/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/",
+      "content_sha256": "613334cf8c0fd5b95cc24e2dbea65840a3ee2424a20398fbb62c77284337a6a9",
+      "fetched_at": "2026-09-08T19:06:52.330146+00:00",
+      "final_url": "https://activeinference.institute/projects/",
+      "requested_url": "https://activeinference.institute/projects/",
+      "status_code": 200,
+      "text_sha256": "2997f3d23c8ca7780f0ac7f8785bb6c3e23cb97731d10f6eccaf7b372f4512ef",
+      "title": "Projects | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/resources/",
+      "content_sha256": "d81d1cdec8f302216a6558b04ce447eaa00f538e6246ef84667b8485f8d5744f",
+      "fetched_at": "2026-09-08T19:06:53.010075+00:00",
+      "final_url": "https://activeinference.institute/resources/",
+      "requested_url": "https://activeinference.institute/resources/",
+      "status_code": 200,
+      "text_sha256": "0bf09cb16d089296cba8d62c1952e3d0a5d0d45dfd861843e726ab1ec91145cb",
+      "title": "Resources | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/resources/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/directory/",
+      "content_sha256": "cca07b4586ec254012e20d23897f5b409121659632da8e07a21b9e61ab4304cc",
+      "fetched_at": "2026-09-08T19:06:53.775962+00:00",
+      "final_url": "https://activeinference.institute/directory/",
+      "requested_url": "https://activeinference.institute/directory/",
+      "status_code": 200,
+      "text_sha256": "65785b597251b36b78d856495f62ef7bb038317dccd500d12d8856e17d4041a0",
+      "title": "Directory | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/directory/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/get-involved/",
+      "content_sha256": "0424a42606475d1b91206dc1902cb5d02fefcf38c6d3be7e6573081d84a80236",
+      "fetched_at": "2026-09-08T19:06:54.052025+00:00",
+      "final_url": "https://activeinference.institute/get-involved/",
+      "requested_url": "https://activeinference.institute/get-involved/",
+      "status_code": 200,
+      "text_sha256": "c1d9b5f13dcf2b65d2f798f9459f58e6320eff15f2bc49c711e7680dbff5d30f",
+      "title": "Get Involved | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/get-involved/",
+      "warnings": []
+    }
+  ],
+  "portable_name": "institute-overview",
+  "profile_fingerprint": "67854d6b7ac5ad1ebf7ba4a11d3045e82348f8c27f79f1abc549c733559dbb83",
+  "profile_id": "active-inference-institute",
+  "profile_name": "Active Inference Institute",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 9,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 78,
+      "duration_ms": 156,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-08T19:06:50.695770+00:00",
+      "url": "https://activeinference.institute/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 38994,
+      "duration_ms": 93,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:50.892779+00:00",
+      "url": "https://activeinference.institute/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 95041,
+      "duration_ms": 73,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 3,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:51.183696+00:00",
+      "url": "https://activeinference.institute/about/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 45683,
+      "duration_ms": 169,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 4,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:51.576959+00:00",
+      "url": "https://activeinference.institute/active-inference/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 68915,
+      "duration_ms": 77,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 5,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:51.795664+00:00",
+      "url": "https://activeinference.institute/learning/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 145863,
+      "duration_ms": 188,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 6,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:52.159582+00:00",
+      "url": "https://activeinference.institute/projects/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 214457,
+      "duration_ms": 163,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 7,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-08T19:06:52.494564+00:00",
+      "url": "https://activeinference.institute/resources/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 205854,
+      "duration_ms": 24,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 8,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:06:53.035405+00:00",
+      "url": "https://activeinference.institute/directory/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 42942,
+      "duration_ms": 174,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 9,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-08T19:06:53.951315+00:00",
+      "url": "https://activeinference.institute/get-involved/"
+    }
+  ],
+  "requested_skill_name": "Institute-Overview",
+  "run_id": "active-inference-institute--b6d6285f75e1a6621375",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "institute-overview",
+  "skill_sha256": "4fb537f72b4c468b3a9fdb04ca1c2b5852e2b17c5dbf896596ca1c03174bf029",
+  "source_urls": [
+    "https://activeinference.institute/",
+    "https://activeinference.institute/about/",
+    "https://activeinference.institute/active-inference/",
+    "https://activeinference.institute/learning/",
+    "https://activeinference.institute/projects/",
+    "https://activeinference.institute/resources/",
+    "https://activeinference.institute/directory/",
+    "https://activeinference.institute/get-involved/"
+  ],
+  "target_id": "institute-overview",
+  "warnings": [
+    "https://activeinference.institute/about/: text truncated to 40000 characters",
+    "https://activeinference.institute/resources/: text truncated to 40000 characters",
+    "https://activeinference.institute/directory/: text truncated to 40000 characters"
+  ]
+}

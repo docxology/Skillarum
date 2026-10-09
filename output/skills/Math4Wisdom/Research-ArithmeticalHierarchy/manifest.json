@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "258325e4566c7fda53f3725ef863473da2423280aee1c3d9015bd5c65de76c1b",
+    "references/sources.json": "6728a84b6fee88c5d19d0a3718c3f31f2c9696ec47778489de14453a49005a7a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b77667454321be1eb6c60e5c9f3a029343852f26381ac3478deaef69f3ff6982",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "14cb38381167c423e0c0dbaad48143d811cc787d466a861f7570d7154a64379c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:12.170702+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ArithmeticalHierarchy.",
+    "page_count": 1,
+    "portable_skill_name": "research-arithmeticalhierarchy",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ArithmeticalHierarchy",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "cc136d6e6741e3daf552e880928daf7eb6e0ba1d61e9266328d099163cffbad0",
+      "fetched_at": "2026-10-09T19:39:47.181022+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy",
+      "status_code": 200,
+      "text_sha256": "6a35b5e8ec365817f1b00c62089f4417140fd8bca4bee5929a7c7b976031bf7e",
+      "title": "Research / ArithmeticalHierarchy",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-arithmeticalhierarchy",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15208,
+      "duration_ms": 1133,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:39:45.541602+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy"
+    }
+  ],
+  "requested_skill_name": "Research-ArithmeticalHierarchy",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-arithmeticalhierarchy",
+  "skill_sha256": "258325e4566c7fda53f3725ef863473da2423280aee1c3d9015bd5c65de76c1b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy"
+  ],
+  "target_id": "research-arithmeticalhierarchy",
+  "warnings": []
+}

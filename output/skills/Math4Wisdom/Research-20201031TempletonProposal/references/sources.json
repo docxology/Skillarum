@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ad037b88f066ea9a27afe58ce14e043b1ac66298ab46bee7417441bfa2469e0b",
+      "fetched_at": "2026-10-09T19:52:16.505924+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal",
+      "status_code": 200,
+      "title": "Research / 20201031TempletonProposal",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal"
+    }
+  ],
+  "target_id": "research-20201031templetonproposal"
+}

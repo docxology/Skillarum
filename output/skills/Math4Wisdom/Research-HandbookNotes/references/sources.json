@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "54a6c8cb7b672fa275cf8bcce6a2af21bb9096c4b71241ff38d592719831d300",
+      "fetched_at": "2026-10-09T19:53:19.278947+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/HandbookNotes",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/HandbookNotes",
+      "status_code": 200,
+      "title": "Research / HandbookNotes",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/HandbookNotes"
+    }
+  ],
+  "target_id": "research-handbooknotes"
+}

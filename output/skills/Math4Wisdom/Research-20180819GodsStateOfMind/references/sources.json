@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "80d28363c689fdd662494ba19d38c68b9fada6e316372510d4525e04d8e8b222",
+      "fetched_at": "2026-10-09T19:51:18.794089+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind",
+      "status_code": 200,
+      "title": "Research / 20180819GodsStateOfMind",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind"
+    }
+  ],
+  "target_id": "research-20180819godsstateofmind"
+}

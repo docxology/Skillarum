@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6177a5669d9119752f1d442aa87c25ebd06b7ac1bdfe2b2fafe0b9de910177f0",
+      "fetched_at": "2026-10-09T19:46:51.314032+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery",
+      "status_code": 200,
+      "title": "Research / NeuroscienceDiscovery",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery"
+    }
+  ],
+  "target_id": "research-neurosciencediscovery"
+}

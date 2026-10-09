@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7366d56a5940435c1d8801f55beed7dd3bb0d7c8ab7861b11020001f1eca7227",
+    "references/sources.json": "03e0901b60a5e58cd7e110a0a4c267e2961d455a021b41d3a88590c1ce7f61a1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e31104c3424ed7c6953c08f9010e5a420927661c6cfe9c76f7f57eccea6b503f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "0a48a40ca9f3012391d72872839d3a5e7151d85e741796e65094812a9a76aa38"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:58.491864+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170825MetaphysicsOfNonviolentEngagement.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170825metaphysicsofnonviolentengagement",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170825MetaphysicsOfNonviolentEngagement",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6966195cf8c8b9b39fde5d51cecf78ac49beebaa320b069d98b4584867f033db",
+      "fetched_at": "2026-10-09T19:48:25.568352+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement",
+      "status_code": 200,
+      "text_sha256": "38d4650321149196ed64ea385767e56e87b2525f48c12756043fa2d91374aeb7",
+      "title": "Research / 20170825MetaphysicsOfNonviolentEngagement",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170825metaphysicsofnonviolentengagement",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10173,
+      "duration_ms": 232,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:25.357833+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement"
+    }
+  ],
+  "requested_skill_name": "Research-20170825MetaphysicsOfNonviolentEngagement",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170825metaphysicsofnonviolentengagement",
+  "skill_sha256": "7366d56a5940435c1d8801f55beed7dd3bb0d7c8ab7861b11020001f1eca7227",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement"
+  ],
+  "target_id": "research-20170825metaphysicsofnonviolentengagement",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "4690a61ecd44f90aebfa2998a5df07f26f4662883ae18540f3b7dccbe5cdec5b",
+    "references/sources.json": "ba7a374464dc91a320db8ee69b213664b30e4759740ca7e08d12022b49b217ee"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "eaf79953da31ee7da42ca2670293be119016b1146b809d0697d3a3ce3e8e8795",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "af81f18103ecb135facc2738a8ac9ba849c1bb8f0e91ad7c80bebb294ede1abc"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:02:46.588754+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-InvestigatoryCommunities.",
+    "page_count": 1,
+    "portable_skill_name": "research-investigatorycommunities",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-InvestigatoryCommunities",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "eab2067ddeb0745fff44de85012f5bbedd2a6bb80f2803fe5fad52f72ccd5c14",
+      "fetched_at": "2026-10-09T19:56:10.070765+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/InvestigatoryCommunities",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/InvestigatoryCommunities",
+      "status_code": 200,
+      "text_sha256": "55ce98065c79c9da12139a1fecc385ec0adbb8783d560cff7e7a043b114a248b",
+      "title": "Research / InvestigatoryCommunities",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/InvestigatoryCommunities",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-investigatorycommunities",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14886,
+      "duration_ms": 227,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:06.090536+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/InvestigatoryCommunities"
+    }
+  ],
+  "requested_skill_name": "Research-InvestigatoryCommunities",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-investigatorycommunities",
+  "skill_sha256": "4690a61ecd44f90aebfa2998a5df07f26f4662883ae18540f3b7dccbe5cdec5b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/InvestigatoryCommunities"
+  ],
+  "target_id": "research-investigatorycommunities",
+  "warnings": []
+}

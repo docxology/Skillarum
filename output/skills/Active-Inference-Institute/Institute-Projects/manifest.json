@@ -1,0 +1,266 @@
+{
+  "area": "Active-Inference-Institute",
+  "artifact_hashes": {
+    "SKILL.md": "e20e3c422f9dd6ef3146ed4c1ec8dbe9f42461b5aef7c49a8e8b18c9287a821e",
+    "references/sources.json": "651f9f9fc394a8b9444e8dc4455d3774be2ff12703882a80fd459fd4d7f14b66"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f7ba8d0f65537cacb59abc26c214db839521cb5198bd53083f16a907ce41056e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "67854d6b7ac5ad1ebf7ba4a11d3045e82348f8c27f79f1abc549c733559dbb83",
+    "request_count": 7,
+    "target_fingerprint": "033bcac9b53533bf6159c48ecc27d65104ddc82d679eb951cb5a5155b996af78"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-08T19:07:03.868278+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "page_count": 7,
+    "portable_skill_name": "institute-projects",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Institute-Projects",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "https://activeinference.institute/projects/active-inference-ontology/: text truncated to 40000 characters"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": "https://activeinference.institute/projects/",
+      "content_sha256": "613334cf8c0fd5b95cc24e2dbea65840a3ee2424a20398fbb62c77284337a6a9",
+      "fetched_at": "2026-09-08T19:07:02.093157+00:00",
+      "final_url": "https://activeinference.institute/projects/",
+      "requested_url": "https://activeinference.institute/projects/",
+      "status_code": 200,
+      "text_sha256": "2997f3d23c8ca7780f0ac7f8785bb6c3e23cb97731d10f6eccaf7b372f4512ef",
+      "title": "Projects | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/active-inference-journal/",
+      "content_sha256": "cb22b4e75481850de70f74b320335230434389d273ad7d9da91ff5923d208880",
+      "fetched_at": "2026-09-08T19:07:02.285455+00:00",
+      "final_url": "https://activeinference.institute/projects/active-inference-journal/",
+      "requested_url": "https://activeinference.institute/projects/active-inference-journal/",
+      "status_code": 200,
+      "text_sha256": "47300c920cc3de04e64af030028b8051af4fc246eb74d002989bf75fa677c680",
+      "title": "Active Inference Journal | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/active-inference-journal/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "content_sha256": "b548e025720716f8d738231a46c88dba3e8691e723d99d12fa50bc2f3febb9d6",
+      "fetched_at": "2026-09-08T19:07:02.778262+00:00",
+      "final_url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "requested_url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "status_code": 200,
+      "text_sha256": "b5771dab13591855f000fef9bb89a25d32d78fe78779ec58cfeecdebe46558c8",
+      "title": "Active Inference Ontology | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/aeos/",
+      "content_sha256": "ef3f7219d109d75373dc3fb43f1d0f33a291d4286ccec30d86f54ae550a53275",
+      "fetched_at": "2026-09-08T19:07:03.137890+00:00",
+      "final_url": "https://activeinference.institute/projects/aeos/",
+      "requested_url": "https://activeinference.institute/projects/aeos/",
+      "status_code": 200,
+      "text_sha256": "af3fd9e2cc96acfbcc59a2322e9a3c4ee2a32aec8137af1b7dce2e519f19d013",
+      "title": "Active Entity Ontology for Science (AEOS) | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/aeos/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/gnn/",
+      "content_sha256": "907474bbd38bf8b4727c99b32e5869d009c40f4d2e56465c86bd7852653d11da",
+      "fetched_at": "2026-09-08T19:07:03.342681+00:00",
+      "final_url": "https://activeinference.institute/projects/gnn/",
+      "requested_url": "https://activeinference.institute/projects/gnn/",
+      "status_code": 200,
+      "text_sha256": "686d5eeffa4933f4e4b2901c5e8c5045a4fab1d7bf9cef0c34f7e204c5b93dd0",
+      "title": "Generalized Notation Notation | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/gnn/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/pymdp/",
+      "content_sha256": "b0652dfdec761c6bb9b608a91ed38d4937ca37c9f842267816ee4304b80a2996",
+      "fetched_at": "2026-09-08T19:07:03.640872+00:00",
+      "final_url": "https://activeinference.institute/projects/pymdp/",
+      "requested_url": "https://activeinference.institute/projects/pymdp/",
+      "status_code": 200,
+      "text_sha256": "11eaf324b32f9428caee4d5de2883c51d8e4cd6b669a5ed32943183c482d4dc7",
+      "title": "pymdp | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/pymdp/",
+      "warnings": []
+    },
+    {
+      "canonical_url": "https://activeinference.institute/projects/rxinfer/",
+      "content_sha256": "42bb820e7433180ad2c7035ba55951423b8893cdd18bef447e32dea5dc446ca0",
+      "fetched_at": "2026-09-08T19:07:03.768961+00:00",
+      "final_url": "https://activeinference.institute/projects/rxinfer/",
+      "requested_url": "https://activeinference.institute/projects/rxinfer/",
+      "status_code": 200,
+      "text_sha256": "26bbf660b3167b40e39c60e0b11ac3cfc65cfcda6f5b0775968587fc4fcabc91",
+      "title": "RxInfer.jl Learning and Development Group | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/rxinfer/",
+      "warnings": []
+    }
+  ],
+  "portable_name": "institute-projects",
+  "profile_fingerprint": "67854d6b7ac5ad1ebf7ba4a11d3045e82348f8c27f79f1abc549c733559dbb83",
+  "profile_id": "active-inference-institute",
+  "profile_name": "Active Inference Institute",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 7,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 145863,
+      "duration_ms": 122,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:01.929363+00:00",
+      "url": "https://activeinference.institute/projects/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 29931,
+      "duration_ms": 156,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:02.249947+00:00",
+      "url": "https://activeinference.institute/projects/active-inference-journal/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 182491,
+      "duration_ms": 95,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 3,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:02.442241+00:00",
+      "url": "https://activeinference.institute/projects/active-inference-ontology/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 30796,
+      "duration_ms": 314,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 4,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:03.093675+00:00",
+      "url": "https://activeinference.institute/projects/aeos/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 30627,
+      "duration_ms": 168,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 5,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:03.307235+00:00",
+      "url": "https://activeinference.institute/projects/gnn/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 24932,
+      "duration_ms": 219,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 6,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:03.617341+00:00",
+      "url": "https://activeinference.institute/projects/pymdp/"
+    },
+    {
+      "attempt": 0,
+      "bytes": 29522,
+      "duration_ms": 78,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 7,
+      "status": "revalidated",
+      "status_code": 304,
+      "timestamp": "2026-09-08T19:07:03.729440+00:00",
+      "url": "https://activeinference.institute/projects/rxinfer/"
+    }
+  ],
+  "requested_skill_name": "Institute-Projects",
+  "run_id": "active-inference-institute--b6d6285f75e1a6621375",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "institute-projects",
+  "skill_sha256": "e20e3c422f9dd6ef3146ed4c1ec8dbe9f42461b5aef7c49a8e8b18c9287a821e",
+  "source_urls": [
+    "https://activeinference.institute/projects/",
+    "https://activeinference.institute/projects/active-inference-journal/",
+    "https://activeinference.institute/projects/active-inference-ontology/",
+    "https://activeinference.institute/projects/aeos/",
+    "https://activeinference.institute/projects/gnn/",
+    "https://activeinference.institute/projects/pymdp/",
+    "https://activeinference.institute/projects/rxinfer/"
+  ],
+  "target_id": "institute-projects",
+  "warnings": [
+    "https://activeinference.institute/projects/active-inference-ontology/: text truncated to 40000 characters"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a2373c4f2391fbcf918069aaf8d9645cc5972e105699ddef5a4e18f4fbe084f0",
+      "fetched_at": "2026-10-09T19:33:36.086058+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RootSystemsArePositiveDefinite",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RootSystemsArePositiveDefinite",
+      "status_code": 200,
+      "title": "Research / RootSystemsArePositiveDefinite",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RootSystemsArePositiveDefinite"
+    }
+  ],
+  "target_id": "research-rootsystemsarepositivedefinite"
+}

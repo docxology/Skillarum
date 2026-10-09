@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0213ea3cc4310bf359d7c39a1c103f1f048ef2cc6ec2b08eaeb19a030379523b",
+      "fetched_at": "2026-10-09T19:45:31.022630+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PeriodicTable",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PeriodicTable",
+      "status_code": 200,
+      "title": "Research / PeriodicTable",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PeriodicTable"
+    }
+  ],
+  "target_id": "research-periodictable"
+}

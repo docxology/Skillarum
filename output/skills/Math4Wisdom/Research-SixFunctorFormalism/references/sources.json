@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fdb29d1f0298fcd5c500764ba23f89138ac0ab569b12fc3827553cbe4d77611d",
+      "fetched_at": "2026-10-09T19:27:13.362208+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SixFunctorFormalism",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SixFunctorFormalism",
+      "status_code": 200,
+      "title": "Research / SixFunctorFormalism",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SixFunctorFormalism"
+    }
+  ],
+  "target_id": "research-sixfunctorformalism"
+}

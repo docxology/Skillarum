@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "df85d2babc9ac325838b8787aac1fff57688016e9558af2933f044338900f4e3",
+      "fetched_at": "2026-10-09T19:14:24.549595+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FundingIdeas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FundingIdeas",
+      "status_code": 200,
+      "title": "Research / FundingIdeas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FundingIdeas"
+    }
+  ],
+  "target_id": "research-fundingideas"
+}

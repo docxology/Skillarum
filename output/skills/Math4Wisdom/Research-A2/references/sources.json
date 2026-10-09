@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6949956923272670d864d7db9cc6542dfb80db2c7a2e48322c94a7340c489cee",
+      "fetched_at": "2026-10-09T19:32:29.802826+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/A2",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/A2",
+      "status_code": 200,
+      "title": "Research / A2",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/A2"
+    }
+  ],
+  "target_id": "research-a2"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "55767995d336854f43ce003246fde974b716ee2e1680970681ffae35a415b1eb",
+    "references/sources.json": "4fd825dd1577e4f5117f3edbc9400bc5d01ca11a34b4198cd86514660cd1a4f3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "82128f42a81a2c02043abb437fce28fec26df6f09c24f8be7bfc7d14dd363231",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "db557442307e1b779deb42047ae92ed1a99e839c5214f5525563c4073dbe6d72"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:40:40.786304+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-AffineGeometry.",
+    "page_count": 1,
+    "portable_skill_name": "research-affinegeometry",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-AffineGeometry",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "909ad1d7c0a7ec861654222cc0c3ba542a49d20bb6b3c5fa81f3b3fbb8f98a8c",
+      "fetched_at": "2026-10-09T19:36:19.283758+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry",
+      "status_code": 200,
+      "text_sha256": "240d9d563d7123879370c631a7369bd82a70eebd2519c9d8a434b2e9745a3e2e",
+      "title": "Research / AffineGeometry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-affinegeometry",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16811,
+      "duration_ms": 234,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:36:18.056689+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry"
+    }
+  ],
+  "requested_skill_name": "Research-AffineGeometry",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-affinegeometry",
+  "skill_sha256": "55767995d336854f43ce003246fde974b716ee2e1680970681ffae35a415b1eb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/AffineGeometry"
+  ],
+  "target_id": "research-affinegeometry",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "58c384e9cd6b2de756a42318dd7d31f6d923a6fc43907763680262fcd164b89d",
+    "references/sources.json": "ecedd062979f707057cf91ff9d7add84eb3078cf839c41ba5017f39b120d2428"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d37f70dc996bcc38947c685cdb150543a92c5b2b5e6624e2cf330339ee6b2830",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "98c8831042ff567f15b2db70005d258720c3a628efb87ea4ce5a696856d27f92"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:43:13.140415+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ZigZagLemma.",
+    "page_count": 1,
+    "portable_skill_name": "research-zigzaglemma",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ZigZagLemma",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "1a9c114006e890b79e1d9fef532aaf95e9a47131122e269701dbd5f3bf2400e5",
+      "fetched_at": "2026-10-09T19:38:55.722112+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ZigZagLemma",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ZigZagLemma",
+      "status_code": 200,
+      "text_sha256": "86303a5f2f02eba5983f268eb23043edf302468a2dbfe73551510ddfab216a41",
+      "title": "Research / ZigZagLemma",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ZigZagLemma",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-zigzaglemma",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10403,
+      "duration_ms": 718,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:38:55.509992+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ZigZagLemma"
+    }
+  ],
+  "requested_skill_name": "Research-ZigZagLemma",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-zigzaglemma",
+  "skill_sha256": "58c384e9cd6b2de756a42318dd7d31f6d923a6fc43907763680262fcd164b89d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ZigZagLemma"
+  ],
+  "target_id": "research-zigzaglemma",
+  "warnings": []
+}

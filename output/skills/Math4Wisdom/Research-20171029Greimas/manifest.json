@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f98410276737e565f8c11d733ac36504fe598e791d168c2f02cebec0b9706cdb",
+    "references/sources.json": "7b42523b9bb95a9940077ea6fdfe97eb93e0b8f09d7415a350f968e62b56c1d0"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f54a70aa279847a47b1f2c52adb74aaa05bdd33388ff5d3d42330b4fea2d5307",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "23c484c7c7a312fe940ba11dc3d5e47c4a770bbc0581f184c22e0f114cc72204"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:55:14.854745+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20171029Greimas.",
+    "page_count": 1,
+    "portable_skill_name": "research-20171029greimas",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20171029Greimas",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3fe79a7038f5f1648cb2fd565c6a52060d3e0c921d9566e1fa8973170d35c28d",
+      "fetched_at": "2026-10-09T19:49:04.732304+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas",
+      "status_code": 200,
+      "text_sha256": "942958ec2042ca7fa8ba2510576e2ed250e656b0a4334bdcb5a7aca848648c60",
+      "title": "Research / 20171029Greimas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20171029greimas",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10063,
+      "duration_ms": 252,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:04.623841+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas"
+    }
+  ],
+  "requested_skill_name": "Research-20171029Greimas",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20171029greimas",
+  "skill_sha256": "f98410276737e565f8c11d733ac36504fe598e791d168c2f02cebec0b9706cdb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20171029Greimas"
+  ],
+  "target_id": "research-20171029greimas",
+  "warnings": []
+}

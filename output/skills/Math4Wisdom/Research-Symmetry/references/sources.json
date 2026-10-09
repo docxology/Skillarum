@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3231edd00bb0723039b3700d78e2d33749372b9b78d6a2d8898b59bb6c2a2c8a",
+      "fetched_at": "2026-10-09T19:32:42.164332+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Symmetry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Symmetry",
+      "status_code": 200,
+      "title": "Research / Symmetry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Symmetry"
+    }
+  ],
+  "target_id": "research-symmetry"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "14143f3ee14b2261a04709a338629485cf31ae2275fb1397f204cfa6c43744d9",
+      "fetched_at": "2026-10-09T19:38:04.960820+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/HopfAlgebras",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/HopfAlgebras",
+      "status_code": 200,
+      "title": "Research / HopfAlgebras",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/HopfAlgebras"
+    }
+  ],
+  "target_id": "research-hopfalgebras"
+}

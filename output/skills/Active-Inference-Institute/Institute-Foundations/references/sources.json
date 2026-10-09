@@ -1,0 +1,67 @@
+{
+  "profile_id": "active-inference-institute",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "525da85169a4dbe3d68cd0b2f5aef2fc9ae5433dca85c4bdf144c2a8fc55d513",
+      "fetched_at": "2026-09-08T19:06:54.524585+00:00",
+      "final_url": "https://activeinference.institute/",
+      "requested_url": "https://activeinference.institute/",
+      "status_code": 200,
+      "title": "Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/"
+    },
+    {
+      "content_sha256": "81ab5e6d0be69a2cdf25b51696a4c61b23ae6394aa33ae5f8d8d789dd1ca05ac",
+      "fetched_at": "2026-09-08T19:06:54.909470+00:00",
+      "final_url": "https://activeinference.institute/about/",
+      "requested_url": "https://activeinference.institute/about/",
+      "status_code": 200,
+      "title": "About the Institute | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/about/"
+    },
+    {
+      "content_sha256": "c0e69637212ce359ce82e8c76f4fa1bea3c9503625412a2d584ed4b9f04b67db",
+      "fetched_at": "2026-09-08T19:06:55.096456+00:00",
+      "final_url": "https://activeinference.institute/active-inference/",
+      "requested_url": "https://activeinference.institute/active-inference/",
+      "status_code": 200,
+      "title": "Active Inference | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/active-inference/"
+    },
+    {
+      "content_sha256": "3e00884012cc35e13d4f0777761ea81519c0d870ad21a5304d82e9e22bee0cf8",
+      "fetched_at": "2026-09-08T19:06:55.537154+00:00",
+      "final_url": "https://activeinference.institute/ecosystem/",
+      "requested_url": "https://activeinference.institute/ecosystem/",
+      "status_code": 200,
+      "title": "Ecosystem | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/ecosystem/"
+    },
+    {
+      "content_sha256": "8d27589cbb797f4e32e882157ae247a675d1e53576c2516d02bd45714a85002d",
+      "fetched_at": "2026-09-08T19:06:55.740313+00:00",
+      "final_url": "https://activeinference.institute/instituteos/",
+      "requested_url": "https://activeinference.institute/instituteos/",
+      "status_code": 200,
+      "title": "InstituteOS Public Interface | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/instituteos/"
+    },
+    {
+      "content_sha256": "5b25436746a0662ffb8df4414bfc776081528048d2eb3de49a5840a12c2b10d0",
+      "fetched_at": "2026-09-08T19:06:56.083883+00:00",
+      "final_url": "https://activeinference.institute/knowledge/",
+      "requested_url": "https://activeinference.institute/knowledge/",
+      "status_code": 200,
+      "title": "Open Source Map | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/knowledge/"
+    }
+  ],
+  "target_id": "institute-foundations"
+}

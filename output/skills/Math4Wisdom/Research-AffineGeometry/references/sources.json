@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "909ad1d7c0a7ec861654222cc0c3ba542a49d20bb6b3c5fa81f3b3fbb8f98a8c",
+      "fetched_at": "2026-10-09T19:36:19.283758+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry",
+      "status_code": 200,
+      "title": "Research / AffineGeometry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AffineGeometry"
+    }
+  ],
+  "target_id": "research-affinegeometry"
+}

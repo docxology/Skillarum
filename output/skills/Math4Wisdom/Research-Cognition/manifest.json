@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "5408ab9a9018ab1661f65621eaa56af567abee3e6f8abc4a6b63846bb769d277",
+    "references/sources.json": "8e2867b92801323f8b6d9fec6f824bed46270157fc7877747ae12f37310d02a7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "60fb424d30fe9ae27f55dc7688e724839fb89b2adbb12c4c7d33b15e9dde1b25",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a93e4b26a008753ba2aca4fade7c5c0d20aaf65a26c1dc7d138938d4b506db8e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:01:12.852351+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Cognition.",
+    "page_count": 1,
+    "portable_skill_name": "research-cognition",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Cognition",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "303787c1b7e9cbf30135c598787e880643949aa94d9114fa95dc4863971cdcd6",
+      "fetched_at": "2026-10-09T19:54:21.123210+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Cognition",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Cognition",
+      "status_code": 200,
+      "text_sha256": "d377af3eacf00c5317aff51e2dfad1c2944b0cec9faa94d310468efe5e7b75e1",
+      "title": "Research / Cognition",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Cognition",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-cognition",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10639,
+      "duration_ms": 252,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:54:18.805387+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Cognition"
+    }
+  ],
+  "requested_skill_name": "Research-Cognition",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-cognition",
+  "skill_sha256": "5408ab9a9018ab1661f65621eaa56af567abee3e6f8abc4a6b63846bb769d277",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Cognition"
+  ],
+  "target_id": "research-cognition",
+  "warnings": []
+}

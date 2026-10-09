@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "314d9e9340d4b0a079d78641eb1c2c16fd58a3c2d130026d49fc47b5e5587e64",
+    "references/sources.json": "8fddd22aa9b0c2eddb46a3d75a59d178d599850b10d8c23dae83875292463a5b"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "080fe07f185e6a317e996169e55553bdb1b3c37b5c90a4fc4065250e53d7a6db",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "21fc90a8367985744ed06b660654a965a703a4692c16bd4aad44d636147da40b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:02:25.868708+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ToddTrimble.",
+    "page_count": 1,
+    "portable_skill_name": "research-toddtrimble",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ToddTrimble",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "cb2e17eec965a3a01be95e5bf0a4517d0b0a8539c4d276c22d05bf604b195dd7",
+      "fetched_at": "2026-10-09T19:55:47.084842+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ToddTrimble",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ToddTrimble",
+      "status_code": 200,
+      "text_sha256": "f501ffd595e4956192718ae1d88b5aee679db5d81c20fa1e3f9b335e9d443edf",
+      "title": "Research / ToddTrimble",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ToddTrimble",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-toddtrimble",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10164,
+      "duration_ms": 250,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:55:46.269487+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ToddTrimble"
+    }
+  ],
+  "requested_skill_name": "Research-ToddTrimble",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-toddtrimble",
+  "skill_sha256": "314d9e9340d4b0a079d78641eb1c2c16fd58a3c2d130026d49fc47b5e5587e64",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ToddTrimble"
+  ],
+  "target_id": "research-toddtrimble",
+  "warnings": []
+}

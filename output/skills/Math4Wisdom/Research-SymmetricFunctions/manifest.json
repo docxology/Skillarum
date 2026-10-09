@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3fd0fd0c5c5cffc23927193d4b976fc2aaede81fe903b1d076ded382df947cae",
+    "references/sources.json": "09aaed4bdf2899164c281380a6b3bee5862a1c8429ff3e57450f715471b82c49"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "93e55f501b36612aa3afb4518f8ebb1a664e59d2786c2a6baa1c553394fa6929",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e5d04b296e9b8679795d6e5b2b99919a1250d0acda0f6abd4aafb0cf7af35230"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:42:05.480575+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SymmetricFunctions.",
+    "page_count": 1,
+    "portable_skill_name": "research-symmetricfunctions",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SymmetricFunctions",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "00ebe27fdb0254db6eaab4d3340d6446f5bbb5a1923fd965047cf48f1b8c214c",
+      "fetched_at": "2026-10-09T19:37:49.451146+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions",
+      "status_code": 200,
+      "text_sha256": "be33bc60bd7b098a94cf2de994eab366251c07ec54d799fff738ff0320063418",
+      "title": "Research / SymmetricFunctions",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-symmetricfunctions",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 19749,
+      "duration_ms": 805,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:37:38.877953+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions"
+    }
+  ],
+  "requested_skill_name": "Research-SymmetricFunctions",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-symmetricfunctions",
+  "skill_sha256": "3fd0fd0c5c5cffc23927193d4b976fc2aaede81fe903b1d076ded382df947cae",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions"
+  ],
+  "target_id": "research-symmetricfunctions",
+  "warnings": []
+}

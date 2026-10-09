@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fc0136d06ff25b7d10329828c77d9fdd45df398950b0890d65b67a6d9294a891",
+      "fetched_at": "2026-10-09T19:16:19.232172+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Sound",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Sound",
+      "status_code": 200,
+      "title": "Research / Sound",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Sound"
+    }
+  ],
+  "target_id": "research-sound"
+}

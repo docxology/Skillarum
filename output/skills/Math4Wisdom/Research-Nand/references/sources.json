@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "70b8a4a43b2351f4f55357ad74892c6b79e6c1f4431a752bc3fb00622184987e",
+      "fetched_at": "2026-10-09T19:27:57.427264+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Nand",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Nand",
+      "status_code": 200,
+      "title": "Research / Nand",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Nand"
+    }
+  ],
+  "target_id": "research-nand"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "5e2c8ff7539940c978905f61ffb677c3d6794d0b23488c0f232e62a7379eeedb",
+    "references/sources.json": "7e24c6b2e2a5825f74c3cd027f9e8211fe775eae6956a832130f1a75b2f37e77"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "20c746d261d6e743bb4452741a131bc46da8a9dfad398ff01e5b63e780067525",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "3af2b920413c591dba3b30d9361004dec567275c708e5fb54019e9a0392c083d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:08.618011+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SymmetryGroupsChoiceTemplates.",
+    "page_count": 1,
+    "portable_skill_name": "research-symmetrygroupschoicetemplates",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SymmetryGroupsChoiceTemplates",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "242f99a73146b686dc657ef531ca3a7e857b8128fdec0e3cd535b73667beb2fe",
+      "fetched_at": "2026-10-09T19:32:47.626109+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetryGroupsChoiceTemplates",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetryGroupsChoiceTemplates",
+      "status_code": 200,
+      "text_sha256": "ef389f58f7c7dfb36e6c94a675c47158bba84fac6a3c6fe7aaf6fadd1990991c",
+      "title": "Research / SymmetryGroupsChoiceTemplates",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetryGroupsChoiceTemplates",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-symmetrygroupschoicetemplates",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12291,
+      "duration_ms": 224,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:32:47.115186+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetryGroupsChoiceTemplates"
+    }
+  ],
+  "requested_skill_name": "Research-SymmetryGroupsChoiceTemplates",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-symmetrygroupschoicetemplates",
+  "skill_sha256": "5e2c8ff7539940c978905f61ffb677c3d6794d0b23488c0f232e62a7379eeedb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SymmetryGroupsChoiceTemplates"
+  ],
+  "target_id": "research-symmetrygroupschoicetemplates",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3438551a4ee6898224302ead129dc31722d6b475b1a242913508a12d0cacf1cb",
+    "references/sources.json": "7f190067b20a46dce3d32dc3fc73727e1b5bac977e39e37bcef5bf8c0160faa3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "501491533ac2c488a84a0dba3d0073d140e78cf2be22b4328574f90b703d9d45",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "ba49f7109faf4d78ca5793232b887bafd77a5af088356d22af643921be2da2ff"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:39:33.879113+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SixTransformations.",
+    "page_count": 1,
+    "portable_skill_name": "research-sixtransformations",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SixTransformations",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "06e2a66b2ac2eaa82219688a6224a5a4ca7dcde1746f358d527307f56731df3c",
+      "fetched_at": "2026-10-09T19:35:09.327952+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SixTransformations",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SixTransformations",
+      "status_code": 200,
+      "text_sha256": "b923ca62144200fa82d976d4a7ff716631aec5e568f4569a1e288265babbaa32",
+      "title": "Research / SixTransformations",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SixTransformations",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-sixtransformations",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 44856,
+      "duration_ms": 459,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:34:52.131131+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SixTransformations"
+    }
+  ],
+  "requested_skill_name": "Research-SixTransformations",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-sixtransformations",
+  "skill_sha256": "3438551a4ee6898224302ead129dc31722d6b475b1a242913508a12d0cacf1cb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SixTransformations"
+  ],
+  "target_id": "research-sixtransformations",
+  "warnings": []
+}

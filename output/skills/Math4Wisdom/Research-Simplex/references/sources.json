@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c74333eb4313e1e7f312d8d04e470412c69a049bcbfcdb57ab2e0ce3755221d2",
+      "fetched_at": "2026-10-09T19:33:58.022833+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Simplex",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Simplex",
+      "status_code": 200,
+      "title": "Research / Simplex",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Simplex"
+    }
+  ],
+  "target_id": "research-simplex"
+}

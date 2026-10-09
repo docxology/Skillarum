@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "58ec22d0eb3089d6e60240668a2f8be599664187b11b579f87b10efe3d1b0088",
+    "references/sources.json": "76c7f35c9386808c44bb36094f144f747aace797360065701b3aabb3d68d6beb"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "02165104595c552877390a3d0fd822b9d09cf24efcecf5fca96e81be1ccff663",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e301f33b4907054be4ddbaf9706c0bb9de71410b4018044fc1771b2337940e00"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:19:45.629847+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-LandscapeOfTruth.",
+    "page_count": 1,
+    "portable_skill_name": "research-landscapeoftruth",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-LandscapeOfTruth",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "56728ae32e9eaee1aab909bce9e32fd345ffd7eecfa2d9be881480bf777ab57a",
+      "fetched_at": "2026-10-09T19:17:52.928609+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth",
+      "status_code": 200,
+      "text_sha256": "97cd249c33c0be3f216ea6f5d9116b4c83ec6eb4928838eed7acb33a2224105d",
+      "title": "Research / LandscapeOfTruth",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-landscapeoftruth",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14049,
+      "duration_ms": 237,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:17:50.981869+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth"
+    }
+  ],
+  "requested_skill_name": "Research-LandscapeOfTruth",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-landscapeoftruth",
+  "skill_sha256": "58ec22d0eb3089d6e60240668a2f8be599664187b11b579f87b10efe3d1b0088",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth"
+  ],
+  "target_id": "research-landscapeoftruth",
+  "warnings": []
+}

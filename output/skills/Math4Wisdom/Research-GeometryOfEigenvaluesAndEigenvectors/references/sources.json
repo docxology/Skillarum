@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f68c1cc5d2bc625e5e778e623672a1460ff026e0084e88488231608d249b55a6",
+      "fetched_at": "2026-10-09T19:36:14.103254+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors",
+      "status_code": 200,
+      "title": "Research / GeometryOfEigenvaluesAndEigenvectors",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors"
+    }
+  ],
+  "target_id": "research-geometryofeigenvaluesandeigenvectors"
+}

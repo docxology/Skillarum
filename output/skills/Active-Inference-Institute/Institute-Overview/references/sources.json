@@ -1,0 +1,87 @@
+{
+  "profile_id": "active-inference-institute",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "525da85169a4dbe3d68cd0b2f5aef2fc9ae5433dca85c4bdf144c2a8fc55d513",
+      "fetched_at": "2026-09-08T19:06:51.109539+00:00",
+      "final_url": "https://activeinference.institute/",
+      "requested_url": "https://activeinference.institute/",
+      "status_code": 200,
+      "title": "Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/"
+    },
+    {
+      "content_sha256": "81ab5e6d0be69a2cdf25b51696a4c61b23ae6394aa33ae5f8d8d789dd1ca05ac",
+      "fetched_at": "2026-09-08T19:06:51.406265+00:00",
+      "final_url": "https://activeinference.institute/about/",
+      "requested_url": "https://activeinference.institute/about/",
+      "status_code": 200,
+      "title": "About the Institute | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/about/"
+    },
+    {
+      "content_sha256": "c0e69637212ce359ce82e8c76f4fa1bea3c9503625412a2d584ed4b9f04b67db",
+      "fetched_at": "2026-09-08T19:06:51.717790+00:00",
+      "final_url": "https://activeinference.institute/active-inference/",
+      "requested_url": "https://activeinference.institute/active-inference/",
+      "status_code": 200,
+      "title": "Active Inference | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/active-inference/"
+    },
+    {
+      "content_sha256": "2e1cc418c96dead1e8dc5d205bd3e6aa81cd4fe1f1da996466024a78e73578d3",
+      "fetched_at": "2026-09-08T19:06:51.958244+00:00",
+      "final_url": "https://activeinference.institute/learning/",
+      "requested_url": "https://activeinference.institute/learning/",
+      "status_code": 200,
+      "title": "Learning and Research | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/learning/"
+    },
+    {
+      "content_sha256": "613334cf8c0fd5b95cc24e2dbea65840a3ee2424a20398fbb62c77284337a6a9",
+      "fetched_at": "2026-09-08T19:06:52.330146+00:00",
+      "final_url": "https://activeinference.institute/projects/",
+      "requested_url": "https://activeinference.institute/projects/",
+      "status_code": 200,
+      "title": "Projects | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/"
+    },
+    {
+      "content_sha256": "d81d1cdec8f302216a6558b04ce447eaa00f538e6246ef84667b8485f8d5744f",
+      "fetched_at": "2026-09-08T19:06:53.010075+00:00",
+      "final_url": "https://activeinference.institute/resources/",
+      "requested_url": "https://activeinference.institute/resources/",
+      "status_code": 200,
+      "title": "Resources | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/resources/"
+    },
+    {
+      "content_sha256": "cca07b4586ec254012e20d23897f5b409121659632da8e07a21b9e61ab4304cc",
+      "fetched_at": "2026-09-08T19:06:53.775962+00:00",
+      "final_url": "https://activeinference.institute/directory/",
+      "requested_url": "https://activeinference.institute/directory/",
+      "status_code": 200,
+      "title": "Directory | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/directory/"
+    },
+    {
+      "content_sha256": "0424a42606475d1b91206dc1902cb5d02fefcf38c6d3be7e6573081d84a80236",
+      "fetched_at": "2026-09-08T19:06:54.052025+00:00",
+      "final_url": "https://activeinference.institute/get-involved/",
+      "requested_url": "https://activeinference.institute/get-involved/",
+      "status_code": 200,
+      "title": "Get Involved | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/get-involved/"
+    }
+  ],
+  "target_id": "institute-overview"
+}

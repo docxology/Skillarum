@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "27226a925ba43a270f4cfef43d4acdd5ea1a90a9e8175a92410c77da283e1d7d",
+    "references/sources.json": "5efb247d98f26b64e4ea98593bcb43e2dc6be8d5ad316bb440eec5026670ad4c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a401f34b1877171ef7e733d7dacb8d937c71f2c211873afd62ed38f9363f4e5d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "eb134ee9ee6da3e2de3504356f7ed84f8d6f85daed60f635b867756dea36fa24"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:56:31.684374+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20171215DeepestValues.",
+    "page_count": 1,
+    "portable_skill_name": "research-20171215deepestvalues",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20171215DeepestValues",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "9f64272b0b097f9330b096a93595a989353440bdfc0ae58a1fd43a45ad2de751",
+      "fetched_at": "2026-10-09T19:49:50.206764+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171215DeepestValues",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171215DeepestValues",
+      "status_code": 200,
+      "text_sha256": "dcdaa539cf34d5f0f29420511b95ab471f4073e9d744afc3d7e4895f7a2d7917",
+      "title": "Research / 20171215DeepestValues",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171215DeepestValues",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20171215deepestvalues",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10557,
+      "duration_ms": 228,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:49.694619+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20171215DeepestValues"
+    }
+  ],
+  "requested_skill_name": "Research-20171215DeepestValues",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20171215deepestvalues",
+  "skill_sha256": "27226a925ba43a270f4cfef43d4acdd5ea1a90a9e8175a92410c77da283e1d7d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20171215DeepestValues"
+  ],
+  "target_id": "research-20171215deepestvalues",
+  "warnings": []
+}

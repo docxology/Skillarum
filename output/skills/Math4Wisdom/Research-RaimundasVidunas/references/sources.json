@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7c7fc59bdfcef112d9e02f04246184ff477a75317499d13713abec8cdf0b16cf",
+      "fetched_at": "2026-10-09T19:56:43.946384+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RaimundasVid%c5%abnas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RaimundasVid%c5%abnas",
+      "status_code": 200,
+      "title": "Research / RaimundasVidūnas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RaimundasVid%c5%abnas"
+    }
+  ],
+  "target_id": "research-raimundasvidunas"
+}

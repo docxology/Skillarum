@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3baa093f2346f270f830bec5c606036397d0bc0e98026dd2d432834a81a75b73",
+      "fetched_at": "2026-10-09T19:37:29.491750+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/InterpretingCayley-DicksonConstruction",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/InterpretingCayley-DicksonConstruction",
+      "status_code": 200,
+      "title": "Research / InterpretingCayley-DicksonConstruction",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/InterpretingCayley-DicksonConstruction"
+    }
+  ],
+  "target_id": "research-interpretingcayley-dicksonconstruction"
+}

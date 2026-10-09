@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9c21ecaf29c0a8d303f221e42e5db83be2600814182a4be93edfc007d256c430",
+    "references/sources.json": "93056ea36c29b3aa974e5e70c6acf7014af6fa0593e666b289a35565567492f0"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cf32d8b3751f11bae72d0cecc7229c3225164cce5bdc5ee78550f8ae5f9a03e1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "6657544defb39c566af1cbf7eebbedd145d6cf5d6b89da7eed1a8521006e3fce"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:45:03.861641+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-AnalyticSymmetry.",
+    "page_count": 1,
+    "portable_skill_name": "research-analyticsymmetry",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-AnalyticSymmetry",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "e5d9047a0e4c585e902c38adb7e6f33dcdd4fde8b682822f37a03a856f51190e",
+      "fetched_at": "2026-10-09T19:40:38.148613+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AnalyticSymmetry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AnalyticSymmetry",
+      "status_code": 200,
+      "text_sha256": "45118a8ac72c91992a5c9600337e7bd74ba44221e453446d68869341dbaa1fcf",
+      "title": "Research / AnalyticSymmetry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AnalyticSymmetry",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-analyticsymmetry",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12169,
+      "duration_ms": 214,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:40:37.530799+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/AnalyticSymmetry"
+    }
+  ],
+  "requested_skill_name": "Research-AnalyticSymmetry",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-analyticsymmetry",
+  "skill_sha256": "9c21ecaf29c0a8d303f221e42e5db83be2600814182a4be93edfc007d256c430",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/AnalyticSymmetry"
+  ],
+  "target_id": "research-analyticsymmetry",
+  "warnings": []
+}

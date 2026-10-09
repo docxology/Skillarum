@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "5ff8f75e12ae39a8792978370ba8af04fecbaae86e8897daa64c483c89e35bf3",
+    "references/sources.json": "e07fbe68206ca45e50972b27cb5a8927cc1ec40d58aed1065760fe7948241941"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "668505b7538d4e865ec90d8ade63a5574dbbcc03f0a7925501712c7b93641195",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b1036f02f4f65a245fdd7618fb956cc87e1983a3e3b7909d1209cf4dba9dbfca"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:03:35.032214+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-AndriusKulikauskas.",
+    "page_count": 1,
+    "portable_skill_name": "research-andriuskulikauskas",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-AndriusKulikauskas",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "23aaa0529d9cde9d24ae692e75d9d967a8c5b5eab1b7a441ce58b7c1ce7c5267",
+      "fetched_at": "2026-10-09T19:56:52.858860+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas",
+      "status_code": 200,
+      "text_sha256": "d4922a323c7be72bc3c9d4cd2556edea5809133157d468db5a71af0657b0ea44",
+      "title": "Research / AndriusKulikauskas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-andriuskulikauskas",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 33622,
+      "duration_ms": 226,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:49.900985+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas"
+    }
+  ],
+  "requested_skill_name": "Research-AndriusKulikauskas",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-andriuskulikauskas",
+  "skill_sha256": "5ff8f75e12ae39a8792978370ba8af04fecbaae86e8897daa64c483c89e35bf3",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas"
+  ],
+  "target_id": "research-andriuskulikauskas",
+  "warnings": []
+}

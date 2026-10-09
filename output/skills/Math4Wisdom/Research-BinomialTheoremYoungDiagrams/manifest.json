@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "399708a2084755ab80b572e2a38cfa9eb2b8beb9b1273a34c7400edc23b9c535",
+    "references/sources.json": "f6cb1904fac6b38e1fc00c5d851d2c62e069d59e1daf5c36037e26e8a7c759c3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "45234cd263b6f685247360728a33f93aba81f966951d4797b405cf71519cf892",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "19c7f0c735e71f928b860a5c7b2926132bc32b42a49b0b766440269d89644bbf"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:32:01.243052+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-BinomialTheoremYoungDiagrams.",
+    "page_count": 1,
+    "portable_skill_name": "research-binomialtheoremyoungdiagrams",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-BinomialTheoremYoungDiagrams",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "cb5bb4799026cb9fea012ed39b713d8d7435af62004b698a312e844d064377d0",
+      "fetched_at": "2026-10-09T19:29:59.429724+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremYoungDiagrams",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremYoungDiagrams",
+      "status_code": 200,
+      "text_sha256": "b6d3ac477b2480be185595ef38405267cb7611467efe007272b41c9779192b95",
+      "title": "Research / BinomialTheoremYoungDiagrams",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremYoungDiagrams",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-binomialtheoremyoungdiagrams",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10898,
+      "duration_ms": 221,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:29:59.014357+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremYoungDiagrams"
+    }
+  ],
+  "requested_skill_name": "Research-BinomialTheoremYoungDiagrams",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-binomialtheoremyoungdiagrams",
+  "skill_sha256": "399708a2084755ab80b572e2a38cfa9eb2b8beb9b1273a34c7400edc23b9c535",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/BinomialTheoremYoungDiagrams"
+  ],
+  "target_id": "research-binomialtheoremyoungdiagrams",
+  "warnings": []
+}

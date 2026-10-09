@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "aec1d9907683d1ad3aaafbc91a8edc17fd7c123e53843ca0346f96745d3bebbf",
+    "references/sources.json": "beebe20ce5ce26916c8784bce547c0c584e6468773fa4eb057a06920ffd89180"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c8c9ada88d465316257cd04253eb39bf74965344103543d3b22aebcb6102840d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "70528e363b48f264bdb2b16efe6b15a3c1346e80229736a92c3d8c5148f24a92"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:35.561174+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CartanMatrix.",
+    "page_count": 1,
+    "portable_skill_name": "research-cartanmatrix",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CartanMatrix",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "41108f4a6d1ce711750b48aaa81fafa6565408080563cf2eb1b2653d7ef82d60",
+      "fetched_at": "2026-10-09T19:33:28.450699+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CartanMatrix",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CartanMatrix",
+      "status_code": 200,
+      "text_sha256": "51268a8d75e673ad14af85bff8e71c63f7ab248ae1f514344ced34e28cabd842",
+      "title": "Research / CartanMatrix",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CartanMatrix",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-cartanmatrix",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15236,
+      "duration_ms": 225,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:27.204263+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CartanMatrix"
+    }
+  ],
+  "requested_skill_name": "Research-CartanMatrix",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-cartanmatrix",
+  "skill_sha256": "aec1d9907683d1ad3aaafbc91a8edc17fd7c123e53843ca0346f96745d3bebbf",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CartanMatrix"
+  ],
+  "target_id": "research-cartanmatrix",
+  "warnings": []
+}

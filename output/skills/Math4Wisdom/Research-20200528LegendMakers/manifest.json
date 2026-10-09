@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "499e7bc6757af52ecc3ceff07f0b2962c66d3ee3b3ffbd843e4b5f2f32737fa4",
+    "references/sources.json": "bed0b82832b90c75f7fd99edd71ff0499e7c9298ec6bed8cad043382572e73ab"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "5511e330bc6e52939f6549174249ce5da4fcce2986de447de154a4fdc233aa0c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "c08ccdd62a2e425bef4bc85569251a2dae6bb59a5411c95c5b8d13a8f8aec31e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:38.610292+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20200528LegendMakers.",
+    "page_count": 1,
+    "portable_skill_name": "research-20200528legendmakers",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20200528LegendMakers",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b8b04f3e4bbedd96b2e08b00e68dddd2c8cccbf53862bfa034c27ffeb46b0878",
+      "fetched_at": "2026-10-09T19:52:05.643798+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20200528LegendMakers",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20200528LegendMakers",
+      "status_code": 200,
+      "text_sha256": "414a0b229daeb67f1f0a5459b5e70075d9420ebbfb805425bc9baada8d2ce257",
+      "title": "Research / 20200528LegendMakers",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20200528LegendMakers",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20200528legendmakers",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13384,
+      "duration_ms": 231,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:52:04.736468+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20200528LegendMakers"
+    }
+  ],
+  "requested_skill_name": "Research-20200528LegendMakers",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20200528legendmakers",
+  "skill_sha256": "499e7bc6757af52ecc3ceff07f0b2962c66d3ee3b3ffbd843e4b5f2f32737fa4",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20200528LegendMakers"
+  ],
+  "target_id": "research-20200528legendmakers",
+  "warnings": []
+}

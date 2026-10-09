@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dc27744fbbf152103474a9bf5f92cc93e37864dd46de53ac47f466d96f719ec2",
+      "fetched_at": "2026-10-09T19:33:32.674817+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Complexification",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Complexification",
+      "status_code": 200,
+      "title": "Research / Complexification",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Complexification"
+    }
+  ],
+  "target_id": "research-complexification"
+}

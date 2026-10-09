@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "b8d630478ecb0e66aa5327867eb3a6677c534fb43ee17ce06abd42b9f2636354",
+    "references/sources.json": "20a05acedadbe4e71b26c36a6b75a4087f052e5bbb2a3ed0f4c1c64b2b7c19bb"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "afda37c8c02c48612f913fc85c5b50135cb39d28a875834a065594e314e196dc",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "3a4d022658a6450001c37ddf8905f699a7d3afa4efde2a3ffa07af58da1c8f93"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:54:48.023490+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170929TimeSpaceDecisionMaking.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170929timespacedecisionmaking",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170929TimeSpaceDecisionMaking",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "157608a246642d872c9711c23ad3df46d83f89119392a7383947936d8ced2ebb",
+      "fetched_at": "2026-10-09T19:48:52.717149+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170929TimeSpaceDecisionMaking",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170929TimeSpaceDecisionMaking",
+      "status_code": 200,
+      "text_sha256": "d6c5c33f06b2f27f95886224e43596ec1f4d42c0656707db5b397ee7c68c8b9c",
+      "title": "Research / 20170929TimeSpaceDecisionMaking",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170929TimeSpaceDecisionMaking",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170929timespacedecisionmaking",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 32914,
+      "duration_ms": 236,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:51.996419+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170929TimeSpaceDecisionMaking"
+    }
+  ],
+  "requested_skill_name": "Research-20170929TimeSpaceDecisionMaking",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170929timespacedecisionmaking",
+  "skill_sha256": "b8d630478ecb0e66aa5327867eb3a6677c534fb43ee17ce06abd42b9f2636354",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170929TimeSpaceDecisionMaking"
+  ],
+  "target_id": "research-20170929timespacedecisionmaking",
+  "warnings": []
+}

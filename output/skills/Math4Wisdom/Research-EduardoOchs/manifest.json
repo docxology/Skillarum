@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9b68a99560b5a0bcceb9e27106b5dd4d082322084f6697f2e609d84db711179a",
+    "references/sources.json": "0a2803e3f623847ab119add3542c66c76a7473e80bcc011e9e830bacaaa8ddf7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cbfe623a6a8b2e43f2f3b23e7f5f6187b2c189ea9f057298d1706abda6edb685",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e2ff2f9e42f16705e48ae16b6b2deb29f278f44dcd0352ddefa91826e91b9ba0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:02:39.173392+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-EduardoOchs.",
+    "page_count": 1,
+    "portable_skill_name": "research-eduardoochs",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-EduardoOchs",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "275f6d49ea266423941f66228850ddbde4c78e752ae24b7b5b87f40abfb0e61e",
+      "fetched_at": "2026-10-09T19:56:01.727004+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs",
+      "status_code": 200,
+      "text_sha256": "0b2fe78a6168b254686d1cb09355421ef37a98d1b57d7188f40a544d20c9f3e7",
+      "title": "Research / EduardoOchs",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-eduardoochs",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10574,
+      "duration_ms": 224,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:01.312498+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs"
+    }
+  ],
+  "requested_skill_name": "Research-EduardoOchs",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-eduardoochs",
+  "skill_sha256": "9b68a99560b5a0bcceb9e27106b5dd4d082322084f6697f2e609d84db711179a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/EduardoOchs"
+  ],
+  "target_id": "research-eduardoochs",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "2f02f8162ab4ead793913ebb7397e1b792f8bb9f1a56ee1e471c7c46856523ed",
+    "references/sources.json": "e7548273cd6b56cf60cbd3cbaa4a17a83155a66354f1b4260d42b41238c6f72d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "71d0e8443ef03777a0c7cefdf0ee21a79cfb49cadfdd58c1610e727caa4e0aba",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "bd863e4dcebdbd41a8d09eae805da4d8b2d6a08066d90778419c60d947fe5138"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:32:25.922921+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SU2Geometry.",
+    "page_count": 1,
+    "portable_skill_name": "research-su2geometry",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SU2Geometry",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "27b80722abede249ded2bce3f97c96d8975f5fc128ad7c21ed2d56d1c9580f25",
+      "fetched_at": "2026-10-09T19:32:24.685055+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SU2Geometry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SU2Geometry",
+      "status_code": 200,
+      "text_sha256": "b272644b423cc003b72238337a4a0616020c370523d709b498570e2938ec5509",
+      "title": "Research / SU2Geometry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SU2Geometry",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-su2geometry",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9783,
+      "duration_ms": 814,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:32:24.075308+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SU2Geometry"
+    }
+  ],
+  "requested_skill_name": "Research-SU2Geometry",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-su2geometry",
+  "skill_sha256": "2f02f8162ab4ead793913ebb7397e1b792f8bb9f1a56ee1e471c7c46856523ed",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SU2Geometry"
+  ],
+  "target_id": "research-su2geometry",
+  "warnings": []
+}

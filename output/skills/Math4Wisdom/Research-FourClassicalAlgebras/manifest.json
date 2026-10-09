@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f2fa3acebe68e11cf6c885b0b04a2e87cd578f5bd90bd03937fd876195c586f1",
+    "references/sources.json": "43e289ae711c1671fb24554a1e51e093c1b1f55541239f9b3b4a326e2c99b096"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6b24bac514b323875d2f0210863ea07fb524faf7dd4576b54524a2eb6319d07b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "fcb6c2ba5f48e5494fbbb14ac5b789d19d095556c8fd2b148d988545e63ca3e6"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:25.351095+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-FourClassicalAlgebras.",
+    "page_count": 1,
+    "portable_skill_name": "research-fourclassicalalgebras",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-FourClassicalAlgebras",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "a165dc6fd4b83aa99407a410f8b1f7d0cd575381e1241822df9000e61c6e9b4e",
+      "fetched_at": "2026-10-09T19:33:16.681332+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FourClassicalAlgebras",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FourClassicalAlgebras",
+      "status_code": 200,
+      "text_sha256": "2b84a9f3dab1af99e96e31771f4cbeeff4d4bc2c7a8dfbfb93d54c6d1d793f4f",
+      "title": "Research / FourClassicalAlgebras",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FourClassicalAlgebras",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-fourclassicalalgebras",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13090,
+      "duration_ms": 218,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:15.748637+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/FourClassicalAlgebras"
+    }
+  ],
+  "requested_skill_name": "Research-FourClassicalAlgebras",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-fourclassicalalgebras",
+  "skill_sha256": "f2fa3acebe68e11cf6c885b0b04a2e87cd578f5bd90bd03937fd876195c586f1",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/FourClassicalAlgebras"
+  ],
+  "target_id": "research-fourclassicalalgebras",
+  "warnings": []
+}

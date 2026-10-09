@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3b97bf35dbae2eafadb49c4f7e042d76528ffef1565ad554b34c8c69f2046451",
+      "fetched_at": "2026-10-09T19:43:14.510781+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Particles",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Particles",
+      "status_code": 200,
+      "title": "Research / Particles",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Particles"
+    }
+  ],
+  "target_id": "research-particles"
+}

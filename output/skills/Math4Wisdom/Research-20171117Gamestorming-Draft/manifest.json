@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "27288d554a530ebb1f5b5ac5fff98f653e9e7d7ea41f22fc4ab764009341715b",
+    "references/sources.json": "6d82079bf3dc444fac93162b4881b11b9e38ae78c63772d7922b0012bb862e0d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0aa83df160070bd5f7f440398f789403618581c8545858fea23fc4076ab141ad",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "aa1e32d913399bef608380519adea7e93ed990ced218c0eff19f821c31a4d83b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:55:47.176401+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20171117Gamestorming-Draft.",
+    "page_count": 1,
+    "portable_skill_name": "research-20171117gamestorming-draft",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20171117Gamestorming-Draft",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "608f3e0744c9c113f4df4195561b56a900ac3b8f57750e79312dfab63c7a307e",
+      "fetched_at": "2026-10-09T19:49:30.293293+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171117Gamestorming-Draft",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171117Gamestorming-Draft",
+      "status_code": 200,
+      "text_sha256": "f34a6bb1f38850de6eeff4bdfd6ca73719b3fd18456cf32a5bc9a8abe784e373",
+      "title": "Research / 20171117Gamestorming-Draft",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171117Gamestorming-Draft",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20171117gamestorming-draft",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16817,
+      "duration_ms": 1048,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:27.766784+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20171117Gamestorming-Draft"
+    }
+  ],
+  "requested_skill_name": "Research-20171117Gamestorming-Draft",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20171117gamestorming-draft",
+  "skill_sha256": "27288d554a530ebb1f5b5ac5fff98f653e9e7d7ea41f22fc4ab764009341715b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20171117Gamestorming-Draft"
+  ],
+  "target_id": "research-20171117gamestorming-draft",
+  "warnings": []
+}

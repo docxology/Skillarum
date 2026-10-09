@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "18a1e2d389830a37a059c91508dc01c874a2ed4b3c27480f14c418d54d83f465",
+      "fetched_at": "2026-10-09T19:48:23.823635+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170708PersonalResponsibility",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170708PersonalResponsibility",
+      "status_code": 200,
+      "title": "Research / 20170708PersonalResponsibility",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170708PersonalResponsibility"
+    }
+  ],
+  "target_id": "research-20170708personalresponsibility"
+}

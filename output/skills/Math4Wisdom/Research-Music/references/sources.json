@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b8c471cd548659aa2a064e78a3a98c9b087f0549cf919d3c104d9ac821907234",
+      "fetched_at": "2026-10-09T19:46:58.337771+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Music",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Music",
+      "status_code": 200,
+      "title": "Research / Music",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Music"
+    }
+  ],
+  "target_id": "research-music"
+}

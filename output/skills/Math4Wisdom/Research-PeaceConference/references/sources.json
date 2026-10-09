@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a1ef60fb51af1bdff12ebf1772f8edd958f8aac2fd50d006bc82a6f330372f83",
+      "fetched_at": "2026-10-09T19:47:30.648636+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PeaceConference",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PeaceConference",
+      "status_code": 200,
+      "title": "Research / PeaceConference",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PeaceConference"
+    }
+  ],
+  "target_id": "research-peaceconference"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "12b0cba33b98774dad342be41b0236a4d022bedfc9b37e502058fa4c26d48915",
+      "fetched_at": "2026-10-09T19:16:10.235106+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Equipment",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Equipment",
+      "status_code": 200,
+      "title": "Research / Equipment",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Equipment"
+    }
+  ],
+  "target_id": "research-equipment"
+}

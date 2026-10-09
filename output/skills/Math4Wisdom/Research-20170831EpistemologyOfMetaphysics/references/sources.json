@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "01cb0bab6582d80462ff631f5e8dfef936386cc17ea44ed8d0e745bfa44e032f",
+      "fetched_at": "2026-10-09T19:48:30.119364+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170831EpistemologyOfMetaphysics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170831EpistemologyOfMetaphysics",
+      "status_code": 200,
+      "title": "Research / 20170831EpistemologyOfMetaphysics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170831EpistemologyOfMetaphysics"
+    }
+  ],
+  "target_id": "research-20170831epistemologyofmetaphysics"
+}

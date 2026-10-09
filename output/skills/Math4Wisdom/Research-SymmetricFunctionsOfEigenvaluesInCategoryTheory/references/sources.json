@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c428483ba79937490d0297c603009fd067f2656516eb3b20429b7c493259ae06",
+      "fetched_at": "2026-10-09T19:37:59.324951+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvaluesInCategoryTheory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvaluesInCategoryTheory",
+      "status_code": 200,
+      "title": "Research / SymmetricFunctionsOfEigenvaluesInCategoryTheory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvaluesInCategoryTheory"
+    }
+  ],
+  "target_id": "research-symmetricfunctionsofeigenvaluesincategorytheory"
+}

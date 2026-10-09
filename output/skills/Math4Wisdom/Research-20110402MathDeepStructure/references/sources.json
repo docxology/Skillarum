@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "326c5eecafa14efd5bd041f68be9af43c74318f61b1cecd586aa7a10fa258538",
+      "fetched_at": "2026-10-09T19:47:56.905811+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20110402MathDeepStructure",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20110402MathDeepStructure",
+      "status_code": 200,
+      "title": "Research / 20110402MathDeepStructure",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20110402MathDeepStructure"
+    }
+  ],
+  "target_id": "research-20110402mathdeepstructure"
+}

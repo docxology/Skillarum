@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "90e48a4d3c7a60bf47189d89331377a7f35a01c698549e85588f3753d04b59ae",
+      "fetched_at": "2026-10-09T19:47:16.426645+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Russia",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Russia",
+      "status_code": 200,
+      "title": "Research / Russia",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Russia"
+    }
+  ],
+  "target_id": "research-russia"
+}

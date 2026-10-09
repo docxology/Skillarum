@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "30636f248b0a24ec46a52a7543dc976aa49229f32999f8e5e16143b239b6ce70",
+    "references/sources.json": "0119c571291a9e952fd2b206cc580c71021544e3dbb23e52d0130600866d588f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6fcfc7a5dc278b1a07f9b09d440504528b828e249f3c7139040f3c9789a54045",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "188ea2353c018c06f23ddb5d8bafa18890c1170e4f6c405303b3196937855497"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:57:04.693235+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180606GrammarOfGames.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180606grammarofgames",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180606GrammarOfGames",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "1a3f2bc6cdda0210c4a3cc22bb96912eae550fe611192b3cb4085a82bfba9ddb",
+      "fetched_at": "2026-10-09T19:50:23.692561+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames",
+      "status_code": 200,
+      "text_sha256": "61624c63d47eaebb4034acc1c77dd34e9f1e588a9e3dc0d00e9a669410ad9b54",
+      "title": "Research / 20180606GrammarOfGames",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180606grammarofgames",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13103,
+      "duration_ms": 222,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:50:22.581039+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames"
+    }
+  ],
+  "requested_skill_name": "Research-20180606GrammarOfGames",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180606grammarofgames",
+  "skill_sha256": "30636f248b0a24ec46a52a7543dc976aa49229f32999f8e5e16143b239b6ce70",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames"
+  ],
+  "target_id": "research-20180606grammarofgames",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ca610ae70c8a2e51bf86f8e53f11d4d7f0e32972755d1b2bc3c17098f145c2de",
+      "fetched_at": "2026-10-09T19:56:21.638034+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20230528LetMeThink",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20230528LetMeThink",
+      "status_code": 200,
+      "title": "Research / 20230528LetMeThink",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20230528LetMeThink"
+    }
+  ],
+  "target_id": "research-20230528letmethink"
+}

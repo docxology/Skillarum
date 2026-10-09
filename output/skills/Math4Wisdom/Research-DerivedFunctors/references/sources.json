@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "aa5e9219d16f3f7576d0d2c105a9b314434af2fd4db8363722d601a4dd600244",
+      "fetched_at": "2026-10-09T19:39:09.690229+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/DerivedFunctors",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/DerivedFunctors",
+      "status_code": 200,
+      "title": "Research / DerivedFunctors",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/DerivedFunctors"
+    }
+  ],
+  "target_id": "research-derivedfunctors"
+}

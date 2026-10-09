@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e8400dc7d5ba9396357ca3e2da19d9c8ed48981a5ca64c865d04e77174838534",
+      "fetched_at": "2026-10-09T19:41:35.157343+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics",
+      "status_code": 200,
+      "title": "Research / QuantumPhysics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics"
+    }
+  ],
+  "target_id": "research-quantumphysics"
+}

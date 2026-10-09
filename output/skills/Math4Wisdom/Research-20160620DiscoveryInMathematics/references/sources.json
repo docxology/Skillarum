@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "37a96ea0203a860d60196282802b3342f7f5b5b17c8d6d38bdb362eb185ab647",
+      "fetched_at": "2026-10-09T19:48:03.589965+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20160620DiscoveryInMathematics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20160620DiscoveryInMathematics",
+      "status_code": 200,
+      "title": "Research / 20160620DiscoveryInMathematics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20160620DiscoveryInMathematics"
+    }
+  ],
+  "target_id": "research-20160620discoveryinmathematics"
+}

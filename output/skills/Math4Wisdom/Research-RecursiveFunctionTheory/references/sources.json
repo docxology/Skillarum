@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ff1a67d96c03a02712a8d2b9134f9c8f2a459cd4eb3fc7f822505ad68c05e2b0",
+      "fetched_at": "2026-10-09T19:39:56.106114+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RecursiveFunctionTheory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RecursiveFunctionTheory",
+      "status_code": 200,
+      "title": "Research / RecursiveFunctionTheory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RecursiveFunctionTheory"
+    }
+  ],
+  "target_id": "research-recursivefunctiontheory"
+}

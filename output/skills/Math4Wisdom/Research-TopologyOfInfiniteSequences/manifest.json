@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6740d6822fd996abedf626cfad113c7ae2aec368e7bfed2b8b8e3c8f586b4c38",
+    "references/sources.json": "e2d48003b193419aa267599c4c621801299750ce33f59c9106e5bb8438ae9b0e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0ec3a08bb76def75d8afbd222e7038a08e84adefd48050577d1660cd7636b8a4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "72ff45eb2f7d55eb0597ad768f06886237f3ab668fb44610dfe0ef0360885880"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:31:55.765601+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-TopologyOfInfiniteSequences.",
+    "page_count": 1,
+    "portable_skill_name": "research-topologyofinfinitesequences",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-TopologyOfInfiniteSequences",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "a0f50d85141bc08d06092a77218b4125b6b08395a5660147e28c46d6557f024b",
+      "fetched_at": "2026-10-09T19:29:54.605052+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences",
+      "status_code": 200,
+      "text_sha256": "6b623f3c0aaec0978fca8a152c286cbc341de966857a1d8e5a54ee9e93aa34fd",
+      "title": "Research / TopologyOfInfiniteSequences",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-topologyofinfinitesequences",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11362,
+      "duration_ms": 222,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:29:54.491250+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences"
+    }
+  ],
+  "requested_skill_name": "Research-TopologyOfInfiniteSequences",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-topologyofinfinitesequences",
+  "skill_sha256": "6740d6822fd996abedf626cfad113c7ae2aec368e7bfed2b8b8e3c8f586b4c38",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences"
+  ],
+  "target_id": "research-topologyofinfinitesequences",
+  "warnings": []
+}

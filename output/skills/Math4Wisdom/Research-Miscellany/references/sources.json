@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8f3d7a309c9296a06ba2c2290cfb988cd3c94192637bfae451272d7bd511062b",
+      "fetched_at": "2026-10-09T19:14:11.173120+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Miscellany",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Miscellany",
+      "status_code": 200,
+      "title": "Research / Miscellany",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Miscellany"
+    }
+  ],
+  "target_id": "research-miscellany"
+}

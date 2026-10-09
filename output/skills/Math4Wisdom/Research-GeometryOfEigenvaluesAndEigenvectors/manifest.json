@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "16d549343596aa80ab85f5bfe60558957042efd7c508f5b83a0368d2cb698ec8",
+    "references/sources.json": "3768998cf4353ec14a3a75e5a3821ec3fe9abe8458d008d6320bfbf54b7c8358"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d032638466e2daeda1d6de621fbfcb5e9cd1f283108149cc2a3c457dc2aebd7a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "d925cf1fdaaa9fe1a57b7178927df4787c3a5f3e816d11523bfba3d384706a19"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:40:34.673309+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-GeometryOfEigenvaluesAndEigenvectors.",
+    "page_count": 1,
+    "portable_skill_name": "research-geometryofeigenvaluesandeigenvectors",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-GeometryOfEigenvaluesAndEigenvectors",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f68c1cc5d2bc625e5e778e623672a1460ff026e0084e88488231608d249b55a6",
+      "fetched_at": "2026-10-09T19:36:14.103254+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors",
+      "status_code": 200,
+      "text_sha256": "f3b4280dda3b34f47772854bd95ebaca899b252979af7004d5b634e08b17d443",
+      "title": "Research / GeometryOfEigenvaluesAndEigenvectors",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-geometryofeigenvaluesandeigenvectors",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10282,
+      "duration_ms": 208,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:36:13.492859+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors"
+    }
+  ],
+  "requested_skill_name": "Research-GeometryOfEigenvaluesAndEigenvectors",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-geometryofeigenvaluesandeigenvectors",
+  "skill_sha256": "16d549343596aa80ab85f5bfe60558957042efd7c508f5b83a0368d2cb698ec8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/GeometryOfEigenvaluesAndEigenvectors"
+  ],
+  "target_id": "research-geometryofeigenvaluesandeigenvectors",
+  "warnings": []
+}

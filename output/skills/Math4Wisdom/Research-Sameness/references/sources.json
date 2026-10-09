@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "75ea406b6637a1d596a4e50c582ad96f14abd329d1e53b42d4c0ce6718bb2a3c",
+      "fetched_at": "2026-10-09T19:28:24.223478+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Sameness",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Sameness",
+      "status_code": 200,
+      "title": "Research / Sameness",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Sameness"
+    }
+  ],
+  "target_id": "research-sameness"
+}

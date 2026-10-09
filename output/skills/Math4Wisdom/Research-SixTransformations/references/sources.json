@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "06e2a66b2ac2eaa82219688a6224a5a4ca7dcde1746f358d527307f56731df3c",
+      "fetched_at": "2026-10-09T19:35:09.327952+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SixTransformations",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SixTransformations",
+      "status_code": 200,
+      "title": "Research / SixTransformations",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SixTransformations"
+    }
+  ],
+  "target_id": "research-sixtransformations"
+}

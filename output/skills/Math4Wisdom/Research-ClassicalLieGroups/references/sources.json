@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a0fe1f667b12c39ff132b9be472c1ae35b42adbbe638aff740129ba332a3d83d",
+      "fetched_at": "2026-10-09T19:32:11.029761+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ClassicalLieGroups",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ClassicalLieGroups",
+      "status_code": 200,
+      "title": "Research / ClassicalLieGroups",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ClassicalLieGroups"
+    }
+  ],
+  "target_id": "research-classicalliegroups"
+}

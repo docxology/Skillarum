@@ -1,0 +1,128 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6665be44472348ab527e51c15e28babe4be4665ff1d43cf80d6c07eec7d0e14f",
+    "references/sources.json": "9511506c8e2cd510d09b85202aa53cba71c2ce88633ba3f4239495756d47fbab"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8aadcb89ec4aa5f53e0c677be0da43f39157901c82554e889f03f2397be9fe28",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 2,
+    "target_fingerprint": "d4a194a015fd6fe6a0dcb28bd30ac1b5fb828ebbb04626846d23d04e2a02f217"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:51:34.871513+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SpiritualCapital.",
+    "page_count": 1,
+    "portable_skill_name": "research-spiritualcapital",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SpiritualCapital",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6f9a4605057541e039cde24ae1a7646d9b7f4fd72c4cb8b40c2a62be2bbf4517",
+      "fetched_at": "2026-10-09T19:51:34.038615+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital",
+      "status_code": 200,
+      "text_sha256": "f90ebce131be58d8d5b4e8bbcc84d7c4e73b92abe5461be7c1533fca5e7696c6",
+      "title": "Research / SpiritualCapital",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-spiritualcapital",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "duration_ms": 164,
+      "kind": "page",
+      "reason": "Server disconnected without sending a response.",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "rejected",
+      "timestamp": "2026-10-09T19:51:31.267532+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital"
+    },
+    {
+      "attempt": 0,
+      "delay_seconds": 0.5,
+      "kind": "page",
+      "reason": "RemoteProtocolError",
+      "request_attempt": false,
+      "status": "retrying",
+      "timestamp": "2026-10-09T19:51:31.267545+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital"
+    },
+    {
+      "attempt": 1,
+      "bytes": 13991,
+      "duration_ms": 757,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:32.529106+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital"
+    }
+  ],
+  "requested_skill_name": "Research-SpiritualCapital",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-spiritualcapital",
+  "skill_sha256": "6665be44472348ab527e51c15e28babe4be4665ff1d43cf80d6c07eec7d0e14f",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SpiritualCapital"
+  ],
+  "target_id": "research-spiritualcapital",
+  "warnings": []
+}

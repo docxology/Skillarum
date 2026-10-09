@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8bea3124cee52ce3401a2b8c002f8b3f04ba5e5d603ac5cc654d03ef92cc7b9e",
+      "fetched_at": "2026-10-09T19:46:24.592138+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Neuroscience",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Neuroscience",
+      "status_code": 200,
+      "title": "Research / Neuroscience",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Neuroscience"
+    }
+  ],
+  "target_id": "research-neuroscience"
+}

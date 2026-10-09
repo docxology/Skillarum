@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "b971bf27e95ee9b434c14d91d670435c7cbda1bc0cd0308a28cc031ec472e549",
+    "references/sources.json": "edf33632fe02a664eeebb14353bebdbc9f63366f84c0d1a63258c28669ab7bbe"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a46026c8d13c2cc874607f748d5cd2635818637cbf5671ead922617c8ed8532e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "724bf718d24ad683aa82fd9167fed8797ba3c5071f738c0d5d7a75abfcc9e766"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:16:59.978667+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Patreon.",
+    "page_count": 1,
+    "portable_skill_name": "research-patreon",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Patreon",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f6a7d461b34abf57d3048e9501f28a888aeed544a6985673019730cbdb170b5e",
+      "fetched_at": "2026-10-09T19:14:29.905520+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Patreon",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Patreon",
+      "status_code": 200,
+      "text_sha256": "3f0073ee2a987cb03ec1d40c100cac26f0c73fc3e57eed975a16ed04087b4859",
+      "title": "Research / Patreon",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Patreon",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-patreon",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 18607,
+      "duration_ms": 225,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:14:28.690905+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Patreon"
+    }
+  ],
+  "requested_skill_name": "Research-Patreon",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-patreon",
+  "skill_sha256": "b971bf27e95ee9b434c14d91d670435c7cbda1bc0cd0308a28cc031ec472e549",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Patreon"
+  ],
+  "target_id": "research-patreon",
+  "warnings": []
+}

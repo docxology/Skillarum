@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9c7cac3bb5608997f29929c3e81484c905701b794f390f5029fff44e3d564248",
+    "references/sources.json": "b963db0aaa959f4c839eb9806c11d0a5ac70963c6f461fcc9436fd9453ee92b1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1f83d434b7cf91294012dfc505aff47782ca3a8f9414af247334256d527c7230",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a3bedafc64ffcfe7a66b9c612ac3bebc1696ff276e9f35b7095fd11460b3e81e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:27:21.523729+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-YonedaLemmaPresentation.",
+    "page_count": 1,
+    "portable_skill_name": "research-yonedalemmapresentation",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-YonedaLemmaPresentation",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "d024d932c19f0bf321792db807e79de767f1b233e7bfa746bfca9e7debf2e10c",
+      "fetched_at": "2026-10-09T19:24:42.880889+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/YonedaLemmaPresentation",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/YonedaLemmaPresentation",
+      "status_code": 200,
+      "text_sha256": "978447d8363857b2813c383a8564b5a79a1a9a8ac3e46694ff891583ae3f94a0",
+      "title": "Research / YonedaLemmaPresentation",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/YonedaLemmaPresentation",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-yonedalemmapresentation",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 53409,
+      "duration_ms": 246,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:24:37.986461+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/YonedaLemmaPresentation"
+    }
+  ],
+  "requested_skill_name": "Research-YonedaLemmaPresentation",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-yonedalemmapresentation",
+  "skill_sha256": "9c7cac3bb5608997f29929c3e81484c905701b794f390f5029fff44e3d564248",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/YonedaLemmaPresentation"
+  ],
+  "target_id": "research-yonedalemmapresentation",
+  "warnings": []
+}

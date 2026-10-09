@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7778144fd1190b760a2d3f12b7ea6314a2c6f6caa4fbbfa0bf153fbbeab6bd30",
+    "references/sources.json": "b785ba8b1a252eb91f6ab73b8c72dd376f6f66c0d9d65d5708b05e769b9f4101"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "50e71aaec04c025ef225ebcecdbd4e67690223f1fdccf623ca5f1b5e4409acf8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "055c6aaf8abd3b26a5f3e607233d75ef193b7f0ada2b3de46220c500a951f9ef"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:31:22.409633+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-BottPeriodicity.",
+    "page_count": 1,
+    "portable_skill_name": "research-bottperiodicity",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-BottPeriodicity",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "de478c4214488f5dd8aaff0c55c3d68c101590378d298beeaff79935fc9c3095",
+      "fetched_at": "2026-10-09T19:29:14.938421+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/BottPeriodicity",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/BottPeriodicity",
+      "status_code": 200,
+      "text_sha256": "6d80cc517471f17725ff1bbc90049d993a0c550cb1d00fdf483dfc2230b8809c",
+      "title": "Research / BottPeriodicity",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/BottPeriodicity",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-bottperiodicity",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 50969,
+      "duration_ms": 276,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:28:44.973819+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/BottPeriodicity"
+    }
+  ],
+  "requested_skill_name": "Research-BottPeriodicity",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-bottperiodicity",
+  "skill_sha256": "7778144fd1190b760a2d3f12b7ea6314a2c6f6caa4fbbfa0bf153fbbeab6bd30",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/BottPeriodicity"
+  ],
+  "target_id": "research-bottperiodicity",
+  "warnings": []
+}

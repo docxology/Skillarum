@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3086f3d72cb85faefa6967b1eb88c76099f03f6683bdb78330baf45a6e8d83d2",
+      "fetched_at": "2026-10-09T19:48:21.981164+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract",
+      "status_code": 200,
+      "title": "Research / 20170706Abstract",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170706Abstract"
+    }
+  ],
+  "target_id": "research-20170706abstract"
+}

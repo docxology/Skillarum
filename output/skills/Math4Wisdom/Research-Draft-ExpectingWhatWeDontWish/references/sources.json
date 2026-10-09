@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "754eeb1897b03807d1b6acd5d40710377fcc3b8a0235e785d0273e88239aebea",
+      "fetched_at": "2026-10-09T19:18:39.669095+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Draft-ExpectingWhatWeDontWish",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Draft-ExpectingWhatWeDontWish",
+      "status_code": 200,
+      "title": "Research / Draft-ExpectingWhatWeDontWish",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Draft-ExpectingWhatWeDontWish"
+    }
+  ],
+  "target_id": "research-draft-expectingwhatwedontwish"
+}

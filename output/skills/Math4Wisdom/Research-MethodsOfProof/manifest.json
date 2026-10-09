@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3077e5e0c50b10556daed085b8bdb6718ea7d7b745346354f431f574124c5d04",
+    "references/sources.json": "98b9112d163906ac7bf2add09e0f1ef6ab6a64bf62bb1aa62513b0de95d8dd1c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f5db078392a40a1b9dae74a7fe9d26de0ce8f8bd3f3a773aec5b82414e0be3db",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a01318be8a4e48b6e45092404818fd7b3b1295f370365591d282ccdd3a156226"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:26:07.628836+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MethodsOfProof.",
+    "page_count": 1,
+    "portable_skill_name": "research-methodsofproof",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MethodsOfProof",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3fc049a745fccf594dfc52f896cce2bbd546a9af12633c8522440417caf986e2",
+      "fetched_at": "2026-10-09T19:23:15.239006+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MethodsOfProof",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MethodsOfProof",
+      "status_code": 200,
+      "text_sha256": "9e04a3f14eab8e0edac3565205277f3c88fb2d1a915a3e718ecb188db43b544f",
+      "title": "Research / MethodsOfProof",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MethodsOfProof",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-methodsofproof",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11694,
+      "duration_ms": 209,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:23:15.032037+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MethodsOfProof"
+    }
+  ],
+  "requested_skill_name": "Research-MethodsOfProof",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-methodsofproof",
+  "skill_sha256": "3077e5e0c50b10556daed085b8bdb6718ea7d7b745346354f431f574124c5d04",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MethodsOfProof"
+  ],
+  "target_id": "research-methodsofproof",
+  "warnings": []
+}

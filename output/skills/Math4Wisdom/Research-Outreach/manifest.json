@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "eaf192680fbe040f43ca2c530e418423f037c92b442c1c9f413f65fe1442e2c8",
+    "references/sources.json": "1f30a8cd8c4dd1e2d74b02d59596421e4822d73a3c74e92487be729d28e9404b"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b635f347469215a63105ac0f5f77e84ef0c0dce698d51315f74d423b93d55915",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "8f3d5dd3f90cb51b37686b3fe104fc3a0d4d5146ab250ec353fade89670f66da"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:17:44.777825+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Outreach.",
+    "page_count": 1,
+    "portable_skill_name": "research-outreach",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Outreach",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6e08a7ea9b7ac07eb4f505f9422052f9e0321c9e184d8811a7fcbd2fe69ce262",
+      "fetched_at": "2026-10-09T19:15:21.475558+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Outreach",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Outreach",
+      "status_code": 200,
+      "text_sha256": "cfbe85eba6e26ecb61192cd066f4c0ee7cac98b6f4b2c21a24c663645c798bb8",
+      "title": "Research / Outreach",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Outreach",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-outreach",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 41508,
+      "duration_ms": 234,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:14:30.800314+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Outreach"
+    }
+  ],
+  "requested_skill_name": "Research-Outreach",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-outreach",
+  "skill_sha256": "eaf192680fbe040f43ca2c530e418423f037c92b442c1c9f413f65fe1442e2c8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Outreach"
+  ],
+  "target_id": "research-outreach",
+  "warnings": []
+}

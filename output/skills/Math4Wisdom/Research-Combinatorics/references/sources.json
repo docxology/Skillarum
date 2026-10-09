@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "26076b695637f5991f00f54562f850f5c08096d97499ce9520ad2376a146fb69",
+      "fetched_at": "2026-10-09T19:38:09.058639+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Combinatorics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Combinatorics",
+      "status_code": 200,
+      "title": "Research / Combinatorics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Combinatorics"
+    }
+  ],
+  "target_id": "research-combinatorics"
+}

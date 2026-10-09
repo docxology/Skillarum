@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f176e3df7caf9e90c04681ae7de6738269f17de791a5311a5889ccfe6445da18",
+      "fetched_at": "2026-10-09T19:21:35.967063+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Foundations",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Foundations",
+      "status_code": 200,
+      "title": "Research / Foundations",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Foundations"
+    }
+  ],
+  "target_id": "research-foundations"
+}

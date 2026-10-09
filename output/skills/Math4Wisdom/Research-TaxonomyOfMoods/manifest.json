@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6aa79cdf5b47cc611d4df2088447df2e71076e171d8f11532bc8ca6dd5449c78",
+    "references/sources.json": "0605dd0bd8ca15557415a1c22cee9250f511bc24bfce1b2b6d472793269c4183"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "73fbeb3e75a4596d6b0966f2f0a0541cf390cc9b168137dc953d89189b726e00",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1bb3be17a9d6a5c8c1d631d31979732e6bd3133b52af0893e594c412d64e52ba"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:20:28.669608+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-TaxonomyOfMoods.",
+    "page_count": 1,
+    "portable_skill_name": "research-taxonomyofmoods",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-TaxonomyOfMoods",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "bc2059994b3706a3a1867d80054959c6fa482a2af1fbb194c71c2ac6f109a047",
+      "fetched_at": "2026-10-09T19:18:38.605556+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TaxonomyOfMoods",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TaxonomyOfMoods",
+      "status_code": 200,
+      "text_sha256": "17bc38031c4a39b1803f232c2eea53631292ce7ae9e6032cd0d26bb98d1f6c74",
+      "title": "Research / TaxonomyOfMoods",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TaxonomyOfMoods",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-taxonomyofmoods",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 22086,
+      "duration_ms": 240,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:18:37.985752+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/TaxonomyOfMoods"
+    }
+  ],
+  "requested_skill_name": "Research-TaxonomyOfMoods",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-taxonomyofmoods",
+  "skill_sha256": "6aa79cdf5b47cc611d4df2088447df2e71076e171d8f11532bc8ca6dd5449c78",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/TaxonomyOfMoods"
+  ],
+  "target_id": "research-taxonomyofmoods",
+  "warnings": []
+}

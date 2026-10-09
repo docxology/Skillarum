@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "1a0340b5d652e060525c3d6d976036713d538b7b6388432b028c8c21024c5b3d",
+    "references/sources.json": "c57b30165a208b2b740c9141071821884ebf7972a66f18a2c30820896d8d4247"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "09543f5ea4646e290fd92499544fb3e1dd9695915f154deba45fe91d2cc2cb72",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "bde0359388c83d5c8745a3ac4f936e3e01fa8c48eaa18b1c2e23908810f1e44c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:02:18.573463+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Mathematicians.",
+    "page_count": 1,
+    "portable_skill_name": "research-mathematicians",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Mathematicians",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "909138fef9cf4d27bade421a2467d339d728bf23a674ddd9fc55f333b65f0e20",
+      "fetched_at": "2026-10-09T19:55:38.934493+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Mathematicians",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Mathematicians",
+      "status_code": 200,
+      "text_sha256": "bb5fc2d57ba72d7bd172c769963efc1eef12c4990e28369aa0e374ff85ad7254",
+      "title": "Research / Mathematicians",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Mathematicians",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mathematicians",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 24932,
+      "duration_ms": 241,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:55:27.595612+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Mathematicians"
+    }
+  ],
+  "requested_skill_name": "Research-Mathematicians",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mathematicians",
+  "skill_sha256": "1a0340b5d652e060525c3d6d976036713d538b7b6388432b028c8c21024c5b3d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Mathematicians"
+  ],
+  "target_id": "research-mathematicians",
+  "warnings": []
+}

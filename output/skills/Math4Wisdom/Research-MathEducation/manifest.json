@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c0cf81a8a3442bad75cdc339527f9b743c4bb591e6c3b91f52c0618b1035de9a",
+    "references/sources.json": "d9f285477a88ee20e4e7c0376ac01be268eafef6aa9d0cbec731b346ecacbb10"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "88c645e640c183f248d2bdba40e32d834ee38e141b8785ea53c765e141c9e2f9",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "4a3b119dae92ae9c2327e43bb2cc867c9df642061f991934a2a9f34011ca1827"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:24:58.660045+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MathEducation.",
+    "page_count": 1,
+    "portable_skill_name": "research-matheducation",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MathEducation",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "df581d5c9244b13f3b9fa70f9b143cedd80323b0e4f62f4a396833caef53ced6",
+      "fetched_at": "2026-10-09T19:23:04.039699+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathEducation",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathEducation",
+      "status_code": 200,
+      "text_sha256": "e4cbfa41e68ba8141dbd82c2025629e1da0b0fda9d575258c97b30330623619d",
+      "title": "Research / MathEducation",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathEducation",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-matheducation",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12061,
+      "duration_ms": 212,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:23:03.122481+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MathEducation"
+    }
+  ],
+  "requested_skill_name": "Research-MathEducation",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-matheducation",
+  "skill_sha256": "c0cf81a8a3442bad75cdc339527f9b743c4bb591e6c3b91f52c0618b1035de9a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MathEducation"
+  ],
+  "target_id": "research-matheducation",
+  "warnings": []
+}

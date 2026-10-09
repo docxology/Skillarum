@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "bf5bc8daeaf8aafbb7ccf68f7ec058ed54f83200495ad1876bdcdca598de58d7",
+    "references/sources.json": "f5d8eccd7a7dcfa6b750082048599f8fa6366fd38fda0555dd42efd237efe239"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "59fd57cb1e498997efef032f60fff08cb0aef68fe007c5ae4571065d64e2fc9d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "4776446ac22a5de5b38d3bfeb1fb0ebd7f5f223821abbac6c35fd044cbbb79fb"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:00:47.074891+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-PersonalResponsibilityHolocaustNotes.",
+    "page_count": 1,
+    "portable_skill_name": "research-personalresponsibilityholocaustnotes",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-PersonalResponsibilityHolocaustNotes",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "279bc615b728a5771689d490553f50a021bce50acb98919af3d57cf82e1f3be9",
+      "fetched_at": "2026-10-09T19:53:58.551100+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PersonalResponsibilityHolocaustNotes",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PersonalResponsibilityHolocaustNotes",
+      "status_code": 200,
+      "text_sha256": "ba7ea767dc1d848ab2dd8813ceba0ebf3b55d254a1ebb864a6297e12069b5da9",
+      "title": "Research / PersonalResponsibilityHolocaustNotes",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PersonalResponsibilityHolocaustNotes",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-personalresponsibilityholocaustnotes",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 21764,
+      "duration_ms": 281,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:53:58.439278+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/PersonalResponsibilityHolocaustNotes"
+    }
+  ],
+  "requested_skill_name": "Research-PersonalResponsibilityHolocaustNotes",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-personalresponsibilityholocaustnotes",
+  "skill_sha256": "bf5bc8daeaf8aafbb7ccf68f7ec058ed54f83200495ad1876bdcdca598de58d7",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/PersonalResponsibilityHolocaustNotes"
+  ],
+  "target_id": "research-personalresponsibilityholocaustnotes",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4c73dbee2f9766afdbb1f90290d896ea8e924fc6c1a7a88098508deaa0474539",
+      "fetched_at": "2026-10-09T19:14:27.541718+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ServiceIdeas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ServiceIdeas",
+      "status_code": 200,
+      "title": "Research / ServiceIdeas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ServiceIdeas"
+    }
+  ],
+  "target_id": "research-serviceideas"
+}

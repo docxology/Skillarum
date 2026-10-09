@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "858b8cbd070feaafc039c7d753d552fc82b547b7c78c2324b99176caffdadde6",
+    "references/sources.json": "61474acf7ef602f30444af4649b4c317f560fc903e1001053a6697503a1f9449"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "881882dc9074359d94dd99277d4e10b98278f5533255e84136d742c2b0dbaa54",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "c0d1253c2d5651650b6136eea324d2ef71a6b98799432cd8d0f7a36d192504b5"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:03:25.783488+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Wenbo.",
+    "page_count": 1,
+    "portable_skill_name": "research-wenbo",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Wenbo",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "82f580b2c58187b251745828b97c46921cd9bdb09d5ecf408daf8a2dd9b9dc4b",
+      "fetched_at": "2026-10-09T19:56:45.622422+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Wenbo",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Wenbo",
+      "status_code": 200,
+      "text_sha256": "4915dfaeef063c53371883105e6a367152d21a05a4683b6bd5bf4ad6566d0ef0",
+      "title": "Research / Wenbo",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Wenbo",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-wenbo",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10876,
+      "duration_ms": 224,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:44.896802+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Wenbo"
+    }
+  ],
+  "requested_skill_name": "Research-Wenbo",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-wenbo",
+  "skill_sha256": "858b8cbd070feaafc039c7d753d552fc82b547b7c78c2324b99176caffdadde6",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Wenbo"
+  ],
+  "target_id": "research-wenbo",
+  "warnings": []
+}

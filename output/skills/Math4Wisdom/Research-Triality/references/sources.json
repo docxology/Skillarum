@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ace4a4210a6efbb4accb1e79bc2c3e70b897977970c9d22e0a68ba6a272923ef",
+      "fetched_at": "2026-10-09T19:32:38.953501+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Triality",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Triality",
+      "status_code": 200,
+      "title": "Research / Triality",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Triality"
+    }
+  ],
+  "target_id": "research-triality"
+}

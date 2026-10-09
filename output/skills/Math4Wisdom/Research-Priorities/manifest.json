@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "62b8cd1a418e374d13b4c44558b80f12017f1b4f3738549268c4ba02a2945f30",
+    "references/sources.json": "b8ae7003b97cd2dc7cd008e03e44448b4134ffcb72eddb1e8ce94c349dcd0e76"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "61dcb8f544f5ba04583552f5f1686aa25c8aed1c0eff30cf8775a5f2c0d1465d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "cd962b34601c03f058fb35f6966764efb87995ec9c149abd87446e4c627d1630"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:16:19.583849+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Priorities.",
+    "page_count": 1,
+    "portable_skill_name": "research-priorities",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Priorities",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6a0607708e5769c2f116b71e8957679eb61cc489234cc6150ea64c7d9eb63d17",
+      "fetched_at": "2026-10-09T19:13:47.983184+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Priorities",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Priorities",
+      "status_code": 200,
+      "text_sha256": "67bbf156875e97e2de63ba8882ddc6f0af9be52351584d8a7d62808a4535acb6",
+      "title": "Research / Priorities",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Priorities",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-priorities",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16264,
+      "duration_ms": 703,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:13:43.219288+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Priorities"
+    }
+  ],
+  "requested_skill_name": "Research-Priorities",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-priorities",
+  "skill_sha256": "62b8cd1a418e374d13b4c44558b80f12017f1b4f3738549268c4ba02a2945f30",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Priorities"
+  ],
+  "target_id": "research-priorities",
+  "warnings": []
+}

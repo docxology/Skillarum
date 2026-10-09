@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6966195cf8c8b9b39fde5d51cecf78ac49beebaa320b069d98b4584867f033db",
+      "fetched_at": "2026-10-09T19:48:25.568352+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement",
+      "status_code": 200,
+      "title": "Research / 20170825MetaphysicsOfNonviolentEngagement",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170825MetaphysicsOfNonviolentEngagement"
+    }
+  ],
+  "target_id": "research-20170825metaphysicsofnonviolentengagement"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "22502459ed98dc3546be73690ab29fface9496bc998c52e5a46e66db7db42e63",
+    "references/sources.json": "8f4bb6659aa98b939089deb0a4c82b5f5e2597d003f3e8c2cade228b0355cdf5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "bb3a8f051c0f0a41a9bafd628367d8e7c8cdae752d4eb19a9f8a7e6e582f715e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a9e879d541515777cc67ba272adbd68ab7c00ac297e1a6e5407851b5dd530fea"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:02:37.178788+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-RichardGreen.",
+    "page_count": 1,
+    "portable_skill_name": "research-richardgreen",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-RichardGreen",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "5122aa8c5c39fb18bb89a182cfb853cae52b77e7fc94869c16418d3de539a563",
+      "fetched_at": "2026-10-09T19:56:00.430009+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RichardGreen",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RichardGreen",
+      "status_code": 200,
+      "text_sha256": "b76e1772cc95e489abb54338ee8cf8b2a15c8f5743fa2506b8bafb56adb9490e",
+      "title": "Research / RichardGreen",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RichardGreen",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-richardgreen",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10973,
+      "duration_ms": 232,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:55:59.404385+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/RichardGreen"
+    }
+  ],
+  "requested_skill_name": "Research-RichardGreen",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-richardgreen",
+  "skill_sha256": "22502459ed98dc3546be73690ab29fface9496bc998c52e5a46e66db7db42e63",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/RichardGreen"
+  ],
+  "target_id": "research-richardgreen",
+  "warnings": []
+}

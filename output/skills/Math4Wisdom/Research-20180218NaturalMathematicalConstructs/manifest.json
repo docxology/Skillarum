@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "b69ae8f5fd906bf2ba4447c7dd505b23d7f41b83fe2c0c67fb82bf6a6793c158",
+    "references/sources.json": "7a0db23059ee3bc6410a8407f5b4bea5eb7f6430d6bbc323d7a81b1e3fac71ea"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a2a3cdd44a3cdfc7cbe695b4ea4e1f662214323e4cace4fa445705c90b4050d3",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "bd2e1c5c95b05d8d338fc5deb60997bfc9c57fcb1d023c711a667fee64e8b31f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:56:47.894505+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180218NaturalMathematicalConstructs.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180218naturalmathematicalconstructs",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180218NaturalMathematicalConstructs",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "14469193993427bf4463a9ed7cfd2b533507dee208a4b8ef67456ec6ecdfd28a",
+      "fetched_at": "2026-10-09T19:50:03.411955+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180218NaturalMathematicalConstructs",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180218NaturalMathematicalConstructs",
+      "status_code": 200,
+      "text_sha256": "9482218608d9a01c99a649f26cdb20a795799063c57a170b7839b9fe68d19920",
+      "title": "Research / 20180218NaturalMathematicalConstructs",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180218NaturalMathematicalConstructs",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180218naturalmathematicalconstructs",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 20224,
+      "duration_ms": 227,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:50:02.905332+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180218NaturalMathematicalConstructs"
+    }
+  ],
+  "requested_skill_name": "Research-20180218NaturalMathematicalConstructs",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180218naturalmathematicalconstructs",
+  "skill_sha256": "b69ae8f5fd906bf2ba4447c7dd505b23d7f41b83fe2c0c67fb82bf6a6793c158",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180218NaturalMathematicalConstructs"
+  ],
+  "target_id": "research-20180218naturalmathematicalconstructs",
+  "warnings": []
+}

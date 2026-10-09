@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7102f3f2948daee7721fd8ecfe31f575aac5f9b69c7f99cc76c2f9240ad61d2e",
+    "references/sources.json": "b0f3d5f876a0cd21f5deacfb72ca23f1e3efcf155f119e09815201be30eea55f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ca63618d89cc9e6e2565d0e08901db08cfccd29dbd6b17bee74b619c5f31c3ca",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1592ccc18ed5ed1502b3719ad427995a8d2c8b5fff702326d38b5d3c2c11091c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:46:05.655666+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-QuantumPhysics.",
+    "page_count": 1,
+    "portable_skill_name": "research-quantumphysics",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-QuantumPhysics",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "e8400dc7d5ba9396357ca3e2da19d9c8ed48981a5ca64c865d04e77174838534",
+      "fetched_at": "2026-10-09T19:41:35.157343+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics",
+      "status_code": 200,
+      "text_sha256": "3ff908d403836ec09ba124dd6c79f3a88cbe642bfcb1e2182860763cd1df71e2",
+      "title": "Research / QuantumPhysics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-quantumphysics",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 39192,
+      "duration_ms": 238,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:41:27.745553+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/QuantumPhysics"
+    }
+  ],
+  "requested_skill_name": "Research-QuantumPhysics",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-quantumphysics",
+  "skill_sha256": "7102f3f2948daee7721fd8ecfe31f575aac5f9b69c7f99cc76c2f9240ad61d2e",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/QuantumPhysics"
+  ],
+  "target_id": "research-quantumphysics",
+  "warnings": []
+}

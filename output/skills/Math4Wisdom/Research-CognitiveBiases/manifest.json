@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9fdec52549e1d99aed62f91ef15bad2d4f0d0aff452a60842f26eea9676d0cdc",
+    "references/sources.json": "6fb8fe7f9f4449acd415723b8455648d4a1c6f0ae3b3526be1131c2bf16ca26d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d4768228b81d6355854ebde303a468d1a09f9abc9727a7d8b3718e7bcacf198e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "ad4ec7094842da900ab8e16182a8b25841af46f672ea5fa0396dd60f40b5775c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:01:09.096396+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CognitiveBiases.",
+    "page_count": 1,
+    "portable_skill_name": "research-cognitivebiases",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CognitiveBiases",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "90eb532ec2153476e1512cd2b934732267de6eace42ccf670e6effaa06c3886e",
+      "fetched_at": "2026-10-09T19:54:17.040653+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases",
+      "status_code": 200,
+      "text_sha256": "beb843e9053bbcfeb721d7b3acfc723e1fb5a9620083fda714b60d516a4e0b2b",
+      "title": "Research / CognitiveBiases",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-cognitivebiases",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11567,
+      "duration_ms": 294,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:54:14.804011+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases"
+    }
+  ],
+  "requested_skill_name": "Research-CognitiveBiases",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-cognitivebiases",
+  "skill_sha256": "9fdec52549e1d99aed62f91ef15bad2d4f0d0aff452a60842f26eea9676d0cdc",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CognitiveBiases"
+  ],
+  "target_id": "research-cognitivebiases",
+  "warnings": []
+}

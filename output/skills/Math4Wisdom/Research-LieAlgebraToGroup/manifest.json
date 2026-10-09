@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "1d202c6bf8f85ece72b095acc4ced3050c7f1ff605cc74ab3058cdae4f3e0268",
+    "references/sources.json": "fbae7fa490dfad36f0a37e9443b379e8684609a8111fe6ad38e4ba686e30e23e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2ad06080cc59b454f23476d89bfab8fe54a3ab380512e67e13187f59e90bf32f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "8272baf13321a409143714d3841aa32b887b09c47bb25838d947a2d4987e7454"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:11.651788+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-LieAlgebraToGroup.",
+    "page_count": 1,
+    "portable_skill_name": "research-liealgebratogroup",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-LieAlgebraToGroup",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "4dd725e17ddafa863c7425816b0e3f1cd396faf635c5cbaab194601f478b4398",
+      "fetched_at": "2026-10-09T19:32:54.155263+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraToGroup",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraToGroup",
+      "status_code": 200,
+      "text_sha256": "cc1c4ec2218930c0cdfe8cdef27336e384d2ae624dccac325a021410c18fc853",
+      "title": "Research / LieAlgebraToGroup",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraToGroup",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-liealgebratogroup",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 31711,
+      "duration_ms": 428,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:32:51.169305+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraToGroup"
+    }
+  ],
+  "requested_skill_name": "Research-LieAlgebraToGroup",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-liealgebratogroup",
+  "skill_sha256": "1d202c6bf8f85ece72b095acc4ced3050c7f1ff605cc74ab3058cdae4f3e0268",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/LieAlgebraToGroup"
+  ],
+  "target_id": "research-liealgebratogroup",
+  "warnings": []
+}

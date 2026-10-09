@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "96321458112170a2b575a63e46312f955156d7430b9967ebb5cb167b8e9e8b13",
+    "references/sources.json": "82d348a99e2351601e20f4d596157211365e4c11ed3906a200ca64c355239b54"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f5d604ab5ffdf62a3eb0c76ae7bdc5776f3a5fc5bf6110cc90665a9105cc53c6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "f9c74a448fbedbcc94257c5d325576477f32c7aa6815e93e10e8b33d7f6193b2"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:52.456852+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ProbabilityDistribution.",
+    "page_count": 1,
+    "portable_skill_name": "research-probabilitydistribution",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ProbabilityDistribution",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "7fb86640d826895f130b40837c8a96dcddd438bfb28de2d12120553b42d35947",
+      "fetched_at": "2026-10-09T19:40:25.483971+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ProbabilityDistribution",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ProbabilityDistribution",
+      "status_code": 200,
+      "text_sha256": "62a391d663058bd2e4f49d6d9fca1b421e257746222677f4654f5229c7d9c6a8",
+      "title": "Research / ProbabilityDistribution",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ProbabilityDistribution",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-probabilitydistribution",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 17026,
+      "duration_ms": 704,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:40:23.134269+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ProbabilityDistribution"
+    }
+  ],
+  "requested_skill_name": "Research-ProbabilityDistribution",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-probabilitydistribution",
+  "skill_sha256": "96321458112170a2b575a63e46312f955156d7430b9967ebb5cb167b8e9e8b13",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ProbabilityDistribution"
+  ],
+  "target_id": "research-probabilitydistribution",
+  "warnings": []
+}

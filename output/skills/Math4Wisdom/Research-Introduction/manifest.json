@@ -1,0 +1,119 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3b942ce6ba47c78ab00acfbd93aee0545f7deb8d2f3a6c5d9dfa8c0485362b3a",
+    "references/sources.json": "b3b71bd7277f56a869735c0bd107069fa1e77a4e52ada701decb229634207419"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "dd3548335ddf22fd693a0c23a432b5d5898b2714e363dd5b61281d51fee80f1f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 2,
+    "target_fingerprint": "9687a04319ec17160f85fc038ad5e21510a39acad8fa7665f68affbcda03a35c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:13:59.377325+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Introduction.",
+    "page_count": 1,
+    "portable_skill_name": "research-introduction",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Introduction",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "fc8be16d8a1b8dedc23e5aa84332ab05b1b86263dfc315245eccb8ef798bbd2a",
+      "fetched_at": "2026-10-09T19:10:48.485137+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Introduction",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Introduction",
+      "status_code": 200,
+      "text_sha256": "74a3e245450524e66f4c4dc5413c62cee0a0df51bc874b06ccd49f990447770d",
+      "title": "Research / Introduction",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Introduction",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-introduction",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 196,
+      "duration_ms": 1228,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 404,
+      "timestamp": "2026-10-09T19:10:40.957252+00:00",
+      "url": "https://www.math4wisdom.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 13842,
+      "duration_ms": 248,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:41.205794+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Introduction"
+    }
+  ],
+  "requested_skill_name": "Research-Introduction",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-introduction",
+  "skill_sha256": "3b942ce6ba47c78ab00acfbd93aee0545f7deb8d2f3a6c5d9dfa8c0485362b3a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Introduction"
+  ],
+  "target_id": "research-introduction",
+  "warnings": []
+}

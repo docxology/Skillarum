@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b70a0b9871efabb72b835cc46e708c346702570d9e2ee2268bb8cad2919169a4",
+      "fetched_at": "2026-10-09T19:50:33.077611+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180620Variables",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180620Variables",
+      "status_code": 200,
+      "title": "Research / 20180620Variables",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180620Variables"
+    }
+  ],
+  "target_id": "research-20180620variables"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b1cd7db79ea7329268ab71edb0b68bd5914ca9b8f86f047a940989810ac0c339",
+      "fetched_at": "2026-10-09T19:28:37.933602+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryStudyGroup",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryStudyGroup",
+      "status_code": 200,
+      "title": "Research / CategoryTheoryStudyGroup",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryStudyGroup"
+    }
+  ],
+  "target_id": "research-categorytheorystudygroup"
+}

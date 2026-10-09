@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "28a7e924221e97ba76a9438adc10fa9adcbe957613be47c5bb82e8c6c502be85",
+      "fetched_at": "2026-10-09T19:29:52.378925+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals",
+      "status_code": 200,
+      "title": "Research / PascalTriangleDiagonals",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals"
+    }
+  ],
+  "target_id": "research-pascaltrianglediagonals"
+}

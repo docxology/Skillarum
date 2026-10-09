@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "2b941c712cc388ae98202eb7e48003481f4b1056d4ded44ec8435d21bccd2945",
+    "references/sources.json": "7d73b3d2e2f25ee01d36d78f27252cd8894d139f0a330e253c6154701b57cfa5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9195c57a09febd882114556e45847107aa66c43ff7464d45543f9bed1390986f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "2226e83967ee1a5f50ff62502f8040684690a5159536ea1efc23803d425382ba"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:40:33.680625+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-GeometryIllustrations.",
+    "page_count": 1,
+    "portable_skill_name": "research-geometryillustrations",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-GeometryIllustrations",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "349bfbd408d548d7b33627b732b87c99e656ada7c386c34d6ab854378bb41e36",
+      "fetched_at": "2026-10-09T19:36:11.925344+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GeometryIllustrations",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GeometryIllustrations",
+      "status_code": 200,
+      "text_sha256": "293522dd7105a406d0f7871ce48daaffe5b4b49637e022c7dc2827b894e322c9",
+      "title": "Research / GeometryIllustrations",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometryIllustrations",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-geometryillustrations",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12162,
+      "duration_ms": 225,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:36:09.998193+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometryIllustrations"
+    }
+  ],
+  "requested_skill_name": "Research-GeometryIllustrations",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-geometryillustrations",
+  "skill_sha256": "2b941c712cc388ae98202eb7e48003481f4b1056d4ded44ec8435d21bccd2945",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/GeometryIllustrations"
+  ],
+  "target_id": "research-geometryillustrations",
+  "warnings": []
+}

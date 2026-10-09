@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0200d00ee583ca83061fee7439af5ba13c77777fbe3e81736993b763f1678cd7",
+      "fetched_at": "2026-10-09T19:43:04.062900+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Entropy",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Entropy",
+      "status_code": 200,
+      "title": "Research / Entropy",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Entropy"
+    }
+  ],
+  "target_id": "research-entropy"
+}

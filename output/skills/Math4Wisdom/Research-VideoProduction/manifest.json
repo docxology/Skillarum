@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a3f7cb0973b2ab702f90a8da5a1ee8146ee4dd0d32af3ae3baee3a79731f27a9",
+    "references/sources.json": "fe7b4ec5a8c6f3a97c36c3fdd1ff1fe22b9d8fbe13e75047982ea9f90dac597d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ae00c9e6366695dfb2eb49d4891e4e49084556052f6c8e4001a7adb60b6bdf85",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "8e395ec957eadb6f709cfaf4c5cdc5b30af3f3409cea5af7e65303b9f6c15357"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:18:23.708327+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-VideoProduction.",
+    "page_count": 1,
+    "portable_skill_name": "research-videoproduction",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-VideoProduction",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "afa02f9ed4b0042878a1b73b28ab4d669f6e7c153a98cd3911fb2d1d6cc827b3",
+      "fetched_at": "2026-10-09T19:16:02.074302+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/VideoProduction",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/VideoProduction",
+      "status_code": 200,
+      "text_sha256": "3a3b02b1c6c3c522d904ec72f43840f4bfd0b6e64d8089a435ae2ef0541bb807",
+      "title": "Research / VideoProduction",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/VideoProduction",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-videoproduction",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11705,
+      "duration_ms": 723,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:15:59.448435+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/VideoProduction"
+    }
+  ],
+  "requested_skill_name": "Research-VideoProduction",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-videoproduction",
+  "skill_sha256": "a3f7cb0973b2ab702f90a8da5a1ee8146ee4dd0d32af3ae3baee3a79731f27a9",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/VideoProduction"
+  ],
+  "target_id": "research-videoproduction",
+  "warnings": []
+}

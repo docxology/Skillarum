@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f50fd9da012ccea4b77ba2a683ea99ed1454d34427794b2acd75c9fd13819b6f",
+      "fetched_at": "2026-10-09T19:55:57.711664+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PaulZeitz",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PaulZeitz",
+      "status_code": 200,
+      "title": "Research / PaulZeitz",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PaulZeitz"
+    }
+  ],
+  "target_id": "research-paulzeitz"
+}

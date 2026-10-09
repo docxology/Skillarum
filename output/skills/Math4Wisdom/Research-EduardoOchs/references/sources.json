@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "275f6d49ea266423941f66228850ddbde4c78e752ae24b7b5b87f40abfb0e61e",
+      "fetched_at": "2026-10-09T19:56:01.727004+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs",
+      "status_code": 200,
+      "title": "Research / EduardoOchs",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EduardoOchs"
+    }
+  ],
+  "target_id": "research-eduardoochs"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5f6684e4fa89d74e11bb7aab5f4b5653771278c026c0a214ee80ac37b6aa38db",
+      "fetched_at": "2026-10-09T19:15:29.822180+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathCommunities",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathCommunities",
+      "status_code": 200,
+      "title": "Research / MathCommunities",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathCommunities"
+    }
+  ],
+  "target_id": "research-mathcommunities"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "968d714113040973d59ce0924a10c2f24dc3b362f949e17b92081b8eb79d5782",
+    "references/sources.json": "4e88f6f31d827882097949adfafb77b0dba2c4dd63669d300e5862d7f58b58a3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "5ff2a42403758027efe5f18e9fb5fedbf472e02c51d4f60e86e040968c9a8de7",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "4d071946f99517b3ffa7d953055a1b35621992cb89a22d10ba2256f1b62a367a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:49:24.252068+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ProblemSolving.",
+    "page_count": 1,
+    "portable_skill_name": "research-problemsolving",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ProblemSolving",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "84d23ed216a3cbe505ab42a614e9f0785f0c240b52aba9125dc8de1fae328381",
+      "fetched_at": "2026-10-09T19:44:35.059729+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ProblemSolving",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ProblemSolving",
+      "status_code": 200,
+      "text_sha256": "da9a59f72a94cb760849ad11109e76e63026bfffee1196d09fc136eb05c0197f",
+      "title": "Research / ProblemSolving",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ProblemSolving",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-problemsolving",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16288,
+      "duration_ms": 242,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:44:28.856828+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ProblemSolving"
+    }
+  ],
+  "requested_skill_name": "Research-ProblemSolving",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-problemsolving",
+  "skill_sha256": "968d714113040973d59ce0924a10c2f24dc3b362f949e17b92081b8eb79d5782",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ProblemSolving"
+  ],
+  "target_id": "research-problemsolving",
+  "warnings": []
+}

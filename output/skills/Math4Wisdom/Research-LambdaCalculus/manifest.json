@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a19a08341c563829febed8d256284232bfcfb76b28f40f451ca7edc9ac6114d9",
+    "references/sources.json": "8f55c43ee402b976ce8b0394fd456ac50b127ebef15ddf8e2b444ee3f2491f94"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2288b5c14f0b04ac009267a5457828b676c5e791ad29f57b8d3804448c937e51",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "7dab5d18dacedc58e2984f46506b4f5dc6b791486d82a7b13d8cbb2c8bd05ff0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:24.499367+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-LambdaCalculus.",
+    "page_count": 1,
+    "portable_skill_name": "research-lambdacalculus",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-LambdaCalculus",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "692e7b6eba7d51fd209cbf1b1c51c496f407f5d8aafcb039e00387ab6849a569",
+      "fetched_at": "2026-10-09T19:39:58.749105+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LambdaCalculus",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LambdaCalculus",
+      "status_code": 200,
+      "text_sha256": "f91ca2e6d4f19a3c9b4610c7125bd95445fc44d5032711cccd550d3b22a16889",
+      "title": "Research / LambdaCalculus",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LambdaCalculus",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-lambdacalculus",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12046,
+      "duration_ms": 212,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:39:57.228194+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/LambdaCalculus"
+    }
+  ],
+  "requested_skill_name": "Research-LambdaCalculus",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-lambdacalculus",
+  "skill_sha256": "a19a08341c563829febed8d256284232bfcfb76b28f40f451ca7edc9ac6114d9",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/LambdaCalculus"
+  ],
+  "target_id": "research-lambdacalculus",
+  "warnings": []
+}

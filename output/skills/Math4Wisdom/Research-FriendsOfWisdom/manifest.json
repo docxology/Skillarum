@@ -1,0 +1,128 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "8e0f565f4d655a5b3ec7751c99e2efc9b1add0435469c4bcad6488c5c15c6760",
+    "references/sources.json": "301fd76d157889bd2b38233912894e394dac857d3598d373b6f9cbd4e8b78816"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d0f24e7a0819dab2a21c9e82f968754c7f8a1c94aa7cdf4489017560d738e1f2",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 2,
+    "target_fingerprint": "691377b4637b64ec23e303504f4d5117fbab2dcd98705394cef90c999a21eec6"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:56:15.378116+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-FriendsOfWisdom.",
+    "page_count": 1,
+    "portable_skill_name": "research-friendsofwisdom",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-FriendsOfWisdom",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "9f64251f0d7800f3bae7f1769fc8e209161bd56a5ae452d0e12ad59c57d22dd2",
+      "fetched_at": "2026-10-09T19:56:14.543998+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom",
+      "status_code": 200,
+      "text_sha256": "0234dc8c0b13898923be0fe06ea9c705efb7760dee41f06cac32c2135cd4261b",
+      "title": "Research / FriendsOfWisdom",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-friendsofwisdom",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "duration_ms": 101,
+      "kind": "page",
+      "reason": "Server disconnected without sending a response.",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "rejected",
+      "timestamp": "2026-10-09T19:56:11.096007+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom"
+    },
+    {
+      "attempt": 0,
+      "delay_seconds": 0.5,
+      "kind": "page",
+      "reason": "RemoteProtocolError",
+      "request_attempt": false,
+      "status": "retrying",
+      "timestamp": "2026-10-09T19:56:11.096044+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom"
+    },
+    {
+      "attempt": 1,
+      "bytes": 10734,
+      "duration_ms": 814,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:12.416932+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom"
+    }
+  ],
+  "requested_skill_name": "Research-FriendsOfWisdom",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-friendsofwisdom",
+  "skill_sha256": "8e0f565f4d655a5b3ec7751c99e2efc9b1add0435469c4bcad6488c5c15c6760",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/FriendsOfWisdom"
+  ],
+  "target_id": "research-friendsofwisdom",
+  "warnings": []
+}

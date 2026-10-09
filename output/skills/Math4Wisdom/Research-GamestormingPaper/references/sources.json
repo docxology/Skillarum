@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bbca773b2172defe9391e6687ebf7fb514a06a4b5f74f72e08e49699ffde9821",
+      "fetched_at": "2026-10-09T19:49:20.589546+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GamestormingPaper",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GamestormingPaper",
+      "status_code": 200,
+      "title": "Research / GamestormingPaper",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GamestormingPaper"
+    }
+  ],
+  "target_id": "research-gamestormingpaper"
+}

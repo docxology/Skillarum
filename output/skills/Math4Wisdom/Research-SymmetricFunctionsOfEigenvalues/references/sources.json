@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "71272d11d6a70bbbccb3058f4a1bcc301c55b1cdd24de67e1323d227c75a6638",
+      "fetched_at": "2026-10-09T19:37:52.088025+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvalues",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvalues",
+      "status_code": 200,
+      "title": "Research / SymmetricFunctionsOfEigenvalues",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsOfEigenvalues"
+    }
+  ],
+  "target_id": "research-symmetricfunctionsofeigenvalues"
+}

@@ -1,0 +1,18 @@
+{
+  "backend": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "85b5bea5f963ba9c1693fa5a7312f227b608f8b48713e4bcdbe6558e2b1e16c3",
+  "profile_id": "math4wisdom",
+  "requested_skill_name": "Three-Minds-Exposition",
+  "run_id": "math4wisdom--da69d47233c45cae1284",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+    "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds",
+    "https://www.math4wisdom.com/wiki/Exposition/Vocabulary",
+    "https://www.math4wisdom.com/wiki/Exposition/Priorities"
+  ],
+  "target_id": "three-minds-exposition"
+}

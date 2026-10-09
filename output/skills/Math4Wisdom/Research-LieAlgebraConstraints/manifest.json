@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "0461c590a1f2a714ae614f4134b739e3c10a553b22c4d8be6ab883d6322b124d",
+    "references/sources.json": "6008e52cce98bcff3d19d3d9ddd3afeeb8b3dc9638ebdc02c6160f3769922ed9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c01986ae91a999e37fb80519898880cb52b8389d9184e3e48dd908dc1f79d838",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "db7c72c4bccd13c1dfb9d086d8c0422e83c5546c0daf3bd69887512dbb367614"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:09.267181+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-LieAlgebraConstraints.",
+    "page_count": 1,
+    "portable_skill_name": "research-liealgebraconstraints",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-LieAlgebraConstraints",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "feab5e61742253225bfb3ad058ee9c18f49fc46f1d1d53c109b4bc607e3ab1ef",
+      "fetched_at": "2026-10-09T19:32:50.100510+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraConstraints",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraConstraints",
+      "status_code": 200,
+      "text_sha256": "0d1a46ba0ba91a2938c2152df17422c148a27604a027be1b40b64f8e71e006b1",
+      "title": "Research / LieAlgebraConstraints",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraConstraints",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-liealgebraconstraints",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 22853,
+      "duration_ms": 228,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:32:49.576429+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/LieAlgebraConstraints"
+    }
+  ],
+  "requested_skill_name": "Research-LieAlgebraConstraints",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-liealgebraconstraints",
+  "skill_sha256": "0461c590a1f2a714ae614f4134b739e3c10a553b22c4d8be6ab883d6322b124d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/LieAlgebraConstraints"
+  ],
+  "target_id": "research-liealgebraconstraints",
+  "warnings": []
+}

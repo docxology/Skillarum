@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7ac388e9d9080cecb4b67c6e05c7f0f28d908008c9bfe470424d32806aa28ee8",
+    "references/sources.json": "4d18cd01e736d64455e4ad8ead767d1b868d4d4ff45d238c32f931b4ed469010"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0778751fd176b20f7fdd1f80804c8014e94c1ee82550fbebb39431bf01a64e8e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "fec839e59843df908202ccad983c34734357a0e698d96eb8ca996db758a9596c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:03:37.444056+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MinciuSodas.",
+    "page_count": 1,
+    "portable_skill_name": "research-minciusodas",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MinciuSodas",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f81dcf0c8337f5bdaad3f30b965458f7c69aad25cf81a1ba321c7fbff3a1b651",
+      "fetched_at": "2026-10-09T19:56:55.256021+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MinciuSodas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MinciuSodas",
+      "status_code": 200,
+      "text_sha256": "43c07f721b4c07a8496b3432f254311d60e1354ef2eb6b30846a7e96bc4ca87b",
+      "title": "Research / MinciuSodas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MinciuSodas",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-minciusodas",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25188,
+      "duration_ms": 247,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:54.833959+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MinciuSodas"
+    }
+  ],
+  "requested_skill_name": "Research-MinciuSodas",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-minciusodas",
+  "skill_sha256": "7ac388e9d9080cecb4b67c6e05c7f0f28d908008c9bfe470424d32806aa28ee8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MinciuSodas"
+  ],
+  "target_id": "research-minciusodas",
+  "warnings": []
+}

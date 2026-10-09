@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "b633da7ef1cd57c7980a03785d51a71207f0cc11cab88ab2154368af8a7d8ec3",
+    "references/sources.json": "5e71ee82432c21a4f369ba444da8fc8b6e775674c7b44b16c88925454dda1a09"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "efe3c40a14345ca9c4e4a8908554d29601eb3e81c4813d63e44a964673cfe5b6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "426b5d588343f7643f92c79a3b027518c8ada2bd78b93b3b2e42272e9b000b94"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:41:05.400262+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-AlgebraicGeometryTheorems.",
+    "page_count": 1,
+    "portable_skill_name": "research-algebraicgeometrytheorems",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-AlgebraicGeometryTheorems",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "d58e68b701d3c92c2520190298b35616551cd81223df02674f82dffb68722040",
+      "fetched_at": "2026-10-09T19:36:45.676410+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems",
+      "status_code": 200,
+      "text_sha256": "ab50f8d489e7f9f926dea39d72a6b3e9691417568ca949e9407a26e7e551437d",
+      "title": "Research / AlgebraicGeometryTheorems",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-algebraicgeometrytheorems",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 56245,
+      "duration_ms": 244,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:36:21.175133+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems"
+    }
+  ],
+  "requested_skill_name": "Research-AlgebraicGeometryTheorems",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-algebraicgeometrytheorems",
+  "skill_sha256": "b633da7ef1cd57c7980a03785d51a71207f0cc11cab88ab2154368af8a7d8ec3",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems"
+  ],
+  "target_id": "research-algebraicgeometrytheorems",
+  "warnings": []
+}

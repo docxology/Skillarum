@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3c07282271a2cd27dc83297852c0a9735ab6196176c6a8a34ab3b5c52953404e",
+    "references/sources.json": "2179734a2740ced330ba4624983d775c481224160493f66225509a21d5030f3f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f6afd04c2c2c4961f3983c691c1cad664703358c8a9ed622d6c6495769e127d6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1cb5251d6252a91a277a4980d9d1fc114a5dced07fe4de5102932de0c7ad2cd4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:26:11.492262+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MathConstants.",
+    "page_count": 1,
+    "portable_skill_name": "research-mathconstants",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MathConstants",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "30842b1c14f5955abec6a36589be78790a354b385fa712cfd9ade7aea136c516",
+      "fetched_at": "2026-10-09T19:23:23.151148+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathConstants",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathConstants",
+      "status_code": 200,
+      "text_sha256": "6e41d81d7d5a963e9a5916451801fb7be8821bc5e02570a8a17ee8030bc5030d",
+      "title": "Research / MathConstants",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathConstants",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mathconstants",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12225,
+      "duration_ms": 217,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:23:21.728319+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MathConstants"
+    }
+  ],
+  "requested_skill_name": "Research-MathConstants",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mathconstants",
+  "skill_sha256": "3c07282271a2cd27dc83297852c0a9735ab6196176c6a8a34ab3b5c52953404e",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MathConstants"
+  ],
+  "target_id": "research-mathconstants",
+  "warnings": []
+}

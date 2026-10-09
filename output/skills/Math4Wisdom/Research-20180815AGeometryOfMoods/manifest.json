@@ -1,0 +1,128 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "bcf9813d1f2739f37f79775f9153fb4cd7dcd7e3b386aecf63e24c534fd82b4d",
+    "references/sources.json": "cea4ecb7a91817c8a90ed40a5d598d7d62fce3bba8acaecaafaa4e1343ce0c8a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1598cad63a8555279cc3dd634a23ec8fe7705cbc0ac6deed8aa2b828b9e4cc4d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 2,
+    "target_fingerprint": "82e5cc4054d1b424c0021e90a2c911b291514839273ea1cf046e40bd52d73895"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:51:16.890080+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180815AGeometryOfMoods.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180815ageometryofmoods",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180815AGeometryOfMoods",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "4bc8b74ff7d059b257ea9a21fd5cb0db20c888766495a71c1829694c12d8f8d8",
+      "fetched_at": "2026-10-09T19:51:15.374363+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods",
+      "status_code": 200,
+      "text_sha256": "bd37c8521649eba64a9775e9c93f208f77fe42d98e292e200bce0a4afca8e82b",
+      "title": "Research / 20180815AGeometryOfMoods",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180815ageometryofmoods",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "duration_ms": 91,
+      "kind": "page",
+      "reason": "Server disconnected without sending a response.",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "rejected",
+      "timestamp": "2026-10-09T19:51:12.298408+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods"
+    },
+    {
+      "attempt": 0,
+      "delay_seconds": 0.5,
+      "kind": "page",
+      "reason": "RemoteProtocolError",
+      "request_attempt": false,
+      "status": "retrying",
+      "timestamp": "2026-10-09T19:51:12.298451+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods"
+    },
+    {
+      "attempt": 1,
+      "bytes": 23642,
+      "duration_ms": 1146,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:13.950837+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods"
+    }
+  ],
+  "requested_skill_name": "Research-20180815AGeometryOfMoods",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180815ageometryofmoods",
+  "skill_sha256": "bcf9813d1f2739f37f79775f9153fb4cd7dcd7e3b386aecf63e24c534fd82b4d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180815AGeometryOfMoods"
+  ],
+  "target_id": "research-20180815ageometryofmoods",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "59c6e0d6d0fbf9de85cb727197c1d315576de953a3f03c6b158e2c397acd429e",
+      "fetched_at": "2026-10-09T19:25:03.585529+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/UnderstandingYonedaLemma",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/UnderstandingYonedaLemma",
+      "status_code": 200,
+      "title": "Research / UnderstandingYonedaLemma",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/UnderstandingYonedaLemma"
+    }
+  ],
+  "target_id": "research-understandingyonedalemma"
+}

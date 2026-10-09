@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fd5c3d992e0566753eda70868da6e81d8f89d6d7f333a6e9f59c982a8b5817c0",
+      "fetched_at": "2026-10-09T19:41:22.523438+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Universe",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Universe",
+      "status_code": 200,
+      "title": "Research / Universe",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Universe"
+    }
+  ],
+  "target_id": "research-universe"
+}

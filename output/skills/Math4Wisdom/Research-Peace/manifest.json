@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f135a5e69a00726d92294d0043e6849ffbf0ab7038c70073b58337369c6113ac",
+    "references/sources.json": "ab9e5be6b7c135b593e7616aa284be5f26f7141acf393334da6b1951c1c7c87d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1efcafb889c935a45b1e3259d2cdd3d68b367b3310f2623cc489362a9ab0cc31",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "81afa2e0cbf62abd6c8e7d007fe16cb159efd4a08f8058b834a9ace3675c9189"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:52:33.885237+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Peace.",
+    "page_count": 1,
+    "portable_skill_name": "research-peace",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Peace",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "5495b2c14d75eeb25f510a27c89b535140628bf72ef4b1a7cbce7aa9a866de5f",
+      "fetched_at": "2026-10-09T19:47:27.798819+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Peace",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Peace",
+      "status_code": 200,
+      "text_sha256": "23b291434540354b03b281599ef5e7196d6c63f20cabed1a466dcaf8d12eff19",
+      "title": "Research / Peace",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Peace",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-peace",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25048,
+      "duration_ms": 253,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:47:26.876169+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Peace"
+    }
+  ],
+  "requested_skill_name": "Research-Peace",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-peace",
+  "skill_sha256": "f135a5e69a00726d92294d0043e6849ffbf0ab7038c70073b58337369c6113ac",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Peace"
+  ],
+  "target_id": "research-peace",
+  "warnings": []
+}

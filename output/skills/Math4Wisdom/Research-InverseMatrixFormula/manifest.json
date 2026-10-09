@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3be4984d89d7637a35b46af8278904619386d39e36fc5aee87335e446b7183c2",
+    "references/sources.json": "519d32d46d72527f6ae4998f2ead3b263c741cd87b7a7f92d912b3425624fad6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8fed03b0264da2a1bfc2ee7b69342923077b18d3fa35fb9e234154a165bae099",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e1e05d2e9f1fd3542555add38619c3f1eee1e0cf921e604e95cb4d3c66f62bd9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:42:54.290064+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-InverseMatrixFormula.",
+    "page_count": 1,
+    "portable_skill_name": "research-inversematrixformula",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-InverseMatrixFormula",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "a73fe14ed971459830e79e5b3e68dba28046763c2aaf925ad94151157cfbd1ca",
+      "fetched_at": "2026-10-09T19:38:36.427972+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/InverseMatrixFormula",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/InverseMatrixFormula",
+      "status_code": 200,
+      "text_sha256": "e52b1c6c42f4b9fd975f8f1b538b310d366f869dcc6d053933eefa352a2bd800",
+      "title": "Research / InverseMatrixFormula",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/InverseMatrixFormula",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-inversematrixformula",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10938,
+      "duration_ms": 215,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:38:34.914162+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/InverseMatrixFormula"
+    }
+  ],
+  "requested_skill_name": "Research-InverseMatrixFormula",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-inversematrixformula",
+  "skill_sha256": "3be4984d89d7637a35b46af8278904619386d39e36fc5aee87335e446b7183c2",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/InverseMatrixFormula"
+  ],
+  "target_id": "research-inversematrixformula",
+  "warnings": []
+}

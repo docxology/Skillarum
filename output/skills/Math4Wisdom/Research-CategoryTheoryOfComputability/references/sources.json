@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5a127f58e3b977981d9983636eecce910afcc6f4beb976462766647b0f345121",
+      "fetched_at": "2026-10-09T19:28:34.240548+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryOfComputability",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryOfComputability",
+      "status_code": 200,
+      "title": "Research / CategoryTheoryOfComputability",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CategoryTheoryOfComputability"
+    }
+  ],
+  "target_id": "research-categorytheoryofcomputability"
+}

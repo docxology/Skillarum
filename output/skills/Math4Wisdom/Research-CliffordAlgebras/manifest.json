@@ -1,0 +1,111 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "ec12b2e08c316f8533718cacf4fee9251e146016ba89a100a5291fac053ab57f",
+    "references/sources.json": "f3838769e6dfa9a49b0e416d78697e3364ca30531d91c6f426417f54d71677d6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "981e246ca97d08a49666334fe429e7c0be289e64c4ecb8c345fab01be737d6ff",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "bb6df1fce8a48a012739e178b13831f0eac2262b2f290e9501a55b09a04974a5"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:32:56.459261+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CliffordAlgebras.",
+    "page_count": 1,
+    "portable_skill_name": "research-cliffordalgebras",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CliffordAlgebras",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras: text truncated to 40000 characters"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "31d070155febdc080570b52a08828184c343a77aa02d6b00b2bbae9670f7aff5",
+      "fetched_at": "2026-10-09T19:31:00.154640+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras",
+      "status_code": 200,
+      "text_sha256": "e8fd448b1ed2dcc7952df37ea571cadb0a34dcdb229e473a5545d922aec5f2c9",
+      "title": "Research / CliffordAlgebras",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-cliffordalgebras",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 102216,
+      "duration_ms": 472,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:30:20.237555+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras"
+    }
+  ],
+  "requested_skill_name": "Research-CliffordAlgebras",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-cliffordalgebras",
+  "skill_sha256": "ec12b2e08c316f8533718cacf4fee9251e146016ba89a100a5291fac053ab57f",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras"
+  ],
+  "target_id": "research-cliffordalgebras",
+  "warnings": [
+    "https://www.math4wisdom.com/wiki/Research/CliffordAlgebras: text truncated to 40000 characters"
+  ]
+}

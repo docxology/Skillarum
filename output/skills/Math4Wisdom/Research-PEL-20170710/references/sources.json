@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b710cd8808928d0f1a1b5ecbcc7e78547fbdc16f13ce0df3dcc92019de01c9fb",
+      "fetched_at": "2026-10-09T19:54:09.840673+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PEL-20170710",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PEL-20170710",
+      "status_code": 200,
+      "title": "Research / PEL-20170710",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PEL-20170710"
+    }
+  ],
+  "target_id": "research-pel-20170710"
+}

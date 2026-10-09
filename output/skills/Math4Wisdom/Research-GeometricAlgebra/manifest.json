@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "db695bb6431045a51f4565ad85bd165b4250f87da126ea9a59d973f09756310d",
+    "references/sources.json": "463b11279cabe4500be106403e6e27995e433d1ab1e994f44768ec2f5435b879"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c7e18e6aba9a15c01de3165f98527d251e9eacde7cf9ce1761f40da50b45a0f4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "ca29c21f0c4db0e29fd4fce9f35fc4a84e07ec7af0aa6aac97e5fe9bb8b3d0ca"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:40:01.760084+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-GeometricAlgebra.",
+    "page_count": 1,
+    "portable_skill_name": "research-geometricalgebra",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-GeometricAlgebra",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "64588a63bb8b8de2919e3b175dd339d6968833df0f874a2d41c74481a2cf9ad6",
+      "fetched_at": "2026-10-09T19:35:37.617920+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra",
+      "status_code": 200,
+      "text_sha256": "0c90787c4b5c3285983750966db2a572e329abf12044a9eb9bd811db8000447c",
+      "title": "Research / GeometricAlgebra",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-geometricalgebra",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12857,
+      "duration_ms": 722,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:35:33.951122+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra"
+    }
+  ],
+  "requested_skill_name": "Research-GeometricAlgebra",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-geometricalgebra",
+  "skill_sha256": "db695bb6431045a51f4565ad85bd165b4250f87da126ea9a59d973f09756310d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra"
+  ],
+  "target_id": "research-geometricalgebra",
+  "warnings": []
+}

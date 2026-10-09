@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fa16f4a601c220284f747355a21914666ccaee860ed02685907a4b56180d0048",
+      "fetched_at": "2026-10-09T19:28:08.464392+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Topos",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Topos",
+      "status_code": 200,
+      "title": "Research / Topos",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Topos"
+    }
+  ],
+  "target_id": "research-topos"
+}

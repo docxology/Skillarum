@@ -1,0 +1,77 @@
+{
+  "profile_id": "active-inference-institute",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2e1cc418c96dead1e8dc5d205bd3e6aa81cd4fe1f1da996466024a78e73578d3",
+      "fetched_at": "2026-09-08T19:06:59.943612+00:00",
+      "final_url": "https://activeinference.institute/learning/",
+      "requested_url": "https://activeinference.institute/learning/",
+      "status_code": 200,
+      "title": "Learning and Research | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/learning/"
+    },
+    {
+      "content_sha256": "1a2e1c559c51c096356d2a226f702e1f2878589d453f5255a9a54e28e050e227",
+      "fetched_at": "2026-09-08T19:07:00.195652+00:00",
+      "final_url": "https://activeinference.institute/programs/",
+      "requested_url": "https://activeinference.institute/programs/",
+      "status_code": 200,
+      "title": "Programs | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/programs/"
+    },
+    {
+      "content_sha256": "0424a42606475d1b91206dc1902cb5d02fefcf38c6d3be7e6573081d84a80236",
+      "fetched_at": "2026-09-08T19:07:00.547022+00:00",
+      "final_url": "https://activeinference.institute/get-involved/",
+      "requested_url": "https://activeinference.institute/get-involved/",
+      "status_code": 200,
+      "title": "Get Involved | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/get-involved/"
+    },
+    {
+      "content_sha256": "36c415b9acedd57390d7ebc9b1444a28c75b88af9ea86433d02a338cf0c35d59",
+      "fetched_at": "2026-09-08T19:07:00.670387+00:00",
+      "final_url": "https://activeinference.institute/activities/",
+      "requested_url": "https://activeinference.institute/activities/",
+      "status_code": 200,
+      "title": "Activities | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/activities/"
+    },
+    {
+      "content_sha256": "e6db9378741c523745159584523a2b771deb10cebac5d30cdc8816793456254c",
+      "fetched_at": "2026-09-08T19:07:01.028315+00:00",
+      "final_url": "https://activeinference.institute/projects/fundamentals-active-inference/",
+      "requested_url": "https://activeinference.institute/projects/fundamentals-active-inference/",
+      "status_code": 200,
+      "title": "Fundamentals of Active Inference | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/fundamentals-active-inference/"
+    },
+    {
+      "content_sha256": "e7281d85fd50c19ccb178c063f7526486cb6d780eb341123fb6a7d0111391ab6",
+      "fetched_at": "2026-09-08T19:07:01.174881+00:00",
+      "final_url": "https://activeinference.institute/projects/seasonal-school/",
+      "requested_url": "https://activeinference.institute/projects/seasonal-school/",
+      "status_code": 200,
+      "title": "Seasonal School | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/seasonal-school/"
+    },
+    {
+      "content_sha256": "b801c31cab14c04130dcac6062ddcad53a767732d87fb0562df1b7f70ed0aadc",
+      "fetched_at": "2026-09-08T19:07:01.571732+00:00",
+      "final_url": "https://activeinference.institute/projects/textbook-group/",
+      "requested_url": "https://activeinference.institute/projects/textbook-group/",
+      "status_code": 200,
+      "title": "Textbook Group | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/textbook-group/"
+    }
+  ],
+  "target_id": "institute-programs"
+}

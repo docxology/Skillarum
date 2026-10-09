@@ -1,0 +1,111 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "883ceee6842935d7e7a677d6ba816fc5051b012728404d2d3e9032650334382c",
+    "references/sources.json": "4b57481e99adeecd2f56991d4bd8cd513f5c4eabca45433c6568496fffd4823d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2fc449cc6981b650a6a544c238e5e2917065cec0ff53de355227ac0cdb30fd1f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "069bf5ed9c61b66b7c35dc5f7cf5fdd1a5df9a2415b677302d4382784061071b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:51:56.052810+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-NeuroscienceDiscovery.",
+    "page_count": 1,
+    "portable_skill_name": "research-neurosciencediscovery",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-NeuroscienceDiscovery",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery: text truncated to 40000 characters"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6177a5669d9119752f1d442aa87c25ebd06b7ac1bdfe2b2fafe0b9de910177f0",
+      "fetched_at": "2026-10-09T19:46:51.314032+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery",
+      "status_code": 200,
+      "text_sha256": "3b0e824a190657a73818803049081d8d11754d25846edc697c4d087928b1020a",
+      "title": "Research / NeuroscienceDiscovery",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-neurosciencediscovery",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 89816,
+      "duration_ms": 459,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:46:25.687927+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery"
+    }
+  ],
+  "requested_skill_name": "Research-NeuroscienceDiscovery",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-neurosciencediscovery",
+  "skill_sha256": "883ceee6842935d7e7a677d6ba816fc5051b012728404d2d3e9032650334382c",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery"
+  ],
+  "target_id": "research-neurosciencediscovery",
+  "warnings": [
+    "https://www.math4wisdom.com/wiki/Research/NeuroscienceDiscovery: text truncated to 40000 characters"
+  ]
+}

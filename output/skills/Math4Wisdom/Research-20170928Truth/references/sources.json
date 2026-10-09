@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bf60eda9381d3f3dce0449739cbf3a920c439e757d43e56b11394ddffb3306f8",
+      "fetched_at": "2026-10-09T19:48:50.512608+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170928Truth",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170928Truth",
+      "status_code": 200,
+      "title": "Research / 20170928Truth",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170928Truth"
+    }
+  ],
+  "target_id": "research-20170928truth"
+}

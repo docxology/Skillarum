@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2e2e67d74e84a3684987920c51651786ff5b4136f76f1173a383b60c3f96fc59",
+      "fetched_at": "2026-10-09T19:53:51.858845+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EthicsCourse",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EthicsCourse",
+      "status_code": 200,
+      "title": "Research / EthicsCourse",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EthicsCourse"
+    }
+  ],
+  "target_id": "research-ethicscourse"
+}

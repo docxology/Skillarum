@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9f66476906c604f25c467bc247f66d5d058d8c18b7b018c6a0395bf3f8b86116",
+    "references/sources.json": "f91b4fb5d64ea7d70c516852f45900a2f337ea0b97d83b947da5a26cbfab9ea0"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a2540a6c7cc97d274a7b4f7f36e87b7f8266faf37286a0e7d3ad9e69b2d28f29",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "4c6bde0be2d6dba01a235ec1dd956b932d942ff19951f81309183d8e36852648"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:31:54.946869+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-PascalTriangleDiagonals.",
+    "page_count": 1,
+    "portable_skill_name": "research-pascaltrianglediagonals",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-PascalTriangleDiagonals",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "28a7e924221e97ba76a9438adc10fa9adcbe957613be47c5bb82e8c6c502be85",
+      "fetched_at": "2026-10-09T19:29:52.378925+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals",
+      "status_code": 200,
+      "text_sha256": "ca91dd286c8f74e63fb2338b37d60dfb29be2bc54d161c655871c4adaa6aaf6a",
+      "title": "Research / PascalTriangleDiagonals",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-pascaltrianglediagonals",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11412,
+      "duration_ms": 1636,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:29:51.954163+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals"
+    }
+  ],
+  "requested_skill_name": "Research-PascalTriangleDiagonals",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-pascaltrianglediagonals",
+  "skill_sha256": "9f66476906c604f25c467bc247f66d5d058d8c18b7b018c6a0395bf3f8b86116",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/PascalTriangleDiagonals"
+  ],
+  "target_id": "research-pascaltrianglediagonals",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f1626614411cbdded70cbf1911cd05c3afd51e25bd76d53eed1bbbe8ba1466e2",
+    "references/sources.json": "1bff04e924e280bc5f7c7ecc9dae41937d9b2948aee2b81f259815ec5154edb9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "dbe3223586838c95200f1bd98b8e0e1b60d7cd62b61bb6142e1758c59405c4d1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b393ae43a4489965d33912ef287372f804ab5f15aa6bfbdec9b174ef3dc1cd6e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:56:44.438859+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180207Attempt.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180207attempt",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180207Attempt",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "7c14df7b96ddabb5d9629315e268a391f16ac7938c191a65a1e6b875512e3d53",
+      "fetched_at": "2026-10-09T19:50:00.750926+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180207Attempt",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180207Attempt",
+      "status_code": 200,
+      "text_sha256": "73e45282af511bdeacee8c9d0d006c0e882e96fa4457c8dfb000e2b2858edeff",
+      "title": "Research / 20180207Attempt",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180207Attempt",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180207attempt",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 19956,
+      "duration_ms": 222,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:59.836752+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180207Attempt"
+    }
+  ],
+  "requested_skill_name": "Research-20180207Attempt",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180207attempt",
+  "skill_sha256": "f1626614411cbdded70cbf1911cd05c3afd51e25bd76d53eed1bbbe8ba1466e2",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180207Attempt"
+  ],
+  "target_id": "research-20180207attempt",
+  "warnings": []
+}

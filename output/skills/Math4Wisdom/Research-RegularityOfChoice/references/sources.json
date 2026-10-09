@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e57c2ae391baa181d720f64dd1c497393719a559b6567f38a3080ab5a7472b9d",
+      "fetched_at": "2026-10-09T19:36:47.982617+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RegularityOfChoice",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RegularityOfChoice",
+      "status_code": 200,
+      "title": "Research / RegularityOfChoice",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RegularityOfChoice"
+    }
+  ],
+  "target_id": "research-regularityofchoice"
+}

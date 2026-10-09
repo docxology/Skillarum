@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7882cf3bed13a2ab98940ad67db482615a53dac6751d4dc8db2697bf4cea2008",
+    "references/sources.json": "fdb99bcbe88c233300af9207fee392aecc0d752f69ecdc794592e166487d9875"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e38de686ae41c3e8a6095456c168018ecf6f29356f4d04f4c1981f201e7e1f88",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "dca0c08bc560b0c77bd5f450f751d814fb3f3b1efae8353d5ffc5e8011667ac1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:36.434101+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170615Freedom.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170615freedom",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170615Freedom",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "07834ae2f30361e25d2e3e050c8dc8241286a153f3663a5fb12a9c65cba0e5da",
+      "fetched_at": "2026-10-09T19:48:12.650252+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom",
+      "status_code": 200,
+      "text_sha256": "dc627d28ac9766bfb6aa3e3cd5c8e04ec2b1c33ec1cb66a5fb472b9822cc445b",
+      "title": "Research / 20170615Freedom",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170615freedom",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13154,
+      "duration_ms": 228,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:12.437396+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom"
+    }
+  ],
+  "requested_skill_name": "Research-20170615Freedom",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170615freedom",
+  "skill_sha256": "7882cf3bed13a2ab98940ad67db482615a53dac6751d4dc8db2697bf4cea2008",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170615Freedom"
+  ],
+  "target_id": "research-20170615freedom",
+  "warnings": []
+}

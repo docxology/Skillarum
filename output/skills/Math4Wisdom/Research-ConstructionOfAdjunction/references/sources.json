@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e252221a5353d7585d402aaa8790661ecfbd20bc849ddc3584cfc573bf6b7c67",
+      "fetched_at": "2026-10-09T19:26:52.202459+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ConstructionOfAdjunction",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ConstructionOfAdjunction",
+      "status_code": 200,
+      "title": "Research / ConstructionOfAdjunction",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ConstructionOfAdjunction"
+    }
+  ],
+  "target_id": "research-constructionofadjunction"
+}

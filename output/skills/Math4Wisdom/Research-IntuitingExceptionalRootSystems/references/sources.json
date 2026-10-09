@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b650e7c3957b8ea10876b6ee4792d119f4f9c5ae7444e42f043dc365a659ff05",
+      "fetched_at": "2026-10-09T19:33:14.888362+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems",
+      "status_code": 200,
+      "title": "Research / IntuitingExceptionalRootSystems",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems"
+    }
+  ],
+  "target_id": "research-intuitingexceptionalrootsystems"
+}

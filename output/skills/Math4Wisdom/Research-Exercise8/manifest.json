@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "cd1e1f454f40414cc5dd0db60bb68d663c12fa832e82fabd766a80d0a75afded",
+    "references/sources.json": "e0cc7450f0e8f27f4cb70e1457f385be4b3149c3e8c8e75e1c2074f4e5d985b3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ff0f13271a68acb00cd3367e8876665fcf355f984a360b9571b7cc2c65a28cb8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e73b5ab1a8f43e8518d291167f0df9a8ade0cfe583bcdce4bce296442b709304"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:45:27.624159+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Exercise8.",
+    "page_count": 1,
+    "portable_skill_name": "research-exercise8",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Exercise8",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "7459bbcef84bf73610396dcb134cb985f09e176252958ca86ce249cccc74fb47",
+      "fetched_at": "2026-10-09T19:41:02.619490+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Exercise8",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Exercise8",
+      "status_code": 200,
+      "text_sha256": "2d8f331fb8fedbf37f5ef916b8af498c42bca7d1ec43435f90a0a3202ab14833",
+      "title": "Research / Exercise8",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Exercise8",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-exercise8",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10754,
+      "duration_ms": 210,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:41:01.999384+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Exercise8"
+    }
+  ],
+  "requested_skill_name": "Research-Exercise8",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-exercise8",
+  "skill_sha256": "cd1e1f454f40414cc5dd0db60bb68d663c12fa832e82fabd766a80d0a75afded",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Exercise8"
+  ],
+  "target_id": "research-exercise8",
+  "warnings": []
+}

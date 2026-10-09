@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "451f4a9fffedbe99f993ec455269fe54977e80bad3d2330eeb6149350c4b3b1d",
+      "fetched_at": "2026-10-09T19:35:43.874399+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometry",
+      "status_code": 200,
+      "title": "Research / AlgebraicGeometry",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometry"
+    }
+  ],
+  "target_id": "research-algebraicgeometry"
+}

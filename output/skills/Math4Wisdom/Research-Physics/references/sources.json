@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "00a253f23736976d142dbde878b5352520a38f2d6c00d4263fa4ef65f07d02d0",
+      "fetched_at": "2026-10-09T19:41:11.645543+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Physics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Physics",
+      "status_code": 200,
+      "title": "Research / Physics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Physics"
+    }
+  ],
+  "target_id": "research-physics"
+}

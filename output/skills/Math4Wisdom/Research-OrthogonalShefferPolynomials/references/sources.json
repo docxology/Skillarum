@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d23a479732c745985a32d1c4dd8f3801301fbf363d695a4ce86a92617d85d11b",
+      "fetched_at": "2026-10-09T19:43:33.258634+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/OrthogonalShefferPolynomials",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/OrthogonalShefferPolynomials",
+      "status_code": 200,
+      "title": "Research / OrthogonalShefferPolynomials",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/OrthogonalShefferPolynomials"
+    }
+  ],
+  "target_id": "research-orthogonalshefferpolynomials"
+}

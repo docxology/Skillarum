@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bd889e8e7b9f4edeba3cb62a7366b55d72def68dcf1155528da7696e03a78a59",
+      "fetched_at": "2026-10-09T19:30:14.994218+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement",
+      "status_code": 200,
+      "title": "Research / FieldWithOneElement",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement"
+    }
+  ],
+  "target_id": "research-fieldwithoneelement"
+}

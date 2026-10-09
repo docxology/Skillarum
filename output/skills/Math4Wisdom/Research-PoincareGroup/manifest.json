@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "2ef3c13bc12ab7e2dac063593f2806a133a313b7d8d294237946cde0f4447d4a",
+    "references/sources.json": "640fa0c5808d6d46361d636f47542add9a58f1d4186ae1908c451936af133252"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "13c977b11ee8a9a4690015bc688ab4a2bca2ccbfbc0f79071cd36ec10a12b8ee",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "6cf445e9f37fedeb947eaf890d65114d7881e7ba4d096e3835ab47e82b6534d9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:34:34.488191+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-PoincareGroup.",
+    "page_count": 1,
+    "portable_skill_name": "research-poincaregroup",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-PoincareGroup",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "139c92f736e1e80d1a42ebfead099bf885226f4547c7b80c9bd5fe6e3e021cae",
+      "fetched_at": "2026-10-09T19:32:34.439071+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PoincareGroup",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PoincareGroup",
+      "status_code": 200,
+      "text_sha256": "f79eee74bf2158a403dbb3070ac21b621e15b96bc74856f74c01106cb477181c",
+      "title": "Research / PoincareGroup",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PoincareGroup",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-poincaregroup",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16638,
+      "duration_ms": 219,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:32:32.687757+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/PoincareGroup"
+    }
+  ],
+  "requested_skill_name": "Research-PoincareGroup",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-poincaregroup",
+  "skill_sha256": "2ef3c13bc12ab7e2dac063593f2806a133a313b7d8d294237946cde0f4447d4a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/PoincareGroup"
+  ],
+  "target_id": "research-poincaregroup",
+  "warnings": []
+}

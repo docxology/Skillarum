@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "df1c7d4a9c6f20dcc7f171b674a686c0f4505f4cf1d028659886cedb22befe13",
+      "fetched_at": "2026-10-09T19:45:39.407573+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ChemistryDiscovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ChemistryDiscovery",
+      "status_code": 200,
+      "title": "Research / ChemistryDiscovery",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/ChemistryDiscovery"
+    }
+  ],
+  "target_id": "research-chemistrydiscovery"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5c9a5a4a0e36455f10a83091f1ef587dc0fb408bf1ee9173f03b503a2747fec7",
+      "fetched_at": "2026-10-09T19:30:18.797609+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FiniteFields",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FiniteFields",
+      "status_code": 200,
+      "title": "Research / FiniteFields",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FiniteFields"
+    }
+  ],
+  "target_id": "research-finitefields"
+}

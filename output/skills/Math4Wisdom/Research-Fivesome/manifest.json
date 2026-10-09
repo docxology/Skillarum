@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "bdd4ba9486c7c72172694962b247afbd87eb6c3efb012fdda2a994954aa7c9c8",
+    "references/sources.json": "b6ca76b6b3efe39cb5874056a9c1b46ab46d488d6db4e13ffdfacb0a80861dbd"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "10576c41a06de362bbefa656aae59592fe1b88a359c48ef5a5ff070dd7fe2b20",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b85eb6d3e9c38f0a3cc190efce9a9966fbfb9125ce2b4e877f8904848d937ca9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:19:35.199857+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Fivesome.",
+    "page_count": 1,
+    "portable_skill_name": "research-fivesome",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Fivesome",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "29a166072c8c7bfa6b3b585ce3fe70ed257580face7bf3aff208f93b3d568a33",
+      "fetched_at": "2026-10-09T19:17:34.885793+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Fivesome",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Fivesome",
+      "status_code": 200,
+      "text_sha256": "d62bb33d54fdaec9af05c6fd8955053370b7ccb85e23ec6cce14751f871bbe89",
+      "title": "Research / Fivesome",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Fivesome",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-fivesome",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 59884,
+      "duration_ms": 438,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:17:21.244264+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Fivesome"
+    }
+  ],
+  "requested_skill_name": "Research-Fivesome",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-fivesome",
+  "skill_sha256": "bdd4ba9486c7c72172694962b247afbd87eb6c3efb012fdda2a994954aa7c9c8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Fivesome"
+  ],
+  "target_id": "research-fivesome",
+  "warnings": []
+}

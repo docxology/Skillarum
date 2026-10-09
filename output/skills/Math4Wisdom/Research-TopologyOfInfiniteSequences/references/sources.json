@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a0f50d85141bc08d06092a77218b4125b6b08395a5660147e28c46d6557f024b",
+      "fetched_at": "2026-10-09T19:29:54.605052+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences",
+      "status_code": 200,
+      "title": "Research / TopologyOfInfiniteSequences",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TopologyOfInfiniteSequences"
+    }
+  ],
+  "target_id": "research-topologyofinfinitesequences"
+}

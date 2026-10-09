@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6dbc032bf571e955132ef790646259c57e5654a6e29c1cdb9283aeb6a4de3602",
+      "fetched_at": "2026-10-09T19:28:39.351942+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ExponentialObject",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ExponentialObject",
+      "status_code": 200,
+      "title": "Research / ExponentialObject",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ExponentialObject"
+    }
+  ],
+  "target_id": "research-exponentialobject"
+}

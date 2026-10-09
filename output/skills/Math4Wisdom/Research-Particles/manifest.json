@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "b0f327e55c8cfc12b9a0f21f6b1432cd3e75d0df78fd2c9e89e15e35ed7f6661",
+    "references/sources.json": "9a6fc97dbbf37b70ebc5cb6dec0019d7a533e48c46ea82034e5d0e5d64ffa46d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "19b298931bd60a4bc51947e07b7aa8818917c79ba7162bb6172425d50237a8c1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "c11a32d5a3ff2d6a27ab353ffc28aef6f6d8025e06ba477e854543238aecf39a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:47:51.832155+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Particles.",
+    "page_count": 1,
+    "portable_skill_name": "research-particles",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Particles",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3b97bf35dbae2eafadb49c4f7e042d76528ffef1565ad554b34c8c69f2046451",
+      "fetched_at": "2026-10-09T19:43:14.510781+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Particles",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Particles",
+      "status_code": 200,
+      "text_sha256": "496721473a79cf960deaaa52a61e6f20ee4baa9d7e106d93cbf596c24b597a0b",
+      "title": "Research / Particles",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Particles",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-particles",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12539,
+      "duration_ms": 215,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:43:13.991362+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Particles"
+    }
+  ],
+  "requested_skill_name": "Research-Particles",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-particles",
+  "skill_sha256": "b0f327e55c8cfc12b9a0f21f6b1432cd3e75d0df78fd2c9e89e15e35ed7f6661",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Particles"
+  ],
+  "target_id": "research-particles",
+  "warnings": []
+}

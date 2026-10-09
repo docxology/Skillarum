@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6765955ecbe679679f24bbb689a650d8f84b87553989a5ed90371ac6d70b4daa",
+      "fetched_at": "2026-10-09T19:16:52.581530+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Overview",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Overview",
+      "status_code": 200,
+      "title": "Research / Overview",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Overview"
+    }
+  ],
+  "target_id": "research-overview"
+}

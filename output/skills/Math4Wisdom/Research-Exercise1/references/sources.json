@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bba4194c51da146e120c29991bc68c5458db0e9df175789e7c0e900c9567e8be",
+      "fetched_at": "2026-10-09T19:40:54.413776+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Exercise1",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Exercise1",
+      "status_code": 200,
+      "title": "Research / Exercise1",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Exercise1"
+    }
+  ],
+  "target_id": "research-exercise1"
+}

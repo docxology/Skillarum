@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "98ad70b60c16830a93e2324009cdba7b1d7a3e79e52f8619387e3b87e36df665",
+    "references/sources.json": "d21bcd59bbba34e69ae0a2573e3a1434aab413ec20ea2c6014bfc4068d018a96"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "4401b2b7d4ec68b1f24380d5a8a1fe81e28aeba7c9033e3b53834c7ca5c4f43e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "9a5d1dab51718d6513376affeda0cc1f7a498918ca4e25602f350900fb889710"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:19.651873+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20190701ClassicalLieGroupsAndAlgebras.",
+    "page_count": 1,
+    "portable_skill_name": "research-20190701classicalliegroupsandalgebras",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20190701ClassicalLieGroupsAndAlgebras",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "a74998d0a0bd91c7daf4f536da649a31583132e834ec51e2bc7b6e8bdaf9767f",
+      "fetched_at": "2026-10-09T19:51:45.761074+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20190701ClassicalLieGroupsAndAlgebras",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20190701ClassicalLieGroupsAndAlgebras",
+      "status_code": 200,
+      "text_sha256": "932cfd3975a9b9c8ade2b088fec0b685fcbde3465b15673654a6108dd1290d47",
+      "title": "Research / 20190701ClassicalLieGroupsAndAlgebras",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20190701ClassicalLieGroupsAndAlgebras",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20190701classicalliegroupsandalgebras",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 28742,
+      "duration_ms": 257,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:44.040514+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20190701ClassicalLieGroupsAndAlgebras"
+    }
+  ],
+  "requested_skill_name": "Research-20190701ClassicalLieGroupsAndAlgebras",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20190701classicalliegroupsandalgebras",
+  "skill_sha256": "98ad70b60c16830a93e2324009cdba7b1d7a3e79e52f8619387e3b87e36df665",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20190701ClassicalLieGroupsAndAlgebras"
+  ],
+  "target_id": "research-20190701classicalliegroupsandalgebras",
+  "warnings": []
+}

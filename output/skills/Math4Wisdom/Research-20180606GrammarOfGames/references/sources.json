@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1a3f2bc6cdda0210c4a3cc22bb96912eae550fe611192b3cb4085a82bfba9ddb",
+      "fetched_at": "2026-10-09T19:50:23.692561+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames",
+      "status_code": 200,
+      "title": "Research / 20180606GrammarOfGames",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames"
+    }
+  ],
+  "target_id": "research-20180606grammarofgames"
+}

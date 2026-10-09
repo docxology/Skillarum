@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1c608e448d6c4fde09559015163b0f7f060ace035b6a209a112440fb98de601b",
+      "fetched_at": "2026-10-09T19:17:59.231478+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TruthAndValues",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TruthAndValues",
+      "status_code": 200,
+      "title": "Research / TruthAndValues",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TruthAndValues"
+    }
+  ],
+  "target_id": "research-truthandvalues"
+}

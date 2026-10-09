@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a191075533261ac292aaac0932ce54d94e9dcefd507cd6e7a6c91af443bddf18",
+    "references/sources.json": "bf81d707c30c9e16e4b3abac1cc117aac214de5cc6b590b401481350462ebced"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c837bf477ac5aa02ef25a685bd5b6e605433e0a36a891be741a683462d2622b4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b3a8e0f4112ac4f412005b000addb765649d41e863e19178f5f48eb4f927a88e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:32:13.927687+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-FieldWithOneElement.",
+    "page_count": 1,
+    "portable_skill_name": "research-fieldwithoneelement",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-FieldWithOneElement",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "bd889e8e7b9f4edeba3cb62a7366b55d72def68dcf1155528da7696e03a78a59",
+      "fetched_at": "2026-10-09T19:30:14.994218+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement",
+      "status_code": 200,
+      "text_sha256": "a511bf4c59942653355eb4209257553eb114e7c4bb7890d23007a87c9e7db174",
+      "title": "Research / FieldWithOneElement",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-fieldwithoneelement",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 38324,
+      "duration_ms": 250,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:30:00.660157+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement"
+    }
+  ],
+  "requested_skill_name": "Research-FieldWithOneElement",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-fieldwithoneelement",
+  "skill_sha256": "a191075533261ac292aaac0932ce54d94e9dcefd507cd6e7a6c91af443bddf18",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/FieldWithOneElement"
+  ],
+  "target_id": "research-fieldwithoneelement",
+  "warnings": []
+}

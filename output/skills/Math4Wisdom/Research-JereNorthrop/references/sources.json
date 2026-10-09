@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d54872373df103f6d7c2d44b8cd911e3381b7c640aed66ff8d9ebbf6d8f3b4b1",
+      "fetched_at": "2026-10-09T19:56:35.855699+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop",
+      "status_code": 200,
+      "title": "Research / JereNorthrop",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop"
+    }
+  ],
+  "target_id": "research-jerenorthrop"
+}

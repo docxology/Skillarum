@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "87b94ef4b7efa9fef289f0358f2f203f0dba34d2e6a0846f58bef7578b45956a",
+    "references/sources.json": "03fd3c0b0c1d2647f7156eb2d632044193a8ba6389fd21f2ae0ab0a42a7254e8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d4f6aad68330bd505616d2741dbb1900dcc37959f5180e1f1aaca937b5fde16d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b44b9722d6c8bebc290a334d22bfd50f93b22ac1da015ff1a64c54192835c26c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:20:24.041925+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-EmotionalLife.",
+    "page_count": 1,
+    "portable_skill_name": "research-emotionallife",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-EmotionalLife",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "9ed366a9b5b0789232af11e0799135ad22d9c64d3c53a888c1fdbff5dc193118",
+      "fetched_at": "2026-10-09T19:18:31.356064+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife",
+      "status_code": 200,
+      "text_sha256": "3849cdb9af9835fd071cfadacfcad3eb9261e42512c142571374f10dac339968",
+      "title": "Research / EmotionalLife",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-emotionallife",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11371,
+      "duration_ms": 218,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:18:31.246441+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife"
+    }
+  ],
+  "requested_skill_name": "Research-EmotionalLife",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-emotionallife",
+  "skill_sha256": "87b94ef4b7efa9fef289f0358f2f203f0dba34d2e6a0846f58bef7578b45956a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/EmotionalLife"
+  ],
+  "target_id": "research-emotionallife",
+  "warnings": []
+}

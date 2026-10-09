@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "130b27f0f5102f61721c8830a0558b9988894062a6bca11962f322b456c355d0",
+      "fetched_at": "2026-10-09T19:44:57.892352+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryFourLevels",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryFourLevels",
+      "status_code": 200,
+      "title": "Research / MathDiscoveryFourLevels",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryFourLevels"
+    }
+  ],
+  "target_id": "research-mathdiscoveryfourlevels"
+}

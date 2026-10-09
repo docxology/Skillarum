@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "0ef3f83991159715b5578f982116f102248fa849f6f78a465657844d46880d7c",
+    "references/sources.json": "8f7f20c297f4656c6a7064d3f425bc33f22ad5d5503c8f7b30ed678b2fb40cef"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9e870bf851727e3635aeb7dd2a765502bfaed1e837b4e1161216c8d4562916c4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a6ff95a41f229e3a2916d3b9b95c126055b690c2945650c5bded6c824a802868"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:38:16.226494+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Simplex.",
+    "page_count": 1,
+    "portable_skill_name": "research-simplex",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Simplex",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c74333eb4313e1e7f312d8d04e470412c69a049bcbfcdb57ab2e0ce3755221d2",
+      "fetched_at": "2026-10-09T19:33:58.022833+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Simplex",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Simplex",
+      "status_code": 200,
+      "text_sha256": "fa21dd18795249ad90ffc6135274805d435459513635e3e4a7e20763f22df3b8",
+      "title": "Research / Simplex",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Simplex",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-simplex",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25421,
+      "duration_ms": 226,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:55.230245+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Simplex"
+    }
+  ],
+  "requested_skill_name": "Research-Simplex",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-simplex",
+  "skill_sha256": "0ef3f83991159715b5578f982116f102248fa849f6f78a465657844d46880d7c",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Simplex"
+  ],
+  "target_id": "research-simplex",
+  "warnings": []
+}

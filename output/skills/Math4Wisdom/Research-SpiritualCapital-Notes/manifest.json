@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "31056f6e6eca3b81159c4e9c1bdcaf2f14d932962240d913e29c7fe099da8bf8",
+    "references/sources.json": "4892b96365c65c59c17691eeb1a2d510834034a837cc1ea57d63f9acb6607d00"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "266c43328a716e6e259193a7a93d052f1f123c3d576a7427c19b8933088bc84d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e731d51acd71212bf9b7afb30490173114a6e31212e49086399c66069885016a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:10.944433+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SpiritualCapital-Notes.",
+    "page_count": 1,
+    "portable_skill_name": "research-spiritualcapital-notes",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SpiritualCapital-Notes",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3c0d6c1a13a462f9e9a3e47e5819d5ee948abbe20c45780e28caeeba939e9cb9",
+      "fetched_at": "2026-10-09T19:51:36.303642+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital-Notes",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital-Notes",
+      "status_code": 200,
+      "text_sha256": "9c8b7c9de291826ac9e19678b1ccc57cde517757a958552515d65701a5994242",
+      "title": "Research / SpiritualCapital-Notes",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital-Notes",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-spiritualcapital-notes",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10482,
+      "duration_ms": 289,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:35.796483+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SpiritualCapital-Notes"
+    }
+  ],
+  "requested_skill_name": "Research-SpiritualCapital-Notes",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-spiritualcapital-notes",
+  "skill_sha256": "31056f6e6eca3b81159c4e9c1bdcaf2f14d932962240d913e29c7fe099da8bf8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SpiritualCapital-Notes"
+  ],
+  "target_id": "research-spiritualcapital-notes",
+  "warnings": []
+}

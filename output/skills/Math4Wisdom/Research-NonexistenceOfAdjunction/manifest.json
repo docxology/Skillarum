@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "fd4f77288631fce12674e896c1b4cfd3eb752b0f31f993555e631e729a73a8d9",
+    "references/sources.json": "3fa7cce71b6dce588be75ea3a56f9890bf3bd27fc0b62ea5396f576328a7509c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "96c082bf16b77dc3b350504f13680d8976cdae24034844e425611253070fd355",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "6755c041f303b4301ff2adc7011694331920c88d6ee4c910df78894148d7b555"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:28:18.423361+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-NonexistenceOfAdjunction.",
+    "page_count": 1,
+    "portable_skill_name": "research-nonexistenceofadjunction",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-NonexistenceOfAdjunction",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f172d89a4d7b2342e1b8b85d61af2284abea609dd64af67a72dce19d8e43961e",
+      "fetched_at": "2026-10-09T19:25:55.167534+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/NonexistenceOfAdjunction",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/NonexistenceOfAdjunction",
+      "status_code": 200,
+      "text_sha256": "1547b13930a92570b5f72ed709ba93ef040fecc5c02ef15e0bf5ad13c7a49ad5",
+      "title": "Research / NonexistenceOfAdjunction",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/NonexistenceOfAdjunction",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-nonexistenceofadjunction",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13221,
+      "duration_ms": 239,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:25:53.338839+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/NonexistenceOfAdjunction"
+    }
+  ],
+  "requested_skill_name": "Research-NonexistenceOfAdjunction",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-nonexistenceofadjunction",
+  "skill_sha256": "fd4f77288631fce12674e896c1b4cfd3eb752b0f31f993555e631e729a73a8d9",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/NonexistenceOfAdjunction"
+  ],
+  "target_id": "research-nonexistenceofadjunction",
+  "warnings": []
+}

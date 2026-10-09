@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "bfcd18e909167e6f3181dcf0ae5261ece63cc6460b6b7e363658c44a54f320a1",
+    "references/sources.json": "9d4287a4610b2b5e71c401d9e703a24aafd2013c1fd11a004a16c0748935ad04"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "189f1499386859116e53fc7f94fbfcf1fafb6fba9930055f2b63d4ced223d42e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a530454a55bfa046e76ab21d19a64a0b4fd7572aa2681f963f4d33eb14e6b4e3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:20:44.682809+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Math.",
+    "page_count": 1,
+    "portable_skill_name": "research-math",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Math",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "52654f70d57ff2979bcf8aee95a7c01b7873d1aa5abe3d5f49e7625eca50e43f",
+      "fetched_at": "2026-10-09T19:18:58.766604+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Math",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Math",
+      "status_code": 200,
+      "text_sha256": "ce17d6b7f58a025062be5f99adf3bef8282bf64676e4692264d4d35aebf7df3e",
+      "title": "Research / Math",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Math",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-math",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 18167,
+      "duration_ms": 228,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:18:45.039461+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Math"
+    }
+  ],
+  "requested_skill_name": "Research-Math",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-math",
+  "skill_sha256": "bfcd18e909167e6f3181dcf0ae5261ece63cc6460b6b7e363658c44a54f320a1",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Math"
+  ],
+  "target_id": "research-math",
+  "warnings": []
+}

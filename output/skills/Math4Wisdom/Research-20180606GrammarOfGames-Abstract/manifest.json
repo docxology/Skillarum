@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c1054fca0526bc9c15f69db2a735720544aad243ba850de7071af6ea7a323f36",
+    "references/sources.json": "3ac7fd9a2a10b2474580bc4a63de1ba08ea3df2fc71c9954c67bb3c076e986fa"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f18f8385b574fc11a67980ef8e9d44b6b79878ac9a801bf8635de276e3d898ba",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a4849e546b59fa838b527e6ce432a55a0893a1f10b5e4c589e187086eea87847"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:57:06.707454+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180606GrammarOfGames-Abstract.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180606grammarofgames-abstract",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180606GrammarOfGames-Abstract",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "af0238816a7e5ec5ecc15d19f9d21e312a43042a09566355024b9c4b12fc943f",
+      "fetched_at": "2026-10-09T19:50:26.945797+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames-Abstract",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames-Abstract",
+      "status_code": 200,
+      "text_sha256": "f5ff560f5971df7f6a5b938b633ec9926e2913157c5a7ca66f462059892163d1",
+      "title": "Research / 20180606GrammarOfGames-Abstract",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames-Abstract",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180606grammarofgames-abstract",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13047,
+      "duration_ms": 242,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:50:25.934786+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames-Abstract"
+    }
+  ],
+  "requested_skill_name": "Research-20180606GrammarOfGames-Abstract",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180606grammarofgames-abstract",
+  "skill_sha256": "c1054fca0526bc9c15f69db2a735720544aad243ba850de7071af6ea7a323f36",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180606GrammarOfGames-Abstract"
+  ],
+  "target_id": "research-20180606grammarofgames-abstract",
+  "warnings": []
+}

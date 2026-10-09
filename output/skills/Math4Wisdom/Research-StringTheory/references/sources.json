@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fc890d49bac1b8509d54b63f5eb7495351583a90acef7bcc2cacc788b6e8702b",
+      "fetched_at": "2026-10-09T19:42:30.157470+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/StringTheory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/StringTheory",
+      "status_code": 200,
+      "title": "Research / StringTheory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/StringTheory"
+    }
+  ],
+  "target_id": "research-stringtheory"
+}

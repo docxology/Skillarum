@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "56728ae32e9eaee1aab909bce9e32fd345ffd7eecfa2d9be881480bf777ab57a",
+      "fetched_at": "2026-10-09T19:17:52.928609+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth",
+      "status_code": 200,
+      "title": "Research / LandscapeOfTruth",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LandscapeOfTruth"
+    }
+  ],
+  "target_id": "research-landscapeoftruth"
+}

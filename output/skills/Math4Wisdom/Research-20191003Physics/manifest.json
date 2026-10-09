@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c2343b7ce823e53621fc5d2c41e9823e2979ba392c40e6fd363d209294808e52",
+    "references/sources.json": "03538a1eb9d18a46b903b1f9a3ff5e5d6ad7d1a17dc32915e72655663374da4c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "64f00721514d66b6c1828958b5bc6f5da87928ad90a43f23e2ca41ab37e5713a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "9588ec581eaa525a10d546f278324dc6c98fd8dfae12ccb0dc412a16d707ea3b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:25.002560+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20191003Physics.",
+    "page_count": 1,
+    "portable_skill_name": "research-20191003physics",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20191003Physics",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c801ec7e5f14f364bc8ae933c2a90f26b3144d3e5a36c4208e4f9c3dfa9d4265",
+      "fetched_at": "2026-10-09T19:51:54.753360+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20191003Physics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20191003Physics",
+      "status_code": 200,
+      "text_sha256": "0d7ea0b5ad187984b969fe90ba02c1f454e438f18ab5d900780764e2a3c5e68d",
+      "title": "Research / 20191003Physics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20191003Physics",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20191003physics",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14599,
+      "duration_ms": 1036,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:51.127405+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20191003Physics"
+    }
+  ],
+  "requested_skill_name": "Research-20191003Physics",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20191003physics",
+  "skill_sha256": "c2343b7ce823e53621fc5d2c41e9823e2979ba392c40e6fd363d209294808e52",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20191003Physics"
+  ],
+  "target_id": "research-20191003physics",
+  "warnings": []
+}

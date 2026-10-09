@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f128fa003e1d545a52a581e60455476ee21a1f66db5103afd10b2f5ef64d3a19",
+    "references/sources.json": "8a3da2f77267f1d2f60314cb952eabd5e1761e17449b3f4fbc906a371592b26a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c0e7e2a81bdb510e043e5b1f58dd0625802c14d7f06a9ee159cd0afce10134ab",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "bef9eec1be30a6895a57a69daae40646606bf717d5f0a682a2994351dcc0e10d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:39:17.812265+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Geometries.",
+    "page_count": 1,
+    "portable_skill_name": "research-geometries",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Geometries",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "890456349ac9d8be8695778c8a0ec01a2a0e353d58b0692ca6bdb30e9a221ef0",
+      "fetched_at": "2026-10-09T19:34:49.075638+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Geometries",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Geometries",
+      "status_code": 200,
+      "text_sha256": "4d4a46f3d31b762c3c87d06f51a3e118c452b054242ef4e72d18b13c0b662fe2",
+      "title": "Research / Geometries",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Geometries",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-geometries",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 19887,
+      "duration_ms": 729,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:34:32.778407+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Geometries"
+    }
+  ],
+  "requested_skill_name": "Research-Geometries",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-geometries",
+  "skill_sha256": "f128fa003e1d545a52a581e60455476ee21a1f66db5103afd10b2f5ef64d3a19",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Geometries"
+  ],
+  "target_id": "research-geometries",
+  "warnings": []
+}

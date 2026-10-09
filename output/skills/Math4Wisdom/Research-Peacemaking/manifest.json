@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "559010c5a8d7d0e564af4f81ff772d6b51bdf4eacdf33b4ca706b919c94aa572",
+    "references/sources.json": "af39d8ed8e27703e4498493993cea0f4962484c4a08cd90700f650e5bd9a7493"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2e09909e704430216ef00d02a8aed777620e6108f952cdb1b2c1abf8b33436b3",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "04a2f4e391632f48012e57fca472231730a1ceb6ce6152bec2228966883f296d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:52:12.002586+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Peacemaking.",
+    "page_count": 1,
+    "portable_skill_name": "research-peacemaking",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Peacemaking",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "7c19683cbc9dc4fe9ad862898eb69a2aeffad1dbdbe4f27205fd3ae9777ac045",
+      "fetched_at": "2026-10-09T19:47:11.994287+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Peacemaking",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Peacemaking",
+      "status_code": 200,
+      "text_sha256": "0e59d9f28ae34ecf7e1824062bfd639380e5d2d494f7aa1bce4fbf4aebd28ebb",
+      "title": "Research / Peacemaking",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Peacemaking",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-peacemaking",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 24911,
+      "duration_ms": 237,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:47:00.814020+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Peacemaking"
+    }
+  ],
+  "requested_skill_name": "Research-Peacemaking",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-peacemaking",
+  "skill_sha256": "559010c5a8d7d0e564af4f81ff772d6b51bdf4eacdf33b4ca706b919c94aa572",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Peacemaking"
+  ],
+  "target_id": "research-peacemaking",
+  "warnings": []
+}

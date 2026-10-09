@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "3c854a4e735c8896f3f98f90c6bb6e2b462658efa8482929dbaa2f7596b5e0d1",
+    "references/sources.json": "0796c45f4b698352d40a29ca93c5aea168f9c8fd86a5bbfce1c5dfcbd7f70450"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "66c476fd0c9f32045dde0f0da9360ac756416af7a754cdb7ca49531e404f37eb",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "3dcdfda5f52cb38dd4932bdee6c8ee9042be6b64f98f6880e31c5f85bbb05807"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:00:43.458355+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MoralImagination.",
+    "page_count": 1,
+    "portable_skill_name": "research-moralimagination",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MoralImagination",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "2bd36a033d466b74064623d5bf720d51f7ba42a10941352d57174431f478747f",
+      "fetched_at": "2026-10-09T19:53:54.494232+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MoralImagination",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MoralImagination",
+      "status_code": 200,
+      "text_sha256": "a969c347e84a12d309e048d79f98e442d2a99c9dd92cb295396aa3f1a75b0441",
+      "title": "Research / MoralImagination",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MoralImagination",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-moralimagination",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 20589,
+      "duration_ms": 876,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:53:53.371771+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MoralImagination"
+    }
+  ],
+  "requested_skill_name": "Research-MoralImagination",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-moralimagination",
+  "skill_sha256": "3c854a4e735c8896f3f98f90c6bb6e2b462658efa8482929dbaa2f7596b5e0d1",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MoralImagination"
+  ],
+  "target_id": "research-moralimagination",
+  "warnings": []
+}

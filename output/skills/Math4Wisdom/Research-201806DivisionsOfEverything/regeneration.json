@@ -1,0 +1,15 @@
+{
+  "backend": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "requested_skill_name": "Research-201806DivisionsOfEverything",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/201806DivisionsOfEverything"
+  ],
+  "target_id": "research-201806divisionsofeverything"
+}

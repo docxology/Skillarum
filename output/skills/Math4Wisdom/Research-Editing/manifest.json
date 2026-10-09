@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "39de173ceeb18b6da3bcd662113cafbf2776d0460e4ed8901ef5dbab45deaf00",
+    "references/sources.json": "1bf6a74eeb1154a20c286003b6a708f1157d385883e8e90366f582b788e1a704"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "db5f5ffc73d6075d8db2d2e5a4261ccef7eee383832e9bef5c850c751e2e0fb5",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "f28def623f59a79d878e5ace02176822e527caca8d02730a96d774a26d79fa88"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:18:31.055388+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Editing.",
+    "page_count": 1,
+    "portable_skill_name": "research-editing",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Editing",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "4ef88ba897d9b013307c3191674a8eefec83e2519fc2decb907dc40e0ba73104",
+      "fetched_at": "2026-10-09T19:16:16.938028+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Editing",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Editing",
+      "status_code": 200,
+      "text_sha256": "7d92a2e744b20ce7f2e11d2a90f7cf5c0592f3b6339c0abce0e861732fad7e3d",
+      "title": "Research / Editing",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Editing",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-editing",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10383,
+      "duration_ms": 226,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:16:16.020068+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Editing"
+    }
+  ],
+  "requested_skill_name": "Research-Editing",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-editing",
+  "skill_sha256": "39de173ceeb18b6da3bcd662113cafbf2776d0460e4ed8901ef5dbab45deaf00",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Editing"
+  ],
+  "target_id": "research-editing",
+  "warnings": []
+}

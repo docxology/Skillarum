@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "419772ab87fd09e3018244a0b8f26f96717bbb95db7a0ef0f9c201038a03895b",
+      "fetched_at": "2026-10-09T19:53:46.021410+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Wisdom",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Wisdom",
+      "status_code": 200,
+      "title": "Research / Wisdom",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Wisdom"
+    }
+  ],
+  "target_id": "research-wisdom"
+}

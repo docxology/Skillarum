@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "2c668fb8c1b88a7da6c349bf78f54c60958ccee51733fb29e7c1069d9caa4ec5",
+    "references/sources.json": "da2bf8cde9c50fff9ed111e57fd7a0fbc7ea51a5110c5266acff31b664b9e357"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9d2ceb4159c590d0fc0923596f91e7fa8a7c3e3364e3867276f9aeba47e8b3cd",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "ec293430dce0508df0c5e1f28677b00526b242aa9f141e13c0b53818f3ce0a7b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:39:36.670085+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MobiusTransformations.",
+    "page_count": 1,
+    "portable_skill_name": "research-mobiustransformations",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MobiusTransformations",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "e616604bf7d6700adce383a4017d124449a271737df340a351ed4b8c200167db",
+      "fetched_at": "2026-10-09T19:35:13.132615+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/M%c3%b6biusTransformations",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/M%c3%b6biusTransformations",
+      "status_code": 200,
+      "text_sha256": "15db81c0f9f18740f788f2f719abd23c89ebeb1235af2a697d37cef7a3898835",
+      "title": "Research / MöbiusTransformations",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/M%c3%b6biusTransformations",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mobiustransformations",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9995,
+      "duration_ms": 208,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:35:12.421434+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/M%c3%b6biusTransformations"
+    }
+  ],
+  "requested_skill_name": "Research-MobiusTransformations",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mobiustransformations",
+  "skill_sha256": "2c668fb8c1b88a7da6c349bf78f54c60958ccee51733fb29e7c1069d9caa4ec5",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/M%c3%b6biusTransformations"
+  ],
+  "target_id": "research-mobiustransformations",
+  "warnings": []
+}

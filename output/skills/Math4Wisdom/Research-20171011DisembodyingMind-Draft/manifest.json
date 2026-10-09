@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a1199ec5a1a60467f52145ce1ed4e085949505d6a9da14470fdd09804b43a8c1",
+    "references/sources.json": "f52ae9047392dd7b73793df42291e3b0cda3333160d81f55afe9439e322a07d9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cc19a5f704906cff7fb0ca541100e74fb30e610a3f45967e1ddf8a221931143d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "683c706db526f5edc9cf3717541b0b23f31ffcde4b71e87dc2c4c6aee62491dd"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:55:05.129194+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20171011DisembodyingMind-Draft.",
+    "page_count": 1,
+    "portable_skill_name": "research-20171011disembodyingmind-draft",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20171011DisembodyingMind-Draft",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b66a46a9c5758160ef42500e7225e8381286f8ad76e0197aeba026819cdc937d",
+      "fetched_at": "2026-10-09T19:48:58.100998+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171011DisembodyingMind-Draft",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171011DisembodyingMind-Draft",
+      "status_code": 200,
+      "text_sha256": "5454916c46e139195a95638e251eaf7e745be56c08d5db38ec583213176229f3",
+      "title": "Research / 20171011DisembodyingMind-Draft",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171011DisembodyingMind-Draft",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20171011disembodyingmind-draft",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 20558,
+      "duration_ms": 238,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:57.988119+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20171011DisembodyingMind-Draft"
+    }
+  ],
+  "requested_skill_name": "Research-20171011DisembodyingMind-Draft",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20171011disembodyingmind-draft",
+  "skill_sha256": "a1199ec5a1a60467f52145ce1ed4e085949505d6a9da14470fdd09804b43a8c1",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20171011DisembodyingMind-Draft"
+  ],
+  "target_id": "research-20171011disembodyingmind-draft",
+  "warnings": []
+}

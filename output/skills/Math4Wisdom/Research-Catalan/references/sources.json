@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cf5a39d4b42a3ae5339390bde4e01aae9bbc9375fe93a907e2d545c2a06bd489",
+      "fetched_at": "2026-10-09T19:40:02.479370+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Catalan",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Catalan",
+      "status_code": 200,
+      "title": "Research / Catalan",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Catalan"
+    }
+  ],
+  "target_id": "research-catalan"
+}

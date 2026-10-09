@@ -1,0 +1,119 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f612860981a8544f2ce6511211120bfd885b801fe0d8ec330d3828bbba1e5bad",
+    "references/sources.json": "7bee2e9f9d8e7620230dd4cf96a5402dd0396c8f1f92e7afa66ccb28a09db1e2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9f43d808130e3a3445738451c7fc4bc96e4ebeb494c85ea644c186575a1b8715",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "85b5bea5f963ba9c1693fa5a7312f227b608f8b48713e4bcdbe6558e2b1e16c3",
+    "request_count": 2,
+    "target_fingerprint": "848341ca76fbc5abcdad5e1d509c3bc64c8dee1c29704ca288287c929668ee47"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:13:30.709744+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Three-Minds.",
+    "page_count": 1,
+    "portable_skill_name": "three-minds",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Three-Minds",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "755d9575bacc16e4290b6f5834f570146dd4f3531808287ed9eb04c404288d2b",
+      "fetched_at": "2026-10-09T19:10:11.569545+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "requested_url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "status_code": 200,
+      "text_sha256": "ac7be0891c34ab64558a2468e8049d36ed573e15853f1ec9276b02e5a45725b2",
+      "title": "Exposition / StoryOfThreeMinds",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "warnings": []
+    }
+  ],
+  "portable_name": "three-minds",
+  "profile_fingerprint": "85b5bea5f963ba9c1693fa5a7312f227b608f8b48713e4bcdbe6558e2b1e16c3",
+  "profile_id": "math4wisdom",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 196,
+      "duration_ms": 735,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 404,
+      "timestamp": "2026-10-09T19:10:07.949735+00:00",
+      "url": "https://www.math4wisdom.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 38965,
+      "duration_ms": 256,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:08.206483+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds"
+    }
+  ],
+  "requested_skill_name": "Three-Minds",
+  "run_id": "math4wisdom--da69d47233c45cae1284",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "three-minds",
+  "skill_sha256": "f612860981a8544f2ce6511211120bfd885b801fe0d8ec330d3828bbba1e5bad",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds"
+  ],
+  "target_id": "three-minds",
+  "warnings": []
+}

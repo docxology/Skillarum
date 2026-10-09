@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "d6011e9adf789ec2dbbfb9f1ca066f5de487cc9dde2e2865a7df54544c0e6fdc",
+    "references/sources.json": "4edda8742008f774909d49ffca7699567511b489c7d0cd700d5e648736050a04"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d2e71bddc12270b38d20bcbbae49882d479ecd2e08f761a9d025f1a11cff723a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "23712d9c78e51ebb013963767283cc3b1988aab5828e31bf56b9d0fa6475bd4f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:30:55.712876+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SimplexCategory.",
+    "page_count": 1,
+    "portable_skill_name": "research-simplexcategory",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SimplexCategory",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6cc818e52cc7931b9031d754d150329516b5eb76f3a66b6119650b43458a5c9e",
+      "fetched_at": "2026-10-09T19:28:43.658004+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SimplexCategory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SimplexCategory",
+      "status_code": 200,
+      "text_sha256": "da5e8e0bf24b9a66df3293a8fdb11421020e72f77d60baac3add2650ea55dae3",
+      "title": "Research / SimplexCategory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SimplexCategory",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-simplexcategory",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12249,
+      "duration_ms": 211,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:28:43.137166+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SimplexCategory"
+    }
+  ],
+  "requested_skill_name": "Research-SimplexCategory",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-simplexcategory",
+  "skill_sha256": "d6011e9adf789ec2dbbfb9f1ca066f5de487cc9dde2e2865a7df54544c0e6fdc",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SimplexCategory"
+  ],
+  "target_id": "research-simplexcategory",
+  "warnings": []
+}

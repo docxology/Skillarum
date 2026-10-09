@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b553b1ea260dd6a62fdd24f53ca8c0e8b96e3ad89c453194b0c7e107911f14a4",
+      "fetched_at": "2026-10-09T19:50:28.870814+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/201806DivisionsOfEverything",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/201806DivisionsOfEverything",
+      "status_code": 200,
+      "title": "Research / 201806DivisionsOfEverything",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/201806DivisionsOfEverything"
+    }
+  ],
+  "target_id": "research-201806divisionsofeverything"
+}

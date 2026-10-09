@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d17900185e912205e8f36a0393f409d9755bda57b9ed53f1d86086c7bf963909",
+      "fetched_at": "2026-10-09T19:44:56.489355+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryLearningCycle",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryLearningCycle",
+      "status_code": 200,
+      "title": "Research / MathDiscoveryLearningCycle",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryLearningCycle"
+    }
+  ],
+  "target_id": "research-mathdiscoverylearningcycle"
+}

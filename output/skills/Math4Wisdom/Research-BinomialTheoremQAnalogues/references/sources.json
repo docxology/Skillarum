@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "edd06563fe10bffe3a5cd6ee4ef9ab6353db87a9fd171f68b0f1dc69330c009f",
+      "fetched_at": "2026-10-09T19:29:58.047203+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremQAnalogues",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremQAnalogues",
+      "status_code": 200,
+      "title": "Research / BinomialTheoremQAnalogues",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/BinomialTheoremQAnalogues"
+    }
+  ],
+  "target_id": "research-binomialtheoremqanalogues"
+}

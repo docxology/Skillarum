@@ -1,0 +1,185 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c9835181049b95c3c5c17473e5927989fcf001ac1b742a8ab479789ed7c87b37",
+    "references/sources.json": "33e34d17825c9eb649a741a47292b6b74a79dc48acf191bd5d7b2f8695afd536"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "acc7db2221e43a3dd25bcc9d1cb2903d5ce1a50c1ce1e66bf0cf121ff7bc89b8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "85b5bea5f963ba9c1693fa5a7312f227b608f8b48713e4bcdbe6558e2b1e16c3",
+    "request_count": 4,
+    "target_fingerprint": "c59586f99d2b9ee570d151b891749fb072dcd9b79ff3ee32ac53458f960c2022"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:13:43.673102+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Three-Minds-Exposition.",
+    "page_count": 4,
+    "portable_skill_name": "three-minds-exposition",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Three-Minds-Exposition",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "755d9575bacc16e4290b6f5834f570146dd4f3531808287ed9eb04c404288d2b",
+      "fetched_at": "2026-10-09T19:10:17.977902+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "requested_url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "status_code": 200,
+      "text_sha256": "ac7be0891c34ab64558a2468e8049d36ed573e15853f1ec9276b02e5a45725b2",
+      "title": "Exposition / StoryOfThreeMinds",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+      "warnings": []
+    },
+    {
+      "canonical_url": null,
+      "content_sha256": "e9063d2b4a4731fd408770907d3cf6ede69b88408b0a7ca2e37dace5462d1c9b",
+      "fetched_at": "2026-10-09T19:10:24.206539+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds",
+      "requested_url": "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds",
+      "status_code": 200,
+      "text_sha256": "822b2a59553f552f757357d912626a9a479b81e51f4ecb03dafa59948a16a63c",
+      "title": "Exposition / ThreeMinds",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds",
+      "warnings": []
+    },
+    {
+      "canonical_url": null,
+      "content_sha256": "cd86323975316390a01ebc0e9737345276236597d59405f8d9c98f771bbe06bd",
+      "fetched_at": "2026-10-09T19:10:27.705461+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Exposition/Vocabulary",
+      "requested_url": "https://www.math4wisdom.com/wiki/Exposition/Vocabulary",
+      "status_code": 200,
+      "text_sha256": "48cf0da5cd346dae0fcbaee4c7bb110e0fc9138c381cd1c7e725d15b64a24b8b",
+      "title": "Exposition / Vocabulary",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Exposition/Vocabulary",
+      "warnings": []
+    },
+    {
+      "canonical_url": null,
+      "content_sha256": "f538f769adb7a1768a161285d3f25b458d6d938b0f449edcab6c780cef138623",
+      "fetched_at": "2026-10-09T19:10:29.059195+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Exposition/Priorities",
+      "requested_url": "https://www.math4wisdom.com/wiki/Exposition/Priorities",
+      "status_code": 200,
+      "text_sha256": "d98564c85f7837c8cf9fa7401df3868cbaad667f9d9c0765f80ca6b3336d74db",
+      "title": "Exposition / Priorities",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Exposition/Priorities",
+      "warnings": []
+    }
+  ],
+  "portable_name": "three-minds-exposition",
+  "profile_fingerprint": "85b5bea5f963ba9c1693fa5a7312f227b608f8b48713e4bcdbe6558e2b1e16c3",
+  "profile_id": "math4wisdom",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 4,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 38965,
+      "duration_ms": 866,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:14.825976+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds"
+    },
+    {
+      "attempt": 0,
+      "bytes": 29349,
+      "duration_ms": 250,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:18.430770+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds"
+    },
+    {
+      "attempt": 0,
+      "bytes": 37307,
+      "duration_ms": 754,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 3,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:25.263511+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Exposition/Vocabulary"
+    },
+    {
+      "attempt": 0,
+      "bytes": 16597,
+      "duration_ms": 238,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 4,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:10:28.747290+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Exposition/Priorities"
+    }
+  ],
+  "requested_skill_name": "Three-Minds-Exposition",
+  "run_id": "math4wisdom--da69d47233c45cae1284",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "three-minds-exposition",
+  "skill_sha256": "c9835181049b95c3c5c17473e5927989fcf001ac1b742a8ab479789ed7c87b37",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds",
+    "https://www.math4wisdom.com/wiki/Exposition/ThreeMinds",
+    "https://www.math4wisdom.com/wiki/Exposition/Vocabulary",
+    "https://www.math4wisdom.com/wiki/Exposition/Priorities"
+  ],
+  "target_id": "three-minds-exposition",
+  "warnings": []
+}

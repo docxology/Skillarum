@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "eea355e54c8dc24607e9efd836b41c2ab743110e55981d2396249f5bbc2fa5a8",
+    "references/sources.json": "93d0affea1325d9307fcfd00d878d5515110a0a4c8e5dc937a1abfc9dbd7feff"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6994a2b7d5a00a899eb52e884e89db457df2ad4d19bbbca1dda6737a2fa3ab5a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1c8c83419d9a50f0bb1aebeaccdc6bab9913b98209b7415966a8b5523db8c430"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:42.903099+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20200726Exercises.",
+    "page_count": 1,
+    "portable_skill_name": "research-20200726exercises",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20200726Exercises",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "ae6678cb4d3a1014700e7fd99976a517aaeb30419b59434eeaec2ff7699b164f",
+      "fetched_at": "2026-10-09T19:52:09.792478+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20200726Exercises",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20200726Exercises",
+      "status_code": 200,
+      "text_sha256": "364adc58c94e6fdc6ae65fa9e55765b972da343a735299e9cd7a77f97e12d69b",
+      "title": "Research / 20200726Exercises",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20200726Exercises",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20200726exercises",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12128,
+      "duration_ms": 236,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:52:09.284475+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20200726Exercises"
+    }
+  ],
+  "requested_skill_name": "Research-20200726Exercises",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20200726exercises",
+  "skill_sha256": "eea355e54c8dc24607e9efd836b41c2ab743110e55981d2396249f5bbc2fa5a8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20200726Exercises"
+  ],
+  "target_id": "research-20200726exercises",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d58e68b701d3c92c2520190298b35616551cd81223df02674f82dffb68722040",
+      "fetched_at": "2026-10-09T19:36:45.676410+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems",
+      "status_code": 200,
+      "title": "Research / AlgebraicGeometryTheorems",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraicGeometryTheorems"
+    }
+  ],
+  "target_id": "research-algebraicgeometrytheorems"
+}

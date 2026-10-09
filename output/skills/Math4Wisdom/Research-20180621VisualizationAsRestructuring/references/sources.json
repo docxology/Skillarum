@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c51d332c132479ca1c66c605668cb62f786c44f1f172a68b94638650e59712d4",
+      "fetched_at": "2026-10-09T19:50:42.819282+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180621VisualizationAsRestructuring",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180621VisualizationAsRestructuring",
+      "status_code": 200,
+      "title": "Research / 20180621VisualizationAsRestructuring",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180621VisualizationAsRestructuring"
+    }
+  ],
+  "target_id": "research-20180621visualizationasrestructuring"
+}

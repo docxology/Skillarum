@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "5fe09a0cf1430bb63db72e64021725101e5a2691e7a20d84a7ceccbb89ca8a71",
+    "references/sources.json": "8a66d27307caa35b842c1d9fb085d54f0e382e7c67490a5ea06453d3e0986e01"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0015a6aa5e4d1f4956f72958d8689df89526a7cd6241053b20994dc7ee159537",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "824ae79a7457054d6f6116c0c3ee327f5f85fd245d900c5a9a6e31bc6fc6f36f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:27.259502+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Catalan.",
+    "page_count": 1,
+    "portable_skill_name": "research-catalan",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Catalan",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "cf5a39d4b42a3ae5339390bde4e01aae9bbc9375fe93a907e2d545c2a06bd489",
+      "fetched_at": "2026-10-09T19:40:02.479370+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Catalan",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Catalan",
+      "status_code": 200,
+      "text_sha256": "a91137e9583b145a4f24caae3830b6645c295f24410143a94bbd0e3709d6a322",
+      "title": "Research / Catalan",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Catalan",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-catalan",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16468,
+      "duration_ms": 232,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:40:00.350693+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Catalan"
+    }
+  ],
+  "requested_skill_name": "Research-Catalan",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-catalan",
+  "skill_sha256": "5fe09a0cf1430bb63db72e64021725101e5a2691e7a20d84a7ceccbb89ca8a71",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Catalan"
+  ],
+  "target_id": "research-catalan",
+  "warnings": []
+}

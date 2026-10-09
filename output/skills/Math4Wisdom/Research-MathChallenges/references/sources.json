@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1f98956aef97db69cf02e02ce8e82afa11971b8231b9eeee421e2ab446b6d138",
+      "fetched_at": "2026-10-09T19:23:11.310552+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathChallenges",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathChallenges",
+      "status_code": 200,
+      "title": "Research / MathChallenges",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathChallenges"
+    }
+  ],
+  "target_id": "research-mathchallenges"
+}

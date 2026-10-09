@@ -1,0 +1,77 @@
+{
+  "profile_id": "active-inference-institute",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "613334cf8c0fd5b95cc24e2dbea65840a3ee2424a20398fbb62c77284337a6a9",
+      "fetched_at": "2026-09-08T19:07:02.093157+00:00",
+      "final_url": "https://activeinference.institute/projects/",
+      "requested_url": "https://activeinference.institute/projects/",
+      "status_code": 200,
+      "title": "Projects | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/"
+    },
+    {
+      "content_sha256": "cb22b4e75481850de70f74b320335230434389d273ad7d9da91ff5923d208880",
+      "fetched_at": "2026-09-08T19:07:02.285455+00:00",
+      "final_url": "https://activeinference.institute/projects/active-inference-journal/",
+      "requested_url": "https://activeinference.institute/projects/active-inference-journal/",
+      "status_code": 200,
+      "title": "Active Inference Journal | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/active-inference-journal/"
+    },
+    {
+      "content_sha256": "b548e025720716f8d738231a46c88dba3e8691e723d99d12fa50bc2f3febb9d6",
+      "fetched_at": "2026-09-08T19:07:02.778262+00:00",
+      "final_url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "requested_url": "https://activeinference.institute/projects/active-inference-ontology/",
+      "status_code": 200,
+      "title": "Active Inference Ontology | Active Inference Institute",
+      "truncated": true,
+      "url": "https://activeinference.institute/projects/active-inference-ontology/"
+    },
+    {
+      "content_sha256": "ef3f7219d109d75373dc3fb43f1d0f33a291d4286ccec30d86f54ae550a53275",
+      "fetched_at": "2026-09-08T19:07:03.137890+00:00",
+      "final_url": "https://activeinference.institute/projects/aeos/",
+      "requested_url": "https://activeinference.institute/projects/aeos/",
+      "status_code": 200,
+      "title": "Active Entity Ontology for Science (AEOS) | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/aeos/"
+    },
+    {
+      "content_sha256": "907474bbd38bf8b4727c99b32e5869d009c40f4d2e56465c86bd7852653d11da",
+      "fetched_at": "2026-09-08T19:07:03.342681+00:00",
+      "final_url": "https://activeinference.institute/projects/gnn/",
+      "requested_url": "https://activeinference.institute/projects/gnn/",
+      "status_code": 200,
+      "title": "Generalized Notation Notation | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/gnn/"
+    },
+    {
+      "content_sha256": "b0652dfdec761c6bb9b608a91ed38d4937ca37c9f842267816ee4304b80a2996",
+      "fetched_at": "2026-09-08T19:07:03.640872+00:00",
+      "final_url": "https://activeinference.institute/projects/pymdp/",
+      "requested_url": "https://activeinference.institute/projects/pymdp/",
+      "status_code": 200,
+      "title": "pymdp | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/pymdp/"
+    },
+    {
+      "content_sha256": "42bb820e7433180ad2c7035ba55951423b8893cdd18bef447e32dea5dc446ca0",
+      "fetched_at": "2026-09-08T19:07:03.768961+00:00",
+      "final_url": "https://activeinference.institute/projects/rxinfer/",
+      "requested_url": "https://activeinference.institute/projects/rxinfer/",
+      "status_code": 200,
+      "title": "RxInfer.jl Learning and Development Group | Active Inference Institute",
+      "truncated": false,
+      "url": "https://activeinference.institute/projects/rxinfer/"
+    }
+  ],
+  "target_id": "institute-projects"
+}

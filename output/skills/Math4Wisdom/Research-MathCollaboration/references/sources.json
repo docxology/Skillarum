@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fc0172ea89f4b406377cbdee7f9898091140133c7d2fe25772e8c6bcf6d3efa8",
+      "fetched_at": "2026-10-09T19:15:24.724598+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathCollaboration",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathCollaboration",
+      "status_code": 200,
+      "title": "Research / MathCollaboration",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathCollaboration"
+    }
+  ],
+  "target_id": "research-mathcollaboration"
+}

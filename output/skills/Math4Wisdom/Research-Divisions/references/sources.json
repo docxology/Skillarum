@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e9c0cf028d0d18340f5bca3c1737173320cb467c0a3517c710b7c542c333854c",
+      "fetched_at": "2026-10-09T19:17:11.460792+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Divisions",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Divisions",
+      "status_code": 200,
+      "title": "Research / Divisions",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Divisions"
+    }
+  ],
+  "target_id": "research-divisions"
+}

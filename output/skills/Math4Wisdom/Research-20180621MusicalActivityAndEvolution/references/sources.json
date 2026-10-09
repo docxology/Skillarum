@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b2fa5220ba57ed8fbab74b05110a5b5088e61d4950ad0a6d6c08c42321aa339b",
+      "fetched_at": "2026-10-09T19:50:36.230191+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180621MusicalActivityAndEvolution",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180621MusicalActivityAndEvolution",
+      "status_code": 200,
+      "title": "Research / 20180621MusicalActivityAndEvolution",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180621MusicalActivityAndEvolution"
+    }
+  ],
+  "target_id": "research-20180621musicalactivityandevolution"
+}

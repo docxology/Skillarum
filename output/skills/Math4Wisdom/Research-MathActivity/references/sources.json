@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "62df78db66d09675ecd4759bfe6cfd39c74cfea63095f6f07443a8482f64a316",
+      "fetched_at": "2026-10-09T19:21:43.864073+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathActivity",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathActivity",
+      "status_code": 200,
+      "title": "Research / MathActivity",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathActivity"
+    }
+  ],
+  "target_id": "research-mathactivity"
+}

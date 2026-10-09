@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5c9af8ac5a33d9bf5f8a339a31b0f1893910f62872bcea2787a3a3ff7dd47c46",
+      "fetched_at": "2026-10-09T19:28:41.348327+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/UniversalMappingProperty",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/UniversalMappingProperty",
+      "status_code": 200,
+      "title": "Research / UniversalMappingProperty",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/UniversalMappingProperty"
+    }
+  ],
+  "target_id": "research-universalmappingproperty"
+}

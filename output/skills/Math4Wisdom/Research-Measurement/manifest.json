@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "207a6afa457f298b61dd352221049a88c6b05b06542f545d5988d2d73d5e5c77",
+    "references/sources.json": "2db0877f7b03e7788eda3d7b02ed9fa8c0540646eafe1e999f4793e10b642d9f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "028ea2fc914fa13b314cace6cda9ab99b91e33092e0856e58e35ec0efd13f13c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "039463c7132eaf2e98c2916ae00b4399e3054cfc0f113cc71c4ac6bb32000809"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:47:21.814147+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Measurement.",
+    "page_count": 1,
+    "portable_skill_name": "research-measurement",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Measurement",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6894c56d7bd092eae8c081efe2f137ec314aadbc06ecd71d9d1d1d71162e6646",
+      "fetched_at": "2026-10-09T19:42:51.984299+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Measurement",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Measurement",
+      "status_code": 200,
+      "text_sha256": "6697c0454c27bbfc2637dcb6ebbe87463515013d381d40425ba80ea2013b8f17",
+      "title": "Research / Measurement",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Measurement",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-measurement",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 17498,
+      "duration_ms": 1506,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:42:48.966299+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Measurement"
+    }
+  ],
+  "requested_skill_name": "Research-Measurement",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-measurement",
+  "skill_sha256": "207a6afa457f298b61dd352221049a88c6b05b06542f545d5988d2d73d5e5c77",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Measurement"
+  ],
+  "target_id": "research-measurement",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2ad7008c0450974cb8263d3732a99d90514fc2a7eb0f156a218a65c5db079bb8",
+      "fetched_at": "2026-10-09T19:18:18.305815+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives",
+      "status_code": 200,
+      "title": "Research / AlgebraOfPerspectives",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives"
+    }
+  ],
+  "target_id": "research-algebraofperspectives"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "ae9d92684fbd55c7ea1bc8f90a224333c0f25c84bda85becbbcbf1660777de8d",
+    "references/sources.json": "5e92c5743f4de9bf0609237b1e92da12ed4f335427051c1c1489ec3845573047"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "dc4c868202715b9fc8c1aa3a7558b4a54273ae354a05a6b646ad867315ba4f74",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e87509d35a4695980ab436db0c982a5d725130d791c673dd8d63883e35771db8"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:51:58.816755+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ChessDiscovery.",
+    "page_count": 1,
+    "portable_skill_name": "research-chessdiscovery",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ChessDiscovery",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "00ca9183dec6d13991b0e613128aa35fa95b36b5a2cae989407408371333b1a1",
+      "fetched_at": "2026-10-09T19:46:53.050972+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ChessDiscovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ChessDiscovery",
+      "status_code": 200,
+      "text_sha256": "d215b38e02c31f559cca8a3335a7b54584a3463301e3b1f9dd3c8db8987e75ae",
+      "title": "Research / ChessDiscovery",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ChessDiscovery",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-chessdiscovery",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 18434,
+      "duration_ms": 734,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:46:52.330726+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ChessDiscovery"
+    }
+  ],
+  "requested_skill_name": "Research-ChessDiscovery",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-chessdiscovery",
+  "skill_sha256": "ae9d92684fbd55c7ea1bc8f90a224333c0f25c84bda85becbbcbf1660777de8d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ChessDiscovery"
+  ],
+  "target_id": "research-chessdiscovery",
+  "warnings": []
+}

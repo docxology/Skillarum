@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "88fe522382ef6468dfedf0e2d2d153fc2f8c52d6d8d7217176662ec78ac9051c",
+    "references/sources.json": "14b220d0e2575741e95feb2811595b784645813559f9a58fc17a63b8197b09ac"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "91dca320a37a1899280284397ba6831832d49f20b22a4c6a728037b953c37e6b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b76e340dd869a0b704a837a34c8169df60315ec01c53884549d89d6e2fc2a2da"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:38:07.443653+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Polytopes.",
+    "page_count": 1,
+    "portable_skill_name": "research-polytopes",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Polytopes",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "5a982159d4f35f3ba15f18b604b39bd07f11eacff77a735a8fb9a96e31c33afc",
+      "fetched_at": "2026-10-09T19:33:50.859517+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Polytopes",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Polytopes",
+      "status_code": 200,
+      "text_sha256": "fc34d0c039ef71bfb39303cff106eb47176516a667cfd03d8251bd28f3bb6172",
+      "title": "Research / Polytopes",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Polytopes",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-polytopes",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 17505,
+      "duration_ms": 218,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:48.169247+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Polytopes"
+    }
+  ],
+  "requested_skill_name": "Research-Polytopes",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-polytopes",
+  "skill_sha256": "88fe522382ef6468dfedf0e2d2d153fc2f8c52d6d8d7217176662ec78ac9051c",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Polytopes"
+  ],
+  "target_id": "research-polytopes",
+  "warnings": []
+}

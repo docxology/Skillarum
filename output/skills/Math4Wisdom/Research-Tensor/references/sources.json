@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f7ddbe7fc5180a7fcf4bfbef3e2aa9c0aa3d4d1ae8b2b6ccffd9efebfdae6cf6",
+      "fetched_at": "2026-10-09T19:42:45.824300+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Tensor",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Tensor",
+      "status_code": 200,
+      "title": "Research / Tensor",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Tensor"
+    }
+  ],
+  "target_id": "research-tensor"
+}

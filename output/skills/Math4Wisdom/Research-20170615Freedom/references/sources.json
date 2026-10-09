@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "07834ae2f30361e25d2e3e050c8dc8241286a153f3663a5fb12a9c65cba0e5da",
+      "fetched_at": "2026-10-09T19:48:12.650252+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom",
+      "status_code": 200,
+      "title": "Research / 20170615Freedom",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170615Freedom"
+    }
+  ],
+  "target_id": "research-20170615freedom"
+}

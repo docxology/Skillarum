@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cbfae17dded6555a62be23701445b11ab473e2cc3ecb5c91a3446ea24533b871",
+      "fetched_at": "2026-10-09T19:14:09.899430+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Notes",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Notes",
+      "status_code": 200,
+      "title": "Research / Notes",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/Notes"
+    }
+  ],
+  "target_id": "research-notes"
+}

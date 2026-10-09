@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "be03441940e2067e210ae5eced1c5882ca30da6b3bd82fc49ad2baa8f9ed559b",
+    "references/sources.json": "a4d5e0774347d4b68700099fec34ed47223531ea9c3ccf310dbdb7538e4b95a2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "fc0a4a3980a0b87a29fb76926c93971ac046394e148aa2d92dca36e3a76beab8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "0c58e55d2cee38ef521930265f47046ae92db492fd7779ddee6bdd32a4708830"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:18.726072+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ExceptionalLieGroups.",
+    "page_count": 1,
+    "portable_skill_name": "research-exceptionalliegroups",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ExceptionalLieGroups",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "59a29dac22eeae4206d562aed58eec082f8e60ae29abdafadb7f902faaacaa25",
+      "fetched_at": "2026-10-09T19:33:06.001165+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ExceptionalLieGroups",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ExceptionalLieGroups",
+      "status_code": 200,
+      "text_sha256": "72c34df6b65b77f7fc437cc4c6a9782ae0ec3ef090a0b635dc08931d96667ceb",
+      "title": "Research / ExceptionalLieGroups",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ExceptionalLieGroups",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-exceptionalliegroups",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11299,
+      "duration_ms": 220,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:04.467898+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ExceptionalLieGroups"
+    }
+  ],
+  "requested_skill_name": "Research-ExceptionalLieGroups",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-exceptionalliegroups",
+  "skill_sha256": "be03441940e2067e210ae5eced1c5882ca30da6b3bd82fc49ad2baa8f9ed559b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ExceptionalLieGroups"
+  ],
+  "target_id": "research-exceptionalliegroups",
+  "warnings": []
+}

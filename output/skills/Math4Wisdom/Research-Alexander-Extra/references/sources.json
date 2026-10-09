@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "279cbee7c2f94e34751240f2c8af80a6d70c6808b8d7a7153d6912ce20b929bb",
+      "fetched_at": "2026-10-09T19:18:12.518176+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Alexander-Extra",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Alexander-Extra",
+      "status_code": 200,
+      "title": "Research / Alexander-Extra",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Alexander-Extra"
+    }
+  ],
+  "target_id": "research-alexander-extra"
+}

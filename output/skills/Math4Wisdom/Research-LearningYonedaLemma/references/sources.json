@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "af841315e5576610bbc56f4efb155d957b15a20824fe7dcd9d42f94082146a8d",
+      "fetched_at": "2026-10-09T19:25:21.102541+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LearningYonedaLemma",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LearningYonedaLemma",
+      "status_code": 200,
+      "title": "Research / LearningYonedaLemma",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LearningYonedaLemma"
+    }
+  ],
+  "target_id": "research-learningyonedalemma"
+}

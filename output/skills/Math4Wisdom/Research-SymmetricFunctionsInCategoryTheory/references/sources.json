@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "eba19d189d2f0446f638297e47431e7df80a1e0561d6d91bb1e70c9c6d98e6bf",
+      "fetched_at": "2026-10-09T19:37:58.392247+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsInCategoryTheory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsInCategoryTheory",
+      "status_code": 200,
+      "title": "Research / SymmetricFunctionsInCategoryTheory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctionsInCategoryTheory"
+    }
+  ],
+  "target_id": "research-symmetricfunctionsincategorytheory"
+}

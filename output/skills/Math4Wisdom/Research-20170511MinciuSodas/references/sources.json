@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8230826b1388e3213a59e5a7ee57016137757acf8149ce01eb8f074a47e9cd64",
+      "fetched_at": "2026-10-09T19:48:11.195804+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas",
+      "status_code": 200,
+      "title": "Research / 20170511MinciuSodas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas"
+    }
+  ],
+  "target_id": "research-20170511minciusodas"
+}

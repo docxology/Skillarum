@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "10ad5dd3701c3e51ba2a1be891d5ac42253a21483eb383ac1ec31a154d9d3b1f",
+      "fetched_at": "2026-10-09T19:49:00.490326+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171012FoundationsOfLanguage",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171012FoundationsOfLanguage",
+      "status_code": 200,
+      "title": "Research / 20171012FoundationsOfLanguage",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171012FoundationsOfLanguage"
+    }
+  ],
+  "target_id": "research-20171012foundationsoflanguage"
+}

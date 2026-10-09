@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6b323a33084bcbf65bdb82b1acb65a544e6099c941014afdc5bc400ab6c079d9",
+    "references/sources.json": "b76e4b30fbe628586a1d32ffb1241043eaf074ffd1f7edc2f9b20ce5d6048106"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d248e739945b226e0fe54585a9c2f4767fff2f579afcf4e451afba3be1e3f664",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "9fe47acbd3252b66c3876ecbf3ede2b5d21b09f514923cf9e3149efd673e2b3b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:54:44.519508+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170928Truth.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170928truth",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170928Truth",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "bf60eda9381d3f3dce0449739cbf3a920c439e757d43e56b11394ddffb3306f8",
+      "fetched_at": "2026-10-09T19:48:50.512608+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170928Truth",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170928Truth",
+      "status_code": 200,
+      "text_sha256": "eaed8131c43d3dde853fad3fe357ade9807b2acf1b84d988294bf5f2de6ea0b4",
+      "title": "Research / 20170928Truth",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170928Truth",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170928truth",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25490,
+      "duration_ms": 217,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:49.593894+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170928Truth"
+    }
+  ],
+  "requested_skill_name": "Research-20170928Truth",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170928truth",
+  "skill_sha256": "6b323a33084bcbf65bdb82b1acb65a544e6099c941014afdc5bc400ab6c079d9",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170928Truth"
+  ],
+  "target_id": "research-20170928truth",
+  "warnings": []
+}

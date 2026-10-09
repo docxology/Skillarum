@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c174036a9befe97a3b004825017a2bdbf612c19db1adf007e84077060101bcda",
+      "fetched_at": "2026-10-09T19:32:15.376752+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieGroups",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieGroups",
+      "status_code": 200,
+      "title": "Research / OddAndEvenOrthogonalLieGroups",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieGroups"
+    }
+  ],
+  "target_id": "research-oddandevenorthogonalliegroups"
+}

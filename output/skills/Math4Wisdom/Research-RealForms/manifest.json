@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6ea865d48a37054377360674d84b2ce79d4365fc86e4e7acc954523a13d3b704",
+    "references/sources.json": "b25e353e6483edf92f71922ed58da4d69cb8caee700e74573ee4b370f22e4cf8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6d69b15d76d365e8c5a0bb64b27d3d7ed4695484708adb3d9aa73bbaf48288cb",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "24b664e003ca356c25902e0c51b50033639dd115e1a356e124be52dd9fffaa6b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:38:09.592584+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-RealForms.",
+    "page_count": 1,
+    "portable_skill_name": "research-realforms",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-RealForms",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "496e8afc04844c4c00bb8fd6c07099b1fb4991a2d3d6e3709a4a252124b18e9c",
+      "fetched_at": "2026-10-09T19:33:52.427524+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/RealForms",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/RealForms",
+      "status_code": 200,
+      "text_sha256": "ffe8fe7e6b11864232f251bd746602634044c66b07d03123273a817bd81b2083",
+      "title": "Research / RealForms",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/RealForms",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-realforms",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11077,
+      "duration_ms": 222,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:51.392855+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/RealForms"
+    }
+  ],
+  "requested_skill_name": "Research-RealForms",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-realforms",
+  "skill_sha256": "6ea865d48a37054377360674d84b2ce79d4365fc86e4e7acc954523a13d3b704",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/RealForms"
+  ],
+  "target_id": "research-realforms",
+  "warnings": []
+}

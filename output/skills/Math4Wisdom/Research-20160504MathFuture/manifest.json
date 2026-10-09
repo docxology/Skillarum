@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a2853da1e4ad09025d7b778036b95a64ca51c8c6b7bfa34c5c980f452c9f2c09",
+    "references/sources.json": "389536bac57bc3cd8f89050270b7f2f614907373d1208ceffc21c7d414c3c3f1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "88f9a40890ebbd26bbf79f92a43d34900eef9797de420567a9fa4036250f5aa6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "67cd5dd9acd9e8d3d5cadc39d35a162efba0cc33d99b13687069dd8d1788a4b1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:20.325412+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20160504MathFuture.",
+    "page_count": 1,
+    "portable_skill_name": "research-20160504mathfuture",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20160504MathFuture",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f52cd3bc711471279ac19d95575a6576dc9da536fde065ddbed7d6d3820355a5",
+      "fetched_at": "2026-10-09T19:48:01.190916+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20160504MathFuture",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20160504MathFuture",
+      "status_code": 200,
+      "text_sha256": "6b5f468641af2947c19be8b8526171efff3fc251478102eebce42651160eb3d1",
+      "title": "Research / 20160504MathFuture",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20160504MathFuture",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20160504mathfuture",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 28146,
+      "duration_ms": 273,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:47:59.650644+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20160504MathFuture"
+    }
+  ],
+  "requested_skill_name": "Research-20160504MathFuture",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20160504mathfuture",
+  "skill_sha256": "a2853da1e4ad09025d7b778036b95a64ca51c8c6b7bfa34c5c980f452c9f2c09",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20160504MathFuture"
+  ],
+  "target_id": "research-20160504mathfuture",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "8c5d1f66ad22b1440dd67cf1cdec507da72d79b9bf5d1528b891adab3e2758a8",
+    "references/sources.json": "f88aa71dadf785c2a67a52ca9d3205865ddc7a78f9842a9242cc9aa8ac531ff1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "643acb9d48852764d167454945fe2acf5bc6d2df2ba0d6fee3729665be809b97",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e35289cca64e377002ac055d2c4a9757eede532b98f79466b69eccd0c4ed4053"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:20:09.111074+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-AlgebraOfPerspectives.",
+    "page_count": 1,
+    "portable_skill_name": "research-algebraofperspectives",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-AlgebraOfPerspectives",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "2ad7008c0450974cb8263d3732a99d90514fc2a7eb0f156a218a65c5db079bb8",
+      "fetched_at": "2026-10-09T19:18:18.305815+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives",
+      "status_code": 200,
+      "text_sha256": "2d3e2d3476e22c88436de1f79005acd0a1dd9be4469f25d0f945692c2c83bfc3",
+      "title": "Research / AlgebraOfPerspectives",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-algebraofperspectives",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 18421,
+      "duration_ms": 261,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:18:16.681345+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives"
+    }
+  ],
+  "requested_skill_name": "Research-AlgebraOfPerspectives",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-algebraofperspectives",
+  "skill_sha256": "8c5d1f66ad22b1440dd67cf1cdec507da72d79b9bf5d1528b891adab3e2758a8",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/AlgebraOfPerspectives"
+  ],
+  "target_id": "research-algebraofperspectives",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "9d8382e63aa5a1002a2e03a34579e7ae36957ec36ff041a6cd2fc1b65c34223f",
+      "fetched_at": "2026-10-09T19:52:48.540188+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20220415PeacemakersWay",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20220415PeacemakersWay",
+      "status_code": 200,
+      "title": "Research / 20220415PeacemakersWay",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20220415PeacemakersWay"
+    }
+  ],
+  "target_id": "research-20220415peacemakersway"
+}

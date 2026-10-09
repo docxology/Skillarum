@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "43e52514ac5d8911d6aa12522cabd635003d6ffd80d2df337160795afe9b98aa",
+      "fetched_at": "2026-10-09T19:16:21.786958+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomShow",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomShow",
+      "status_code": 200,
+      "title": "Research / Math4WisdomShow",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomShow"
+    }
+  ],
+  "target_id": "research-math4wisdomshow"
+}

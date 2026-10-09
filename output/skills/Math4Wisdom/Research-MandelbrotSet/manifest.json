@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "36482fd9037c6e045efaa9eac5e38cf3445b1af9a5c2ec82922e13f1f161634d",
+    "references/sources.json": "0355aebbb12d72510e8b929dbe1e5cc81570b013ef8069a72f79c2e06ad4ccef"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0596a9b83ecf2d024a17430bd18048638c6272228c2722024e8812aaea0e1b9f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "d7740dc7096556c47de71250d150055686c89e74004e5f33577445333e0ae24c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:31.714724+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MandelbrotSet.",
+    "page_count": 1,
+    "portable_skill_name": "research-mandelbrotset",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MandelbrotSet",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "0b13de75adc7651d4cc8f7b8f4805655ea410688bd0fc6211c7f0114916ba096",
+      "fetched_at": "2026-10-09T19:40:06.718048+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MandelbrotSet",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MandelbrotSet",
+      "status_code": 200,
+      "text_sha256": "66b4c9e1ea447ee6ab36f9629e61d1ebd4a779493233ccff727c3912abfb728a",
+      "title": "Research / MandelbrotSet",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MandelbrotSet",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mandelbrotset",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 24328,
+      "duration_ms": 217,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:40:02.974097+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MandelbrotSet"
+    }
+  ],
+  "requested_skill_name": "Research-MandelbrotSet",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mandelbrotset",
+  "skill_sha256": "36482fd9037c6e045efaa9eac5e38cf3445b1af9a5c2ec82922e13f1f161634d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MandelbrotSet"
+  ],
+  "target_id": "research-mandelbrotset",
+  "warnings": []
+}

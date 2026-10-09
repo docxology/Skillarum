@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "23aaa0529d9cde9d24ae692e75d9d967a8c5b5eab1b7a441ce58b7c1ce7c5267",
+      "fetched_at": "2026-10-09T19:56:52.858860+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas",
+      "status_code": 200,
+      "title": "Research / AndriusKulikauskas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AndriusKulikauskas"
+    }
+  ],
+  "target_id": "research-andriuskulikauskas"
+}

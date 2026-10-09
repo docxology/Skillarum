@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dc1a54764ab5dd552e9850fe252d534400bcb1f290a52c10a1e87c3d04a1d916",
+      "fetched_at": "2026-10-09T19:22:09.383644+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathConcepts",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathConcepts",
+      "status_code": 200,
+      "title": "Research / MathConcepts",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathConcepts"
+    }
+  ],
+  "target_id": "research-mathconcepts"
+}

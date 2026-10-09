@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8d2487ffa1d3d683e2c44a6f5647c0f40cfdaccf0998b4a8da606b256b5ac4ee",
+      "fetched_at": "2026-10-09T19:39:15.386110+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TypeTheory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TypeTheory",
+      "status_code": 200,
+      "title": "Research / TypeTheory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TypeTheory"
+    }
+  ],
+  "target_id": "research-typetheory"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7b723ba8e7bd2cf272272ceb96b5dc7737192d1bffcf51331ad650be54b9e389",
+    "references/sources.json": "90e937b1a0c56ce64509c23adca92c622f449836706ccbd2b87a8c8da4d1eb93"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "83a182f31d377414f2ec3fa402793e317a166273be78e95a57391f45d88bfcb2",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1a2f9ff280497f674fea8d54658620c4e9dc7cd8fd9f9886d41a4b84b1325ba4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:30:34.458481+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CombinatoricsOfFiniteCategories.",
+    "page_count": 1,
+    "portable_skill_name": "research-combinatoricsoffinitecategories",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CombinatoricsOfFiniteCategories",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b8f11b7ddafbbce023c7493136070c60617ca84f5ae027c2684dd4d47973c576",
+      "fetched_at": "2026-10-09T19:28:14.477892+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CombinatoricsOfFiniteCategories",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CombinatoricsOfFiniteCategories",
+      "status_code": 200,
+      "text_sha256": "52138085c84bbe918c560341a14b3cc93f34cb0a4e46d4c50cbc2e95acd1714c",
+      "title": "Research / CombinatoricsOfFiniteCategories",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CombinatoricsOfFiniteCategories",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-combinatoricsoffinitecategories",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13176,
+      "duration_ms": 210,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:28:13.065326+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CombinatoricsOfFiniteCategories"
+    }
+  ],
+  "requested_skill_name": "Research-CombinatoricsOfFiniteCategories",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-combinatoricsoffinitecategories",
+  "skill_sha256": "7b723ba8e7bd2cf272272ceb96b5dc7737192d1bffcf51331ad650be54b9e389",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CombinatoricsOfFiniteCategories"
+  ],
+  "target_id": "research-combinatoricsoffinitecategories",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "df84006171ed338162ce4de4546aeadc0340f5429a70c54951d7d929660732c5",
+      "fetched_at": "2026-10-09T19:22:56.121864+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Infinity",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Infinity",
+      "status_code": 200,
+      "title": "Research / Infinity",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Infinity"
+    }
+  ],
+  "target_id": "research-infinity"
+}

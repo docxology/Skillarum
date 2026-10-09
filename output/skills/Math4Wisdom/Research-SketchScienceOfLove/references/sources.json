@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1354bb3c9ccebdba5973b2e7bb4b854deb41ca8d7dfa01e9ea3be2c114f2f993",
+      "fetched_at": "2026-10-09T19:16:25.385934+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SketchScienceOfLove",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SketchScienceOfLove",
+      "status_code": 200,
+      "title": "Research / SketchScienceOfLove",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SketchScienceOfLove"
+    }
+  ],
+  "target_id": "research-sketchscienceoflove"
+}

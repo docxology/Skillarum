@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "890879c639624079043983de0984f4ab9be990bad9636cf9a96a917e33a552ae",
+    "references/sources.json": "6488a005288f7cad99f84bdea583119a983837652b2f69287673027be4307de2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d06e991b916c8735ecfb292992a81ca13efb5f2af12d1ad89d1e7074de9aa073",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "2df926ac4e8e17c3a3d0b09d908426536c146781d2d97ab9fbe7520e3ad627ea"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:15.924331+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-OddAndEvenOrthogonalLieAlgebras.",
+    "page_count": 1,
+    "portable_skill_name": "research-oddandevenorthogonalliealgebras",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-OddAndEvenOrthogonalLieAlgebras",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "cb957a3823bd78a6bb7412815cbe04ca837695b41fa7952f7ba93579c72a895c",
+      "fetched_at": "2026-10-09T19:33:01.534057+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieAlgebras",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieAlgebras",
+      "status_code": 200,
+      "text_sha256": "83f234f69bbc92cadb08227d31268cc304af81c28313e1481e745ea356cb1f40",
+      "title": "Research / OddAndEvenOrthogonalLieAlgebras",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieAlgebras",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-oddandevenorthogonalliealgebras",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13154,
+      "duration_ms": 225,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:01.214190+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieAlgebras"
+    }
+  ],
+  "requested_skill_name": "Research-OddAndEvenOrthogonalLieAlgebras",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-oddandevenorthogonalliealgebras",
+  "skill_sha256": "890879c639624079043983de0984f4ab9be990bad9636cf9a96a917e33a552ae",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/OddAndEvenOrthogonalLieAlgebras"
+  ],
+  "target_id": "research-oddandevenorthogonalliealgebras",
+  "warnings": []
+}

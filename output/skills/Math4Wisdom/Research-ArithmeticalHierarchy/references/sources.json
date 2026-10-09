@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cc136d6e6741e3daf552e880928daf7eb6e0ba1d61e9266328d099163cffbad0",
+      "fetched_at": "2026-10-09T19:39:47.181022+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy",
+      "status_code": 200,
+      "title": "Research / ArithmeticalHierarchy",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ArithmeticalHierarchy"
+    }
+  ],
+  "target_id": "research-arithmeticalhierarchy"
+}

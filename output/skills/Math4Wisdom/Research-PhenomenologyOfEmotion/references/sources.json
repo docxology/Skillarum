@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "703b3011961ce3975cb06f6e5ca9c1a20227f6835d36ddb891f7aa47dfa982d7",
+      "fetched_at": "2026-10-09T19:18:36.066974+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PhenomenologyOfEmotion",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PhenomenologyOfEmotion",
+      "status_code": 200,
+      "title": "Research / PhenomenologyOfEmotion",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PhenomenologyOfEmotion"
+    }
+  ],
+  "target_id": "research-phenomenologyofemotion"
+}

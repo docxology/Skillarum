@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5a1a08ce697a8ea76e502b0bdec1bf39d8ee21d093027c4e6286d163f09db4bf",
+      "fetched_at": "2026-10-09T19:28:21.764808+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Equivalence",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Equivalence",
+      "status_code": 200,
+      "title": "Research / Equivalence",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Equivalence"
+    }
+  ],
+  "target_id": "research-equivalence"
+}

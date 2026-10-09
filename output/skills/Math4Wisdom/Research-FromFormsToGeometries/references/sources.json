@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6ffd38f5b5cbca3954985890e5789af7b4aaad59388d6c71ab433ce07f6f2140",
+      "fetched_at": "2026-10-09T19:33:22.240558+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/FromFormsToGeometries",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/FromFormsToGeometries",
+      "status_code": 200,
+      "title": "Research / FromFormsToGeometries",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/FromFormsToGeometries"
+    }
+  ],
+  "target_id": "research-fromformstogeometries"
+}

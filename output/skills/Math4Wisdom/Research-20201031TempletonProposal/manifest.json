@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "a29374bf467d4223e115c8e554fbc2f3e7699ad574b1040b58fdc70cf5e134de",
+    "references/sources.json": "219a77f9b1fada64f1948b82beeb6d6d7ae0085fd7b4d6e7819959f19ec9c853"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "4b71fa187855ab9cf18bff4f688246ed17348c94783c75a0b1da05b504c92d65",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "c20187d65c151a2199656ad47cf714870473a427f2386e367c241cdad0ee1af1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:58:54.182937+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20201031TempletonProposal.",
+    "page_count": 1,
+    "portable_skill_name": "research-20201031templetonproposal",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20201031TempletonProposal",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "ad037b88f066ea9a27afe58ce14e043b1ac66298ab46bee7417441bfa2469e0b",
+      "fetched_at": "2026-10-09T19:52:16.505924+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal",
+      "status_code": 200,
+      "text_sha256": "3daebbb05835468d285efdd21a1556f9cb436688110aabd9392971cff2485acd",
+      "title": "Research / 20201031TempletonProposal",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20201031templetonproposal",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 20630,
+      "duration_ms": 232,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:52:13.069679+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal"
+    }
+  ],
+  "requested_skill_name": "Research-20201031TempletonProposal",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20201031templetonproposal",
+  "skill_sha256": "a29374bf467d4223e115c8e554fbc2f3e7699ad574b1040b58fdc70cf5e134de",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20201031TempletonProposal"
+  ],
+  "target_id": "research-20201031templetonproposal",
+  "warnings": []
+}

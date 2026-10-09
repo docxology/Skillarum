@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4500fc5f7bb2ea41a1fe7ef5e634979a7617ad3532e94da9412db8df5ee97d44",
+      "fetched_at": "2026-10-09T19:34:30.725493+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Geometry",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Geometry",
+      "status_code": 200,
+      "title": "Research / Geometry",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/Geometry"
+    }
+  ],
+  "target_id": "research-geometry"
+}

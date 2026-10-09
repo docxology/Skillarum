@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "1108b7d8c62167dcc8b27d23022427e42f316162c84daee8b31542148a852c69",
+    "references/sources.json": "db7190d3659b8c361a64be7e6a9e8031bb839095978e02474c96678ee5db785d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "864e815d093ca5c3bff7294947e959c10e6c81263715215713e8388c87a7d966",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "9a025f3e02142faa966c851cb7d8f2036d784b4df7543a04f65888eac31077da"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:46:52.517173+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-StandardModel.",
+    "page_count": 1,
+    "portable_skill_name": "research-standardmodel",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-StandardModel",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "e448cef5db6d12a84a273243a2da6a32cb3ec1f8910116d0a263f2b41cb927b2",
+      "fetched_at": "2026-10-09T19:42:22.708671+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/StandardModel",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/StandardModel",
+      "status_code": 200,
+      "text_sha256": "344c790d6ebc6769575725617ce9a268b71d5e6fa2417b7be724bc470bf3fd27",
+      "title": "Research / StandardModel",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/StandardModel",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-standardmodel",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10609,
+      "duration_ms": 219,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:42:22.091821+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/StandardModel"
+    }
+  ],
+  "requested_skill_name": "Research-StandardModel",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-standardmodel",
+  "skill_sha256": "1108b7d8c62167dcc8b27d23022427e42f316162c84daee8b31542148a852c69",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/StandardModel"
+  ],
+  "target_id": "research-standardmodel",
+  "warnings": []
+}

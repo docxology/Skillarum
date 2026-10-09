@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5bcaa5837eb4c6efafc105dd804814808cc1fb03f08e213b8f5e2785508c86a3",
+      "fetched_at": "2026-10-09T19:55:54.963134+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/StevenLehar",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/StevenLehar",
+      "status_code": 200,
+      "title": "Research / StevenLehar",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/StevenLehar"
+    }
+  ],
+  "target_id": "research-stevenlehar"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0f6531bf4f5ede0a21355027f7c8ee9abb177090c14b7a94cdaf6f7e16363382",
+      "fetched_at": "2026-10-09T19:48:07.189659+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Jausm%c5%b3Fenomenologija",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Jausm%c5%b3Fenomenologija",
+      "status_code": 200,
+      "title": "Research / JausmųFenomenologija",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Jausm%c5%b3Fenomenologija"
+    }
+  ],
+  "target_id": "research-jausmufenomenologija"
+}

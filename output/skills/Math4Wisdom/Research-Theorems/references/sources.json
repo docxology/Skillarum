@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d4e02b7967f95758f88c0b9c63155c763519e6502f46aab42ef567758022c64f",
+      "fetched_at": "2026-10-09T19:23:08.266214+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Theorems",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Theorems",
+      "status_code": 200,
+      "title": "Research / Theorems",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Theorems"
+    }
+  ],
+  "target_id": "research-theorems"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "74de50950e87b77d178a521ea237be8de4f138ca023fe5d0bad5d43c7adf8d4e",
+      "fetched_at": "2026-10-09T19:48:14.498136+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170618GodsQuestion",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170618GodsQuestion",
+      "status_code": 200,
+      "title": "Research / 20170618GodsQuestion",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170618GodsQuestion"
+    }
+  ],
+  "target_id": "research-20170618godsquestion"
+}

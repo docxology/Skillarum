@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "156ff3b26f0970413efeb42526d0687980f03ba91adad4ba5a48dad8c1e665d0",
+    "references/sources.json": "51bf72e5e85afeab74e1d24cb787560bbd2a371a871b372205a9575b8bfbe32e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e4429370cdbbe43bdc4abf67a2f406b1bb9fce61da8df18ea72fce33268b65e5",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "7e44c6deec503fe841a9c560c821b5e64306e96770b5985c0533d6371e424940"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:26:18.202968+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MathInChinese.",
+    "page_count": 1,
+    "portable_skill_name": "research-mathinchinese",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MathInChinese",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b2413dbd7bac21a9856f12e9c8f712d4d589293a1d1595e0b01bfb044d1ce2e3",
+      "fetched_at": "2026-10-09T19:23:31.406565+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathInChinese",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathInChinese",
+      "status_code": 200,
+      "text_sha256": "79ab9492b13ee5662d6ef63c944ae5deb89aeda54a55d276a6b86cd4cd46b0fa",
+      "title": "Research / MathInChinese",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathInChinese",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mathinchinese",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13405,
+      "duration_ms": 242,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:23:28.763340+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MathInChinese"
+    }
+  ],
+  "requested_skill_name": "Research-MathInChinese",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mathinchinese",
+  "skill_sha256": "156ff3b26f0970413efeb42526d0687980f03ba91adad4ba5a48dad8c1e665d0",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MathInChinese"
+  ],
+  "target_id": "research-mathinchinese",
+  "warnings": []
+}

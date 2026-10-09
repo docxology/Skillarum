@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "672043e237d8969dc99444ef0b8e5c23b944a6ad89a026ae7aab19de42410c3e",
+      "fetched_at": "2026-10-09T19:44:46.509884+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryAlgebra",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryAlgebra",
+      "status_code": 200,
+      "title": "Research / MathDiscoveryAlgebra",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryAlgebra"
+    }
+  ],
+  "target_id": "research-mathdiscoveryalgebra"
+}

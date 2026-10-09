@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f5b4fd4287187a10b58e8f71c474508cb455ff8fcfbfbf02d458c09aa4a7a36f",
+      "fetched_at": "2026-10-09T19:52:45.758687+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20211031BiologyDiscovery",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20211031BiologyDiscovery",
+      "status_code": 200,
+      "title": "Research / 20211031BiologyDiscovery",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/20211031BiologyDiscovery"
+    }
+  ],
+  "target_id": "research-20211031biologydiscovery"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c0be2834eef0196523c31f4bc66fce6265d6f469bca2c4388532271be2359557",
+    "references/sources.json": "6f205fe25be5a39d39a462f43d0b63b9007cadd4fa22e24e5e7223f4c964bff9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "4f376dc1d6d43f4288572ec6c135dd69357cb3e70eb435878b646b8803e216c4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e607cf7ead5bcac0ced4472e0750f52fe7649ef5f2eee6a5419bbce67ceb1639"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:16:00.433461+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-SideBar.",
+    "page_count": 1,
+    "portable_skill_name": "research-sidebar",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-SideBar",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "bd06e77cd0d48cc85b07c0efc35d235515c8d142da9274fd0a93a0e5bc268572",
+      "fetched_at": "2026-10-09T19:13:06.407361+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SideBar",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SideBar",
+      "status_code": 200,
+      "text_sha256": "b7e6c55b6785aea78c44372995de2ff0fd18cc319931b777eb3594565401a433",
+      "title": "Research / SideBar",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SideBar",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-sidebar",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13195,
+      "duration_ms": 1198,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:13:00.650089+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/SideBar"
+    }
+  ],
+  "requested_skill_name": "Research-SideBar",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-sidebar",
+  "skill_sha256": "c0be2834eef0196523c31f4bc66fce6265d6f469bca2c4388532271be2359557",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/SideBar"
+  ],
+  "target_id": "research-sidebar",
+  "warnings": []
+}

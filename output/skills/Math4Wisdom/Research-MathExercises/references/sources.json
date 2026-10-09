@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ac37561a778d3801e338ccd612e75b75e9e1026a85412a174a2080e8680d11e1",
+      "fetched_at": "2026-10-09T19:40:52.841417+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathExercises",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathExercises",
+      "status_code": 200,
+      "title": "Research / MathExercises",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathExercises"
+    }
+  ],
+  "target_id": "research-mathexercises"
+}

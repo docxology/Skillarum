@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3fe79a7038f5f1648cb2fd565c6a52060d3e0c921d9566e1fa8973170d35c28d",
+      "fetched_at": "2026-10-09T19:49:04.732304+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas",
+      "status_code": 200,
+      "title": "Research / 20171029Greimas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171029Greimas"
+    }
+  ],
+  "target_id": "research-20171029greimas"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "564308d9f7380297e40fb9d4ee10707c355d43d17ba5d40f1de471c856f7767c",
+    "references/sources.json": "8a98919350f6827821f4aa105c622af341d70e63d8fe71276100237e08d7cdd9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cba2d218f9e908b73803d77e928a8a6112249bfdca681637ee514f5b11c5a3a2",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1d318faca6e663a944ff510b72d9c1772ae94cbea029332acaac407b50bf1957"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:30:31.305628+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-LimitsVsColimits.",
+    "page_count": 1,
+    "portable_skill_name": "research-limitsvscolimits",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-LimitsVsColimits",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6970408154f3e9fddfb3dec9a1f1c4241ea256fd3e9aff6515f9bb8a1ec21b33",
+      "fetched_at": "2026-10-09T19:28:11.498708+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LimitsVsColimits",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LimitsVsColimits",
+      "status_code": 200,
+      "text_sha256": "8058952c7b4054ce3f99e5d5e1d3cde3859225f068aedeff0e91825f08ea7a5b",
+      "title": "Research / LimitsVsColimits",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LimitsVsColimits",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-limitsvscolimits",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14048,
+      "duration_ms": 796,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:28:09.871976+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/LimitsVsColimits"
+    }
+  ],
+  "requested_skill_name": "Research-LimitsVsColimits",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-limitsvscolimits",
+  "skill_sha256": "564308d9f7380297e40fb9d4ee10707c355d43d17ba5d40f1de471c856f7767c",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/LimitsVsColimits"
+  ],
+  "target_id": "research-limitsvscolimits",
+  "warnings": []
+}

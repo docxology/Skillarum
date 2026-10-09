@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "80ce8c0461227df4b3ed814fba44155fbd7304819931af7106088671116d3783",
+      "fetched_at": "2026-10-09T19:24:32.632107+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome",
+      "status_code": 200,
+      "title": "Research / YonedaEmbeddingFoursome",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome"
+    }
+  ],
+  "target_id": "research-yonedaembeddingfoursome"
+}

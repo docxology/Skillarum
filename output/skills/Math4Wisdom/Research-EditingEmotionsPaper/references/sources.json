@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8079d31347ca7ca66f95bd38eb8952caf4286079ee55708d8c16a99c45521a6a",
+      "fetched_at": "2026-10-09T19:18:29.011129+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EditingEmotionsPaper",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EditingEmotionsPaper",
+      "status_code": 200,
+      "title": "Research / EditingEmotionsPaper",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EditingEmotionsPaper"
+    }
+  ],
+  "target_id": "research-editingemotionspaper"
+}

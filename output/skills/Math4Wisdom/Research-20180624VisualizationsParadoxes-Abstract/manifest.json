@@ -1,0 +1,109 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "8713d9f96e45f562e85696b400fa62998128c58699c4a521a0de0d11dc9d7cdd",
+    "references/sources.json": "ba4e065fe9f85003adbdc357b9af95872c7ef560340562f01ce03ee5f4ad1588"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c023bc20b340b2cdb4a32e7b8f6f3fed3980ff11057ef655f4bb0651e3154ab4",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "71eefd3d902d1af40312361425f170f423039fc1c79b3543da65a092f99f3272"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:57:33.583180+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180624VisualizationsParadoxes-Abstract.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180624visualizationsparadoxes-abstract",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180624VisualizationsParadoxes-Abstract",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6230f4d912c1df71337637b1876bc9cdf83dff06ae246cccb87d3c72fe5410b2",
+      "fetched_at": "2026-10-09T19:50:52.960191+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180624VisualizationsParadoxes-Abstract",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180624VisualizationsParadoxes-Abstract",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Research / 20180624VisualizationsParadoxes-Abstract",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180624VisualizationsParadoxes-Abstract",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "research-20180624visualizationsparadoxes-abstract",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10004,
+      "duration_ms": 284,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:50:52.756126+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180624VisualizationsParadoxes-Abstract"
+    }
+  ],
+  "requested_skill_name": "Research-20180624VisualizationsParadoxes-Abstract",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180624visualizationsparadoxes-abstract",
+  "skill_sha256": "8713d9f96e45f562e85696b400fa62998128c58699c4a521a0de0d11dc9d7cdd",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180624VisualizationsParadoxes-Abstract"
+  ],
+  "target_id": "research-20180624visualizationsparadoxes-abstract",
+  "warnings": []
+}

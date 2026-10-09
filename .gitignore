@@ -18,3 +18,4 @@ output/skills/**/.skillarum*
 build/
 graft/
 output/**/.claude/
+.ignore

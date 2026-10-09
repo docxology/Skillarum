@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "402627e4ddcef7db0fd330ef2c76e2b30f3a6293e1ddd3c7e0d554c6f64e533e",
+    "references/sources.json": "45340c54645767aa8c4cd679cb4017fc8cb0ff4c483b9861a96b1eced525410e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "5e3944965247d88d70a47d80fe47d9d0744a681c877111797a038fcf7c67db66",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "539c6145d68d5e0801c30925a7f7b49793ad68b2743ff3d42d559a09316476e2"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:03:13.379181+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-JereNorthrop.",
+    "page_count": 1,
+    "portable_skill_name": "research-jerenorthrop",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-JereNorthrop",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "d54872373df103f6d7c2d44b8cd911e3381b7c640aed66ff8d9ebbf6d8f3b4b1",
+      "fetched_at": "2026-10-09T19:56:35.855699+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop",
+      "status_code": 200,
+      "text_sha256": "ab29a2299c448ec9acfc204e8dce70a9872be9a618a14af06aa7a41f5a3e37ef",
+      "title": "Research / JereNorthrop",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-jerenorthrop",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14520,
+      "duration_ms": 221,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:32.907163+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/JereNorthrop"
+    }
+  ],
+  "requested_skill_name": "Research-JereNorthrop",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-jerenorthrop",
+  "skill_sha256": "402627e4ddcef7db0fd330ef2c76e2b30f3a6293e1ddd3c7e0d554c6f64e533e",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/JereNorthrop"
+  ],
+  "target_id": "research-jerenorthrop",
+  "warnings": []
+}

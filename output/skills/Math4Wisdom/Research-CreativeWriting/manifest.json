@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "efc54c29c6bd1746002d3c133127f89d671776f291e96354906e8841fec18270",
+    "references/sources.json": "a636d2de580cb96ba7a43166fa80ada9a37fe881f7e33ae14e8fe95a0613180c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "4491c0b411f2a73fa962c72af961e62c7314183e8b21e2271f8e4ba5af4f0d01",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "cdb89d7f48fca3acc55993776060709f9a0851e23418c1a1b2805444f0b2a2f4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:01:14.355798+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CreativeWriting.",
+    "page_count": 1,
+    "portable_skill_name": "research-creativewriting",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CreativeWriting",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "a60bf4bb9a438c23c76455501533948fc60728bde3b9f2c1f1d9d4aa9bccc4a1",
+      "fetched_at": "2026-10-09T19:54:23.619896+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CreativeWriting",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CreativeWriting",
+      "status_code": 200,
+      "text_sha256": "b4a84fa69564e238dc8fa3ed733a1b5f47dc0daa5c4040353337010586774bb4",
+      "title": "Research / CreativeWriting",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CreativeWriting",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-creativewriting",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10539,
+      "duration_ms": 256,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:54:22.504363+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CreativeWriting"
+    }
+  ],
+  "requested_skill_name": "Research-CreativeWriting",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-creativewriting",
+  "skill_sha256": "efc54c29c6bd1746002d3c133127f89d671776f291e96354906e8841fec18270",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CreativeWriting"
+  ],
+  "target_id": "research-creativewriting",
+  "warnings": []
+}

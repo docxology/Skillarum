@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "36a14705c1bed2f83ae9b5a93403bdf13328ed6cdd974792789ceeb9d1ed4afd",
+    "references/sources.json": "0ed6f3c65844983b0cc11efa1661cc4e7551885908ee298375fe638c6189ca77"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2a87fba8d95250fe33788e1e3fdbbf9f5b96d20271ee78e56c43d1ed25913cd5",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "7f28b79259d32893981bd7fa16fa3325c90289729e82cda77b2080414bdb0990"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:54:27.007905+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170908DivisionsOfEverything.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170908divisionsofeverything",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170908DivisionsOfEverything",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "ddb606a5d867600a6d217d4c384ced9d1d8d9750f628ac4a582792ae01549ff1",
+      "fetched_at": "2026-10-09T19:48:40.766422+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170908DivisionsOfEverything",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170908DivisionsOfEverything",
+      "status_code": 200,
+      "text_sha256": "e9f98945baa07edf8f1460c559844d3664ad57c732b77162c745a2b8aeb0d564",
+      "title": "Research / 20170908DivisionsOfEverything",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170908DivisionsOfEverything",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170908divisionsofeverything",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16634,
+      "duration_ms": 217,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:39.850584+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170908DivisionsOfEverything"
+    }
+  ],
+  "requested_skill_name": "Research-20170908DivisionsOfEverything",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170908divisionsofeverything",
+  "skill_sha256": "36a14705c1bed2f83ae9b5a93403bdf13328ed6cdd974792789ceeb9d1ed4afd",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170908DivisionsOfEverything"
+  ],
+  "target_id": "research-20170908divisionsofeverything",
+  "warnings": []
+}

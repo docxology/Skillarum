@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "1b458aa85b45c9aa1b7b5bc89194d3b82a5bb1b4c6fb96524c087b6991bdc4cb",
+    "references/sources.json": "7c2ca50cb2a9690d02d36ce7640815707035623a6f96c379504fad83b8c96691"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "97033f08e498031a7d224535103712463dfa95b7fda21cbdffe504a253f5d4eb",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "64b7761c4f8c9db7a242ef1211bdbff725066e8fed81393ef33cbcc3332647b9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:47.307212+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ComplexificationOfCompactRealForms.",
+    "page_count": 1,
+    "portable_skill_name": "research-complexificationofcompactrealforms",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ComplexificationOfCompactRealForms",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "ee5c07f343f9c451fc68b5c986909f8639f7ca8dfbbe1304f3f8aa1678d85039",
+      "fetched_at": "2026-10-09T19:33:35.160056+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ComplexificationOfCompactRealForms",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ComplexificationOfCompactRealForms",
+      "status_code": 200,
+      "text_sha256": "5243e69e2b5eb82eef5e2d76c2e04bd976214049e868b1a03cb0d2fa7d61551d",
+      "title": "Research / ComplexificationOfCompactRealForms",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ComplexificationOfCompactRealForms",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-complexificationofcompactrealforms",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14875,
+      "duration_ms": 219,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:33.305367+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ComplexificationOfCompactRealForms"
+    }
+  ],
+  "requested_skill_name": "Research-ComplexificationOfCompactRealForms",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-complexificationofcompactrealforms",
+  "skill_sha256": "1b458aa85b45c9aa1b7b5bc89194d3b82a5bb1b4c6fb96524c087b6991bdc4cb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ComplexificationOfCompactRealForms"
+  ],
+  "target_id": "research-complexificationofcompactrealforms",
+  "warnings": []
+}

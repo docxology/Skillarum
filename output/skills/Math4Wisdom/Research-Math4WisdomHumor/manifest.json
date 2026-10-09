@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "ad06a23da4fafaebd15a2baebdced0bfeb7c2725fa77fcbdfb0326d9fbe21840",
+    "references/sources.json": "99fc6c3947fa8b6a686df81885dcf291fe1c9e33ea23327ed8273af088b7b1ac"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "411ae7970d36d5493dde0b962d5a25e1e71c51a63ce3229b0e408e7567ba0ab8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "d55d4fbdc2b164c92084e729b81468f1c4bcff935a494905ce1cadb23a16caf0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:18:35.588768+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Math4WisdomHumor.",
+    "page_count": 1,
+    "portable_skill_name": "research-math4wisdomhumor",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Math4WisdomHumor",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "2f64643233a74dd5e13e2750842ae1e20e03019b05623feda2ebc8e46cd932da",
+      "fetched_at": "2026-10-09T19:16:24.107791+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomHumor",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomHumor",
+      "status_code": 200,
+      "text_sha256": "bf91c9ff9c4ccce85d962f1bcdde0b8d4ad9b241fd73f32c116298dd646bafca",
+      "title": "Research / Math4WisdomHumor",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomHumor",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-math4wisdomhumor",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10411,
+      "duration_ms": 258,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:16:23.697874+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Math4WisdomHumor"
+    }
+  ],
+  "requested_skill_name": "Research-Math4WisdomHumor",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-math4wisdomhumor",
+  "skill_sha256": "ad06a23da4fafaebd15a2baebdced0bfeb7c2725fa77fcbdfb0326d9fbe21840",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Math4WisdomHumor"
+  ],
+  "target_id": "research-math4wisdomhumor",
+  "warnings": []
+}

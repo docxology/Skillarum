@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "00ebe27fdb0254db6eaab4d3340d6446f5bbb5a1923fd965047cf48f1b8c214c",
+      "fetched_at": "2026-10-09T19:37:49.451146+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions",
+      "status_code": 200,
+      "title": "Research / SymmetricFunctions",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SymmetricFunctions"
+    }
+  ],
+  "target_id": "research-symmetricfunctions"
+}

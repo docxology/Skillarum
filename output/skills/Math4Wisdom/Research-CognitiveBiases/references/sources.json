@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "90eb532ec2153476e1512cd2b934732267de6eace42ccf670e6effaa06c3886e",
+      "fetched_at": "2026-10-09T19:54:17.040653+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases",
+      "status_code": 200,
+      "title": "Research / CognitiveBiases",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CognitiveBiases"
+    }
+  ],
+  "target_id": "research-cognitivebiases"
+}

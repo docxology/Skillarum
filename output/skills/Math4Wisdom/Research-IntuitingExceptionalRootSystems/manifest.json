@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "7eac3ebe5a21347e30b9830b6ed2055079c15c729c97dc44346d1294a5aa7ff3",
+    "references/sources.json": "3440aff29468ca0ec7c248ae500879ab1113d7be773666b03069752a7c848750"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f2c86c697ff366428040b5dc1a9efaf702e88b1590f0ba4f162646dc290c0d26",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1d12a4e4ac0fb3c438e89cb0f7669d9cc99f8e28cb5e482b6f7d967e3ac916c3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:37:23.978133+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-IntuitingExceptionalRootSystems.",
+    "page_count": 1,
+    "portable_skill_name": "research-intuitingexceptionalrootsystems",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-IntuitingExceptionalRootSystems",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b650e7c3957b8ea10876b6ee4792d119f4f9c5ae7444e42f043dc365a659ff05",
+      "fetched_at": "2026-10-09T19:33:14.888362+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems",
+      "status_code": 200,
+      "text_sha256": "a7deb24fd1aebcddb11a9447157cc19776e9ac626c5e31ebde56491209edb009",
+      "title": "Research / IntuitingExceptionalRootSystems",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-intuitingexceptionalrootsystems",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12858,
+      "duration_ms": 225,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:33:13.346086+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems"
+    }
+  ],
+  "requested_skill_name": "Research-IntuitingExceptionalRootSystems",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-intuitingexceptionalrootsystems",
+  "skill_sha256": "7eac3ebe5a21347e30b9830b6ed2055079c15c729c97dc44346d1294a5aa7ff3",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/IntuitingExceptionalRootSystems"
+  ],
+  "target_id": "research-intuitingexceptionalrootsystems",
+  "warnings": []
+}

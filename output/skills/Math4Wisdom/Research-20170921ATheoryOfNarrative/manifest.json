@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6f5a2d5e9fa4fbe9a6fa9c089205b0930d57c41127d55158cfdc01376001c696",
+    "references/sources.json": "176e8e8ee7b8b2672cd1a4f4c344db2be00626d3b8ba5fb84be439c8240a3e60"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "58c6cd2338410d7cf5effc3fff36ad875387a4afdc2a8a042f69fe8979432bcd",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1b126c81bef3645df6e605287f9aab134d30105ace717a72f5dfb0f432019fc8"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:54:40.049516+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170921ATheoryOfNarrative.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170921atheoryofnarrative",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170921ATheoryOfNarrative",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "3740cff659b3f346f14cd1c55088175aaacfdcb0fc2d88a197974677a645ac98",
+      "fetched_at": "2026-10-09T19:48:49.098954+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170921ATheoryOfNarrative",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170921ATheoryOfNarrative",
+      "status_code": 200,
+      "text_sha256": "a899ffc4ca194107b435de73b77d620ee6ed74d03068fd534e17fa7eca79992e",
+      "title": "Research / 20170921ATheoryOfNarrative",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170921ATheoryOfNarrative",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170921atheoryofnarrative",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15206,
+      "duration_ms": 236,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:48.888030+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170921ATheoryOfNarrative"
+    }
+  ],
+  "requested_skill_name": "Research-20170921ATheoryOfNarrative",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170921atheoryofnarrative",
+  "skill_sha256": "6f5a2d5e9fa4fbe9a6fa9c089205b0930d57c41127d55158cfdc01376001c696",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170921ATheoryOfNarrative"
+  ],
+  "target_id": "research-20170921atheoryofnarrative",
+  "warnings": []
+}

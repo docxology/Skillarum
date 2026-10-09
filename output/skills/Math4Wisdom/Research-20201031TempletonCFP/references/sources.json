@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1d312de3b73a00032eeaa58565770ce276fa5883403f5b648f6a8c72f3be5353",
+      "fetched_at": "2026-10-09T19:52:12.151012+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonCFP",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonCFP",
+      "status_code": 200,
+      "title": "Research / 20201031TempletonCFP",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20201031TempletonCFP"
+    }
+  ],
+  "target_id": "research-20201031templetoncfp"
+}

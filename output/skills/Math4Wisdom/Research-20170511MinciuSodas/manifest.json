@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "6ad67bdac58d71b3aabc19bb7d53f8dc9a3585e3fb57b1e54b6a34935420d434",
+    "references/sources.json": "fde1335dd64d306717fee6bed0bac2eae5d9ee8ed49b3902814e120b9e700254"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "028d098a2e7e187b32fd4cb30db48493c9c0be76211a02f28250b3d94bd32c65",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "dc4114b97763969fcbf6e2241bd3ededb6501dfe0db5cfd2312845ca2ac975dd"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:33.302331+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170511MinciuSodas.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170511minciusodas",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170511MinciuSodas",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "8230826b1388e3213a59e5a7ee57016137757acf8149ce01eb8f074a47e9cd64",
+      "fetched_at": "2026-10-09T19:48:11.195804+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas",
+      "status_code": 200,
+      "text_sha256": "d35f38fe907ac57533837a8dd772b33ec9c49add121150e5c04e7d36fb74022d",
+      "title": "Research / 20170511MinciuSodas",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170511minciusodas",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 30308,
+      "duration_ms": 240,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:11.083046+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas"
+    }
+  ],
+  "requested_skill_name": "Research-20170511MinciuSodas",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170511minciusodas",
+  "skill_sha256": "6ad67bdac58d71b3aabc19bb7d53f8dc9a3585e3fb57b1e54b6a34935420d434",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170511MinciuSodas"
+  ],
+  "target_id": "research-20170511minciusodas",
+  "warnings": []
+}

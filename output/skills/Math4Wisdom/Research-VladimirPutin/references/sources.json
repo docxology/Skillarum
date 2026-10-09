@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "173aa32adcceb63887104ce6841f402fd43b1598c99b87de6091bc1d81301748",
+      "fetched_at": "2026-10-09T19:47:23.768306+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/VladimirPutin",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/VladimirPutin",
+      "status_code": 200,
+      "title": "Research / VladimirPutin",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/VladimirPutin"
+    }
+  ],
+  "target_id": "research-vladimirputin"
+}

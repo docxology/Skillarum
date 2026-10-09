@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cf3e4ae61b2e096833ade525a7d3114e0f6663fd542c57c255e76360ca502f78",
+      "fetched_at": "2026-10-09T19:27:58.812483+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PeanoAxioms",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PeanoAxioms",
+      "status_code": 200,
+      "title": "Research / PeanoAxioms",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PeanoAxioms"
+    }
+  ],
+  "target_id": "research-peanoaxioms"
+}

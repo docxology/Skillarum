@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "9611202f58a6086cefe5319ca0a0881d17f424925a3eccace0d24eed1df2d2a5",
+    "references/sources.json": "f012f39efd97f374d25de9f8359253a12292087ef23be911ed0c15f46b902ba7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ca0336c0090add350297f4669e69bfd27935c88e8e87eb516abc81d4e6c2c2b7",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "f2908ebf17157ae040e2321b172575a8da9833ad2027f66ce4893d58082e5a50"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:18:35.009063+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Humor.",
+    "page_count": 1,
+    "portable_skill_name": "research-humor",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Humor",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "6bd6d3248d8e3fbaadffcd546af8ffb8f5c9fe6eed4e26577ef1552fbaab2a71",
+      "fetched_at": "2026-10-09T19:16:23.141362+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Humor",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Humor",
+      "status_code": 200,
+      "text_sha256": "ceda935b2523460d1ed9cd1b8b1e0dc36db4f5c4f4d21073e5c17e218e4eb953",
+      "title": "Research / Humor",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Humor",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-humor",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9955,
+      "duration_ms": 286,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:16:23.033090+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Humor"
+    }
+  ],
+  "requested_skill_name": "Research-Humor",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-humor",
+  "skill_sha256": "9611202f58a6086cefe5319ca0a0881d17f424925a3eccace0d24eed1df2d2a5",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Humor"
+  ],
+  "target_id": "research-humor",
+  "warnings": []
+}

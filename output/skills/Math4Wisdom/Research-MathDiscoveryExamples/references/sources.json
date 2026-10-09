@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3382424324cb98d5a2fb49c4f1a4d3fb63d20dfcacc4ad191b9383988528c515",
+      "fetched_at": "2026-10-09T19:44:39.733771+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryExamples",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryExamples",
+      "status_code": 200,
+      "title": "Research / MathDiscoveryExamples",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathDiscoveryExamples"
+    }
+  ],
+  "target_id": "research-mathdiscoveryexamples"
+}

@@ -1,0 +1,111 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "21536b717853ea391c3c180b04ec8537903e482016367b73e2acc7ad420ef31c",
+    "references/sources.json": "bf4a35dc08ef16c37e62712298ec5c0deba455cff9f49dbcb670cbed0a860f0a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "57fef37f654a88d9d9342631e802657fe9b19bbcbdca1402ce99afb9e7fbcbdf",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "e1afa55210308a82dc84ec65bf856d52c8e86c4a3c99320d6f434a9f108eae0e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:27:43.058034+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MasteringTheYonedaLemma.",
+    "page_count": 1,
+    "portable_skill_name": "research-masteringtheyonedalemma",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MasteringTheYonedaLemma",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma: text truncated to 40000 characters"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "9cc23107dde6cbcd7da50d482c7042a54bafc8f9012bb2aeb1df761545d58b79",
+      "fetched_at": "2026-10-09T19:25:14.174233+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma",
+      "status_code": 200,
+      "text_sha256": "3f31ec296bf8a79035ef9e9f863521d2d4ee41f3254bfdf230c08e0c5b08a958",
+      "title": "Research / MasteringTheYonedaLemma",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-masteringtheyonedalemma",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 70687,
+      "duration_ms": 242,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:25:08.278247+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma"
+    }
+  ],
+  "requested_skill_name": "Research-MasteringTheYonedaLemma",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-masteringtheyonedalemma",
+  "skill_sha256": "21536b717853ea391c3c180b04ec8537903e482016367b73e2acc7ad420ef31c",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma"
+  ],
+  "target_id": "research-masteringtheyonedalemma",
+  "warnings": [
+    "https://www.math4wisdom.com/wiki/Research/MasteringTheYonedaLemma: text truncated to 40000 characters"
+  ]
+}

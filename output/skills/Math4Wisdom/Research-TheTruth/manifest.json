@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "296688fde30cf099e7254dd3f2449a5d058c7c30937c477db05c780286accab6",
+    "references/sources.json": "c5c5e100fca9331731700e044f33ca20f0730fef9ea19531279d29c11e887f8a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9619b7a7684fc0537df09162ee4e9b5638df9fa5cf38bd6e1cd9dbf759fd8f16",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "b17218d2af7e29fce584e1aa0bac57d61fe26859949faac9d756323b1198c6ff"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:53:02.036850+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-TheTruth.",
+    "page_count": 1,
+    "portable_skill_name": "research-thetruth",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-TheTruth",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "5167eca6f094d846bbca5a184fca6f26fdda60dfed008e004725e08474c3447a",
+      "fetched_at": "2026-10-09T19:47:53.265070+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/TheTruth",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/TheTruth",
+      "status_code": 200,
+      "text_sha256": "ceac7a5e5dfab87a656e17592c7a3da68801256ec35d78f5a8e2269cda13c372",
+      "title": "Research / TheTruth",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/TheTruth",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-thetruth",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13795,
+      "duration_ms": 912,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:47:52.958900+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/TheTruth"
+    }
+  ],
+  "requested_skill_name": "Research-TheTruth",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-thetruth",
+  "skill_sha256": "296688fde30cf099e7254dd3f2449a5d058c7c30937c477db05c780286accab6",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/TheTruth"
+  ],
+  "target_id": "research-thetruth",
+  "warnings": []
+}

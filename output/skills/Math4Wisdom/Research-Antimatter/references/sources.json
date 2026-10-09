@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d435cad4505952768e4c56cc0d1b2e07dbf22b1cda50f1278cba220ddb5e848f",
+      "fetched_at": "2026-10-09T19:43:16.725138+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Antimatter",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Antimatter",
+      "status_code": 200,
+      "title": "Research / Antimatter",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Antimatter"
+    }
+  ],
+  "target_id": "research-antimatter"
+}

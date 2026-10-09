@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cc296fcaa220afe4a59583d5f0c6fcd30fda18913580a4941014fd855b339af1",
+      "fetched_at": "2026-10-09T19:39:34.912374+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Automata",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Automata",
+      "status_code": 200,
+      "title": "Research / Automata",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Automata"
+    }
+  ],
+  "target_id": "research-automata"
+}

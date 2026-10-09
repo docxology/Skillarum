@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "184eecd7e1a956f2c8c34ab7345342c9b764cb8494934efbc359ed68ae2eb275",
+    "references/sources.json": "f77c9264219300d8e5012f3319673044ee5de9377a864cf754c4e78d3fdec968"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2f378a761165ed5a1ad4c75a941e6cdec8d57a2ec493350e815181e5e11ada1d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "096f27d8021c0f58f8328158fcf29983e9d693a69d1cfa2e9acf4b85dcc93b56"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:57:56.239333+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20180819GodsStateOfMind.",
+    "page_count": 1,
+    "portable_skill_name": "research-20180819godsstateofmind",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20180819GodsStateOfMind",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "80d28363c689fdd662494ba19d38c68b9fada6e316372510d4525e04d8e8b222",
+      "fetched_at": "2026-10-09T19:51:18.794089+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind",
+      "status_code": 200,
+      "text_sha256": "421329ad3dcba276239cc62cabfb508ab856d549a534c48f8200a9e14718b5c4",
+      "title": "Research / 20180819GodsStateOfMind",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20180819godsstateofmind",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25801,
+      "duration_ms": 237,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:51:17.673176+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind"
+    }
+  ],
+  "requested_skill_name": "Research-20180819GodsStateOfMind",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20180819godsstateofmind",
+  "skill_sha256": "184eecd7e1a956f2c8c34ab7345342c9b764cb8494934efbc359ed68ae2eb275",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20180819GodsStateOfMind"
+  ],
+  "target_id": "research-20180819godsstateofmind",
+  "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "5c7befc161bd2c6f8f8ba0397565da0f60fad8306aa6eef8f2261da8d5abfe7a",
+    "references/sources.json": "912763cd55e9b72af3bb0a5fb0b8531b1ee90acd00728baa107216fe62da86b1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "537b0a9fbaed8dc6268e95d70b6f0cf119240961641b85224599770a732cfc91",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "a43bb8ba02c0a15b1dbe2be77ec4c38099496fecc04d599f6749456571e7b8d0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:03:03.996848+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-JohnHarland.",
+    "page_count": 1,
+    "portable_skill_name": "research-johnharland",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-JohnHarland",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "8375b738826db8ff70fb67a378c391d375ae0a53f37969ab3804559e51519230",
+      "fetched_at": "2026-10-09T19:56:26.088606+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/JohnHarland",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/JohnHarland",
+      "status_code": 200,
+      "text_sha256": "1c01341e2cfb2e0a284606134ef25643700ff1607f554500b99dcd1db006ba1a",
+      "title": "Research / JohnHarland",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/JohnHarland",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-johnharland",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 35531,
+      "duration_ms": 246,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:56:22.527092+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/JohnHarland"
+    }
+  ],
+  "requested_skill_name": "Research-JohnHarland",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-johnharland",
+  "skill_sha256": "5c7befc161bd2c6f8f8ba0397565da0f60fad8306aa6eef8f2261da8d5abfe7a",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/JohnHarland"
+  ],
+  "target_id": "research-johnharland",
+  "warnings": []
+}

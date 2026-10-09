@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "f6339690f9f58e1d8cbd57dfddcd92fff6a09a5a1f3cdaad9e3d04da48f3d092",
+    "references/sources.json": "3fc2e2f4828804412bed4b8e079d4f7ef24675240a1fa07d2c645da1e6210809"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "88eff7e5450b97da3b3d1bd0acfa9831096f3541aa703367523e131d76bb824c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "f5a002c44b47feb2ccda809559c42e35b0bbd17d5621c34c9ca04913fe36113c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:44:19.693760+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-PVsNP.",
+    "page_count": 1,
+    "portable_skill_name": "research-pvsnp",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-PVsNP",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "93ca7978aba3055115b6eba33341d2bdb98836f6f7533c358c41be1bfa3db1d4",
+      "fetched_at": "2026-10-09T19:39:55.160705+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/PVsNP",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/PVsNP",
+      "status_code": 200,
+      "text_sha256": "a6fef063e196c7ed549f9b7e1f3355cecfc19a5b7f8e8c61b691998f44a93c75",
+      "title": "Research / PVsNP",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/PVsNP",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-pvsnp",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10460,
+      "duration_ms": 214,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:39:54.948150+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/PVsNP"
+    }
+  ],
+  "requested_skill_name": "Research-PVsNP",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-pvsnp",
+  "skill_sha256": "f6339690f9f58e1d8cbd57dfddcd92fff6a09a5a1f3cdaad9e3d04da48f3d092",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/PVsNP"
+  ],
+  "target_id": "research-pvsnp",
+  "warnings": []
+}

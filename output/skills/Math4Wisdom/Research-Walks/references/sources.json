@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "322359a5a00b517d9d4a10d52bf1fac62782191536eadfdf739bd31676855f84",
+      "fetched_at": "2026-10-09T19:39:43.438445+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Walks",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Walks",
+      "status_code": 200,
+      "title": "Research / Walks",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Walks"
+    }
+  ],
+  "target_id": "research-walks"
+}

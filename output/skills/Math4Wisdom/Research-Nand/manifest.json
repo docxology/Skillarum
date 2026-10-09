@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "8a51eccd0a4185d463673e434b899f246cecad5c95d896c136eb5a9ba95004d4",
+    "references/sources.json": "512b0f2c842457e43db66ffc3cd1e3ee6eef5bfaada7a56ba28fc831d599dadf"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e44c77a3beb163624331c998651fe78bd3f1a4ac7c82b77f7004185ec0b3e96e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "af02d360dbd700002b77b41e42ab134bc94825fcbeac0c2c7dfd8cea7558133d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:30:10.981003+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Nand.",
+    "page_count": 1,
+    "portable_skill_name": "research-nand",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Nand",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "70b8a4a43b2351f4f55357ad74892c6b79e6c1f4431a752bc3fb00622184987e",
+      "fetched_at": "2026-10-09T19:27:57.427264+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Nand",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Nand",
+      "status_code": 200,
+      "text_sha256": "ea1c7d22536d0a4b200bc4cf27ad55b57aac38d2eb0f3240ba519c3f4aa93dd2",
+      "title": "Research / Nand",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Nand",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-nand",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11344,
+      "duration_ms": 215,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:27:55.999944+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Nand"
+    }
+  ],
+  "requested_skill_name": "Research-Nand",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-nand",
+  "skill_sha256": "8a51eccd0a4185d463673e434b899f246cecad5c95d896c136eb5a9ba95004d4",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Nand"
+  ],
+  "target_id": "research-nand",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ebaa5143ded070ad6a3e929abc97dfbfb60d2a6b78c0671f96d054217296df84",
+      "fetched_at": "2026-10-09T19:21:56.669520+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathIntuition",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathIntuition",
+      "status_code": 200,
+      "title": "Research / MathIntuition",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathIntuition"
+    }
+  ],
+  "target_id": "research-mathintuition"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "c26761066d0fc25885ba76b525920de46bb758ec325aae7de5c4a01b3253006b",
+    "references/sources.json": "3448f06b1c3860f0fc752f33f0aeb44673c0ac15fed1c33a31b706faeafdeee3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "58b5aefe6ee8b09e70aaa63f4646e64483faf4ab18d4cbb8afd764d9e3629ebe",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "d0c4f1d316ccd6f260d8c7d68d36206a641d03a61f2627ed1101d102e55da0a7"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:47:09.065509+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Calabi-YauManifold.",
+    "page_count": 1,
+    "portable_skill_name": "research-calabi-yaumanifold",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Calabi-YauManifold",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "99664829e1eb8a9d4de9b7578cb71d08fa7422357b75df63fa6e4e0c28c48521",
+      "fetched_at": "2026-10-09T19:42:35.002215+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Calabi-YauManifold",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Calabi-YauManifold",
+      "status_code": 200,
+      "text_sha256": "9bed2f0356f2cab61ce1bdf2b4d71e85f77519d4790fbdf9157e8c6e1979692d",
+      "title": "Research / Calabi-YauManifold",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Calabi-YauManifold",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-calabi-yaumanifold",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12968,
+      "duration_ms": 1039,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:42:31.569696+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Calabi-YauManifold"
+    }
+  ],
+  "requested_skill_name": "Research-Calabi-YauManifold",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-calabi-yaumanifold",
+  "skill_sha256": "c26761066d0fc25885ba76b525920de46bb758ec325aae7de5c4a01b3253006b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Calabi-YauManifold"
+  ],
+  "target_id": "research-calabi-yaumanifold",
+  "warnings": []
+}

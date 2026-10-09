@@ -1,0 +1,109 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "cfc0d2a1e0919996685b92f34d9d591f22357d14854402b12f0a9775fbf097bc",
+    "references/sources.json": "d7cc431bf6309fd73b61d972b305657700f08e29931f8a1d063f9f0efb28b0e2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1ec3dd21211dd3d7d17d9689733f34e40c529dbe898210a039c843306ec5badc",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "3adbea8d075ff108ab786d726fae054c45e77a495a2ed58bd136759d7b906e99"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:56:09.581081+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20171130OversimplifyingMorality.",
+    "page_count": 1,
+    "portable_skill_name": "research-20171130oversimplifyingmorality",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20171130OversimplifyingMorality",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "4b82087d012b3a1d360333b180c8e4c61e11a3437e6e94a6dc05c5d9e04662a9",
+      "fetched_at": "2026-10-09T19:49:43.342802+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171130OversimplifyingMorality",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171130OversimplifyingMorality",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Research / 20171130OversimplifyingMorality",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171130OversimplifyingMorality",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "research-20171130oversimplifyingmorality",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9910,
+      "duration_ms": 231,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:49:43.133509+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20171130OversimplifyingMorality"
+    }
+  ],
+  "requested_skill_name": "Research-20171130OversimplifyingMorality",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20171130oversimplifyingmorality",
+  "skill_sha256": "cfc0d2a1e0919996685b92f34d9d591f22357d14854402b12f0a9775fbf097bc",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20171130OversimplifyingMorality"
+  ],
+  "target_id": "research-20171130oversimplifyingmorality",
+  "warnings": []
+}

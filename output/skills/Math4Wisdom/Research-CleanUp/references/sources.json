@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e08bbc7f8b9d229fb2403af534c979403b0869564733437d389dc91701fa4319",
+      "fetched_at": "2026-10-09T19:13:40.248841+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CleanUp",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CleanUp",
+      "status_code": 200,
+      "title": "Research / CleanUp",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CleanUp"
+    }
+  ],
+  "target_id": "research-cleanup"
+}

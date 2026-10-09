@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "e86e7c8f23355c600db788c6724219f9833910aedfd679a2d23f6d8b663fc75d",
+    "references/sources.json": "7eb9513001733dce0e3e9540cf8bb903cfdc9b65dcddcd791232b57d1ad57b47"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9e338e36f555a4847e0ef7f8efa74284ec524860b379d4164c0b3059cb065ad2",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1bd6fe4cb755703275a98229618b9532e26b3b6ddc3a28c66b07861ec53abef9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:47:18.622358+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-Tensor.",
+    "page_count": 1,
+    "portable_skill_name": "research-tensor",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-Tensor",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "f7ddbe7fc5180a7fcf4bfbef3e2aa9c0aa3d4d1ae8b2b6ccffd9efebfdae6cf6",
+      "fetched_at": "2026-10-09T19:42:45.824300+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Tensor",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Tensor",
+      "status_code": 200,
+      "text_sha256": "dd012c0efdc0698e22e80dd3322d0fd34d62f53dc03344489c37f0b5c62fd3db",
+      "title": "Research / Tensor",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Tensor",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-tensor",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 25832,
+      "duration_ms": 241,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:42:36.357539+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/Tensor"
+    }
+  ],
+  "requested_skill_name": "Research-Tensor",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-tensor",
+  "skill_sha256": "e86e7c8f23355c600db788c6724219f9833910aedfd679a2d23f6d8b663fc75d",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/Tensor"
+  ],
+  "target_id": "research-tensor",
+  "warnings": []
+}

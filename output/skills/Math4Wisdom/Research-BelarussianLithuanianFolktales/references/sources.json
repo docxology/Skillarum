@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a8ef8335f2720db3a0efaf98627f40521fcac8e985ecae0172c3ffe9012629ab",
+      "fetched_at": "2026-10-09T19:54:27.987826+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/BelarussianLithuanianFolktales",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/BelarussianLithuanianFolktales",
+      "status_code": 200,
+      "title": "Research / BelarussianLithuanianFolktales",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/BelarussianLithuanianFolktales"
+    }
+  ],
+  "target_id": "research-belarussianlithuanianfolktales"
+}

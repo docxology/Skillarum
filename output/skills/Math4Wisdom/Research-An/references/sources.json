@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6439cda7cd79c0cfc0a08051718f352e387fc15c2e9d9ea0c8002dbcc935f745",
+      "fetched_at": "2026-10-09T19:32:31.825414+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/An",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/An",
+      "status_code": 200,
+      "title": "Research / An",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/An"
+    }
+  ],
+  "target_id": "research-an"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4715943c018f0cd38615166b145c1b9fc0a525cc2de789e3958f3ba3ca306619",
+      "fetched_at": "2026-10-09T19:22:17.528744+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathHistory",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathHistory",
+      "status_code": 200,
+      "title": "Research / MathHistory",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathHistory"
+    }
+  ],
+  "target_id": "research-mathhistory"
+}

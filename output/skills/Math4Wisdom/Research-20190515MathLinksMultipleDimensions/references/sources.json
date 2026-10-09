@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "eda7c7dd3d32a77ac9556b2424cf619faa240d54ebec3f4fb409c37e5884ec2c",
+      "fetched_at": "2026-10-09T19:51:42.851177+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20190515MathLinksMultipleDimensions",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20190515MathLinksMultipleDimensions",
+      "status_code": 200,
+      "title": "Research / 20190515MathLinksMultipleDimensions",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20190515MathLinksMultipleDimensions"
+    }
+  ],
+  "target_id": "research-20190515mathlinksmultipledimensions"
+}

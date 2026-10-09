@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1a9477460b3d515201eec752788d43d3482746fbfaa94f37e31c9c13b2f494a1",
+      "fetched_at": "2026-10-09T19:33:54.352872+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ExponentialTraceDeterminant",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ExponentialTraceDeterminant",
+      "status_code": 200,
+      "title": "Research / ExponentialTraceDeterminant",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ExponentialTraceDeterminant"
+    }
+  ],
+  "target_id": "research-exponentialtracedeterminant"
+}

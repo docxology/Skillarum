@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "2bd7d2f297e31aba6cf36055df4cd9b1e776baa4e32df8143f9da195a19ddf75",
+    "references/sources.json": "2b9c770a9aa01a9ea7ed27d4d6f199ab09d5ccc9fd18a20d2d40ce2efa7ff253"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "dcdcbc20096725603e12d7fe87b5066a3faa42dcef4681c8946d1d55d9883555",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "fc54b26b45867a7e08d581d9e948bbfa91975baf3fce3522dbddb86b8c6f392b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:41:33.034719+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-CircleFolding.",
+    "page_count": 1,
+    "portable_skill_name": "research-circlefolding",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-CircleFolding",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c682d49e5b397b256cb936eeec70da08c92a79b5093d02b4e3a933d29a9c6dff",
+      "fetched_at": "2026-10-09T19:37:15.781315+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/CircleFolding",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/CircleFolding",
+      "status_code": 200,
+      "text_sha256": "7e59b6ce8afc1f9de2bc1f2d71a4608c9789f29dd037bab1cbb9715332c078fb",
+      "title": "Research / CircleFolding",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/CircleFolding",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-circlefolding",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15776,
+      "duration_ms": 213,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:37:13.155050+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/CircleFolding"
+    }
+  ],
+  "requested_skill_name": "Research-CircleFolding",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-circlefolding",
+  "skill_sha256": "2bd7d2f297e31aba6cf36055df4cd9b1e776baa4e32df8143f9da195a19ddf75",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/CircleFolding"
+  ],
+  "target_id": "research-circlefolding",
+  "warnings": []
+}

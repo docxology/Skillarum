@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1d6203c3bda3b0b765b1c6acacd3c6d647bb0b0635ca24df1c18a8cd56485ee0",
+      "fetched_at": "2026-10-09T19:40:33.085758+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/AdjunctionInStatistics",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/AdjunctionInStatistics",
+      "status_code": 200,
+      "title": "Research / AdjunctionInStatistics",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/AdjunctionInStatistics"
+    }
+  ],
+  "target_id": "research-adjunctioninstatistics"
+}

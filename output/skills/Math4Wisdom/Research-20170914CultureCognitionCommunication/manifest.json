@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "68ae56c214744ea0e61a9fe9e2016341c1079a455c641b5cc72970511007c64b",
+    "references/sources.json": "2526ddcfcafbd8c2621ec48d7ccec2b9b175a86a6876a63c5fd3c809c145f6f7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6fb9c2c91aaa6992177fc99605b19eb621b415ee2b3272745d8a1e8193cca929",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1202d88cc8706f5b9346c0ec0ac2cb80783535a2ad614e8c7f2a43ae9b0c72f3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T19:48:43.568773+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-20170914CultureCognitionCommunication.",
+    "page_count": 1,
+    "portable_skill_name": "research-20170914culturecognitioncommunication",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-20170914CultureCognitionCommunication",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "32fae1c45a00ad7ba12b2834b8810f83ba4f6a7421c381cd3eb75031f09cc1bf",
+      "fetched_at": "2026-10-09T19:48:42.717715+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20170914CultureCognitionCommunication",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20170914CultureCognitionCommunication",
+      "status_code": 200,
+      "text_sha256": "c3f155c984d492c6ea534644a9bae4015cbdc8568388f79bcbd9b6bd4cd87cb1",
+      "title": "Research / 20170914CultureCognitionCommunication",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20170914CultureCognitionCommunication",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-20170914culturecognitioncommunication",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 42576,
+      "duration_ms": 247,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:41.291330+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/20170914CultureCognitionCommunication"
+    }
+  ],
+  "requested_skill_name": "Research-20170914CultureCognitionCommunication",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-20170914culturecognitioncommunication",
+  "skill_sha256": "68ae56c214744ea0e61a9fe9e2016341c1079a455c641b5cc72970511007c64b",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/20170914CultureCognitionCommunication"
+  ],
+  "target_id": "research-20170914culturecognitioncommunication",
+  "warnings": []
+}

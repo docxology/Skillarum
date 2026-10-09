@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ab3635eb73986ced3a7e3906232e162d2bc626ce75f8acbccee02a1fe4c20825",
+      "fetched_at": "2026-10-09T19:22:12.277729+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathCompanion",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathCompanion",
+      "status_code": 200,
+      "title": "Research / MathCompanion",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathCompanion"
+    }
+  ],
+  "target_id": "research-mathcompanion"
+}

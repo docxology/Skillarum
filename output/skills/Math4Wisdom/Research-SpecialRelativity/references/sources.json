@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "75977105d304575852edcf27fae9039c146725bd0f8ff7866f8d48f004435a34",
+      "fetched_at": "2026-10-09T19:42:15.807400+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/SpecialRelativity",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/SpecialRelativity",
+      "status_code": 200,
+      "title": "Research / SpecialRelativity",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/SpecialRelativity"
+    }
+  ],
+  "target_id": "research-specialrelativity"
+}

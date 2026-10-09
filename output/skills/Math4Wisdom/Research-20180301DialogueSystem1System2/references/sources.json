@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "71f73b5d175072acea6b8ce13ba6147fe22518238c386cc365cd2f43efcb0b09",
+      "fetched_at": "2026-10-09T19:50:05.811107+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20180301DialogueSystem1System2",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20180301DialogueSystem1System2",
+      "status_code": 200,
+      "title": "Research / 20180301DialogueSystem1System2",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20180301DialogueSystem1System2"
+    }
+  ],
+  "target_id": "research-20180301dialoguesystem1system2"
+}

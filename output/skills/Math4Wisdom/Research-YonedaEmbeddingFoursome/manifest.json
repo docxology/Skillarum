@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "366d1d6e4e356547fd0778a65d41b6ca7792ca2c90c56eacbf74ad2cf9e7bad9",
+    "references/sources.json": "d0bafc1600868db7d38160338f34f2efa86a1825a706125b529140964e4bd72a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a7193facccbb6b3618fff25b65d47c57a25d27dbf4c5484f3080df4647d431c1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "77a50a2370c8c76f5ce6ac8f13f1d9730e7222698f7028c3910304cd52b1133a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:27:14.789368+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-YonedaEmbeddingFoursome.",
+    "page_count": 1,
+    "portable_skill_name": "research-yonedaembeddingfoursome",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-YonedaEmbeddingFoursome",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "80ce8c0461227df4b3ed814fba44155fbd7304819931af7106088671116d3783",
+      "fetched_at": "2026-10-09T19:24:32.632107+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome",
+      "status_code": 200,
+      "text_sha256": "d0ab9181e26ae177fedbe3d7056009e3925ac5f4319b67a86201ce8e763a930a",
+      "title": "Research / YonedaEmbeddingFoursome",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-yonedaembeddingfoursome",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 28980,
+      "duration_ms": 785,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:24:32.108143+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome"
+    }
+  ],
+  "requested_skill_name": "Research-YonedaEmbeddingFoursome",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-yonedaembeddingfoursome",
+  "skill_sha256": "366d1d6e4e356547fd0778a65d41b6ca7792ca2c90c56eacbf74ad2cf9e7bad9",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/YonedaEmbeddingFoursome"
+  ],
+  "target_id": "research-yonedaembeddingfoursome",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b08eadbc53efc6b174b3555ddf6bf33c06eb075f2a68302971e84e0623382a94",
+      "fetched_at": "2026-10-09T19:49:47.206145+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/20171201WhatMindsRequireOfBrains",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/20171201WhatMindsRequireOfBrains",
+      "status_code": 200,
+      "title": "Research / 20171201WhatMindsRequireOfBrains",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/20171201WhatMindsRequireOfBrains"
+    }
+  ],
+  "target_id": "research-20171201whatmindsrequireofbrains"
+}

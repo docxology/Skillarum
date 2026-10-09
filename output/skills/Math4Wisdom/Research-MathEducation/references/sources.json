@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "df581d5c9244b13f3b9fa70f9b143cedd80323b0e4f62f4a396833caef53ced6",
+      "fetched_at": "2026-10-09T19:23:04.039699+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathEducation",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathEducation",
+      "status_code": 200,
+      "title": "Research / MathEducation",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathEducation"
+    }
+  ],
+  "target_id": "research-matheducation"
+}

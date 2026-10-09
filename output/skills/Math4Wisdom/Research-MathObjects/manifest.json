@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "48d18f0269a81a4d318d4f1c408c1af719441dd59c36e8eafe827453f120dacb",
+    "references/sources.json": "d95cf4547a6d6a3489f852cf0fb7d5da79dac380f58dddd17a59d28c7688895e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "979aab37cf4cc03d28edd99b3d2e11793e0991ab05a14053b08cae0502db898b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "1ac6f3bc90a33ed2e2942e4c118219560448b628570ba6c58176f3c7b3d96846"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:26:08.669090+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-MathObjects.",
+    "page_count": 1,
+    "portable_skill_name": "research-mathobjects",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-MathObjects",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "8a5375fb8240c130beebee04c20e204f33ac41be04590d1369a193a24fd861a0",
+      "fetched_at": "2026-10-09T19:23:16.908822+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathObjects",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathObjects",
+      "status_code": 200,
+      "text_sha256": "ea2f850de0c08ed07a49beb6d015ec83340975593fe1633d72355e19a8b716d5",
+      "title": "Research / MathObjects",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathObjects",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-mathobjects",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10298,
+      "duration_ms": 222,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:23:16.502769+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/MathObjects"
+    }
+  ],
+  "requested_skill_name": "Research-MathObjects",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-mathobjects",
+  "skill_sha256": "48d18f0269a81a4d318d4f1c408c1af719441dd59c36e8eafe827453f120dacb",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/MathObjects"
+  ],
+  "target_id": "research-mathobjects",
+  "warnings": []
+}

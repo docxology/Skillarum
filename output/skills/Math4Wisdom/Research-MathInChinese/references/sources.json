@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b2413dbd7bac21a9856f12e9c8f712d4d589293a1d1595e0b01bfb044d1ce2e3",
+      "fetched_at": "2026-10-09T19:23:31.406565+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/MathInChinese",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/MathInChinese",
+      "status_code": 200,
+      "title": "Research / MathInChinese",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/MathInChinese"
+    }
+  ],
+  "target_id": "research-mathinchinese"
+}

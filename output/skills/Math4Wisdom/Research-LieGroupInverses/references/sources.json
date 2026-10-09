@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5ccaf544924c368521f4c8c7fd197ced3f67c6b7d635465e984939c1eee15253",
+      "fetched_at": "2026-10-09T19:33:00.306582+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/LieGroupInverses",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/LieGroupInverses",
+      "status_code": 200,
+      "title": "Research / LieGroupInverses",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/LieGroupInverses"
+    }
+  ],
+  "target_id": "research-liegroupinverses"
+}

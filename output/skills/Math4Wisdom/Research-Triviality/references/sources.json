@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5815603fec836f725e5c1d34cd8587816971c3e44510484bfb3cc73b115be07f",
+      "fetched_at": "2026-10-09T19:27:16.755730+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/Triviality",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/Triviality",
+      "status_code": 200,
+      "title": "Research / Triviality",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/Triviality"
+    }
+  ],
+  "target_id": "research-triviality"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2d3ba7406644aa2f47314d740e739a51c51548760e8f8834c8b972bf3d43790b",
+      "fetched_at": "2026-10-09T19:26:43.528895+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ClassifyAdjunctions",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ClassifyAdjunctions",
+      "status_code": 200,
+      "title": "Research / ClassifyAdjunctions",
+      "truncated": true,
+      "url": "https://www.math4wisdom.com/wiki/Research/ClassifyAdjunctions"
+    }
+  ],
+  "target_id": "research-classifyadjunctions"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "9ed366a9b5b0789232af11e0799135ad22d9c64d3c53a888c1fdbff5dc193118",
+      "fetched_at": "2026-10-09T19:18:31.356064+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife",
+      "status_code": 200,
+      "title": "Research / EmotionalLife",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/EmotionalLife"
+    }
+  ],
+  "target_id": "research-emotionallife"
+}

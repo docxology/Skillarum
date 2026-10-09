@@ -1,0 +1,107 @@
+{
+  "area": "Math4Wisdom",
+  "artifact_hashes": {
+    "SKILL.md": "8bb5c9197a1f5425fd69c42bf31266ccb83b2298883ef1b73d9b68f4138040a7",
+    "references/sources.json": "4c98b828344df33498dc90be03f34c422d6fe3b10d80db97cfaa193d35ca57a3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0a0ef112087897c6d795efb90dac7d5f64f3228fe25591fd24ea06553d6f3c5d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+    "request_count": 1,
+    "target_fingerprint": "ab0ea294fca2d4021d1aaef51af521f5165ff2d5d323b10a1cbb56c125155f53"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "deterministic",
+        "cache_key": "deterministic-v3",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-10-09T18:54:18.456224+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "deterministic"
+  },
+  "generator": "deterministic",
+  "generator_fingerprint": "1ce347e5672c513c4e7add66385ddd4f4a50e5a52346c50ac133e0544d8dcbd1",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "generator_description": "Source-grounded reference skill for Math 4 Wisdom: Research-ExpectingWhatWeDontWish-Abstract.",
+    "page_count": 1,
+    "portable_skill_name": "research-expectingwhatwedontwish-abstract",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Research-ExpectingWhatWeDontWish-Abstract",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "b5a8a31bb22ad10580327762af10fa9f3707871342d81a5c25495e7143138932",
+      "fetched_at": "2026-10-09T19:48:36.107459+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/ExpectingWhatWeDontWish-Abstract",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/ExpectingWhatWeDontWish-Abstract",
+      "status_code": 200,
+      "text_sha256": "23658691b5ae8a45c7a1bdd7f808f6e826e9ccdfb2d8b521593692eb08f4b5b4",
+      "title": "Research / ExpectingWhatWeDontWish-Abstract",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/ExpectingWhatWeDontWish-Abstract",
+      "warnings": []
+    }
+  ],
+  "portable_name": "research-expectingwhatwedontwish-abstract",
+  "profile_fingerprint": "d200acfab1bec1eb0c2806bac70b157948e3fadc3b03c14348a909f01502a8e6",
+  "profile_id": "math4wisdom-research",
+  "profile_name": "Math 4 Wisdom",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11975,
+      "duration_ms": 227,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-10-09T19:48:34.394287+00:00",
+      "url": "https://www.math4wisdom.com/wiki/Research/ExpectingWhatWeDontWish-Abstract"
+    }
+  ],
+  "requested_skill_name": "Research-ExpectingWhatWeDontWish-Abstract",
+  "run_id": "math4wisdom-research--1c1481b1c9e7a6b06a47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "research-expectingwhatwedontwish-abstract",
+  "skill_sha256": "8bb5c9197a1f5425fd69c42bf31266ccb83b2298883ef1b73d9b68f4138040a7",
+  "source_urls": [
+    "https://www.math4wisdom.com/wiki/Research/ExpectingWhatWeDontWish-Abstract"
+  ],
+  "target_id": "research-expectingwhatwedontwish-abstract",
+  "warnings": []
+}

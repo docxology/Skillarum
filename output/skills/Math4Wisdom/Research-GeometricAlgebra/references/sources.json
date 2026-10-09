@@ -1,0 +1,17 @@
+{
+  "profile_id": "math4wisdom-research",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "64588a63bb8b8de2919e3b175dd339d6968833df0f874a2d41c74481a2cf9ad6",
+      "fetched_at": "2026-10-09T19:35:37.617920+00:00",
+      "final_url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra",
+      "requested_url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra",
+      "status_code": 200,
+      "title": "Research / GeometricAlgebra",
+      "truncated": false,
+      "url": "https://www.math4wisdom.com/wiki/Research/GeometricAlgebra"
+    }
+  ],
+  "target_id": "research-geometricalgebra"
+}

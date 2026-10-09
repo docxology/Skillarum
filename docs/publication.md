@@ -7,7 +7,7 @@ flow. It is metadata documentation, not an operational script.
 
 | Identifier | Value | Status |
 | --- | --- | --- |
-| Version DOI (0.3.1) | `10.5281/zenodo.23271010` | Reserved for release 0.3.1. Identifier origin: service-returned `metadata.prereserve_doi.doi` on production Zenodo deposit 23271010, created 2026-10-09 with `actions/newversion` from record 23269108. |
+| Version DOI (0.3.1) | `10.5281/zenodo.23271010` | Published 2026-10-09 as record 23271010 (new version of 23269108). Identifier origin: service-returned `metadata.prereserve_doi.doi`, confirmed by the publish response and the public record. |
 | Version DOI (0.3.0) | `10.5281/zenodo.23269108` | Published 2026-10-09 as record 23269108 (new version of 22663907). Identifier origin: service-returned `metadata.prereserve_doi.doi`, confirmed by the publish response and the public record. |
 | Version DOI (0.2.0) | `10.5281/zenodo.22663907` | Published 2026-09-10 (record 22663907). |
 | Concept DOI | `10.5281/zenodo.22663906` | Read on 2026-10-09 from the published 0.2.0 record's `conceptdoi` field; resolves to the latest version. |
@@ -31,7 +31,10 @@ Deposit 23271010 is the new-version draft of record 23269108. It is a
 correction release with the same four-asset set as 0.3.0: the rendered
 manuscript PDF, a source snapshot of tag `v0.3.1`, a research-artifacts
 archive, and `CHECKSUMS.sha256`. It carries `math4wisdom-cube` 0.3.0, which
-withdraws a claim the 0.2.0 skill in the 0.3.0 archive still contains.
+withdraws a claim the 0.2.0 skill in the 0.3.0 archive still contains. The
+tag `v0.3.1` names the released commit `08e0177`. All four files were
+re-downloaded from the draft and matched `CHECKSUMS.sha256` before
+publication; the same four files are attached to the GitHub release.
 
 ## Release 0.3.0
 

@@ -15,15 +15,14 @@ authors:
     corresponding: true
 
 publication:
-  # Reserved version DOI on Zenodo draft 23271010 (release 0.3.1); it
-  # registers on publication. version_doi/version_record stay blank until
-  # then. The concept DOI 10.5281/zenodo.22663906 resolves to the latest
-  # version.
+  # Version DOI of release 0.3.1, published 2026-10-09 as Zenodo record
+  # 23271010. The concept DOI 10.5281/zenodo.22663906 resolves to the latest
+  # version. The released PDF was rendered while the DOI was still reserved.
   doi: "10.5281/zenodo.23271010"
-  doi_status: "reserved"
+  doi_status: "published"
   doi_placeholder: "DOI reserved for this release (registers on Zenodo publication)"
-  version_doi: ""
-  version_record: ""
+  version_doi: "10.5281/zenodo.23271010"
+  version_record: "https://zenodo.org/records/23271010"
   github_repository: "docxology/Skillarum"
   repository_url: "https://github.com/docxology/Skillarum"
   journal: ""

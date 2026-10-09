@@ -276,6 +276,137 @@ def group_checks(results):
         "group once a base incidence is chosen. In that precise sense the three "
         "products in M2 do count 'the same 24'.",
         regular(ve, act_ve) and regular(vf, act_vf) and regular(ef, act_ef),
+        orbit_sizes={
+            name: len({act(m, pairs[0]) for m in ROTATIONS})
+            for name, pairs, act in (
+                ("vertex_edge", ve, act_ve),
+                ("vertex_face", vf, act_vf),
+                ("edge_face", ef, act_ef),
+            )
+        },
+    )
+
+
+def _cycle_type(perm):
+    seen, lengths = set(), []
+    for start in range(len(perm)):
+        if start in seen:
+            continue
+        length, x = 0, start
+        while x not in seen:
+            seen.add(x)
+            x = perm[x]
+            length += 1
+        lengths.append(length)
+    return tuple(sorted(lengths, reverse=True))
+
+
+def two_groups_checks(results):
+    """Rotations O versus the tetrahedral group T_d acting on the persons."""
+    label = dict(zip(EVEN, range(4)))
+
+    def person_perm(m):
+        vm = vertex_map(m)
+        perm = [0] * 4
+        for v in EVEN:
+            image = vm[v]
+            perm[label[v]] = label[image if image in label else antipode(image)]
+        return tuple(perm)
+
+    def edge_label(e):
+        a, b = sorted(e, key=lambda v: sum(v) % 2)
+        return (label[a], label[antipode(b)])
+
+    def face_label(f):
+        (edge,) = [frozenset(p) for p in combinations(EVEN, 2) if frozenset(p) <= f]
+        return frozenset(label[v] for v in edge)
+
+    def failures(group):
+        bad_edges = bad_faces = 0
+        for m in group:
+            vm, pi = vertex_map(m), person_perm(m)
+            for e in EDGES:
+                x, y = edge_label(e)
+                if edge_label(frozenset(vm[v] for v in e)) != (pi[x], pi[y]):
+                    bad_edges += 1
+            for f in FACES:
+                if face_label(frozenset(vm[v] for v in f)) != frozenset(
+                    pi[x] for x in face_label(f)
+                ):
+                    bad_faces += 1
+        return bad_edges, bad_faces
+
+    td = [m for m in SYMMETRIES if {vertex_map(m)[v] for v in EVEN} == set(EVEN)]
+    minus = lambda m: [[-x for x in row] for row in m]  # noqa: E731
+    keys = lambda ms: {str(m) for m in ms}  # noqa: E731
+    td_orbits = sorted(
+        len({vertex_map(m)[v] for m in td}) for v in (EVEN[0], ODD[0])
+    )
+    stab_types = {}
+    for name, items, act in (
+        ("vertex", VERTICES, lambda m, v: vertex_map(m)[v]),
+        ("edge", EDGES, lambda m, e: frozenset(vertex_map(m)[v] for v in e)),
+        ("face", FACES, lambda m, f: frozenset(vertex_map(m)[v] for v in f)),
+    ):
+        x = items[0]
+        stab = [m for m in ROTATIONS if act(m, x) == x]
+        stab_types[name] = sorted({_cycle_type(person_perm(m)) for m in stab})
+    rot_fail, td_fail = failures(ROTATIONS), failures(td)
+    check(
+        results,
+        "M19",
+        "Two different S4s act on the persons. The tetrahedral group T_d (24 "
+        "symmetries preserving tetrahedron A, reflections included) acts "
+        "equivariantly on the person labels of M5 and M7; the rotation group O "
+        "does not (its 12 odd elements swap A and B, reversing ordered pairs and "
+        "complementing unordered ones). The full group is T_d x {±I}, with "
+        "central inversion swapping a person and its antipode. Under T_d the "
+        "vertices form two orbits of 4, so 24/3 = 8 (M9) is an O-statement only. "
+        "Under O the stabilizers act on persons as a 3-cycle group (vertex), a "
+        "transposition (edge), and a 4-cycle group (face).",
+        td_fail == (0, 0)
+        and rot_fail[0] > 0
+        and rot_fail[1] > 0
+        and keys(td) | keys(minus(m) for m in td) == keys(SYMMETRIES)
+        and not keys(td) & keys(minus(m) for m in td)
+        and td_orbits == [4, 4]
+        and stab_types["vertex"] == [(1, 1, 1, 1), (3, 1)]
+        and stab_types["edge"] == [(1, 1, 1, 1), (2, 1, 1)]
+        and stab_types["face"] == [(1, 1, 1, 1), (2, 2), (4,)],
+        td_equivariance_failures={"edges": td_fail[0], "faces": td_fail[1]},
+        rotation_equivariance_failures={"edges": rot_fail[0], "faces": rot_fail[1]},
+        td_vertex_orbits=td_orbits,
+        rotation_stabilizer_cycle_types={k: [list(t) for t in v] for k, v in stab_types.items()},
+    )
+
+
+def coarsening_checks(results):
+    v0 = VERTICES[0]
+    layers = Counter(hamming(v0, v) for v in VERTICES)
+    by_distance = [layers[k] for k in range(4)]
+    spirit = [layers[0], layers[1] + layers[2], layers[3]]
+    father = [layers[0] + layers[2], layers[1] + layers[3]]
+    s8 = [w for w in product((HALF, -HALF), repeat=4) if sum(x < 0 for x in w) % 2 == 0]
+    graded = Counter(w[0] + w[1] + w[2] for w in s8)
+    levels = [graded[k] for k in sorted(graded, reverse=True)]
+    check(
+        results,
+        "M20",
+        "All three patterns are coarsenings of one grading. In the cube, distance "
+        "from one chosen vertex gives 1+3+3+1; merging the two middle layers gives "
+        "1+6+1 (the chosen body diagonal against the rest); grouping by parity "
+        "gives 4+4 (the two tetrahedra). On a single half-spin 8, c=(1,1,1,0) "
+        "gives 1+3+3+1 and the same two coarsenings give 1+6+1 and 4+4. M17 "
+        "forbids the three patterns on three different 8s under one grading; it "
+        "does not forbid them as three coarsenings of one 8.",
+        by_distance == [1, 3, 3, 1]
+        and spirit == [1, 6, 1]
+        and father == [4, 4]
+        and levels == [1, 3, 3, 1]
+        and [levels[0], levels[1] + levels[2], levels[3]] == [1, 6, 1]
+        and [levels[0] + levels[1], levels[2] + levels[3]] == [4, 4],
+        cube=by_distance,
+        half_spin=levels,
     )
 
 
@@ -498,9 +629,11 @@ def run():
     results: list[dict] = []
     cube_checks(results)
     group_checks(results)
+    two_groups_checks(results)
     line_graph_checks(results)
     pascal_checks(results)
     four_d_checks(results)
+    coarsening_checks(results)
     return results
 
 

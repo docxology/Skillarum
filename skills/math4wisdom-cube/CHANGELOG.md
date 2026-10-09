@@ -4,6 +4,38 @@ Versions follow semantic versioning. A minor version adds or supersedes
 ledger entries; a patch version fixes wording without changing any claim.
 Ledger IDs are never reused: a superseded entry is marked, not deleted.
 
+## 0.2.0 — 2026-10-09
+
+Revision after three independent investigators (forge-b, sonnet-a, anvil-c)
+audited 0.1.0 under its own protocol. Their reports are kept verbatim in
+`docs/investigations/2026-10-09-cube/reports/` of the Skillarum repository.
+Two of the three ran on Claude models (anvil-c was requested as a Kimi-backed
+agent but reports running on Claude Opus 5.5); forge-b reports OpenAI lineage.
+
+- **C4 / M19 (all three investigators).** The person labels of M5–M7 are
+  equivariant under T_d, not under the rotation group O; M8–M9's
+  orbit-stabilizer reading uses O. The two readings are now shown side by
+  side, and the M9 persons sentence and I3 are marked.
+- **M20 (from sonnet-a).** All three Father/Son/Spirit patterns arise as
+  coarsenings of one grading, of the cube or of one 8; added with a check,
+  and I6 now carries both readings.
+- **C2 withdrawn (all three).** "A fourth bit makes a tetrahedron" holds when
+  bits index subsets of vertices.
+- **Attribution fixes (forge-b, sonnet-a, anvil-c).** The incidence pairing of
+  languages is Synesis's (S6), not the source's (S2); the rotation row no
+  longer sits under the source column; the Zoas, the atlas of views, and the
+  Seed Crystal's three modes are now quoted (S9–S11); S4 is an unsigned wiki
+  note; Daniel's "stabilize" is recorded as unanswered (S12).
+- **Mathematics notes.** M10 is true but weak (any two regular G-sets are
+  isomorphic); T is a root-system automorphism with T³ = I; M17's reduction
+  to the torus is stated; 1+3+3+1 is the generic grading pattern.
+- **New interpretations and tests.** I9 (God-centred placement), I10 (T_d or
+  O), E5–E9.
+- **Protocol.** The blind phase now reads only `references/blind-brief.md`;
+  0.1.0's blind phase leaked the cube. Investigators record the model that
+  actually ran.
+- Checker: 20 checks (M1–M20); M10 now prints its orbit sizes.
+
 ## 0.1.0 — 2026-10-09
 
 First version, written in response to Synesis's proposal (S7) and Daniel

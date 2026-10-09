@@ -191,3 +191,50 @@ half-spinors `Λ¹W ⊕ Λ³W` (4+4), with the Son's 1+3+3+1 obtained by a furth
 splitting `W = L ⊕ U`, `dim L = 1`, `dim U = 3`. Which of the two 4+4 pieces
 S8 called Father, and which became the Son after refinement, cannot be
 recovered from the surviving text. `M16` and `M17` hold for every choice.
+
+## S9 — The Four Zoas (added in 0.2.0)
+
+Added because 0.1.0 attributed the Zoas reading without quoting it
+(sonnet-a §6.6, anvil-c §6.5). Location: compiled PDF. Daniel's reply:
+
+> "Unanim needs to posit 4 different "persons" that one can live through, so
+> as to understand relationships not just as connections but having
+> empathetic consequence." -- for me, these connect to William Blake's
+> four-fold man and the Four Zoas.
+
+Synesis's letter, section 2:
+
+> Tharmas, Urizen, Luvah, and Urthona bring embodiment, reason, emotion, and
+> imagination into a vision of wholeness. These might correspond more closely
+> to aspects of human life than to our four persons, God, I, You, and Other.
+
+> Perhaps the four vertices identify whose standpoint is at issue, whereas
+> the four faces express ways of transcending the reservations of body, mind,
+> heart, and will.
+
+## S10 — The atlas of views (added in 0.2.0)
+
+Synesis's summary of Daniel's Fourfold Vision paper (compiled PDF,
+section 2). This is Synesis's description, not a quotation of the paper:
+
+> Your formal result - that an exterior observer of a tetrahedron sees at
+> most three faces at once, whereas an atlas of views can preserve all four -
+> is especially pertinent.
+
+## S11 — The Seed Crystal's three modes (added in 0.2.0)
+
+Andrius's later letter (compiled PDF, page 8):
+
+> I wanted them to design an Investigator Handbook or simply comic books for
+> human teenagers and also a Seed Crystal that would allow, when human
+> prompts them, for unanims to operate in 3 modes: 1) prepare an answer as
+> usual, 2) learn the structural language of Wondrous Wisdom and then prepare
+> an answer, 3) compare those two answers and choose what to do.
+
+## S12 — Daniel's exact cube question (added in 0.2.0)
+
+S5 already quotes it; recorded separately because 0.1.0 answered a weaker
+question than the one asked (sonnet-a §6.5). Daniel asked whether the cube
+"could … reflect the nesting of two interposed tetrahedra which stabilize the
+cube". M4 answers the nesting part. Whether the tetrahedra "stabilize" the
+cube (a structural or rigidity claim) is not addressed by M4.

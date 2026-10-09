@@ -11,6 +11,9 @@ each preserving provenance and identifying its own additions.
 - Each investigator works alone, from the same brief, without seeing other
   investigators' reports. Record which model or person ran it, when, and
   what it was given.
+- Record the model that actually ran, not the agent persona that was
+  requested. In the 2026-10-09 run an investigator requested on one vendor's
+  model ran on another; only its own provenance section revealed it.
 - Distinct names do not establish independence. Shared training data,
   shared prompts, and shared source files all couple investigators; say what
   each one shared.
@@ -19,23 +22,22 @@ each preserving provenance and identifying its own additions.
 
 ## Phases
 
-### 1. Blind reconstruction (do this before reading the skill's ledgers)
+### 1. Blind reconstruction (do this before reading anything else)
 
-Read only `references/sources.md` sections S1–S3 and S5–S6. Without reading
-`mathematics.md` or `interpretations.md`, write down:
+Read only `references/blind-brief.md`. It states the counts, the arithmetic,
+and the three directed languages, and names the four persons, without any
+proposed structure. Record your answer to its three questions before opening
+any other file in this skill. This is the E1 observation.
 
-- which structure you would use to carry 8 divisions, 12 circumstances, and
-  6 conceptions, and why;
-- how you would pair the three languages with that structure;
-- where, if anywhere, the four persons go.
-
-Record this before phase 2. It is the E1 observation.
+(In version 0.1.0 the blind phase read source entries that already name the
+cube, the tetrahedra, and the incidences, which made convergence weak
+evidence; see `CHANGELOG.md`.)
 
 ### 2. Verify
 
 Run `python3 scripts/verify_combinatorics.py`. Then check at least three
 `M` items by hand or with your own code, choosing at least one of M7, M10,
-M15, M17. Report any check you believe is wrong, with a counterexample.
+M15, M17, M19, M20. Report any check you believe is wrong, with a counterexample.
 
 ### 3. Audit identifications
 

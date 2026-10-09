@@ -78,8 +78,9 @@ This renders `output/skills/Math4Wisdom/Three-Minds/SKILL.md`.
 
 `data/sources/math4wisdom_research.yaml` has one target per page listed on
 the wiki's [Research index](https://www.math4wisdom.com/wiki/Research/Index):
-528 skills named `Research-<Page>`, each with a description that names its
-index section. The profile is generated, not hand-written:
+528 skills named `Research-<Page>`. Each description names the page's index
+section, except `Research-Introduction`, which is listed before the first
+heading and so has none. The profile is generated, not hand-written:
 
 ```bash
 uv run python -m skillarum profile-from-index \
@@ -107,6 +108,8 @@ includes a protocol for independent investigators. Version 0.1.0 was audited
 by three investigators on 2026-10-09; their verbatim reports and the
 resulting 0.2.0 revision are in
 [`docs/investigations/2026-10-09-cube/`](docs/investigations/2026-10-09-cube/README.md).
+Version 0.3.0 withdraws one investigator claim that 0.2.0 had adopted without
+recomputing it, and adds a check for the corrected statement.
 
 Render the initial Active Inference Institute bundle with:
 

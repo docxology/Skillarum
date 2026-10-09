@@ -17,12 +17,12 @@ Author: Daniel Ari Friedman (Active Inference Institute), ORCID
 `mit-license`, as normalized by Zenodo's license service; the repository
 LICENSE remains the SPDX MIT text).
 
-CITATION.cff carries the version DOI `10.5281/zenodo.22663907` and asks that
-uses of Skillarum cite the software and the associated manuscript. The version
-DOI must not be labeled as a concept DOI and must not be presented as already
-published; if the published record returns a different series identifier, it
-is recorded in the dedicated series-identifier fields during the
-post-publication metadata pass.
+CITATION.cff carries the 0.3.0 version DOI `10.5281/zenodo.23269108` as its
+primary DOI, lists the concept DOI `10.5281/zenodo.22663906` and the 0.2.0
+version DOI `10.5281/zenodo.22663907` as further identifiers, and asks that
+uses of Skillarum cite the software and the associated manuscript. A version
+DOI must not be labeled as a concept DOI, and a reserved DOI must not be
+presented as published until the record is public.
 
 ## Release 0.3.0
 

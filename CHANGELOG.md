@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Fixed
+- `math4wisdom-cube` 0.3.0: withdraws the 0.2.0 note that 1+3+3+1 is the
+  generic grading pattern, which was adopted from an investigator report
+  without recomputation and is false; new check M21 (21 checks).
+- The 0.3.0 entry below said the cube investigators came from three model
+  vendors. Two of the three ran on Claude; the entry now says so, matching the
+  investigation record.
+- README: 527 of the 528 Research descriptions name an index section;
+  `Research-Introduction` precedes the first heading.
+
 ## [0.3.0] - 2026-10-09
 
 ### Added
@@ -31,8 +41,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   mathematics, interpretation, and test ledgers, a standard-library checker
   for every mathematical item, and an independent-investigator protocol.
 - **Independent investigation record** (`docs/investigations/2026-10-09-cube/`) -
-  three investigators from three model vendors audited version 0.1.0 of the
-  cube skill; their reports are kept verbatim and the 0.2.0 revision records
+  three investigators in separate sessions (two on Claude models, one
+  reporting OpenAI lineage) audited version 0.1.0 of the cube skill; their reports are kept verbatim and the 0.2.0 revision records
   what each finding changed.
 
 ### Changed

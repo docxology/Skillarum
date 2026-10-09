@@ -43,6 +43,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   reviewable outputs; the rest of `output/` stays untracked.
 - Recorded the Zenodo concept DOI `10.5281/zenodo.22663906`, read from the
   published 0.2.0 record.
+- Per-target figures (generation latency, source overlap) draw only declared
+  evaluation cases once there are more than 40 observations; captions state how
+  many index-derived observations are counted only in area-level figures.
+  Observations carry `metadata.declared_case`.
+- Manuscript bindings separate profiles from source areas
+  (`CONFIGURED_AREA_COUNT`), summarize large profiles as one table row, and add
+  `INDEX_DERIVED_*` tokens.
+- The publication-metadata test checks DOI agreement across `CITATION.cff`, the
+  manuscript configuration, and the README instead of pinning one record.
+
+### Fixed
+- Block-preserving extraction no longer turns HTML comments or CDATA into
+  visible text.
+- Index-derived profiles keep the base profile's user agent and all generation
+  options.
+- Authored target descriptions are validated (no angle brackets, at most 1024
+  characters); index labels and sections are clipped inside descriptions.
+- `--prefix` matches on a path-segment boundary; decoded page names are reduced
+  to `[A-Za-z0-9._-]`; a saved `--html` index must match the profile origin.
+
+### Evidence
+- All 538 completed observations (528 Research targets, 6 Math 4 Wisdom, 4
+  Active Inference Institute) are live acquisitions; the Math 4 Wisdom profiles
+  were re-acquired on 2026-10-09 with `evaluate --live --refresh`.
 
 ## [0.2.0] - 2026-09-08
 

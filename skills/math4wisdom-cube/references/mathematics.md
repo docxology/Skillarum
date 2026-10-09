@@ -200,9 +200,10 @@ The check also searches all integer directions in `[−4, 4]⁴` and finds none.
 **[0.2.0: the reduction to `c ∈ ℝ⁴` uses that every one-parameter subgroup
 of Spin(8) is conjugate into the maximal torus, and conjugation preserves the
 graded dimensions (forge-b X-5). Investigators' independent searches over
-11,962, 50,624, and 390,624 directions found no counterexample. Note also
+11,962, 50,624, and 390,624 directions found no counterexample. ~~Note also
 that 1+3+3+1 is the generic pattern: for c = (3,1,1,1) all three 8s are
-1+3+3+1, while 4+4 and 1+6+1 need c on special lines (forge-b X-7).]**
+1+3+3+1, while 4+4 and 1+6+1 need c on special lines (forge-b X-7).~~]**
+**[0.3.0: the struck note is false and is superseded by M21.]**
 
 Consequence for I6: a reading needing all three patterns at once needs at
 least two different symmetry-breakings, as S8's "further splitting" for the
@@ -251,6 +252,23 @@ The same holds on one half-spin 8 with c = (1,1,1,0): 1+3+3+1, then 1+6+1 and
 M17 says the three patterns cannot sit on three different 8s under one
 grading. M20 says they can all be read off one 8, or off the cube, from one
 choice. The two results separate two readings of I6.
+
+## M21 — 1+3+3+1 is not generic (added in 0.3.0)
+
+Supersedes the 0.2.0 note under M17, which adopted forge-b X-7 unchecked.
+For a generic direction `c` the eight values `⟨w, c⟩` on each 8 are all
+distinct, so every 8 splits 1+1+1+1+1+1+1+1; c = (5,3,2,1) is an example.
+Each of 4+4, 1+3+3+1, and 1+6+1 needs `c` on a special subset where weights
+collide. For c = (3,1,1,1):
+
+| 8_v | 8_s | 8_c |
+| --- | --- | --- |
+| 1+3+3+1 | 1+3+3+1 | 3+2+3 |
+
+So 1+3+3+1 appears on two of the three 8s, not all three, and the search over
+integer directions in `[−4, 4]⁴` finds none giving 1+3+3+1 on all three.
+M17's conclusion and its consequence for I6 are unchanged; only the remark
+that the Son's pattern is the "default" one is withdrawn.
 
 ## Note on C2 (withdrawn in 0.2.0)
 

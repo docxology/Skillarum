@@ -4,6 +4,20 @@ Versions follow semantic versioning. A minor version adds or supersedes
 ledger entries; a patch version fixes wording without changing any claim.
 Ledger IDs are never reused: a superseded entry is marked, not deleted.
 
+## 0.3.0 — 2026-10-09
+
+Supersedes one mathematics note, so this is a minor version.
+
+- **M21, C5.** 0.2.0 adopted forge-b X-7 without recomputing it: "1+3+3+1 is
+  generic: c = (3,1,1,1) gives it in all three 8s." A post-release check found
+  both parts false. That direction gives 1+3+3+1 on 8_v and 8_s but 3+2+3 on
+  8_c; a generic direction such as (5,3,2,1) splits every 8 into eight
+  distinct values; and no integer direction in [−4,4]⁴ gives 1+3+3+1 on all
+  three. The 0.2.0 note under M17 is struck through and kept, and the new
+  check M21 tests the corrected statement. M17 and its consequence for I6 are
+  unchanged.
+- Checker: 21 checks (M1–M21).
+
 ## 0.2.0 — 2026-10-09
 
 Revision after three independent investigators (forge-b, sonnet-a, anvil-c)
@@ -28,7 +42,8 @@ agent but reports running on Claude Opus 5.5); forge-b reports OpenAI lineage.
   note; Daniel's "stabilize" is recorded as unanswered (S12).
 - **Mathematics notes.** M10 is true but weak (any two regular G-sets are
   isomorphic); T is a root-system automorphism with T³ = I; M17's reduction
-  to the torus is stated; 1+3+3+1 is the generic grading pattern.
+  to the torus is stated; 1+3+3+1 is the generic grading pattern
+  (false; withdrawn in 0.3.0).
 - **New interpretations and tests.** I9 (God-centred placement), I10 (T_d or
   O), E5–E9.
 - **Protocol.** The blind phase now reads only `references/blind-brief.md`;

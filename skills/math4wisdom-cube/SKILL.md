@@ -2,15 +2,16 @@
 name: math4wisdom-cube
 description: Versioned investigation skill for the Math 4 Wisdom cube correspondence - the cube's 8 vertices, 12 edges and 6 faces, its two inscribed tetrahedra labelled God, I, You, Other, Wondrous Wisdom's three languages (argumentation, verbalization, narration), and the proposed lift to Spin(8) triality. Use when reconstructing, checking, criticising, or extending that correspondence, or when running an independent investigator over it; every statement is tagged as source, mathematics, interpretation, or empirical proposal.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
   released: "2026-10-09"
   skillarum_effect: readonly
 ---
 
 # Math4Wisdom cube correspondence
 
-Version 0.2.0 (2026-10-09). Version 0.1.0 was audited the same day by three
-independent investigators; 0.2.0 records what each finding changed. See
+Version 0.3.0 (2026-10-09). Version 0.1.0 was audited the same day by three
+independent investigators; 0.2.0 records what each finding changed, and 0.3.0
+withdraws one investigator claim that 0.2.0 adopted without checking. See
 `CHANGELOG.md`, and cite the version you used.
 
 This skill holds one proposed correspondence and the evidence for each part
@@ -76,7 +77,7 @@ The rotation reading of S2's arithmetic is this skill's interpretation
 ## What is established (`M`)
 
 Every item is checked by `python3 scripts/verify_combinatorics.py`
-(20 checks). Proofs are in `references/mathematics.md`.
+(21 checks). Proofs are in `references/mathematics.md`.
 
 - The parity split of binary triples gives two disjoint regular tetrahedra
   whose union is the cube (`M4`). That answers the nesting part of Daniel's
@@ -98,6 +99,9 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
 - No single grading gives Father 4+4, Son 1+3+3+1, Spirit 1+6+1 on three
   different 8s (`M17`); all three do arise as coarsenings of one grading of
   one 8, or of the cube from one chosen vertex (`M20`).
+- 1+3+3+1 is not the generic grading: a generic direction splits every 8
+  into eight distinct values, and no searched direction gives 1+3+3+1 on all
+  three 8s (`M21`).
 
 ## Corrections
 
@@ -113,6 +117,9 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
   PDF. `references/sources.md` records the reconstruction separately.
 - `C4` (0.2.0) 0.1.0 treated the persons labels and the rotation group as one
   structure; they are two (`M19`).
+- `C5` (0.3.0) 0.2.0 stated, from forge-b X-7, that 1+3+3+1 is the generic
+  pattern and that c = (3,1,1,1) gives it on all three 8s. Both are false: that
+  direction gives 1+3+3+1, 1+3+3+1, 3+2+3 (`M21`).
 
 ## What remains open (`I`, `E`)
 
@@ -162,7 +169,7 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
 | File | Contents |
 | --- | --- |
 | `references/sources.md` | `S` ledger: exact source statements and locations (S1–S12) |
-| `references/mathematics.md` | `M` ledger: statements, proofs, check IDs (M1–M20) |
+| `references/mathematics.md` | `M` ledger: statements, proofs, check IDs (M1–M21) |
 | `references/interpretations.md` | `I` and `E` ledger: proposals, proposers, tests |
 | `references/investigator-protocol.md` | Brief and report schema for independent investigators |
 | `references/blind-brief.md` | The only input for an investigator's blind phase |

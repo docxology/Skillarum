@@ -339,9 +339,7 @@ def two_groups_checks(results):
     td = [m for m in SYMMETRIES if {vertex_map(m)[v] for v in EVEN} == set(EVEN)]
     minus = lambda m: [[-x for x in row] for row in m]  # noqa: E731
     keys = lambda ms: {str(m) for m in ms}  # noqa: E731
-    td_orbits = sorted(
-        len({vertex_map(m)[v] for m in td}) for v in (EVEN[0], ODD[0])
-    )
+    td_orbits = sorted(len({vertex_map(m)[v] for m in td}) for v in (EVEN[0], ODD[0]))
     stab_types = {}
     for name, items, act in (
         ("vertex", VERTICES, lambda m, v: vertex_map(m)[v]),
@@ -376,7 +374,9 @@ def two_groups_checks(results):
         td_equivariance_failures={"edges": td_fail[0], "faces": td_fail[1]},
         rotation_equivariance_failures={"edges": rot_fail[0], "faces": rot_fail[1]},
         td_vertex_orbits=td_orbits,
-        rotation_stabilizer_cycle_types={k: [list(t) for t in v] for k, v in stab_types.items()},
+        rotation_stabilizer_cycle_types={
+            k: [list(t) for t in v] for k, v in stab_types.items()
+        },
     )
 
 
@@ -412,16 +412,19 @@ def coarsening_checks(results):
 
 def line_graph_checks(results):
     pairs = [frozenset(p) for p in combinations(PERSONS, 2)]
-    adjacent = {
-        (a, b) for a, b in combinations(pairs, 2) if a & b
-    }
+    adjacent = {(a, b) for a, b in combinations(pairs, 2) if a & b}
     degrees = Counter(x for edge in adjacent for x in edge)
     non_neighbours = {
-        a: [b for b in pairs if b != a and (a, b) not in adjacent and (b, a) not in adjacent]
+        a: [
+            b
+            for b in pairs
+            if b != a and (a, b) not in adjacent and (b, a) not in adjacent
+        ]
         for a in pairs
     }
     complementary = all(
-        len(v) == 1 and v[0] == frozenset(PERSONS) - k for k, v in non_neighbours.items()
+        len(v) == 1 and v[0] == frozenset(PERSONS) - k
+        for k, v in non_neighbours.items()
     )
     check(
         results,
@@ -509,7 +512,9 @@ def four_d_checks(results):
         if len(pairs) != 4 or any(tuple(-x for x in p) not in points for p in points):
             return False
         axes = [next(iter(pair)) for pair in pairs]
-        return all(sum(a * b for a, b in zip(p, q)) == 0 for p, q in combinations(axes, 2))
+        return all(
+            sum(a * b for a, b in zip(p, q)) == 0 for p, q in combinations(axes, 2)
+        )
 
     check(
         results,
@@ -526,9 +531,7 @@ def four_d_checks(results):
         and all(cross_polytope(part) for part in (v8, s8, c8)),
     )
     roots = {
-        tuple(
-            (s if k == i else 0) + (t if k == j else 0) for k in range(4)
-        )
+        tuple((s if k == i else 0) + (t if k == j else 0) for k in range(4))
         for i, j in combinations(range(4), 2)
         for s in (1, -1)
         for t in (1, -1)
@@ -552,7 +555,10 @@ def four_d_checks(results):
         return tuple(sum(m[i][j] * w[j] for j in range(4)) for i in range(4))
 
     def matmul(a, b):
-        return [[sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
+        return [
+            [sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4)]
+            for i in range(4)
+        ]
 
     identity = [[Fraction(int(i == j)) for j in range(4)] for i in range(4)]
     transpose = [list(r) for r in zip(*t)]
@@ -597,10 +603,16 @@ def four_d_checks(results):
         "model); c=(0,0,0,1) gives 1+6+1, 4+4, 4+4 (Spin(6)xSpin(2)); "
         "c=(1,1,1,0) gives 3+2+3, 1+3+3+1, 1+3+3+1. Which representation is "
         "'1+6+1' depends on the chosen subgroup, not on the representation alone.",
-        examples["(1, 1, 1, 1)"] == {"vector": [4, 4], "spinor_even": [1, 6, 1], "spinor_odd": [4, 4]}
-        and examples["(0, 0, 0, 1)"] == {"vector": [1, 6, 1], "spinor_even": [4, 4], "spinor_odd": [4, 4]}
+        examples["(1, 1, 1, 1)"]
+        == {"vector": [4, 4], "spinor_even": [1, 6, 1], "spinor_odd": [4, 4]}
+        and examples["(0, 0, 0, 1)"]
+        == {"vector": [1, 6, 1], "spinor_even": [4, 4], "spinor_odd": [4, 4]}
         and examples["(1, 1, 1, 0)"]
-        == {"vector": [3, 2, 3], "spinor_even": [1, 3, 3, 1], "spinor_odd": [1, 3, 3, 1]},
+        == {
+            "vector": [3, 2, 3],
+            "spinor_even": [1, 3, 3, 1],
+            "spinor_odd": [1, 3, 3, 1],
+        },
         examples=examples,
     )
     wanted = sorted([[4, 4], [1, 3, 3, 1], [1, 6, 1]])
@@ -622,6 +634,29 @@ def four_d_checks(results):
         not hits,
         searched=9**4 - 1,
         hits=[list(h) for h in hits],
+    )
+    generic = (5, 3, 2, 1)
+    special = (3, 1, 1, 1)
+    all_three = [
+        c
+        for c in product(box, repeat=4)
+        if any(c) and all(pattern(p, c) == [1, 3, 3, 1] for p in (v8, s8, c8))
+    ]
+    check(
+        results,
+        "M21",
+        "1+3+3+1 is not the generic grading (supersedes a 0.2.0 note). A "
+        "generic c such as (5,3,2,1) splits every 8 into eight distinct values; "
+        "c=(3,1,1,1) gives 1+3+3+1 on the vector and even half-spin sets but "
+        "3+2+3 on the odd one; no integer direction in [-4,4]^4 gives 1+3+3+1 "
+        "on all three 8s.",
+        all(pattern(p, generic) == [1] * 8 for p in (v8, s8, c8))
+        and [pattern(p, special) for p in (v8, s8, c8)]
+        == [[1, 3, 3, 1], [1, 3, 3, 1], [3, 2, 3]]
+        and not all_three,
+        generic={str(generic): [pattern(p, generic) for p in (v8, s8, c8)]},
+        special={str(special): [pattern(p, special) for p in (v8, s8, c8)]},
+        all_three_hits=[list(c) for c in all_three],
     )
 
 

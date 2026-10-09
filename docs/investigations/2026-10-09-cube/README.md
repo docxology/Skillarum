@@ -14,7 +14,7 @@ preserving provenance and identifying its own additions.
 | Skill under test | `skills/math4wisdom-cube/` version 0.1.0 (git commit "math4wisdom-cube 0.1.0") |
 | Protocol | `skills/math4wisdom-cube/references/investigator-protocol.md` as of 0.1.0 |
 | Reports | [`reports/forge-b.md`](reports/forge-b.md), [`reports/sonnet-a.md`](reports/sonnet-a.md), [`reports/anvil-c.md`](reports/anvil-c.md), verbatim |
-| Revision | `skills/math4wisdom-cube/` version 0.2.0 and its `CHANGELOG.md` |
+| Revision | `skills/math4wisdom-cube/` version 0.2.0 and its `CHANGELOG.md`; 0.3.0 corrects one adopted claim |
 
 Each investigator received the same brief, worked in a separate session, was
 told not to modify the repository, and could not see the other reports. Each
@@ -56,8 +56,14 @@ actually ran.
 | God-centred placement of persons | — | — | X-3 | New I9, E7 |
 | Unoriented language cycle is symmetric; handedness gives holonomy | — | — | X-5, X-6 | Recorded in I4, E6; not yet recomputed |
 | M17 proof and searches | complete for all real c (11,962 directions) | 390,624 directions | 50,624 directions | Unchanged; torus-reduction step stated |
+| "1+3+3+1 is generic; c = (3,1,1,1) gives it in all three 8s" | X-7 | — | — | Adopted in 0.2.0 without recomputation; found false afterwards and withdrawn in 0.3.0 (M21, C5) |
 
 No investigator found a failing check or a counterexample to any `M` item.
+One investigator claim was itself wrong: forge-b X-7 says c = (3,1,1,1)
+gives 1+3+3+1 in all three 8s, but it gives 3+2+3 on the odd half-spin set,
+and generic directions split every 8 into distinct values. 0.2.0 adopted the
+claim without rerunning it; 0.3.0 withdraws it and adds check M21. Investigator
+statements are inputs to check, not results.
 Every substantive change in 0.2.0 concerns what the mathematics was claimed
 to support, who was credited, or how the experiment was designed. That is
 the separation the skill exists to keep.
@@ -78,7 +84,7 @@ the separation the skill exists to keep.
 
 ```bash
 python3 skills/math4wisdom-cube/scripts/verify_combinatorics.py --brief
-git log --oneline -- skills/math4wisdom-cube   # 0.1.0 then 0.2.0
+git log --oneline -- skills/math4wisdom-cube   # 0.1.0, 0.2.0, 0.3.0
 ```
 
 To run a new round, give each investigator the protocol of the current

@@ -42,7 +42,8 @@ research` for evaluation figures.
 ## Repository layout
 
 Every directory below carries its own `AGENTS.md` (detailed guide) and
-`README.md` (quick reference).
+`README.md` (quick reference), except the generated `output/skills/` tree
+and the dated investigation records.
 
 | Directory | Contents |
 | --- | --- |
@@ -55,8 +56,11 @@ Every directory below carries its own `AGENTS.md` (detailed guide) and
 | [`data/evaluation/`](data/evaluation/README.md) | Case plan and human rating files |
 | [`docs/`](docs/README.md) | Architecture, operations, policies, tutorial, roadmap |
 | [`docs/manuscript/`](docs/manuscript/README.md) | Manuscript sources and bibliography |
+| [`docs/investigations/`](docs/investigations/2026-10-09-cube/README.md) | Dated independent-investigator records, reports kept verbatim |
+| [`skills/`](skills/README.md) | Authored skills: the `skillarum` operator skill and the `math4wisdom-cube` investigation skill |
 | [`cover/`](cover/README.md) | The manuscript cover image |
-| `output/` | Generated and disposable; not documented and not tracked |
+| `output/skills/` | Generated deterministic skill packages and `index.json`, tracked as reviewable output |
+| `output/` (everything else) | Generated and disposable; not tracked |
 
 ## Quick start
 
@@ -69,6 +73,40 @@ uv run python -m skillarum run \
 ```
 
 This renders `output/skills/Math4Wisdom/Three-Minds/SKILL.md`.
+
+### Every Math 4 Wisdom Research page
+
+`data/sources/math4wisdom_research.yaml` has one target per page listed on
+the wiki's [Research index](https://www.math4wisdom.com/wiki/Research/Index):
+528 skills named `Research-<Page>`, each with a description that names its
+index section. The profile is generated, not hand-written:
+
+```bash
+uv run python -m skillarum profile-from-index \
+  --profile data/sources/math4wisdom.yaml \
+  --index-url https://www.math4wisdom.com/wiki/Research/Index \
+  --prefix /wiki/Research/ --output data/sources/math4wisdom_research.yaml \
+  --profile-id math4wisdom-research --id-prefix research \
+  --name-prefix Research- --title-separator " | "
+uv run python -m skillarum run \
+  --profile data/sources/math4wisdom_research.yaml --backend deterministic
+```
+
+The rendered packages are committed under `output/skills/Math4Wisdom/`, so an
+agent can install them straight from a clone.
+
+### The cube correspondence: an investigation skill
+
+[`skills/math4wisdom-cube/`](skills/math4wisdom-cube/SKILL.md) is an authored,
+versioned skill on the cube, its two tetrahedra, Wondrous Wisdom's three
+languages, and the proposed Spin(8) triality reading. It keeps source
+statements, mathematics, interpretations, and proposed tests in separate
+ledgers, recomputes every mathematical claim with
+`python3 skills/math4wisdom-cube/scripts/verify_combinatorics.py`, and
+includes a protocol for independent investigators. Version 0.1.0 was audited
+by three investigators on 2026-10-09; their verbatim reports and the
+resulting 0.2.0 revision are in
+[`docs/investigations/2026-10-09-cube/`](docs/investigations/2026-10-09-cube/README.md).
 
 Render the initial Active Inference Institute bundle with:
 
@@ -114,6 +152,7 @@ uv run python -m skillarum cache inspect --output-dir output \
 | `serve` | Read-only HTTP discovery over rendered skills | (this README) |
 | `cache inspect` | Inspect cache integrity | (this README) |
 | `snapshot-site` | Capture a fresh public HTML inventory with raw receipts | [`docs/source-refresh.md`](docs/source-refresh.md) |
+| `profile-from-index` | Derive one exact-page target per link on a site's own index page | [`data/sources/AGENTS.md`](data/sources/AGENTS.md) |
 | `doctor` | Profile/output/Ollama/OpenAI health checks | (this README) |
 | `evaluate` / `figures` | Research evaluation and figures | [`docs/evaluation.md`](docs/evaluation.md) |
 | `research …` | Scholarly validation, ratings, manuscript, publication | [`docs/evaluation.md`](docs/evaluation.md) |
@@ -351,10 +390,13 @@ this repository.
 
 The manuscript author is Daniel Ari Friedman, Active Inference Institute,
 ORCID [`0000-0001-6232-9096`](https://orcid.org/0000-0001-6232-9096). Release
-0.2.0 (release date 2026-09-08) is identified by the version DOI
-[`10.5281/zenodo.22663907`](https://doi.org/10.5281/zenodo.22663907), the
+0.3.0 (release date 2026-10-09) is identified by the version DOI
+[`10.5281/zenodo.23269108`](https://doi.org/10.5281/zenodo.23269108), the
 repository <https://github.com/docxology/Skillarum>, and the release
-<https://github.com/docxology/Skillarum/releases/tag/v0.2.0>. The
+<https://github.com/docxology/Skillarum/releases/tag/v0.3.0>. The concept DOI
+[`10.5281/zenodo.22663906`](https://doi.org/10.5281/zenodo.22663906) always
+resolves to the latest version; release 0.2.0 is
+[`10.5281/zenodo.22663907`](https://doi.org/10.5281/zenodo.22663907). The
 machine-readable citation record is [`CITATION.cff`](CITATION.cff), the full
 identifier inventory is in [`docs/publication.md`](docs/publication.md), and
 the cover asset is documented with its hash, dimensions, caption, alt text,
@@ -435,7 +477,8 @@ If you use Skillarum in research or practice, please cite it through
 [`CITATION.cff`](CITATION.cff). Plain-text form:
 
 > Daniel Ari Friedman (2026). *Skillarum: Conditionally Reproducible
-> Website-to-Agent-Skill Compilation*, version 0.2.0.
+> Website-to-Agent-Skill Compilation*, version 0.3.0.
+> DOI: [10.5281/zenodo.23269108](https://doi.org/10.5281/zenodo.23269108).
 > Source: <https://github.com/docxology/Skillarum>
 
 ## License

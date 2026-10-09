@@ -53,7 +53,7 @@ as one transaction. A final validation must therefore follow the last output
 writer, including the renderer and visual-review receipts.
 
 The current fetcher sees server-rendered HTML
-only. It does not execute JavaScript or browser automation. The {{CONFIGURED_PROFILE_COUNT}} configured sites are
+only. It does not execute JavaScript or browser automation. The {{CONFIGURED_AREA_COUNT}} configured sites are
 case studies, not a representative web sample. Human-review agreement is
 pending until two independent rating files are supplied. Provider output is
 nondeterministic and should not be treated as a gold standard. Source hashes

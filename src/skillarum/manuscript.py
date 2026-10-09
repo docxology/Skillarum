@@ -54,6 +54,10 @@ KNOWN_MANUSCRIPT_TOKENS = {
     "PROFILE_CONFIGURATION_TABLE",
     "CONFIGURED_PROFILE_COUNT",
     "CONFIGURED_TARGET_COUNT",
+    "CONFIGURED_AREA_COUNT",
+    "INDEX_DERIVED_PROFILE_COUNT",
+    "INDEX_DERIVED_TARGET_COUNT",
+    "INDEX_DERIVED_SECTION_COUNT",
     "PROPORTION_TABLE",
     "TELEMETRY_TABLE",
     "PACKAGE_VALID_COUNT",
@@ -63,6 +67,7 @@ KNOWN_MANUSCRIPT_TOKENS = {
     "BACKENDS_OBSERVED",
     "STATISTICAL_POLICY_TABLE",
 }
+PROFILE_TABLE_TARGET_LIMIT = 12
 FIGURE_TOKEN_PATTERN = re.compile(r"FIGURE_[A-Z0-9_]+_(?:CAPTION|ALT)")
 
 _CROSSREF_KINDS = (
@@ -292,26 +297,54 @@ def manuscript_variables(
     if project_root is not None:
         from .config import load_profile
 
-        profiles = [
-            load_profile(path)
-            for path in sorted((Path(project_root) / "data/sources").glob("*.yaml"))
+        paths = sorted((Path(project_root) / "data/sources").glob("*.yaml"))
+        profiles = [load_profile(path) for path in paths]
+        derived = [
+            raw["derived_from"]
+            for raw in (
+                yaml.safe_load(path.read_text(encoding="utf-8")) for path in paths
+            )
+            if isinstance(raw, dict) and isinstance(raw.get("derived_from"), dict)
         ]
         variables["CONFIGURED_PROFILE_COUNT"] = str(len(profiles))
+        variables["CONFIGURED_AREA_COUNT"] = str(
+            len({p.area or p.name for p in profiles})
+        )
         variables["CONFIGURED_TARGET_COUNT"] = str(
             sum(len(p.targets) for p in profiles)
         )
-        variables["PROFILE_CONFIGURATION_TABLE"] = _table(
-            ("Area / target", "Seed URLs", "Page limit", "Characters / page"),
-            [
+        variables["INDEX_DERIVED_PROFILE_COUNT"] = str(len(derived))
+        variables["INDEX_DERIVED_TARGET_COUNT"] = str(
+            sum(int(d.get("entry_count", 0)) for d in derived)
+        )
+        variables["INDEX_DERIVED_SECTION_COUNT"] = str(
+            sum(len(d.get("sections", [])) for d in derived)
+        )
+        rows: list[tuple[Any, ...]] = []
+        for p in profiles:
+            if len(p.targets) > PROFILE_TABLE_TARGET_LIMIT:
+                # Large generated profiles are summarized rather than listed.
+                rows.append(
+                    (
+                        f"{p.area or p.name} / {p.id} ({len(p.targets)} targets)",
+                        sum(len(t.urls) for t in p.targets),
+                        p.crawl.max_pages,
+                        p.extraction.max_chars_per_page,
+                    )
+                )
+                continue
+            rows.extend(
                 (
                     f"{p.area or p.name} / {t.name}",
                     len(t.urls),
                     t.max_pages if t.max_pages is not None else p.crawl.max_pages,
                     p.extraction.max_chars_per_page,
                 )
-                for p in profiles
                 for t in p.targets
-            ],
+            )
+        variables["PROFILE_CONFIGURATION_TABLE"] = _table(
+            ("Area / target", "Seed URLs", "Page limit", "Characters / page"),
+            rows,
         )
     if figure_registry is not None:
         from .figures import validate_figure_registry

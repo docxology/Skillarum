@@ -26,7 +26,25 @@ claims:
     evidence_tier: measured
     status: supported
     citation_ids: [math4wisdom-source, aii-source, aii-repository]
-    artifact_paths: [data/sources/math4wisdom.yaml, data/sources/active_inference_institute.yaml]
+    artifact_paths: [data/sources/math4wisdom.yaml, data/sources/math4wisdom_research.yaml, data/sources/active_inference_institute.yaml]
+  - id: claim-index-derived-profile
+    text: "The profile-from-index command derives one exact-page target per link listed on a site's own index page, retains the index's section labels, and records the index URL, retrieval time, and content hash; the index page is acquired under the same crawler safety rules as any page."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [math4wisdom-research-index]
+    artifact_paths: [src/skillarum/index_profile.py, data/sources/math4wisdom_research.yaml, tests/test_index_profile.py]
+  - id: claim-investigation-skill-ledgers
+    text: "The math4wisdom-cube skill separates source statements, mathematical results, interpretations, and proposed tests, and every mathematical item is recomputed by a standard-library checker run in the default test suite."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [math4wisdom-overview]
+    artifact_paths: [skills/math4wisdom-cube/SKILL.md, skills/math4wisdom-cube/scripts/verify_combinatorics.py, tests/test_index_profile.py]
+  - id: claim-investigator-convergence
+    text: "Three investigators auditing version 0.1.0 of the cube skill in separate sessions each reported that the skill conflated two symmetry groups; two of the three shared the author's model family, so this is weak evidence of independence."
+    evidence_tier: measured
+    status: supported
+    citation_ids: [cube-investigation-record]
+    artifact_paths: [docs/investigations/2026-10-09-cube/README.md, docs/investigations/2026-10-09-cube/reports/forge-b.md, docs/investigations/2026-10-09-cube/reports/sonnet-a.md, docs/investigations/2026-10-09-cube/reports/anvil-c.md]
   - id: claim-quality-effect
     text: "Provider choice causes a measurable difference in semantic quality across the evaluation matrix."
     evidence_tier: pending

@@ -2,8 +2,9 @@
 
 ## Declared acquisition design
 
-Profiles declare {{CONFIGURED_TARGET_COUNT}} target bundles across
-{{CONFIGURED_PROFILE_COUNT}} source areas. The following table is generated
+Profiles declare {{CONFIGURED_TARGET_COUNT}} target bundles in
+{{CONFIGURED_PROFILE_COUNT}} profiles across {{CONFIGURED_AREA_COUNT}} source
+areas. A profile with many generated targets is summarized as one row. The following table is generated
 from the current profile files. Its limits describe configured upper bounds;
 they are not counts of retrieved or available website pages. Target bundles
 may select overlapping source pages.

@@ -7,9 +7,10 @@ flow. It is metadata documentation, not an operational script.
 
 | Identifier | Value | Status |
 | --- | --- | --- |
-| Version DOI | `10.5281/zenodo.22663907` | Zenodo version DOI for release 0.2.0. Identifier origin: service-returned `metadata.prereserve_doi.doi` on production Zenodo deposit 22663907. |
-| Concept DOI | none recorded | Never derived or invented; recorded only when read from the actual published record response. |
-| Release date | 2026-09-08 | `CITATION.cff` date-released and Zenodo `publication_date`. The title-page `paper.date` (2026-09-07) is the manuscript composition date, a distinct role. |
+| Version DOI (0.3.0) | `10.5281/zenodo.23269108` | Reserved for release 0.3.0. Identifier origin: service-returned `metadata.prereserve_doi.doi` on production Zenodo deposit 23269108, created 2026-10-09 with `actions/newversion` from deposit 22663907. |
+| Version DOI (0.2.0) | `10.5281/zenodo.22663907` | Published 2026-09-10 (record 22663907). |
+| Concept DOI | `10.5281/zenodo.22663906` | Read on 2026-10-09 from the published 0.2.0 record's `conceptdoi` field; resolves to the latest version. |
+| Release date | 2026-10-09 | `CITATION.cff` date-released and Zenodo `publication_date` for 0.3.0. |
 
 Author: Daniel Ari Friedman (Active Inference Institute), ORCID
 `0000-0001-6232-9096`. License: MIT (Zenodo license vocabulary id
@@ -23,7 +24,15 @@ published; if the published record returns a different series identifier, it
 is recorded in the dedicated series-identifier fields during the
 post-publication metadata pass.
 
-## Zenodo deposit
+## Release 0.3.0
+
+Deposit 23269108 is the new-version draft of record 22663907. Its assets
+follow the 0.2.0 set: the rendered manuscript PDF, a source snapshot of the
+tagged commit, a research-artifacts archive (generated skill packages,
+reports, figures), and `CHECKSUMS.sha256`. The tag `v0.3.0` names the
+released commit.
+
+## Zenodo deposit (0.2.0)
 
 - Deposit: production Zenodo deposit `22663907` (account `docxology`).
   Version DOI `10.5281/zenodo.22663907` was returned by the deposit API in

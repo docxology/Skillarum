@@ -2,9 +2,19 @@ cff-version: 1.2.0
 message: "If you use Skillarum, please cite this software and the associated manuscript."
 title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
 type: software
-version: 0.2.0
-date-released: 2026-09-08
-doi: 10.5281/zenodo.22663907
+version: 0.3.0
+date-released: 2026-10-09
+doi: 10.5281/zenodo.23269108
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23269108
+    description: Version DOI for release 0.3.0
+  - type: doi
+    value: 10.5281/zenodo.22663906
+    description: Concept DOI for all Skillarum versions
+  - type: doi
+    value: 10.5281/zenodo.22663907
+    description: Version DOI for release 0.2.0
 repository-code: https://github.com/docxology/Skillarum
 authors:
   - family-names: Friedman
@@ -19,3 +29,5 @@ keywords:
   - reproducibility
   - prompt injection
   - static compilation
+  - index-derived profiles
+  - investigation skills

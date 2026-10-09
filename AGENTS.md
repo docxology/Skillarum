@@ -19,7 +19,9 @@ changing, and fix that file rather than growing this one.
 | Documentation | [`docs/AGENTS.md`](docs/AGENTS.md), [`docs/manuscript/AGENTS.md`](docs/manuscript/AGENTS.md) |
 | Publication asset | [`cover/AGENTS.md`](cover/AGENTS.md) |
 
-`output/` is generated, disposable, and untracked. It is not documented.
+`output/` is generated and disposable. Only `output/skills/` (deterministic
+packages and `index.json`) is tracked, as reviewable published output; every
+other path under `output/` stays untracked and undocumented.
 
 ## Layer contract
 
@@ -31,7 +33,8 @@ changing, and fix that file rather than growing this one.
   DNS. It stays in `urls.py` as a reusable URL-classification predicate rather
   than a `crawler.py`-private helper, not because it is side-effect-free.
 - `src/skillarum/crawler.py` owns page acquisition and HTML extraction and is
-  the only module that fetches pages over HTTP. The other side-effect
+  the only module that fetches pages over HTTP. `index_profile.py` reads an
+  index page only through `WebsiteCrawler.fetch_raw`. The other side-effect
   boundaries are explicit: `generators.py` reaches provider endpoints
   (OpenAI, Ollama) and spawns external command generators;
   `cli.py` issues a live Ollama `/api/tags` request for the `doctor` health
@@ -123,6 +126,12 @@ store effect annotations under `metadata.skillarum_effect`; the manifest retains
 `effect` and `effect_floor`. Human ratings are ordinal integers; degenerate kappa
 is undefined. Evidence origin is persisted at acquisition and cannot be upgraded
 by a later CLI aggregation flag.
+
+Authored investigation skills (currently `skills/math4wisdom-cube/`) carry a
+`metadata.version`, a `CHANGELOG.md`, and source/mathematics/interpretation
+ledgers; a mathematical claim in one must be recomputed by its own checker
+script, which `tests/test_index_profile.py` runs. Investigator reports about a
+skill live verbatim under `docs/investigations/`.
 
 The authored operator skill is under `skills/skillarum/`; its own guide explains
 the distinction from generated website-derived packages. MCP paths are bounded

@@ -283,6 +283,28 @@ citations:
     kind: source-page
     url: https://www.math4wisdom.com/wiki/Exposition/StoryOfThreeMinds
     accessed: 2026-09-07
+  - id: math4wisdom-research-index
+    title: "Research/Index"
+    authors: [Math 4 Wisdom]
+    year: null
+    kind: source-page
+    url: https://www.math4wisdom.com/wiki/Research/Index
+    accessed: 2026-10-09
+  - id: math4wisdom-overview
+    title: "Research/Overview"
+    authors: [Math 4 Wisdom]
+    year: null
+    kind: source-page
+    url: https://www.math4wisdom.com/wiki/Research/Overview
+    accessed: 2026-10-09
+  - id: cube-investigation-record
+    title: "Independent investigation of the Math4Wisdom cube correspondence (2026-10-09)"
+    authors: [Daniel Ari Friedman]
+    year: 2026
+    kind: source-site
+    url: https://github.com/docxology/Skillarum/tree/main/docs/investigations/2026-10-09-cube
+    accessed: 2026-10-09
+    notes: "Repository record: investigator protocol, three verbatim reports, and the resulting skill revision."
   - id: aii-source
     title: "Active Inference Institute"
     authors: [Active Inference Institute]

@@ -9,3 +9,12 @@ output/pdf/_*
 output/pdf/references.bib
 output/web/_combined_manuscript.md
 *.egg-info/
+
+# output/ is generated. Only the deterministic skill packages are tracked.
+output/*
+!output/skills/
+output/skills/**/*.zip
+output/skills/**/.skillarum*
+build/
+graft/
+output/**/.claude/

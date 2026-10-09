@@ -22,6 +22,18 @@ empty active output/cache namespace: preserve the old evidence outside that
 namespace, acquire into a new output, validate, then replace the active tree.
 Do not claim a refresh while still serving an earlier active package.
 
+To cover every page a site lists on its own index, derive the profile rather
+than writing it by hand, then run it:
+
+```bash
+uv --directory "$SKILLARUM_ROOT" run python -m skillarum profile-from-index \
+  --profile data/sources/math4wisdom.yaml \
+  --index-url https://www.math4wisdom.com/wiki/Research/Index \
+  --prefix /wiki/Research/ --output data/sources/math4wisdom_research.yaml \
+  --profile-id math4wisdom-research --id-prefix research \
+  --name-prefix Research- --title-separator " | "
+```
+
 `snapshot-site --help` exposes the separate website inventory. It records
 raw-response archives and explicit discovery limits. Use `--sitemap` for a
 published sitemap and seed-based traversal for reachable public HTML. An

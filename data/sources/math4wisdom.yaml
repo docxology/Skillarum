@@ -11,7 +11,7 @@ crawl:
   max_requests: 30
   max_depth: 0
   request_timeout_seconds: 20
-  min_delay_seconds: 0.25
+  min_delay_seconds: 0.5
   max_response_bytes: 2000000
   retry:
     max_attempts: 2
@@ -32,15 +32,30 @@ generation:
 extraction:
   main_selector: "#wikitext"
   max_chars_per_page: 40000
+  # Keep paragraph and list boundaries, and drop the site-wide title prefix
+  # ("Math 4 Wisdom. ... | Exposition / Page" becomes "Exposition / Page").
+  preserve_blocks: true
+  title_separator: " | "
   remove_selectors: ["script", "style", "nav", "header", "footer", "aside", "form"]
 
 targets:
   - id: three-minds
     name: Three-Minds
+    description: >-
+      Source-grounded reference for Andrius Kulikauskas's Story of Three Minds
+      (Math 4 Wisdom): the Unconscious that answers, the Conscious that asks,
+      and Consciousness that investigates, with the eight divisions of
+      everything they operate on. Use when a task cites or reasons about the
+      three minds; keep source statements separate from interpretation.
     urls:
       - /wiki/Exposition/StoryOfThreeMinds
   - id: three-minds-exposition
     name: Three-Minds-Exposition
+    description: >-
+      Source-grounded bundle of four Math 4 Wisdom exposition pages (Story of
+      Three Minds, Three Minds, Vocabulary, Priorities) on Wondrous Wisdom's
+      three minds and its working vocabulary. Use for terminology and the
+      exposition's own framing, cited page by page.
     urls:
       - /wiki/Exposition/StoryOfThreeMinds
       - /wiki/Exposition/ThreeMinds
@@ -48,6 +63,11 @@ targets:
       - /wiki/Exposition/Priorities
   - id: minds-research
     name: Minds-Research
+    description: >-
+      Source-grounded bundle of four 2017 Math 4 Wisdom research talks
+      (Post-Truth, Time-Space Decision Making, Disembodying Mind, What Minds
+      Require of Brains) on consciousness, decision-making, and the brain. Use
+      when a task needs these talks' stated arguments, cited to each page.
     urls:
       - /wiki/Research/20170506PostTruth
       - /wiki/Research/20170929TimeSpaceDecisionMaking

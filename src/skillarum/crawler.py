@@ -3,12 +3,13 @@
 from __future__ import annotations
 
 import base64
+import re
 import time
 from collections import deque
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from typing import Protocol
+from typing import Any, Protocol
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 
@@ -535,6 +536,27 @@ class WebsiteCrawler:
             return response
         raise CrawlError(f"redirect limit exceeded: {url}")
 
+    def fetch_raw(self, url: str) -> tuple[bytes, str]:
+        """Fetch one HTML page under the crawl rules; return ``(content, final_url)``.
+
+        Used to read an index page whose link structure (not its extracted
+        text) is the input, as in :mod:`skillarum.index_profile`.
+        """
+        response = self._request(url)
+        final_url = normalize_url(str(response.url))
+        if self.profile.crawl.same_origin_only and not same_origin(
+            self.profile.base_url, final_url
+        ):
+            raise CrawlError(f"redirected outside allowed origin: {final_url}")
+        if not 200 <= response.status_code < 300:
+            raise CrawlError(f"HTTP {response.status_code}: {final_url}")
+        content_type = response.headers.get("content-type", "").lower()
+        if content_type and "html" not in content_type:
+            raise CrawlError(
+                f"non-HTML response rejected ({content_type}): {final_url}"
+            )
+        return response.content, final_url
+
     def _main_node(self, soup: BeautifulSoup):
         selector = self.profile.extraction.main_selector
         if selector:
@@ -581,6 +603,7 @@ class WebsiteCrawler:
         soup = BeautifulSoup(response.content, "html.parser")
         title_node = soup.find("title")
         title = title_node.get_text(" ", strip=True) if title_node else ""
+        title = self.profile.extraction.clean_title(title)
         root = self._main_node(soup)
         for selector in self.profile.extraction.remove_selectors:
             try:
@@ -595,7 +618,11 @@ class WebsiteCrawler:
             for node in root.select("h1, h2, h3, h4, h5, h6")
             if node.get_text(" ", strip=True)
         )
-        text = root.get_text(" ", strip=True)
+        text = (
+            _block_text(root)
+            if self.profile.extraction.preserve_blocks
+            else root.get_text(" ", strip=True)
+        )
         warnings: list[str] = []
         links_set: set[str] = set()
         for node in root.select("a[href]"):
@@ -804,3 +831,33 @@ class WebsiteCrawler:
             absent_urls=tuple(sorted(absent_urls)),
             incomplete=incomplete,
         )
+
+
+_BLOCK_TAGS = (
+    "p, div, li, ul, ol, dl, dt, dd, table, tr, pre, blockquote, "
+    "h1, h2, h3, h4, h5, h6, hr, section, article"
+)
+
+
+def _block_text(root: Any) -> str:
+    """Extract text keeping block boundaries as blank-line paragraph breaks.
+
+    Newlines that only format the HTML source are folded to spaces first, so
+    the result differs from the flat extraction only where a block element or
+    ``<br>`` ends a line. Line breaks inside ``<pre>`` are kept.
+    """
+    for string in list(root.find_all(string=True)):
+        if string.find_parent("pre") is None and "\n" in string:
+            string.replace_with(string.replace("\n", " "))
+    for node in root.select("br"):
+        node.replace_with("\n")
+    for node in root.select(_BLOCK_TAGS):
+        node.insert_before("\n\n")
+        node.insert_after("\n\n")
+    paragraphs: list[str] = []
+    for block in re.split(r"\n[ \t]*\n", root.get_text(" ")):
+        lines = [" ".join(line.split()) for line in block.splitlines()]
+        paragraph = "\n".join(line for line in lines if line)
+        if paragraph:
+            paragraphs.append(paragraph)
+    return "\n\n".join(paragraphs)

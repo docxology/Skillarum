@@ -29,7 +29,14 @@ def test_author_doi_and_cover_metadata_are_complete() -> None:
         "corresponding": True,
     }
     publication = config["publication"]
-    assert publication["doi"] == "10.5281/zenodo.22663907"
+    # The release DOI is one value shared by every metadata surface; the test
+    # checks agreement and Zenodo form rather than pinning a specific record.
+    assert publication["doi"].startswith("10.5281/zenodo.")
+    cff = yaml.safe_load((PROJECT_ROOT / "CITATION.cff").read_text(encoding="utf-8"))
+    assert cff["doi"] == publication["doi"]
+    assert publication["doi"] in (PROJECT_ROOT / "README.md").read_text(
+        encoding="utf-8"
+    )
     assert publication["doi_status"] == "reserved"
     assert publication["doi_placeholder"] == (
         "DOI reserved for this release (registers on Zenodo publication)"

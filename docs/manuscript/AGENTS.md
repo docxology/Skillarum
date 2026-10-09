@@ -11,7 +11,7 @@ template checkout renders it; its engine is deliberately not copied here.
 
 | File | Role |
 | --- | --- |
-| `config.yaml` | Paper metadata: title, subtitle, version `0.2.0`, cover image, authors, publication block, keywords, render formats (`pdf` and `html` true) |
+| `config.yaml` | Paper metadata: title, subtitle, version `0.3.0`, cover image, authors, publication block, keywords, render formats (`pdf` and `html` true) |
 | `preamble.md` | Scope and interpretation front matter plus LaTeX preamble |
 | `00_abstract.md` … `08_reproducibility.md` | The nine numbered body sections |
 | `99_references.md` | References section |
@@ -75,7 +75,7 @@ uv run python -m skillarum research publication \
 
 - ✅ Hydrate every measured value from a token.
 - ✅ Register a claim before asserting it; register a citation before citing it.
-- ✅ Keep the reserved version DOI `10.5281/zenodo.22663907` in
+- ✅ Keep the reserved version DOI `10.5281/zenodo.23269108` in
   `config.yaml` exactly as returned by the Zenodo draft (`doi_status:
   "reserved"`); it registers on publication. The concept DOI was absent
   from the observed draft response — read any concept DOI from an actual

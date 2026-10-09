@@ -66,6 +66,11 @@ The following modules handle distinct aspects of the pipeline:
 
 **Trust boundary**: MCP clients are external callers; the server confines package paths to an explicit root. Discovery and validation are read-only; rebuilding an index writes local state and requires write-enabled server configuration. It never invokes source-page instructions or a provider.
 
+### `index_profile.py`
+**Responsibility**: Derive a profile from a site's own index page. `parse_index` is pure: it keeps same-origin links under a path prefix in document order, skips query-string actions and fragments, and labels each link with the nearest preceding bold or heading text. `build_index_profile` turns the entries into one exact-page target each, with unique ids, an authored description, and budgets that cover every target once; the `derived_from` block records index URL, retrieval time, SHA-256, entry count, and sections.
+
+**Trust boundary**: The index page is untrusted HTML fetched only through `WebsiteCrawler.fetch_raw`, so robots, origin, SSRF, and request-budget rules apply. Link text and section labels become description text and are stripped of angle brackets; they never become instructions.
+
 ### `repo_source.py`
 **Responsibility**: Repository-as-source ingestion (second source type alongside website acquisition). Detects ecosystem markers (README, pyproject.toml, package.json, Makefile), extracts README commands, and fingerprints selected content alongside clean commits or dirty working-tree identity for provenance. Cloning and network access remain out of scope—callers provide an already-checked-out repo path.
 
@@ -73,7 +78,7 @@ The following modules handle distinct aspects of the pipeline:
 
 ## Configuration
 
-Profiles define a base origin, source area, extraction selector, network limits, and named targets. A target can list exact URLs, constrain paths with boundary-aware prefixes or include/exclude shell-style patterns, and opt into link discovery through the profile's `follow_links` setting. Initial examples intentionally use exact URLs so a profile cannot accidentally expand into an entire site.
+Profiles define a base origin, source area, extraction selector, network limits, and named targets. A target can list exact URLs, constrain paths with boundary-aware prefixes or include/exclude shell-style patterns, and opt into link discovery through the profile's `follow_links` setting. Initial examples intentionally use exact URLs so a profile cannot accidentally expand into an entire site. A large collection is enumerated from the site's own index with `profile-from-index`, which still yields exact URLs. Two opt-in extraction keys, `preserve_blocks` and `title_separator`, refine text and titles; left unset they are omitted from the profile fingerprint, so existing caches stay valid. A target's optional `description` is authoritative for the rendered frontmatter.
 
 Profiles also declare `generation` defaults: backend, model, Ollama endpoint and model, context budget, prompt budget, and retry policy. Omitted CLI options keep these values; supplied CLI options take precedence. Secrets are never profile values and are never persisted.
 

@@ -151,6 +151,34 @@ def test_configuration_and_statistical_policy_are_bound(tmp_path, empty_report):
     assert "unavailable" in values["PROPORTION_TABLE"]
 
 
+def test_index_derived_profiles_are_summarized_and_counted(tmp_path, empty_report):
+    profiles = tmp_path / "data/sources"
+    profiles.mkdir(parents=True)
+    targets = "".join(
+        f"  - id: t{i}\n    name: Page-{i}\n    urls: ['/p{i}']\n" for i in range(20)
+    )
+    (profiles / "big.yaml").write_text(
+        "id: big\nname: Big\nbase_url: https://example.org\narea: Area-A\n"
+        "derived_from:\n  entry_count: 20\n  sections: [One, Two]\n"
+        f"targets:\n{targets}"
+    )
+    (profiles / "small.yaml").write_text(
+        "id: small\nname: Small\nbase_url: https://example.org\narea: Area-A\n"
+        "targets:\n  - id: a\n    name: Only-Target\n    urls: ['/page']\n"
+    )
+    values = manuscript_variables(empty_report, project_root=tmp_path)
+    assert values["CONFIGURED_PROFILE_COUNT"] == "2"
+    assert values["CONFIGURED_AREA_COUNT"] == "1"
+    assert values["CONFIGURED_TARGET_COUNT"] == "21"
+    assert values["INDEX_DERIVED_PROFILE_COUNT"] == "1"
+    assert values["INDEX_DERIVED_TARGET_COUNT"] == "20"
+    assert values["INDEX_DERIVED_SECTION_COUNT"] == "2"
+    table = values["PROFILE_CONFIGURATION_TABLE"]
+    assert "Area-A / big (20 targets)" in table
+    assert "Page-3" not in table
+    assert "Area-A / Only-Target" in table
+
+
 def test_figure_bindings_reject_absent_and_wrong_report(tmp_path, empty_report):
     from skillarum.figures import generate_figures
     from skillarum.research import write_evaluation_report

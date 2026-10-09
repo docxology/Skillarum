@@ -14,6 +14,10 @@ auditable as separate surfaces.
   selected when provider fallback is desired.
 - [ ] No credentials, authorization headers, raw private cache, run logs, or
   generated provider responses are staged for publication.
+- [ ] Only `output/skills/` is tracked under `output/`; index-derived profiles
+  are regenerated with `profile-from-index`, not hand-edited.
+- [ ] Authored investigation skills carry a version, a changelog entry for
+  every claim change, and a passing checker.
 
 ## Ordered local verification
 
@@ -25,7 +29,8 @@ uv run --extra dev --extra research pytest tests/ --cov=src --cov-fail-under=90
 uv run --extra dev ruff check src tests
 uv run --extra dev ruff format --check src tests
 uv run python -m compileall -q src tests scripts
-uv run python -m skillarum validate --json output/skills/*/*/SKILL.md
+uv run python -m skillarum validate --json output/skills/*/*/SKILL.md skills/*/SKILL.md
+python3 skills/math4wisdom-cube/scripts/verify_combinatorics.py --brief
 uv run --extra research python -m skillarum research build --output-dir output --json
 ```
 

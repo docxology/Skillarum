@@ -32,10 +32,15 @@ class ExtractionConfig:
         "form",
     )
     max_chars_per_page: int = 40_000
+    # Opt-in refinements. Both default off so existing profile fingerprints,
+    # caches, and rendered packages are unchanged unless a profile asks.
+    preserve_blocks: bool = False
+    title_separator: str | None = None
 
     @classmethod
     def from_mapping(cls, value: dict[str, Any] | None) -> "ExtractionConfig":
         data = value or {}
+        separator = data.get("title_separator")
         result = cls(
             main_selector=data.get("main_selector"),
             remove_selectors=_strings(
@@ -44,10 +49,28 @@ class ExtractionConfig:
             max_chars_per_page=int(
                 data.get("max_chars_per_page", cls.max_chars_per_page)
             ),
+            preserve_blocks=bool(data.get("preserve_blocks", False)),
+            title_separator=str(separator) if separator else None,
         )
         if result.max_chars_per_page <= 0:
             raise ValueError("extraction.max_chars_per_page must be positive")
         return result
+
+    def to_dict(self) -> dict[str, Any]:
+        """Return the canonical mapping, omitting opt-in fields left at default."""
+        data = jsonable(asdict(self))
+        if not self.preserve_blocks:
+            data.pop("preserve_blocks")
+        if self.title_separator is None:
+            data.pop("title_separator")
+        return data
+
+    def clean_title(self, title: str) -> str:
+        """Keep the final separator-delimited segment of a page title."""
+        if not self.title_separator or self.title_separator not in title:
+            return title
+        tail = title.rsplit(self.title_separator, 1)[1].strip()
+        return tail or title
 
 
 @dataclass(frozen=True)
@@ -352,6 +375,10 @@ class TargetSpec:
     include_patterns: tuple[str, ...] = ()
     exclude_patterns: tuple[str, ...] = ()
     max_pages: int | None = None
+    # Optional authored frontmatter description. When set it is authoritative
+    # over the generator's description; the generator's own text is retained
+    # in draft metadata.
+    description: str = ""
 
     @classmethod
     def from_mapping(cls, value: dict[str, Any]) -> "TargetSpec":
@@ -379,6 +406,7 @@ class TargetSpec:
                 value.get("exclude_patterns", value.get("exclude"))
             ),
             max_pages=parsed_max,
+            description=" ".join(str(value.get("description") or "").split()),
         )
 
     @property
@@ -386,8 +414,15 @@ class TargetSpec:
         return slugify(self.name)
 
     def to_dict(self) -> dict[str, Any]:
-        """Return the canonical JSON-shaped target configuration."""
-        return jsonable(asdict(self))
+        """Return the canonical JSON-shaped target configuration.
+
+        An empty description is omitted so profiles that predate the field keep
+        their fingerprints.
+        """
+        data = jsonable(asdict(self))
+        if not self.description:
+            data.pop("description")
+        return data
 
     def fingerprint(self) -> str:
         """Fingerprint this target's selection contract."""
@@ -431,7 +466,10 @@ class SourceProfile:
 
     def to_dict(self) -> dict[str, Any]:
         """Return the canonical JSON-shaped profile configuration."""
-        return jsonable(asdict(self))
+        data = jsonable(asdict(self))
+        data["extraction"] = self.extraction.to_dict()
+        data["targets"] = [target.to_dict() for target in self.targets]
+        return data
 
     def fingerprint(self) -> str:
         """Fingerprint all configuration that can affect acquisition or output."""

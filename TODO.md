@@ -1,6 +1,6 @@
 # Skillarum backlog
 
-Reviewed 2026-09-07. This project is a self-versioned checkout with its own
+Reviewed 2026-10-09. This project is a self-versioned checkout with its own
 `docxology/Skillarum` remote. Work from its root; generated output stays local.
 See [the current review record](docs/review-2026-09-07.md) — implementation
 and verification counts superseded by
@@ -22,8 +22,23 @@ and verification counts superseded by
   then adjudicate disagreements. Distinct IDs cannot establish independence.
 - [ ] Exercise credentialed OpenAI and installed-model Ollama integration when
   those external services are available; default skips are intentional.
-- [ ] Reserve a real DOI and make a publication decision. Nothing in a local
-  hash inventory authenticates a signer or establishes scientific truth.
+- [x] Reserve and publish a version DOI (0.2.0: 10.5281/zenodo.22663907;
+  concept DOI 10.5281/zenodo.22663906). Nothing in a local hash inventory
+  authenticates a signer or establishes scientific truth.
+- [x] Derive one skill per Math 4 Wisdom Research page from the wiki's own
+  index (`profile-from-index`, 528 targets).
+- [x] Author and version the `math4wisdom-cube` investigation skill and run
+  three independent investigators over it (2026-10-09).
+- [ ] Rerun the cube investigation from `blind-brief.md` with investigators
+  from more model vendors and at least one human, recording the model that
+  actually ran. Acceptance: a new dated directory under `docs/investigations/`.
+- [ ] Recompute anvil-c's holonomy claim (X-6) in the cube checker, or mark
+  it refuted. Acceptance: an `M` item with a passing check, or a superseding
+  note.
+- [ ] Ask the Math 4 Wisdom author the discriminating questions E2, E5, E7,
+  E8 and record answers as new `S` entries.
+- [ ] Add a per-area catalog skill for the 528 Research skills so an agent
+  can route by index section without loading all descriptions.
 
 ## Historical work
 

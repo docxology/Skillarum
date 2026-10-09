@@ -1,10 +1,11 @@
 paper:
   title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
   subtitle: "Provenance, fallback generation, integrity validation, and evidence-gated evaluation"
-  version: "0.2.0"
-  date: "2026-09-07"
+  version: "0.3.0"
+  date: "2026-10-09"
   cover:
     image: "cover/skillarum_cover.png"
+    alt: "Cover for Skillarum: conditionally reproducible compilation of websites into portable agent skills, with provenance and integrity validation."
 
 authors:
   - name: "Daniel Ari Friedman"
@@ -14,9 +15,11 @@ authors:
     corresponding: true
 
 publication:
-  # Reserved version DOI on Zenodo draft 22663907; it registers on
-  # publication. version_doi/version_record stay blank until then.
-  doi: "10.5281/zenodo.22663907"
+  # Reserved version DOI on Zenodo draft 23269108 (release 0.3.0); it
+  # registers on publication. version_doi/version_record stay blank until
+  # then. The concept DOI 10.5281/zenodo.22663906 was read from the published
+  # 0.2.0 record and resolves to the latest version.
+  doi: "10.5281/zenodo.23269108"
   doi_status: "reserved"
   doi_placeholder: "DOI reserved for this release (registers on Zenodo publication)"
   version_doi: ""
@@ -35,6 +38,8 @@ keywords:
   - reproducibility
   - prompt injection
   - static compilation
+  - index-derived profiles
+  - investigation skills
 
 metadata:
   language: en
@@ -46,7 +51,7 @@ render:
     html: true
     slides: false
     docx: false
-    epub: false
+    epub: true
 
 # Keep related argument and figures in continuous article flow.
 rendering:

@@ -55,6 +55,7 @@ def _json_dump(value: Any) -> None:
 
 TOP_LEVEL_COMMANDS = (
     "snapshot-site",
+    "profile-from-index",
     "run",
     "validate",
     "verify",
@@ -132,6 +133,30 @@ def _parser() -> argparse.ArgumentParser:
     snapshot.add_argument("--max-pages", type=int, default=10000)
     snapshot.add_argument("--max-requests", type=int, default=20000)
     snapshot.add_argument("--json", action="store_true")
+
+    from_index = subparsers.add_parser(
+        "profile-from-index",
+        help="derive one exact-page target per link listed on an index page",
+    )
+    from_index.add_argument("--profile", type=Path, required=True)
+    from_index.add_argument("--index-url", required=True)
+    from_index.add_argument(
+        "--prefix", required=True, help="URL path prefix a listed page must have"
+    )
+    from_index.add_argument("--output", type=Path, required=True)
+    from_index.add_argument("--profile-id", required=True)
+    from_index.add_argument("--id-prefix", required=True)
+    from_index.add_argument("--name-prefix", default="")
+    from_index.add_argument(
+        "--title-separator",
+        help="keep only the text after the last separator in page titles",
+    )
+    from_index.add_argument(
+        "--html",
+        type=Path,
+        help="parse a previously saved copy instead of fetching the index",
+    )
+    from_index.add_argument("--json", action="store_true")
 
     run = subparsers.add_parser("run", help="crawl targets and render skills")
     run.add_argument("--profile", required=True, type=Path)
@@ -741,6 +766,25 @@ def main(argv: list[str] | None = None) -> int:
             )
             _json_dump(result)
             return EXIT_OK if result["complete"] else EXIT_FAILURE
+        if args.command == "profile-from-index":
+            from .index_profile import write_index_profile
+
+            result = write_index_profile(
+                load_profile(args.profile),
+                index_url=args.index_url,
+                prefix=args.prefix,
+                output=args.output,
+                profile_id=args.profile_id,
+                id_prefix=args.id_prefix,
+                name_prefix=args.name_prefix,
+                html_path=args.html,
+                title_separator=args.title_separator,
+            )
+            if args.json:
+                _json_dump(result)
+            else:
+                print(f"{result['entry_count']} targets written to {result['output']}")
+            return EXIT_OK
         if args.command == "run":
             paths = run_profile_from_path(
                 args.profile,

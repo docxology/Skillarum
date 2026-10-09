@@ -6,6 +6,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-09
+
+### Added
+- **`profile-from-index` command** (`src/skillarum/index_profile.py`) - derives one
+  exact-page target per link listed on a site's own index page, keeps the
+  index's section grouping, writes authored descriptions, and records an index
+  receipt (URL, retrieval time, SHA-256, entry count) under `derived_from`.
+  The index page is fetched through the crawler (`WebsiteCrawler.fetch_raw`),
+  so robots, origin, SSRF, and request-budget rules apply.
+- **Math 4 Wisdom Research profile** (`data/sources/math4wisdom_research.yaml`) -
+  528 targets, one per page listed on `Research/Index`, grouped into 42 index
+  sections; rendered skills are committed under `output/skills/Math4Wisdom/`.
+- **Opt-in extraction refinements** - `extraction.preserve_blocks` keeps
+  paragraph, list, and heading boundaries; `extraction.title_separator` drops a
+  site-wide title prefix. Both default off and are omitted from fingerprints
+  when unset, so existing profiles keep their cache identities.
+- **Authored target descriptions** - `targets[].description` is authoritative
+  for the rendered frontmatter; the generator's own description is retained as
+  `generator_description` in the manifest metadata.
+- **`math4wisdom-cube` investigation skill** (`skills/math4wisdom-cube/`) -
+  a versioned skill on the cube, its two tetrahedra, Wondrous Wisdom's three
+  languages, and the proposed Spin(8) triality reading, with separate source,
+  mathematics, interpretation, and test ledgers, a standard-library checker
+  for every mathematical item, and an independent-investigator protocol.
+- **Independent investigation record** (`docs/investigations/2026-10-09-cube/`) -
+  three investigators from three model vendors audited version 0.1.0 of the
+  cube skill; their reports are kept verbatim and the 0.2.0 revision records
+  what each finding changed.
+
+### Changed
+- `data/sources/math4wisdom.yaml` enables block-preserving extraction and title
+  cleaning, adds authored descriptions to its three targets, and raises the
+  polite request delay to 0.5 s.
+- Generated `output/skills/` packages (deterministic backend) are now tracked as
+  reviewable outputs; the rest of `output/` stays untracked.
+- Recorded the Zenodo concept DOI `10.5281/zenodo.22663906`, read from the
+  published 0.2.0 record.
+
 ## [0.2.0] - 2026-09-08
 
 ### Added

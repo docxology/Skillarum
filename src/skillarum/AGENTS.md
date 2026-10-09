@@ -33,7 +33,7 @@ side-effect-free.
 
 | Module | Responsibility |
 | --- | --- |
-| `__init__.py` | `__version__ = "0.2.0"`; re-exports the model and research dataclasses |
+| `__init__.py` | `__version__ = "0.3.0"`; re-exports the model and research dataclasses |
 | `__main__.py` | `python -m skillarum` → `cli.main()` |
 | `cli.py` | All argument parsing, command dispatch, JSON output, exit codes |
 
@@ -56,6 +56,12 @@ side-effect-free.
 | `generators.py` | Deterministic, OpenAI, Ollama, and external-command backends behind one `generate(corpus) -> SkillDraft` contract, with a shared retry/trace harness |
 | `render.py` | Portable `SKILL.md` rendering, transactional publication, structural validation |
 | `pipeline.py` | Filesystem stage orchestration, run state, locking, cache identity |
+
+`index_profile.py` derives a profile from a site's own index page: pure
+link-and-section parsing (`parse_index`), target construction with unique ids
+and authored descriptions, and a YAML writer that records the index receipt
+under `derived_from`. Its only network access is
+`WebsiteCrawler.fetch_raw`, so the crawler remains the sole HTTP module.
 
 `site_snapshot.py` extends the crawler for fresh, bounded public HTML inventories.
 It retains raw response receipts, verifies page and bundle hashes, and creates

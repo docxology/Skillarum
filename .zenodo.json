@@ -7,25 +7,38 @@
       "orcid": "0000-0001-6232-9096"
     }
   ],
-  "description": "Source code for Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation. Skillarum turns selected public website pages into portable SKILL.md documents for agent harnesses such as Codex, Claude Code, and Hermes, in five inspectable stages (acquire, prepare, process, parse, render) with provenance manifests and an evidence-gated research package.",
+  "description": "Source code for Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation. Skillarum turns selected public website pages into portable SKILL.md documents for agent harnesses such as Codex, Claude Code, and Hermes, in five inspectable stages (acquire, prepare, process, parse, render) with provenance manifests and an evidence-gated research package. Release 0.3.0 adds index-derived profiles (one skill per page listed on a site's own index; 528 Math 4 Wisdom Research pages), block-preserving extraction, authored target descriptions, and math4wisdom-cube, a versioned investigation skill with separate source, mathematics, interpretation, and test ledgers, audited by three independent AI investigators whose verbatim reports are included.",
   "keywords": [
     "website extraction",
     "agent skills",
     "provenance",
     "reproducibility",
     "prompt injection",
-    "static compilation"
+    "static compilation",
+    "index-derived profiles",
+    "investigation skills",
+    "Math 4 Wisdom"
   ],
   "license": "mit-license",
-  "publication_date": "2026-09-08",
+  "publication_date": "2026-10-09",
   "related_identifiers": [
     {
       "identifier": "https://github.com/docxology/Skillarum",
-      "relation": "isIdenticalTo",
+      "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/docxology/Skillarum/releases/tag/v0.3.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22663907",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
     }
   ],
   "title": "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation",
   "upload_type": "software",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }

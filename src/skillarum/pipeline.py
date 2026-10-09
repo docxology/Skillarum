@@ -476,6 +476,15 @@ def _enforce_target_name(draft: SkillDraft, target_name: str) -> SkillDraft:
     return replace(draft, name=target_name, metadata=metadata)
 
 
+def _apply_target_description(draft: SkillDraft, target: TargetSpec) -> SkillDraft:
+    """An authored target description is authoritative for the frontmatter."""
+    if not target.description or draft.description == target.description:
+        return draft
+    metadata = dict(draft.metadata)
+    metadata.setdefault("generator_description", draft.description)
+    return replace(draft, description=target.description, metadata=metadata)
+
+
 def _state_writer(run_root: Path, run_id: str):
     history: list[dict[str, Any]] = []
     state_path = run_root / "state.json"
@@ -744,6 +753,7 @@ def run_profile(
                     if draft is None:
                         draft = active_generator.generate(corpus)
                         draft = _enforce_target_name(draft, corpus.skill_name)
+                        draft = _apply_target_description(draft, target)
                         draft = _ensure_trace(
                             draft,
                             active_generator,
@@ -761,6 +771,7 @@ def run_profile(
                         )
                     else:
                         draft = _enforce_target_name(draft, corpus.skill_name)
+                        draft = _apply_target_description(draft, target)
                         draft = _ensure_trace(
                             draft,
                             active_generator,

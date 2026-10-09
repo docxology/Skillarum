@@ -34,6 +34,7 @@ New to the project, in this order:
 | [`extending.md`](extending.md) | Extension recipes, ownership boundaries, frozen-output protocol for multi-agent waves |
 | [`v1-boundary.md`](v1-boundary.md) | Deliberate non-goals, including the scholarly publication boundary |
 | [`runtimes.md`](runtimes.md) | `compile_frontmatter` and the `agentskills` / `claude` / `codex` targets |
+| [`investigations/`](investigations/2026-10-09-cube/README.md) | Dated independent-investigator records for authored skills, reports verbatim |
 | [`publication.md`](publication.md) | Release identifiers, the reserved version DOI, production Zenodo draft state, and deferred post-review publication steps |
 
 [`manuscript/`](manuscript/README.md) holds the paper sources: nine numbered

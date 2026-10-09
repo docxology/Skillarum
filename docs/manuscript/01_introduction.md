@@ -27,6 +27,6 @@ The contributions are:
 5. an evidence and publication layer that separates measured observations,
    live case studies, source citations, hypotheses, and pending claims.
 
-The {{CONFIGURED_PROFILE_COUNT}} configured source areas are Math 4 Wisdom and the Active Inference
-Institute, with target bundles declared in their profiles. They are intentionally useful
+The {{CONFIGURED_AREA_COUNT}} configured source areas are Math 4 Wisdom and the Active Inference
+Institute, with target bundles declared in {{CONFIGURED_PROFILE_COUNT}} profiles. They are intentionally useful
 examples rather than a claim to have sampled the web generally.

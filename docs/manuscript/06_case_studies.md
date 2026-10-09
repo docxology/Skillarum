@@ -51,7 +51,11 @@ investigators shared a model family with the skill's author, and one had not
 run on the model requested, which only its own provenance statement
 revealed. The convergence is therefore weak evidence of independence. The
 record shows what the ledger structure is for: disagreements arrived as
-specific, attributable, checkable statements.
+specific, attributable, checkable statements. The same discipline applies to
+the investigators. One of their claims, adopted into the revision without
+being recomputed, was later found false; the next version of the skill
+strikes it through, keeps it visible, and adds a check for the corrected
+statement.
 
 ## Active Inference Institute
 

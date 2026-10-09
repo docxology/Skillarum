@@ -2,10 +2,13 @@ cff-version: 1.2.0
 message: "If you use Skillarum, please cite this software and the associated manuscript."
 title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
 type: software
-version: 0.3.0
+version: 0.3.1
 date-released: 2026-10-09
-doi: 10.5281/zenodo.23269108
+doi: 10.5281/zenodo.23271010
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23271010
+    description: Version DOI for release 0.3.1
   - type: doi
     value: 10.5281/zenodo.23269108
     description: Version DOI for release 0.3.0

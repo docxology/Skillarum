@@ -393,12 +393,14 @@ this repository.
 
 The manuscript author is Daniel Ari Friedman, Active Inference Institute,
 ORCID [`0000-0001-6232-9096`](https://orcid.org/0000-0001-6232-9096). Release
-0.3.0 (release date 2026-10-09) is identified by the version DOI
-[`10.5281/zenodo.23269108`](https://doi.org/10.5281/zenodo.23269108), the
+0.3.1 (release date 2026-10-09) is identified by the version DOI
+[`10.5281/zenodo.23271010`](https://doi.org/10.5281/zenodo.23271010), the
 repository <https://github.com/docxology/Skillarum>, and the release
-<https://github.com/docxology/Skillarum/releases/tag/v0.3.0>. The concept DOI
+<https://github.com/docxology/Skillarum/releases/tag/v0.3.1>. The concept DOI
 [`10.5281/zenodo.22663906`](https://doi.org/10.5281/zenodo.22663906) always
-resolves to the latest version; release 0.2.0 is
+resolves to the latest version; release 0.3.0 is
+[`10.5281/zenodo.23269108`](https://doi.org/10.5281/zenodo.23269108) and
+release 0.2.0 is
 [`10.5281/zenodo.22663907`](https://doi.org/10.5281/zenodo.22663907). The
 machine-readable citation record is [`CITATION.cff`](CITATION.cff), the full
 identifier inventory is in [`docs/publication.md`](docs/publication.md), and
@@ -480,8 +482,8 @@ If you use Skillarum in research or practice, please cite it through
 [`CITATION.cff`](CITATION.cff). Plain-text form:
 
 > Daniel Ari Friedman (2026). *Skillarum: Conditionally Reproducible
-> Website-to-Agent-Skill Compilation*, version 0.3.0.
-> DOI: [10.5281/zenodo.23269108](https://doi.org/10.5281/zenodo.23269108).
+> Website-to-Agent-Skill Compilation*, version 0.3.1.
+> DOI: [10.5281/zenodo.23271010](https://doi.org/10.5281/zenodo.23271010).
 > Source: <https://github.com/docxology/Skillarum>
 
 ## License

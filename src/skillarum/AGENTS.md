@@ -33,7 +33,7 @@ side-effect-free.
 
 | Module | Responsibility |
 | --- | --- |
-| `__init__.py` | `__version__ = "0.3.0"`; re-exports the model and research dataclasses |
+| `__init__.py` | `__version__ = "0.3.1"`; re-exports the model and research dataclasses |
 | `__main__.py` | `python -m skillarum` → `cli.main()` |
 | `cli.py` | All argument parsing, command dispatch, JSON output, exit codes |
 

@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-10-09
+
+Correction release. Version DOI `10.5281/zenodo.23271010`.
+
 ### Fixed
 - `math4wisdom-cube` 0.3.0: withdraws the 0.2.0 note that 1+3+3+1 is the
   generic grading pattern, which was adopted from an investigator report
@@ -15,6 +19,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   investigation record.
 - README: 527 of the 528 Research descriptions name an index section;
   `Research-Introduction` precedes the first heading.
+- `docs/publication.md` described the 0.2.0 CITATION.cff DOI layout.
+
+### Changed
+- The manuscript's investigation case study records the post-audit
+  correction.
 
 ## [0.3.0] - 2026-10-09
 

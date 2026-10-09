@@ -1,7 +1,7 @@
 paper:
   title: "Skillarum: Conditionally Reproducible Website-to-Agent-Skill Compilation"
   subtitle: "Provenance, fallback generation, integrity validation, and evidence-gated evaluation"
-  version: "0.3.0"
+  version: "0.3.1"
   date: "2026-10-09"
   cover:
     image: "cover/skillarum_cover.png"
@@ -15,14 +15,15 @@ authors:
     corresponding: true
 
 publication:
-  # Version DOI of release 0.3.0, published 2026-10-09 as Zenodo record
-  # 23269108. The concept DOI 10.5281/zenodo.22663906 resolves to the latest
-  # version. The released PDF was rendered while the DOI was still reserved.
-  doi: "10.5281/zenodo.23269108"
-  doi_status: "published"
+  # Reserved version DOI on Zenodo draft 23271010 (release 0.3.1); it
+  # registers on publication. version_doi/version_record stay blank until
+  # then. The concept DOI 10.5281/zenodo.22663906 resolves to the latest
+  # version.
+  doi: "10.5281/zenodo.23271010"
+  doi_status: "reserved"
   doi_placeholder: "DOI reserved for this release (registers on Zenodo publication)"
-  version_doi: "10.5281/zenodo.23269108"
-  version_record: "https://zenodo.org/records/23269108"
+  version_doi: ""
+  version_record: ""
   github_repository: "docxology/Skillarum"
   repository_url: "https://github.com/docxology/Skillarum"
   journal: ""

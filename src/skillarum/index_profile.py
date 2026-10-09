@@ -13,6 +13,7 @@ same robots, origin, SSRF, and request-budget rules apply as for any page.
 
 from __future__ import annotations
 
+import re
 import unicodedata
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -29,6 +30,13 @@ from .utils import sha256_bytes, slugify
 
 _SECTION_TAGS = {"strong", "b", "h1", "h2", "h3", "h4", "h5", "h6", "dt"}
 _DESCRIPTION_LIMIT = 1024
+_LABEL_LIMIT = 120
+_SECTION_LIMIT = 80
+
+
+def _clip(text: str, limit: int) -> str:
+    text = text.replace("<", "(").replace(">", ")").replace('"', "'")
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
 @dataclass(frozen=True)
@@ -44,7 +52,9 @@ class IndexEntry:
         """The final path segment, percent-decoded and folded to ASCII."""
         segment = unquote(urlparse(self.url).path.rstrip("/").rsplit("/", 1)[-1])
         folded = unicodedata.normalize("NFKD", segment)
-        return "".join(ch for ch in folded if ord(ch) < 128) or "page"
+        ascii_only = "".join(ch for ch in folded if ord(ch) < 128)
+        # Decoded segments may hide "/", control characters, or spaces.
+        return re.sub(r"[^A-Za-z0-9._-]+", "-", ascii_only).strip("-._") or "page"
 
 
 def _section_label(node: Any) -> str | None:
@@ -73,6 +83,8 @@ def parse_index(
     root = soup.select_one(main_selector) if main_selector else None
     root = root or soup.body or soup
     base = normalize_url(page_url)
+    # Match on a path-segment boundary: "/wiki" must not select "/wikipedia".
+    prefix = prefix if prefix.endswith("/") else prefix + "/"
     origin_prefix = urlparse(base)._replace(path=prefix, query="", fragment="")
     wanted = origin_prefix.geturl()
     section = ""
@@ -108,14 +120,15 @@ def parse_index(
 
 def _description(entry: IndexEntry, *, profile_name: str, index_url: str) -> str:
     path = urlparse(entry.url).path
-    label = entry.label
+    label = _clip(entry.label, _LABEL_LIMIT)
+    section = _clip(entry.section, _SECTION_LIMIT)
     parts = [
         f"Source-grounded reference for the {profile_name} page {path}",
         f'titled "{label}"' if label else "",
     ]
     text = " ".join(part for part in parts if part) + "."
     if entry.section and entry.section != entry.label:
-        text += f' Listed under "{entry.section}" in the index at {index_url}.'
+        text += f' Listed under "{section}" in the index at {index_url}.'
     else:
         text += f" Listed in the index at {index_url}."
     text += (
@@ -156,7 +169,7 @@ def targets_from_entries(
             ),
         }
         if entry.section:
-            target["section"] = entry.section
+            target["section"] = _clip(entry.section, _SECTION_LIMIT)
         targets.append(target)
     return targets
 
@@ -182,6 +195,9 @@ def build_index_profile(
     ``derived_from`` so the target list is itself traceable.
     """
     data = base.to_dict()
+    # Copy settings whole and change only what one-page targets require, so
+    # the derived profile keeps the base's user agent (robots matching and
+    # operator contact) and every generation option.
     crawl = dict(data["crawl"])
     crawl.update(
         {
@@ -191,15 +207,12 @@ def build_index_profile(
             "max_requests": max(int(crawl["max_requests"]), 3 * len(entries) + 10),
         }
     )
-    crawl.pop("user_agent", None)
     extraction = dict(data["extraction"])
     extraction["preserve_blocks"] = preserve_blocks
     if title_separator:
         extraction["title_separator"] = title_separator
     generation = {
-        key: data["generation"][key]
-        for key in ("backend", "model", "ollama_model", "retry")
-        if key in data["generation"]
+        key: value for key, value in data["generation"].items() if value is not None
     }
     targets = targets_from_entries(
         entries,
@@ -255,6 +268,8 @@ def write_index_profile(
     preserve_blocks: bool = True,
 ) -> dict[str, Any]:
     """Fetch (or read) an index page, derive targets, and write a YAML profile."""
+    if not same_origin(base.base_url, index_url):
+        raise ValueError(f"index URL is outside the profile origin: {index_url}")
     if html_path is not None:
         content = html_path.read_bytes()
         final_url = normalize_url(index_url)

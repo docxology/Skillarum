@@ -364,6 +364,23 @@ class GenerationTrace:
         )
 
 
+TARGET_DESCRIPTION_MAX = 1024
+
+
+def _target_description(target_id: str, value: Any) -> str:
+    """Normalize an authored description to a portable frontmatter value."""
+    text = " ".join(str(value or "").split())
+    if "<" in text or ">" in text:
+        raise ValueError(
+            f"target {target_id!r}.description must not contain angle brackets"
+        )
+    if len(text) > TARGET_DESCRIPTION_MAX:
+        raise ValueError(
+            f"target {target_id!r}.description exceeds {TARGET_DESCRIPTION_MAX} characters"
+        )
+    return text
+
+
 @dataclass(frozen=True)
 class TargetSpec:
     """A named exact-page or filtered page bundle."""
@@ -406,7 +423,7 @@ class TargetSpec:
                 value.get("exclude_patterns", value.get("exclude"))
             ),
             max_pages=parsed_max,
-            description=" ".join(str(value.get("description") or "").split()),
+            description=_target_description(target_id, value.get("description")),
         )
 
     @property

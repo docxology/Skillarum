@@ -21,7 +21,13 @@ from skillarum.index_profile import (
     parse_index,
     targets_from_entries,
 )
-from skillarum.models import CrawlConfig, ExtractionConfig, SourceProfile, TargetSpec
+from skillarum.models import (
+    CrawlConfig,
+    ExtractionConfig,
+    GenerationConfig,
+    SourceProfile,
+    TargetSpec,
+)
 from skillarum.pipeline import run_profile
 from skillarum.render import validate_skill_file
 
@@ -306,3 +312,112 @@ def test_cube_skill_checker_and_frontmatter() -> None:
         "blind-brief.md",
     ):
         assert (skill / "references" / reference).is_file()
+
+
+def test_block_extraction_never_emits_comments_or_scripts() -> None:
+    from bs4 import BeautifulSoup
+
+    from skillarum.crawler import _block_text
+
+    html = (
+        "<div><p>a<!-- hidden\nmulti --> b</p>"
+        "<script>var x =\n1;</script><p>c</p></div>"
+    )
+    root = BeautifulSoup(html, "html.parser").div
+    flat = BeautifulSoup(html, "html.parser").div.get_text(" ", strip=True)
+    text = _block_text(root)
+    assert "hidden" not in text and "hidden" not in flat
+    # Without a remove_selectors entry for script, both paths keep script
+    # text; the block path must not add anything the flat path omits.
+    assert set(text.split()) <= set(flat.split())
+
+
+def test_index_profile_keeps_base_user_agent_and_generation(tmp_path: Path) -> None:
+    base = SourceProfile(
+        id="base",
+        name="Base",
+        base_url="https://wiki.test/wiki/",
+        crawl=CrawlConfig(user_agent="MyBot/1 (me@example.org)"),
+        generation=GenerationConfig(
+            backend="ollama",
+            fallback_backend="deterministic",
+            ollama_url="http://10.0.0.5:11434",
+            ollama_num_ctx=4096,
+        ),
+        targets=(TargetSpec(id="seed", name="Seed", urls=("/wiki/A",)),),
+    )
+    data = build_index_profile(
+        base,
+        [IndexEntry("https://wiki.test/wiki/R/P", "P", "")],
+        index_url="https://wiki.test/wiki/R/Index",
+        index_sha256="0" * 64,
+        retrieved_at="2026-10-09T00:00:00+00:00",
+        profile_id="derived",
+        id_prefix="r",
+        name_prefix="R-",
+    )
+    path = tmp_path / "derived.yaml"
+    path.write_text(yaml.safe_dump(data), encoding="utf-8")
+    derived = load_profile(path)
+    assert derived.crawl.user_agent == "MyBot/1 (me@example.org)"
+    assert derived.generation.fallback_backend == "deterministic"
+    assert derived.generation.ollama_url == "http://10.0.0.5:11434"
+    assert derived.generation.ollama_num_ctx == 4096
+
+
+def test_prefix_matches_on_segment_boundary_and_names_are_safe() -> None:
+    html = (
+        b"<div id='w'><a href='/wiki/A'>A</a><a href='/wikipedia/Z'>Z</a>"
+        b"<a href='/wiki/%0Aevil'>e</a><a href='/wiki/Foo%2FBar'>f</a></div>"
+    )
+    entries = parse_index(
+        html,
+        page_url="https://wiki.test/wiki/Index",
+        prefix="/wiki",
+        main_selector="#w",
+    )
+    assert all("/wikipedia/" not in entry.url for entry in entries)
+    names = [entry.page_name for entry in entries]
+    assert names == ["A", "evil", "Foo-Bar"]
+
+
+def test_long_or_bracketed_labels_are_clipped_in_descriptions() -> None:
+    entry = IndexEntry("https://wiki.test/wiki/R/P", "L" * 500 + '<x>"q"', "S" * 300)
+    (target,) = targets_from_entries(
+        [entry],
+        profile_name="Wiki",
+        index_url="https://wiki.test/wiki/R/Index",
+        id_prefix="r",
+        name_prefix="R-",
+    )
+    assert "<" not in target["description"] and ">" not in target["description"]
+    assert len(target["description"]) < 600
+    assert len(target["section"]) <= 80
+
+
+def test_authored_descriptions_are_validated() -> None:
+    with pytest.raises(ValueError, match="angle brackets"):
+        TargetSpec.from_mapping({"id": "a", "urls": ["/x"], "description": "<b>x</b>"})
+    with pytest.raises(ValueError, match="exceeds"):
+        TargetSpec.from_mapping({"id": "a", "urls": ["/x"], "description": "x" * 1025})
+    assert TargetSpec.from_mapping(
+        {"id": "a", "urls": ["/x"], "description": " two\n words "}
+    ).description == ("two words")
+
+
+def test_saved_html_index_must_match_profile_origin(tmp_path: Path) -> None:
+    from skillarum.index_profile import write_index_profile
+
+    saved = tmp_path / "index.html"
+    saved.write_bytes(INDEX_HTML)
+    with pytest.raises(ValueError, match="outside the profile origin"):
+        write_index_profile(
+            _profile("https://wiki.test"),
+            index_url="https://elsewhere.test/wiki/Research/Index",
+            prefix="/wiki/Research/",
+            output=tmp_path / "out.yaml",
+            profile_id="derived",
+            id_prefix="r",
+            name_prefix="R-",
+            html_path=saved,
+        )

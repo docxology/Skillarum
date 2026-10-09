@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 
 import httpx
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 from .models import BundleRecord, PageRecord, RetryConfig, SourceProfile, TargetSpec
 from .urls import (
@@ -847,7 +847,13 @@ def _block_text(root: Any) -> str:
     ``<br>`` ends a line. Line breaks inside ``<pre>`` are kept.
     """
     for string in list(root.find_all(string=True)):
-        if string.find_parent("pre") is None and "\n" in string:
+        # Only plain text nodes: rewriting a Comment, CData, or doctype through
+        # replace_with would turn it into visible text that get_text emits.
+        if (
+            type(string) is NavigableString
+            and string.find_parent("pre") is None
+            and "\n" in string
+        ):
             string.replace_with(string.replace("\n", " "))
     for node in root.select("br"):
         node.replace_with("\n")

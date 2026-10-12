@@ -90,3 +90,7 @@ git log --oneline -- skills/math4wisdom-cube   # 0.1.0, 0.2.0, 0.3.0
 To run a new round, give each investigator the protocol of the current
 version, record the model that actually ran, and add the reports under a new
 dated directory.
+
+The [October 12 revision](../2026-10-12-synesis/README.md) records Synesis's
+situated contribution and supersedes the broad consequence drawn from M17.
+The historical reports above are preserved verbatim.

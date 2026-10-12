@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import runpy
 import subprocess
 import sys
 from pathlib import Path
@@ -299,7 +300,8 @@ def test_cube_skill_checker_and_frontmatter() -> None:
     assert result.returncode == 0, result.stdout + result.stderr
     report = json.loads(result.stdout)
     ids = [check["id"] for check in report["checks"]]
-    assert report["ok"] and len(ids) == len(set(ids)) >= 20
+    assert report["ok"] and len(ids) == 23
+    assert set(ids) == {f"M{i}" for i in range(1, 24)}
     metadata = validate_skill_file(skill / "SKILL.md")
     assert metadata["name"] == "math4wisdom-cube"
     assert metadata["metadata"]["version"]
@@ -312,6 +314,63 @@ def test_cube_skill_checker_and_frontmatter() -> None:
         "blind-brief.md",
     ):
         assert (skill / "references" / reference).is_file()
+
+
+def test_cube_transverse_negative_controls() -> None:
+    ns = runpy.run_path(
+        str(ROOT / "skills/math4wisdom-cube/scripts/verify_combinatorics.py")
+    )
+    triples = ns["transverse_triples"]()
+    flags = [
+        (v, e, f)
+        for v in ns["VERTICES"]
+        for e in ns["EDGES"]
+        for f in ns["FACES"]
+        if v in e and e <= f
+    ]
+    for damaged in (triples[:-1], triples[:-1] + [triples[0]], flags, flags[:24]):
+        results = []
+        ns["transverse_checks"](results, damaged)
+        assert results[0]["id"] == "M22" and not results[0]["ok"]
+
+
+def test_cube_sl3_dimension_preserving_negative_control() -> None:
+    ns = runpy.run_path(
+        str(ROOT / "skills/math4wisdom-cube/scripts/verify_combinatorics.py")
+    )
+    groupings = ns["sl3_groupings"]()
+    left, right = groupings["vector"]
+    a, b = ("W", (1,)), ("dual", (1,))
+    left.remove(a)
+    right.remove(b)
+    left.add(b)
+    right.add(a)
+    assert [len(left), len(right)] == [4, 4]
+    results = []
+    ns["sl3_checks"](results, groupings)
+    assert not results[0]["ok"]
+    assert not results[0]["evidence"]["invariant_blocks"]
+
+
+def test_cube_checker_cli_rejects_incomplete_transverse_set(tmp_path: Path) -> None:
+    source = ROOT / "skills/math4wisdom-cube/scripts/verify_combinatorics.py"
+    text = source.read_text(encoding="utf-8")
+    original = "    transverse_checks(results)\n"
+    assert text.count(original) == 1
+    altered = tmp_path / "damaged_checker.py"
+    altered.write_text(
+        text.replace(
+            original, "    transverse_checks(results, transverse_triples()[:-1])\n"
+        ),
+        encoding="utf-8",
+    )
+    result = subprocess.run(
+        [sys.executable, str(altered)], capture_output=True, text=True, check=False
+    )
+    assert result.returncode == 1, result.stdout + result.stderr
+    report = json.loads(result.stdout)
+    assert not report["ok"]
+    assert [c["id"] for c in report["checks"] if not c["ok"]] == ["M22"]
 
 
 def test_block_extraction_never_emits_comments_or_scripts() -> None:

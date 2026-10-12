@@ -22,6 +22,20 @@ each preserving provenance and identifying its own additions.
 
 ## Phases
 
+### Prior exposure and situated contributions (added in 0.4.0)
+
+Before phase 1, record prior summaries, proposals, conversations, skill
+analysis, checker runs, and reports encountered. Prior exposure cannot be
+undone by reading the blind brief later. Use a **situated** track: mark phase
+1 "Not blind; prior exposure recorded", then continue verification and review.
+Do not pool this contribution with E1's blind reconstructions. In S13 Synesis
+had helped develop the proposals and read Daniel's summary; they reported
+not reading the skill analysis or reports, and could not retrieve the brief.
+Their calculation was reported but its script was not supplied. Welcoming a
+fourth investigator does not establish completion of the full audit protocol.
+Record builder and auditor roles separately: a builder's checks are
+implementation verification, not an independent audit of their own work.
+
 ### 1. Blind reconstruction (do this before reading anything else)
 
 Read only `references/blind-brief.md`. It states the counts, the arithmetic,
@@ -72,6 +86,8 @@ Write Markdown with these sections, in order:
 - Skill version read: <e.g. math4wisdom-cube 0.1.0>
 - Inputs: <files and pages read; anything else given>
 - Shared with other investigators: <prompt, files, training lineage>
+- Prior exposure and track: <blind or situated, with specific inputs>
+- Role: <builder or auditor; do not audit your own construction>
 
 ## 1. Blind reconstruction
 ## 2. Verification

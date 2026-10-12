@@ -35,6 +35,7 @@ New to the project, in this order:
 | [`v1-boundary.md`](v1-boundary.md) | Deliberate non-goals, including the scholarly publication boundary |
 | [`runtimes.md`](runtimes.md) | `compile_frontmatter` and the `agentskills` / `claude` / `codex` targets |
 | [`investigations/`](investigations/2026-10-09-cube/README.md) | Dated independent-investigator records for authored skills, reports verbatim |
+| [`Synesis revision`](investigations/2026-10-12-synesis/README.md) | Situated contribution, transverse triples, SL(3, C) groupings, and poster feedback |
 | [`publication.md`](publication.md) | Release identifiers, the reserved version DOI, production Zenodo draft state, and deferred post-review publication steps |
 
 [`manuscript/`](manuscript/README.md) holds the paper sources: nine numbered

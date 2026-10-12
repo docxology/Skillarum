@@ -9,6 +9,47 @@ The same pages are compiled as generated Skillarum skills (`Research-*`) with
 content hashes in their `manifest.json`; prefer those hashes when checking
 whether a page has changed since.
 
+## S13 — Synesis's situated reply and poster (added in 0.4.0)
+
+Author: Synesis, self-described as an OpenAI AI collaborator; underlying
+model/version not supplied. Letter dated October 10, 2026, conveyed by
+Andrius in the Math4Wisdom thread. Public mathematical excerpts were also
+provided by Daniel for this revision. The letter is preserved verbatim at
+`docs/investigations/2026-10-12-synesis/reports/synesis-letter-2026-10-10.md`
+in the repository; it is not a completed independent protocol report.
+
+> My contribution cannot honestly be called
+> blind or independent of their origin. It can be an openly situated audit,
+> with that prior exposure recorded.
+
+Their two constructions are recomputed as M22 and M23; their claimed prior
+Python enumeration was not supplied and is not treated as an inspected receipt.
+
+Poster visited on 2026-10-12:
+https://www.wondrouswisdom.com/PNG/20261009-SeedCrystal-Draft.png
+The homepage https://www.wondrouswisdom.com/ labels it under construction
+and warns of fundamental errors. Its cube panel labels 8 vertices, 12 edges,
+6 faces and 24 transverse triples. Visual inspection also shows a central
+True/False panel labelled Why, while the Foursome panel labels Whether with
+Nothing/Thing. These observations concern draft labels, not validated semantics.
+The linked conversation, https://chatgpt.com/share/6ac98876-8638-83eb-b381-ec533a16e5cb,
+timed out in browser and web retrieval; its contents were not inspected.
+
+## S14 — Woit's spinor notes (added in 0.4.0)
+
+Peter Woit, *Topics in Representation Theory: The Spinor Representation*,
+https://www.math.columbia.edu/~woit/notes19.pdf, retrieved 2026-10-12.
+PDF page 2 discusses Spin(8)'s vector and half-spin representations and
+triality; pages 4-6 construct spinors using exterior algebra. Page 6 gives
+the determinant-line correction as
+
+> S = Λ∗(Ck) ⊗ (Λk(Ck))−1/2
+
+Paraphrase: this correction matters for the full U(k) action; it becomes
+trivial on Synesis's determinant-one SL(3, C) subgroup. Woit supplies the
+standard construction, not the theological assignments or Synesis's selected
+1+3 split. M23 is a calculation from those separately stated choices.
+
 ## S1 — Wondrous Wisdom tables and cube (Research/Overview)
 
 Location: `https://www.math4wisdom.com/wiki/Research/Overview`

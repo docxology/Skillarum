@@ -209,6 +209,13 @@ Consequence for I6: a reading needing all three patterns at once needs at
 least two different symmetry-breakings, as S8's "further splitting" for the
 Son already suggests.
 
+**[0.4.0 supplement to M17: the theorem concerns the complete eigenspace
+multiplicities of one common semisimple one-parameter grading, on the three
+different representations, in any order. Its preceding consequence for I6
+applies only if those exact eigenspace multiplicities are required. It is
+superseded for selected invariant groupings by M23. Neither a classification
+of all subgroups nor a general irreducible-branching impossibility was tested.]**
+
 ## M18 — The relations among four persons form an octahedron
 
 The line graph of the tetrahedron has one node per pair of persons, with two
@@ -269,6 +276,57 @@ So 1+3+3+1 appears on two of the three 8s, not all three, and the search over
 integer directions in `[−4, 4]⁴` finds none giving 1+3+3+1 on all three.
 M17's conclusion and its consequence for I6 are unchanged; only the remark
 that the Son's pattern is the "default" one is withdrawn.
+
+## M22 — One set of transverse triples (added in 0.4.0)
+
+Proposer: Synesis, S13. Define X by `(v,e,f)` with v a cube vertex,
+e an edge, f a face, v in e, v in f, and e not contained in f.
+If e varies coordinate i, its unique transverse face through v fixes i to
+v_i. Each vertex gives three triples, each edge two (one per endpoint),
+and each face four (one per vertex, using the normal edge).
+These are three counts of X: `24 = 8*3 = 12*2 = 6*4`.
+
+Compatible pairs are incident `(v,e)`, incident `(v,f)`, and `(e,f)`
+meeting in exactly one vertex. Each determines the missing component uniquely.
+The edge-face projection is not ordinary edge-face incidence: an edge
+contained in a face has no transverse completion. Ordinary flags number 48
+and allow two faces per `(v,e)`. The rotation action on X is regular, since
+projection to vertex-edge incidences is an equivariant bijection (M10).
+No base incidence is needed for these pair-completion bijections.
+This supplements M3/M10 with a new construction; it does not identify their
+distinct ordinary incidence sets. The checker enumerates all triples, fibres,
+pair projections, and the rotation orbit.
+
+## M23 — Simultaneous invariant groupings under SL(3, C) (added in 0.4.0)
+
+Proposer: Synesis, S13. Over C, choose `V = W + W*` and `W = L + U`
+with dimensions 1+3. Embed SL(U) fixing L. Its determinant is one, so the
+determinant twist of the exterior-algebra spinor construction is trivial
+(S14); the half-spin modules are the odd and even exterior powers of W.
+
+| Module | Selected invariant grouping | Dimensions | Irreducible refinement |
+| --- | --- | --- | --- |
+| V | W + W* | 4+4 | 1 + 3 + 1 + 3* |
+| S_odd | L + U + (L tensor Lambda^2 U) + Lambda^3 U | 1+3+3+1 | 1 + 3 + 3* + 1 |
+| S_even | Lambda^0 W + Lambda^2 W + Lambda^4 W | 1+6+1 | 1 + (3 + 3*) + 1 |
+
+Here `Lambda^2 W = (L tensor U) + Lambda^2 U`, `Lambda^2 U = U*`,
+and `Lambda^3 U = C`. Every row refines to `1 + 1 + 3 + 3*`.
+The 4s and 6 are reducible. These simultaneous invariant groupings on three
+different spaces are not complete eigenspace patterns of one grading. They
+coexist with M17 and differ from M20's views of one space.
+
+The checker builds exterior basis subsets, verifies disjoint exhaustive
+partitions, checks closure under all six elementary root operators of sl(3),
+and compares full two-dimensional torus characters. Diagonal generators
+preserve basis lines; closure extends to connected SL(3, C). Standard/dual
+irreducibility and determinant identities justify the refinement, not weight
+multiplicities alone. The dual root action reverses arrows and signs; testing
+all six directed pairs checks the same closure condition.
+
+This establishes neither theological identification, uniqueness, nor triality
+compatibility of the groupings. Even the two singlet copies permit additional
+choices. It does not establish real forms appropriate to lived introspection.
 
 ## Note on C2 (withdrawn in 0.2.0)
 

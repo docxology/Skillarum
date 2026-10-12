@@ -660,6 +660,128 @@ def four_d_checks(results):
     )
 
 
+def transverse_triples():
+    return [
+        (v, e, f)
+        for v in VERTICES
+        for e in EDGES
+        for f in FACES
+        if v in e and v in f and not e <= f
+    ]
+
+
+def transverse_checks(results, triples=None):
+    triples = transverse_triples() if triples is None else triples
+    fibres = [Counter(t[i] for t in triples) for i in range(3)]
+    pairs = [
+        Counter((t[i], t[j]) for t in triples) for i, j in combinations(range(3), 2)
+    ]
+    valid = all(
+        v in VERTICES and e in EDGES and f in FACES and v in e and v in f and not e <= f
+        for v, e, f in triples
+    )
+    orbit = set()
+    if triples:
+        v, e, f = triples[0]
+        for m in ROTATIONS:
+            vm = vertex_map(m)
+            orbit.add((vm[v], frozenset(vm[x] for x in e), frozenset(vm[x] for x in f)))
+    check(
+        results,
+        "M22",
+        "Synesis's transverse triples form one 24-element set, with vertex, edge, "
+        "face fibres 3, 2, 4. Every compatible pair uniquely completes a triple; "
+        "the rotation action is regular. These are not ordinary flags.",
+        valid
+        and len(set(triples)) == len(triples) == 24
+        and [set(c) for c in fibres] == [set(VERTICES), set(EDGES), set(FACES)]
+        and [set(c.values()) for c in fibres] == [{3}, {2}, {4}]
+        and all(set(c.values()) == {1} for c in pairs)
+        and orbit == set(triples),
+        count=len(triples),
+        fibre_sizes=[sorted(set(c.values())) for c in fibres],
+        pair_counts=[len(c) for c in pairs],
+        rotation_orbit=len(orbit),
+    )
+
+
+def sl3_groupings():
+    """Basis tokens: sector W/dual/exterior and a subset of (L,u1,u2,u3)."""
+    w = {("W", (i,)) for i in range(4)}
+    dual = {("dual", (i,)) for i in range(4)}
+    ext = {k: {("exterior", s) for s in combinations(range(4), k)} for k in range(5)}
+    odd = [
+        {("exterior", (0,))},
+        {("exterior", (i,)) for i in range(1, 4)},
+        {("exterior", (0, *s)) for s in combinations(range(1, 4), 2)},
+        {("exterior", (1, 2, 3))},
+    ]
+    return {"vector": [w, dual], "odd": odd, "even": [ext[0], ext[2], ext[4]]}
+
+
+def sl3_checks(results, groupings=None):
+    groupings = sl3_groupings() if groupings is None else groupings
+    expected = sl3_groupings()
+    weights = ((0, 0), (1, 0), (0, 1), (-1, -1))
+
+    def weight(token):
+        sector, subset = token
+        sign = -1 if sector == "dual" else 1
+        return tuple(sign * sum(weights[i][j] for i in subset) for j in range(2))
+
+    def invariant(block):
+        # Six elementary root operators generate sl(3) together with their
+        # diagonal commutators. Diagonal operators preserve every basis line.
+        for sector, subset in block:
+            for a, b in permutations(range(1, 4), 2):
+                if b in subset and a not in subset:
+                    target = tuple(sorted((set(subset) - {b}) | {a}))
+                    if (sector, target) not in block:
+                        return False
+        return True
+
+    character = Counter(
+        {
+            (0, 0): 2,
+            (1, 0): 1,
+            (0, 1): 1,
+            (-1, -1): 1,
+            (-1, 0): 1,
+            (0, -1): 1,
+            (1, 1): 1,
+        }
+    )
+    dims = {name: [len(b) for b in blocks] for name, blocks in groupings.items()}
+    partitions = all(
+        set().union(*blocks) == set().union(*expected[name])
+        and sum(map(len, blocks)) == len(set().union(*blocks))
+        for name, blocks in groupings.items()
+    ) and set(groupings) == set(expected)
+    invariant_blocks = all(
+        invariant(b) for blocks in groupings.values() for b in blocks
+    )
+    characters = {
+        name: Counter(weight(t) for b in blocks for t in b)
+        for name, blocks in groupings.items()
+    }
+    check(
+        results,
+        "M23",
+        "For W=L+U with SL(3,C) fixing L, V, odd spin, and even spin admit "
+        "selected invariant groupings 4+4, 1+3+3+1, 1+6+1 simultaneously. All "
+        "refine to 1+1+3+3*, not three different irreducible branchings.",
+        partitions
+        and invariant_blocks
+        and dims == {"vector": [4, 4], "odd": [1, 3, 3, 1], "even": [1, 6, 1]}
+        and all(c == character for c in characters.values()),
+        dimensions=dims,
+        invariant_blocks=invariant_blocks,
+        characters={
+            name: {str(k): v for k, v in c.items()} for name, c in characters.items()
+        },
+    )
+
+
 def run():
     results: list[dict] = []
     cube_checks(results)
@@ -669,6 +791,8 @@ def run():
     pascal_checks(results)
     four_d_checks(results)
     coarsening_checks(results)
+    transverse_checks(results)
+    sl3_checks(results)
     return results
 
 

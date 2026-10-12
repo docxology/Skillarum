@@ -2,17 +2,19 @@
 name: math4wisdom-cube
 description: Versioned investigation skill for the Math 4 Wisdom cube correspondence - the cube's 8 vertices, 12 edges and 6 faces, its two inscribed tetrahedra labelled God, I, You, Other, Wondrous Wisdom's three languages (argumentation, verbalization, narration), and the proposed lift to Spin(8) triality. Use when reconstructing, checking, criticising, or extending that correspondence, or when running an independent investigator over it; every statement is tagged as source, mathematics, interpretation, or empirical proposal.
 metadata:
-  version: 0.3.0
-  released: "2026-10-09"
+  version: 0.4.0
+  released: "2026-10-12"
   skillarum_effect: readonly
 ---
 
 # Math4Wisdom cube correspondence
 
-Version 0.3.0 (2026-10-09). Version 0.1.0 was audited the same day by three
+Version 0.4.0 (2026-10-12). Version 0.1.0 was audited on 2026-10-09 by three
 independent investigators; 0.2.0 records what each finding changed, and 0.3.0
 withdraws one investigator claim that 0.2.0 adopted without checking. See
-`CHANGELOG.md`, and cite the version you used.
+`CHANGELOG.md`, and cite the version you used. Version 0.4.0 checks Synesis's
+transverse triples and simultaneous SL(3, C) groupings, and narrows the
+interpretive consequence of M17. Their contribution is situated, not blind.
 
 This skill holds one proposed correspondence and the evidence for each part
 of it. It does not assert that the correspondence is true. It separates four
@@ -102,6 +104,13 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
 - 1+3+3+1 is not the generic grading: a generic direction splits every 8
   into eight distinct values, and no searched direction gives 1+3+3+1 on all
   three 8s (`M21`).
+- Transverse triples `(v,e,f)` with `v in e`, `v in f`, and `e` not contained
+  in `f` form one set of 24; every compatible pair completes uniquely
+  (`M22`, Synesis's construction). Ordinary flags instead number 48.
+- With `W = L + U`, a common SL(3, C) fixing L admits the selected invariant
+  groupings 4+4, 1+3+3+1, 1+6+1 on the three different 8s (`M23`). These
+  all refine to `1 + 1 + 3 + 3*`. M17 tests full eigenspace multiplicities
+  of one grading, not arbitrary invariant groupings or general branching.
 
 ## Corrections
 
@@ -120,6 +129,11 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
 - `C5` (0.3.0) 0.2.0 stated, from forge-b X-7, that 1+3+3+1 is the generic
   pattern and that c = (3,1,1,1) gives it on all three 8s. Both are false: that
   direction gives 1+3+3+1, 1+3+3+1, 3+2+3 (`M21`).
+- `C6` (0.4.0) The consequence of M17 was too broad. A shared subgroup can
+  retain all three selected groupings on different 8s (`M23`); M17 does not
+  prove an impossibility for arbitrary subgroups or irreducible branching.
+- **[0.4.0 supplement to C1: Synesis accepts the original correction (S13).
+  M22 supplies a new shared set, not a vindication of ordinary incidences.]**
 
 ## What remains open (`I`, `E`)
 
@@ -129,12 +143,14 @@ Every item is checked by `python3 scripts/verify_combinatorics.py`
   composite, so forward equals reverse; a handedness at each step could
   supply a direction (reported by anvil-c, not yet checked here).
 - `I6` Father, Son, Spirit as the three 8s of triality, constrained by
-  `M16`, `M17`, and the alternative `M20`.
+  `M16`, `M17`, and the alternatives `M20`, `M23`; see the 0.4.0 note on I6.
 - `I9` A God-centred placement of the persons, as an alternative to the
   parity tetrahedron.
 - `I10` Which group, T_d or O, the theology uses.
 - `E1`–`E9` Observations that would discriminate among these, in
   `references/interpretations.md`.
+- `I11`, `E10`, `E11`: triple completion as language, and whether selected
+  groupings are preserved by an explicit triality operation. All remain open.
 
 ## Procedure
 

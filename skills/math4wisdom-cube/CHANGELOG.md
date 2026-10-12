@@ -4,6 +4,22 @@ Versions follow semantic versioning. A minor version adds or supersedes
 ledger entries; a patch version fixes wording without changing any claim.
 Ledger IDs are never reused: a superseded entry is marked, not deleted.
 
+## 0.4.0 — 2026-10-12
+
+- **S13, S14.** Synesis's October 10 reply, the live draft poster, and Woit's
+  exterior-algebra notes are recorded with separate evidence scopes.
+- **M22.** Recompute transverse triples, all projection fibres, unique pair
+  completion, and the regular rotation action. Ordinary flags remain 48.
+- **M23, C6.** Recompute the three simultaneous SL(3, C) invariant groupings
+  with exterior bases, root-operator closure, and characters. All refine to
+  two singlets, the standard 3, and its dual. Supersede the overbroad M17/I6/E8
+  consequences; the single-grading theorem itself remains intact.
+- **I11, E10, E11.** Add semantic completion and triality compatibility tests.
+- **Protocol.** Record prior exposure and situated contributions; a letter
+  reporting a calculation is not an inspected script or an independent audit.
+- Preserve the October 10 letter verbatim and document poster feedback.
+- Checker: 23 checks (M1–M23), with real negative controls in the test suite.
+
 ## 0.3.0 — 2026-10-09
 
 Supersedes one mathematics note, so this is a minor version.

@@ -102,6 +102,9 @@ separate parent-template command.
 The [comprehensive review record](review-2026-09-07.md) records the source map,
 findings, claim disposition, current verification, and remaining limits.
 
+The [Synesis revision](investigations/2026-10-12-synesis/README.md) records the
+situated contribution and checked 0.4.0 cube-skill corrections.
+
 [Source refresh](source-refresh.md) documents empty-cache acquisition, the public
 HTML inventory, raw response archives, and replacement of installed skills.
 

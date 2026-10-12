@@ -110,6 +110,13 @@ Status: constrained by M16 and M17.
   vertex), rather than as three different 8s. M17 obstructs the first
   reading under a single symmetry-breaking and permits the second.
 
+**[0.4.0 supplement to I6: M17 requires exact complete eigenspace patterns
+under one grading. The preceding requirement for at least two breakings is
+superseded for arbitrary invariant groupings by Synesis's M23: one SL(3, C)
+subgroup retains all three selected groupings on different 8s. Its complete
+branching is the same `1+1+3+3*` on each. This does not prove that triality
+preserves those groupings or the theological interpretation.]**
+
 ### I7 — Theological operations are preserved by the triality maps
 
 Proposer: Synesis (S8).
@@ -227,10 +234,43 @@ act on different spaces (three 8s permuted by triality) or give three views of
 one space? Count the independent symmetry-breakings the theology names: M17
 needs at least two for the first reading; M20 needs one for the second.
 
+**[0.4.0 supplement to E8: distinguish three requirements before collecting
+examples: M17's complete eigenspaces under one grading; M23's selected
+invariant groupings on three spaces under one subgroup; M20's coarsenings
+of one space. Counting breakings alone does not separate all three.]**
+
 ### E9 — Cubic-graph test on the divisions (added in 0.2.0)
 
 From sonnet-a D1. If circumstances relate pairs of divisions, build that
 graph from the source lists. If it is Q₃ (bipartite, diameter 3, unique
 antipodes) the cube is more than a count; another cubic graph on 8 vertices
 (such as the Wagner graph) would reduce I1 to a handshake identity.
+
+## New interpretation and tests (0.4.0)
+
+### I11 — Languages as completion of transverse triples (added in 0.4.0)
+
+Proposer: Synesis (S13). Status: open. M22 supplies unique completion of
+compatible pairs. Whether completing the third component models the framing
+and direction of Andrius's languages needs source examples (E10). This is a
+new proposal, not a silent replacement of I2's ordinary incidence relations.
+
+### E10 — Semantic completion and incompatible pairs (added in 0.4.0)
+
+Ask Andrius for worked examples of each language, identifying two given
+components, the missing component, and what frames the transition. Predeclare
+the mapping to v,e,f. Include incompatible pairs: a contained edge-face pair
+must have no transverse completion; an edge meeting a face at one endpoint
+must have exactly one. Record disagreements rather than relabelling after
+seeing results. Unique mathematical completion does not supply semantic
+direction, introspective correctness, or a privileged theological label.
+
+### E11 — Triality compatibility of selected groupings (added in 0.4.0)
+
+State the common subgroup embedding, polarization W, line L, and blocks.
+Construct representation-space intertwiners twisted by an explicit triality
+automorphism, specifying its action on the subgroup; test which blocks map
+to which and whether dimensions and operations are preserved. M15's weight
+permutation and M23's equal restricted characters alone do not settle this.
+Record any additional choices. No such test has been completed here.
 

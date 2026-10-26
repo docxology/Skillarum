@@ -70,11 +70,12 @@ research validation, and the final parent stage — is owned by
 
 ## Local validation versus the public-template clean index
 
-This project lives in the private sidecar. Local validation runs the
-commands in [`release-checklist.md`](release-checklist.md) and the sidecar
-signpost checker from the parent checkout. The public-template clean-index
-audit is a separate surface: it requires placement in the template release
-index and reports `CLEAN_INDEX_INCOMPLETE` for a private sidecar checkout
+This project is a standalone, self-versioned checkout with its own public
+remote (`docxology/Skillarum`). Local validation runs the commands in
+[`release-checklist.md`](release-checklist.md) and, when that script exists in
+the template checkout, the parent signpost checker. The public-template
+clean-index audit is a separate surface: it requires placement in the template
+release index and reports `CLEAN_INDEX_INCOMPLETE` for a standalone checkout
 without any fingerprint drift. That result is expected here and is not
 something to fix by changing confidentiality boundaries.
 

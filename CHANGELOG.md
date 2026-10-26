@@ -6,6 +6,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+- Declared dependency floors now match the versions the lockfile already
+  resolves: `beautifulsoup4>=4.13`, `httpx>=0.28`, `pyyaml>=6.0.2`,
+  `openai>=2.0`, `matplotlib>=3.10`, `pytest>=8.3`, `coverage[toml]>=7.15`,
+  and `ruff>=0.15`. No resolved version, runtime behavior, or public contract
+  changes; `uv lock` remains valid.
+
+### Fixed
+- `docs/release-checklist.md` no longer instructs readers to pass the
+  historical `working/Skillarum` path to the parent renderer and validator.
+  The path is workspace-owned and now appears as a placeholder, with the dated
+  evidence for the path that resolved recorded in
+  `docs/investigations/2026-10-12-synesis/validation.md`. The parent signpost
+  item records that `scripts/check_signposts.py` is absent from the current
+  template and sidecar.
+- `docs/extending.md` described this checkout as a private sidecar; it is the
+  standalone public `docxology/Skillarum` project.
+
 ## [0.3.1] - 2026-10-09
 
 Correction release. Version DOI `10.5281/zenodo.23271010`.

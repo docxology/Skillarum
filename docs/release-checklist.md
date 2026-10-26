@@ -43,10 +43,10 @@ writers and fails if its source snapshot changes during execution. It does not a
 PDF/HTML, install skills, or publish externally. A failed step writes a failed
 receipt and raises an error. With no completed observations it fails explicitly.
 
-The thin `scripts/z_generate_manuscript_variables.py` hook repeats this build before parent rendering, preventing stale hydrated inputs. Run the canonical renderer from the sibling template checkout:
+The thin `scripts/z_generate_manuscript_variables.py` hook repeats this build before parent rendering, preventing stale hydrated inputs. Run the canonical renderer from the sibling template checkout, passing the path that workspace uses for this checkout (`working/Skillarum` is a historical path that no longer resolves; the lifecycle link `ongoing/docxology/Skillarum` was used successfully on 2026-10-12 — see [`investigations/2026-10-12-synesis/validation.md`](investigations/2026-10-12-synesis/validation.md)):
 
 ```bash
-uv run python scripts/pipeline/stage_03_render.py --project working/Skillarum
+uv run python scripts/pipeline/stage_03_render.py --project <this-checkout-path>
 ```
 
 Then return to the project root:
@@ -60,7 +60,10 @@ uv run python -m skillarum research validate --evaluation output/reports/evaluat
   author metadata, and absence of unresolved tokens or operational status prose.
 - [ ] Verify the final artifact hashes after rendering; declared PDF/HTML counts
   must agree with the files listed in the manifest.
-- [ ] Run `python3 scripts/check_signposts.py working/Skillarum` from the parent sidecar.
+- [ ] Run `python3 scripts/check_signposts.py <this-checkout-path>` from the
+  parent sidecar when that script is present. It is absent from the current
+  template and sidecar, so the historical check is unavailable
+  ([2026-10-12 record](investigations/2026-10-12-synesis/validation.md)).
 - [ ] Run the installed Codex quick validator over both output namespaces.
 - [ ] Keep fixture, live, and unknown origins distinct; rate denominators include
   completed snapshots only. Failure diagnostics are not a sampled success-rate denominator.
@@ -73,7 +76,7 @@ After all artifact generation, review screenshots, and receipt writing are
 finished, run the final parent validation **last**, from the template checkout:
 
 ```bash
-uv run python scripts/pipeline/stage_04_validate.py --project working/Skillarum
+uv run python scripts/pipeline/stage_04_validate.py --project <this-checkout-path>
 ```
 
 Check the process exit code and exact rendered-provenance receipt. Individual

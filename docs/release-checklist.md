@@ -43,7 +43,7 @@ writers and fails if its source snapshot changes during execution. It does not a
 PDF/HTML, install skills, or publish externally. A failed step writes a failed
 receipt and raises an error. With no completed observations it fails explicitly.
 
-The thin `scripts/z_generate_manuscript_variables.py` hook repeats this build before parent rendering, preventing stale hydrated inputs. Run the canonical renderer from the sibling template checkout, passing the path that workspace uses for this checkout (`working/Skillarum` is a historical path that no longer resolves; the lifecycle link `ongoing/docxology/Skillarum` was used successfully on 2026-10-12 — see [`investigations/2026-10-12-synesis/validation.md`](investigations/2026-10-12-synesis/validation.md)):
+The thin `scripts/z_generate_manuscript_variables.py` hook repeats this build before parent rendering, preventing stale hydrated inputs. Run the canonical renderer from the sibling template checkout, passing whatever path that workspace uses for this checkout; the value is workspace-owned and is not a constant of this repository. In the workspace recorded on 2026-10-12 the historical `working/Skillarum` path no longer resolved, while the lifecycle link `ongoing/docxology/Skillarum` did — see [`investigations/2026-10-12-synesis/validation.md`](investigations/2026-10-12-synesis/validation.md):
 
 ```bash
 uv run python scripts/pipeline/stage_03_render.py --project <this-checkout-path>

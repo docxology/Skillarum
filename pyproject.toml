@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "skillarum"
 description = "Scrape selected website pages, render portable agent skills, and evaluate provenance"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dynamic = ["version"]
 dependencies = [
     "beautifulsoup4>=4.12",

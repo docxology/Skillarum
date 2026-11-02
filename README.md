@@ -27,7 +27,7 @@ The rendered skills directory also contains `index.json` for harness discovery.
 
 ## Install
 
-Skillarum requires Python 3.10+. Install from the public repository; a
+Skillarum requires Python (the bound in `pyproject.toml`) or newer. Install from the public repository; a
 source checkout also provides the bundled source profiles used below:
 
 ```bash

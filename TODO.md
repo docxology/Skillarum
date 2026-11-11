@@ -95,3 +95,9 @@ per-module coverage and security language must not be treated as current facts.
 - **`doctor` side-effect documentation** `(implemented)`. `doctor --help`
   now states it creates output/cache directories and issues a live Ollama
   /api/tags request unless --no-network is given; --no-network help updated.
+
+## Workflowz review — 2026-11-10
+
+- [ ] **WF-20261110-01** (P2) Fix the install requirement sentence so it names the actual Python floor instead of the placeholder phrase "Python (the bound in `pyproject.toml`) or newer". Observable outcome: README states Python 3.11+ (matching `requires-python = ">=3.11"` at pyproject.toml:8) or links the bound with a correct inline value. Evidence: README.md:30. Acceptance probe from repo root: `uv run python -m skillarum --help` succeeds and `python3 -c "import tomllib,pathlib; print(tomllib.loads(pathlib.Path('pyproject.toml').read_text())['project']['requires-python'])"` prints the same floor the README sentence now states. Dependencies/constraints: documentation-only; do not change the declared bound or the .python-version pin, and do not claim any dependency is outdated without lockfile evidence.
+
+Coverage note: bounded evidence packet only (20/81 source modules excerpted); fallback, pass, and exception-swallowing sites shown were verified as intentional (traced provider fallback, receipt-preserving error boundaries, platform adapter, log suppression) rather than silent production substitutes. Re-review on a concrete failure or source change.

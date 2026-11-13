@@ -3,6 +3,8 @@
 Skillarum turns selected public website pages into portable `SKILL.md`
 documents for agent harnesses such as Codex, Claude Code, and Hermes.
 
+<p align="center"><img src="cover/skillarum_cover.png" alt="Skillarum cover: public web pages distilled into portable SKILL.md documents" width="360"></p>
+
 **Agent orientation (read in this order):** [AGENTS.md](AGENTS.md) (layer
 contract + testing rules) → [TODO.md](TODO.md) (backlog with acceptance
 lines) → `uv run python -m skillarum doctor --profile

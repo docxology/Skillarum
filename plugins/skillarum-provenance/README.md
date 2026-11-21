@@ -23,9 +23,13 @@ Add the plugin in Claude. Paste only the relevant Markdown, manifest fields, sou
 - If a reference comes back as unverified, paste the matching package inventory entry and any relevant excerpt. A pathname or URL alone establishes only that the skill mentions it.
 - If Claude selects the wrong workflow, ask for a provenance audit to check evidence and lineage, or a distribution review to check skill behavior and packaging.
 
-## Data handling and support
+## Privacy policy
 
-The skills analyze the text you intentionally paste into the current request. The bundle contains Markdown guidance and listing metadata. It makes no external requests, runs no commands, and creates no logs or persistent storage of its own. Pasted text is processed in your Claude session under the applicable Claude settings. Redact secrets and personal data before sharing excerpts.
+Skillarum Provenance analyzes only excerpts you intentionally paste into your current request. A review can use limited public attribution, such as an author or publisher name, when it is relevant to assessing an excerpt. Use public material you are allowed to share and remove secrets and other personal or sensitive details before pasting it.
+
+The bundle contains Markdown instructions and listing metadata. It makes no external requests and keeps no publisher-side records. The publisher receives none of the pasted text or analysis, and the plugin sends neither to third parties. Claude processes the conversation according to your account settings and Anthropic's applicable terms and privacy practices. [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy)
+
+## Support
 
 For usage questions or bugs, use the public issue tracker and share a synthetic or redacted example. [Skillarum support](https://github.com/docxology/Skillarum/issues)
 

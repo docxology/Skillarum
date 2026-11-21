@@ -141,14 +141,16 @@ from skillarum.config import load_profile
 from skillarum.policies import POLICY_PACKS
 
 profile = load_profile("data/sources/active_inference_institute.yaml")
-print(profile.area)                       # Active-Inference-Institute
-print(sorted(POLICY_PACKS))               # ['security']
+print(profile.area)  # Active-Inference-Institute
+print(sorted(POLICY_PACKS))  # ['security']
 ```
 
 ```python
 from skillarum.install import harness_roots
 
-print(harness_roots())   # {'codex': '.codex/skills', 'claude': '.claude/skills', 'agents': '.agents/skills'}
+print(
+    harness_roots()
+)  # {'codex': '.codex/skills', 'claude': '.claude/skills', 'agents': '.agents/skills'}
 ```
 
 ## Configuration

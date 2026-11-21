@@ -32,6 +32,10 @@ where = ["src"]
 [tool.setuptools.dynamic]
 version = { attr = "skillarum.__version__" }
 
+[tool.ruff.lint]
+# Preserve the rules checked before Ruff 0.16 expanded its defaults.
+select = ["E4", "E7", "E9", "F"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]

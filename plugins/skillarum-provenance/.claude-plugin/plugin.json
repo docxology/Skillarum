@@ -1,0 +1,16 @@
+{
+  "name": "skillarum-provenance",
+  "displayName": "Skillarum Provenance",
+  "description": "Trace a generated skill to its recorded sources and review its readiness for distribution using pasted excerpts.",
+  "version": "0.1.0",
+  "author": {
+    "name": "docxology",
+    "url": "https://github.com/docxology"
+  },
+  "homepage": "https://github.com/docxology/Skillarum",
+  "repository": "https://github.com/docxology/Skillarum",
+  "supportUrl": "https://github.com/docxology/Skillarum/issues",
+  "icon": "./assets/icon.png",
+  "license": "MIT",
+  "keywords": ["agent-skills", "provenance", "source-review"]
+}

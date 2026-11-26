@@ -15,12 +15,11 @@ template checkout renders it; its engine is deliberately not copied here.
 | `preamble.md` | Scope and interpretation front matter plus LaTeX preamble |
 | `00_abstract.md` … `08_reproducibility.md` | The nine numbered body sections |
 | `99_references.md` | References section |
-| `references.bib` | BibTeX bibliography, 29 entries |
-| `MANUSCRIPT_STATUS.md` | Publication-readiness tracker |
+| `references.bib` | BibTeX bibliography and citation keys |
 | `README.md`, `AGENTS.md` | Documentation; excluded from the manuscript content set |
 
 The validator and hydrator exclude `AGENTS.md`, `README.md`,
-`MANUSCRIPT_STATUS.md`, and `SYNTAX.md`; these operational files are not paper content.
+and `SYNTAX.md`; these operational files are not paper content.
 
 ## Hydration tokens
 
@@ -75,11 +74,8 @@ uv run python -m skillarum research publication \
 
 - ✅ Hydrate every measured value from a token.
 - ✅ Register a claim before asserting it; register a citation before citing it.
-- ✅ Keep the reserved version DOI `10.5281/zenodo.23271010` in
-  `config.yaml` exactly as returned by the Zenodo draft (`doi_status:
-  "reserved"`); it registers on publication. The concept DOI was absent
-  from the observed draft response — read any concept DOI from an actual
-  published response; never derive or blank the reserved identifier.
+- ✅ Preserve the published version DOI and the distinct concept DOI. See the
+  [publication record](../publication.md) for the evidence and identifiers.
 - ❌ Never edit a source section with a resolved number. Resolved copies belong
   in `output/manuscript/`.
 - ❌ Never present the envelope `generated_at` timestamp as a reproducibility

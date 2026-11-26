@@ -2,10 +2,10 @@
 
 Reviewed 2026-10-09. This project is a self-versioned checkout with its own
 `docxology/Skillarum` remote. Work from its root; generated output stays local.
-See [the current review record](docs/review-2026-09-07.md) — implementation
+See [the current review record](review-2026-09-07.md) — implementation
 and verification counts superseded by
-[the agentic revision](docs/review-agentic-2026-09-07.md) — and
-[release checklist](docs/release-checklist.md) for current verification.
+[the agentic revision](review-agentic-2026-09-07.md) — and
+[release checklist](release-checklist.md) for current verification.
 
 ## Current evidence and follow-ups
 

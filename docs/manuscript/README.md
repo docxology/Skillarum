@@ -21,13 +21,14 @@ See [manuscript bindings](../manuscript-bindings.md) for validation and provenan
 | `07_related_work.md` | Related work |
 | `08_reproducibility.md` | Reproducibility |
 | `99_references.md` | References section |
-| `references.bib` | BibTeX bibliography (29 entries) |
-| `MANUSCRIPT_STATUS.md` | Current drafting status |
+| `references.bib` | BibTeX bibliography and citation keys |
 
-`AGENTS.md`, `README.md`, `MANUSCRIPT_STATUS.md`, and `SYNTAX.md` are excluded
+`AGENTS.md`, `README.md`, and `SYNTAX.md` are excluded
 from the manuscript content and citation sets.
 
 ## Quick start
+
+Use the [fixture render guide](../rendering.md) to start from a clean checkout.
 
 Run from the project root. `docs/manuscript` is the default source directory.
 
@@ -41,8 +42,8 @@ For a source-only check, use `research manuscript --evaluation output/reports/ev
 ## Publication metadata
 
 `config.yaml` identifies Daniel Ari Friedman and ORCID
-`0000-0001-6232-9096`, declares a blank DOI with an explicit unassigned
-status, and points the parent renderer to `cover/skillarum_cover.png`. The
+`0000-0001-6232-9096`, records the published version DOI `10.5281/zenodo.23271010`, and points the
+parent renderer to `cover/skillarum_cover.png`. The
 cover is conceptual artwork rather than empirical evidence; its provenance and
 accessibility metadata live in [`../../data/cover.yaml`](../../data/cover.yaml).
 

@@ -6,7 +6,7 @@ A complete walkthrough from repository clone to your first rendered skill instal
 
 - [uv](https://github.com/astral-sh/uv) Python package manager
 - Git
-- Python 3.10+
+- Python 3.11+
 - An agent harness (Claude, Codex, or agents-compatible) or just an output directory
 
 ## 1. Clone and Setup
@@ -14,7 +14,7 @@ A complete walkthrough from repository clone to your first rendered skill instal
 ```bash
 git clone https://github.com/docxology/Skillarum.git
 cd Skillarum
-uv sync
+uv sync --locked
 ```
 
 ## 2. Health Check with `doctor`

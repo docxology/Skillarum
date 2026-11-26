@@ -18,15 +18,11 @@ computational-research practice [@sandve-reproducibility] and treats the FAIR
 principles as a stewardship goal [@fair-guiding-principles], without claiming
 permanent archival preservation or formal FAIR certification.
 
-Reproduction sequence:
-
-```bash
-uv sync --extra dev --extra research
-uv run --extra dev --extra research pytest tests/ --cov=src --cov-fail-under=90
-uv run python -m skillarum run --profile data/sources/math4wisdom.yaml
-uv run python -m skillarum run --profile data/sources/active_inference_institute.yaml
-uv run --extra research python -m skillarum research build --output-dir output --json
-```
+For a clean-checkout reproduction, the fixture render guide in the repository
+serves one repository-authored page on loopback, generates a deterministic
+package, and builds the research inputs from that completed snapshot.
+For a historical comparison, use the retained snapshots and report for the
+release in question. Record evidence origin and retain original timestamps.
 
 The build command validates inputs, aggregates completed observations, generates
 figures, hydrates manuscript tokens, and writes an ordered receipt. It does not

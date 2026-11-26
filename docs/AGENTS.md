@@ -31,6 +31,9 @@ cross-cutting topics that have no single owning directory.
 
 ### Orientation and reference
 
+See the [documentation index](README.md) for the [CLI reference](usage.md),
+[fixture render guide](rendering.md), and planning and review records.
+
 | File | Purpose |
 | --- | --- |
 | [`tutorial.md`](tutorial.md) | End-to-end walkthrough from clone through `doctor`, `run`, `validate`, and install |
@@ -61,14 +64,13 @@ cross-cutting topics that have no single owning directory.
 | [`statistics.md`](statistics.md) | The executable statistical policy, interval methods, and independent numerical checks |
 | [`figures.md`](figures.md) | Source-bound figures, registry schema, point data, and accessibility |
 | [`manuscript-bindings.md`](manuscript-bindings.md) | Parameter injection, caption reuse, numeric-prose validation, binding receipts |
-| [`publication.md`](publication.md) | Release identifiers, the reserved version DOI, production Zenodo draft state, and deferred post-review steps |
+| [`publication.md`](publication.md) | Published version and concept DOIs, release assets, and historical deposit records |
 
 ### Manuscript
 
 [`manuscript/`](manuscript/) holds the paper sources: `config.yaml`,
 `preamble.md`, nine numbered body sections (`00_abstract.md` through
-`08_reproducibility.md`), `99_references.md`, `references.bib`, and
-`MANUSCRIPT_STATUS.md`. Its rules live in
+`08_reproducibility.md`), `99_references.md`, and `references.bib`. Its rules live in
 [`manuscript/AGENTS.md`](manuscript/AGENTS.md).
 
 ## Rules
@@ -78,7 +80,8 @@ cross-cutting topics that have no single owning directory.
 - ✅ Cross-link a new document from both [`README.md`](README.md) and this file.
 - ✅ Keep interpretation of results in the manuscript and the ledgers, not in
   generated skill packages.
-- ❌ Do not document `output/`. It is generated, disposable, and untracked.
+- ✅ Distinguish the retained catalog under `output/skills/` from temporary
+  run snapshots, caches, and research builds.
 - ❌ Do not restate a directory's own guide here. Fix the doc next to the code.
 - ❌ Do not copy the parent template rendering engine into this project.
 

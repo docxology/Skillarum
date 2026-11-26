@@ -1,4 +1,4 @@
-# docs/
+# Skillarum documentation
 
 Prose documentation for Skillarum. Topic documents plus the
 manuscript source tree. Code lives in [`../src/skillarum/`](../src/skillarum/);
@@ -8,7 +8,7 @@ nothing here is executed.
 
 New to the project, in this order:
 
-1. root [`../README.md`](../README.md) — what Skillarum is and the command reference
+1. [Project README](../README.md) — project overview and installation
 2. [`tutorial.md`](tutorial.md) — clone to an installed skill, step by step
 3. [`architecture.md`](architecture.md) — the five stages and module responsibilities
 4. [`operations.md`](operations.md) — cache, provider, and publication gates
@@ -17,6 +17,8 @@ New to the project, in this order:
 
 | Document | Covers |
 | --- | --- |
+| [CLI and workflow reference](usage.md) | Commands, configuration, outputs, providers, and recovery |
+| [Local fixture and manuscript render](rendering.md) | Reproducible offline extraction, hydration, and pinned Template validation |
 | [`tutorial.md`](tutorial.md) | End-to-end walkthrough: setup, `doctor`, run, validate, install |
 | [`architecture.md`](architecture.md) | `acquire → prepare → process → parse → render`, module map, trust boundaries |
 | [`evaluation.md`](evaluation.md) | Evidence tiers, statistics policy, reproducible evaluation and publication commands |
@@ -39,7 +41,7 @@ New to the project, in this order:
 | [`publication.md`](publication.md) | Release identifiers, the reserved version DOI, production Zenodo draft state, and deferred post-review publication steps |
 
 [`manuscript/`](manuscript/README.md) holds the paper sources: nine numbered
-body sections, `99_references.md`, `preamble.md`, `MANUSCRIPT_STATUS.md`,
+body sections, `99_references.md`, `preamble.md`,
 `config.yaml`, and `references.bib`.
 
 ## Key facts
@@ -48,7 +50,8 @@ body sections, `99_references.md`, `preamble.md`, `MANUSCRIPT_STATUS.md`,
   doc next to the code rather than growing this directory.
 - Numbers in the manuscript are hydrated from an evaluation report, never typed
   by hand. See [`manuscript/AGENTS.md`](manuscript/AGENTS.md).
-- `output/` is generated and disposable. It is not documented.
+- The published package catalog under `output/skills/` is retained. Run
+  snapshots, caches, and research builds under the other output paths are local.
 
 ## Manuscript paths
 
@@ -66,7 +69,11 @@ separate parent-template command.
 [`../data/README.md`](../data/README.md) ·
 [`../cover/README.md`](../cover/README.md)
 
-## More information
+## Planning and reviews
+
+See the [backlog](backlog.md), [adoption roadmap](ROADMAP_adoption.md),
+[August audit](AUDIT_2026-08-30.md), and
+[September manuscript status](manuscript-status.md).
 
 See [`AGENTS.md`](AGENTS.md) for the maintenance rules and what belongs in
 which document.

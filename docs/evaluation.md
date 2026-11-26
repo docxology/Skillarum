@@ -142,6 +142,9 @@ means byte-for-byte equality of complete report envelopes is not claimed.
 Compare report IDs, observation payloads, and publication-manifest hashes when
 assessing reproducibility.
 
+The [fixture render guide](rendering.md) walks through acquisition, hydration,
+and pinned parent validation in a fresh checkout.
+
 The parent template repository remains the final PDF/HTML renderer. Link this
 project into the sibling checkout and render explicitly; do not copy the
 template engine into this project. The release publication check can require

@@ -15,7 +15,7 @@ may select overlapping source pages.
 
 Figure [-@fig:pipeline-trust-boundaries] summarizes the stage topology: untrusted source data enters at acquisition and stays delimited through preparation, generation, parsing, and rendering.
 
-![{{FIGURE_PIPELINE_TRUST_BOUNDARIES_CAPTION}}](../output/figures/pipeline-trust-boundaries.png){#fig:pipeline-trust-boundaries}
+![{{FIGURE_PIPELINE_TRUST_BOUNDARIES_CAPTION}}](../../output/figures/pipeline-trust-boundaries.png){#fig:pipeline-trust-boundaries}
 
 The acquisition layer owns network behavior. It normalizes URLs, checks origin
 and public-host policy, reads `robots.txt`, applies shared rate limits, follows
@@ -38,7 +38,7 @@ discovery index is rebuilt only from complete packages.
 
 Figure [-@fig:run-state-machine] shows the persisted run lifecycle; failure is a diagnosable terminal state with sanitized diagnostics.
 
-![{{FIGURE_RUN_STATE_MACHINE_CAPTION}}](../output/figures/run-state-machine.png){#fig:run-state-machine}
+![{{FIGURE_RUN_STATE_MACHINE_CAPTION}}](../../output/figures/run-state-machine.png){#fig:run-state-machine}
 
 The filesystem layout is part of the method. Acquired bundles, prepared
 corpora, drafts, run state, failures, manifests, and rendered skills remain

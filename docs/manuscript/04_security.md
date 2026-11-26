@@ -52,7 +52,7 @@ and residual boundary conditions rather than claiming immunity.
 
 Figure [-@fig:cache-integrity-flow] traces the hash-dependency chain from profile and target configuration to the published discovery index.
 
-![{{FIGURE_CACHE_INTEGRITY_FLOW_CAPTION}}](../output/figures/cache-integrity-flow.png){#fig:cache-integrity-flow}
+![{{FIGURE_CACHE_INTEGRITY_FLOW_CAPTION}}](../../output/figures/cache-integrity-flow.png){#fig:cache-integrity-flow}
 
 Pack checksums bind recorded archive members to hashes. The `packer` field is
 self-asserted metadata: no signing key or trusted identity authority is involved,

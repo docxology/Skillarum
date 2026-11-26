@@ -70,12 +70,14 @@ Both examples are snapshots. Retrieval timestamps and hashes are the evidence
 for what the pipeline saw; they are not assertions that the websites remain
 unchanged.
 
-## Dated refresh and website inventories
+## Observation window and website inventories
 
 The completed skill observations span {{OBSERVED_FROM}} to
 {{OBSERVED_THROUGH}} (UTC). Observation times identify completed packages;
 page-level retrieval times in their manifests identify the corresponding
-source acquisitions. A fresh acquisition uses an empty output cache so that
-an earlier site's response cannot become evidence for today's refresh.
+source acquisitions. The profile case studies above describe configured
+targets. A report built from the local fixture exercises the same contracts
+and yields fixture observations only. The observation window does not by
+itself identify a public-site refresh.
 
 {{SITE_REFRESH_SUMMARY}}

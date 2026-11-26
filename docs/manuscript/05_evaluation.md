@@ -41,33 +41,33 @@ The distinction between those denominators is preserved in every summary.
 
 Figure [-@fig:acquisition-funnel] reports acquisition outcomes by source area.
 
-![{{FIGURE_ACQUISITION_FUNNEL_CAPTION}}](../output/figures/acquisition-funnel.png){#fig:acquisition-funnel}
+![{{FIGURE_ACQUISITION_FUNNEL_CAPTION}}](../../output/figures/acquisition-funnel.png){#fig:acquisition-funnel}
 
 Figure [-@fig:provider-fallback-outcomes] summarizes provider fallback, failure, and retry counts per selected backend.
 
-![{{FIGURE_PROVIDER_FALLBACK_OUTCOMES_CAPTION}}](../output/figures/provider-fallback-outcomes.png){#fig:provider-fallback-outcomes}
+![{{FIGURE_PROVIDER_FALLBACK_OUTCOMES_CAPTION}}](../../output/figures/provider-fallback-outcomes.png){#fig:provider-fallback-outcomes}
 
 Figure [-@fig:generation-latency] plots the individual generation-latency observations.
 
-![{{FIGURE_GENERATION_LATENCY_CAPTION}}](../output/figures/generation-latency.png){#fig:generation-latency}
+![{{FIGURE_GENERATION_LATENCY_CAPTION}}](../../output/figures/generation-latency.png){#fig:generation-latency}
 
 Figure [-@fig:provenance-completeness] counts observations passing each
 integrity check separately; these checks evaluate the provenance-completeness
 predicate of [@eq:lineage].
 
-![{{FIGURE_PROVENANCE_COMPLETENESS_CAPTION}}](../output/figures/provenance-completeness.png){#fig:provenance-completeness}
+![{{FIGURE_PROVENANCE_COMPLETENESS_CAPTION}}](../../output/figures/provenance-completeness.png){#fig:provenance-completeness}
 
 Figure [-@fig:coverage-truncation] compares source-mapping and truncation percentages per area.
 
-![{{FIGURE_COVERAGE_TRUNCATION_CAPTION}}](../output/figures/coverage-truncation.png){#fig:coverage-truncation}
+![{{FIGURE_COVERAGE_TRUNCATION_CAPTION}}](../../output/figures/coverage-truncation.png){#fig:coverage-truncation}
 
 Figure [-@fig:request-pressure] reports request pressure per accepted page.
 
-![{{FIGURE_REQUEST_PRESSURE_CAPTION}}](../output/figures/request-pressure.png){#fig:request-pressure}
+![{{FIGURE_REQUEST_PRESSURE_CAPTION}}](../../output/figures/request-pressure.png){#fig:request-pressure}
 
 Figure [-@fig:area-catalog] tabulates the skill catalog by declared source area.
 
-![{{FIGURE_AREA_CATALOG_CAPTION}}](../output/figures/area-catalog.png){#fig:area-catalog}
+![{{FIGURE_AREA_CATALOG_CAPTION}}](../../output/figures/area-catalog.png){#fig:area-catalog}
 
 If two rating files with distinct rater IDs contain overlapping cases, the registry also
 emits the `human-review-rubric` figure. That conditional figure reports criterion-wise
@@ -134,7 +134,7 @@ and eligible denominators. Its horizontal intervals provide a reference for
 the binomial model; they do not turn this selected observation set into an
 independent sample.
 
-![{{FIGURE_PROPORTION_INTERVALS_CAPTION}}](../output/figures/proportion-intervals.png){#fig:proportion-intervals}
+![{{FIGURE_PROPORTION_INTERVALS_CAPTION}}](../../output/figures/proportion-intervals.png){#fig:proportion-intervals}
 
 Operational telemetry is also reported in its recorded units. Missing
 observations do not enter the median or range. Response-byte totals describe

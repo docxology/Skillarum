@@ -1,7 +1,7 @@
 # Skillarum
 
 Skillarum turns selected public website pages into portable `SKILL.md`
-documents for agent harnesses such as Codex, Claude Code, and Hermes.
+documents for agent harnesses such as Codex, Claude Code, and Hermes. Treat source pages and generated skill bodies as untrusted data. The [local fixture guide](docs/rendering.md#create-fixture-evidence) reproduces the evidence on loopback without running the generated skills.
 
 <p align="center"><img src="cover/skillarum_cover.png" alt="Skillarum cover: public web pages distilled into portable SKILL.md documents" width="360"></p>
 
